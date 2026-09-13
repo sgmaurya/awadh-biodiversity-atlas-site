@@ -1,0 +1,143 @@
+/* Awadh Biodiversity Atlas — light, phone-first, Hindi-first. */
+:root{
+  --ink:#1c1a17; --ink-2:#55504a; --ink-3:#867f76;
+  --bg:#fbfaf7; --card:#fff; --line:#e6e1d9;
+  --green:#2f6b3f; --green-2:#e8f0e7; --accent:#8a4b10;
+  --r:10px; --wrap:1120px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.6 "Noto Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+:lang(hi),.hi,.n-hi,.t-hi,.c-hi,.bn-hi{font-family:"Noto Sans Devanagari","Nirmala UI","Mangal",sans-serif}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--green);text-decoration-thickness:1px;text-underline-offset:2px}
+a:hover{color:var(--accent)}
+.skip{position:absolute;left:-9999px}
+.skip:focus{left:8px;top:8px;background:#fff;padding:8px;z-index:10}
+
+/* header */
+.top{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;
+  padding:12px clamp(14px,4vw,28px);background:#fff;border-bottom:1px solid var(--line);
+  position:sticky;top:0;z-index:5}
+.brand{display:flex;flex-direction:column;line-height:1.15;text-decoration:none;color:inherit}
+.bn-hi{font-size:17px;font-weight:700}
+.bn-en{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+.top nav{display:flex;gap:14px;font-size:14px}
+.top nav a{color:var(--ink-2);text-decoration:none}
+.top nav a:hover{color:var(--green);text-decoration:underline}
+.search{margin-left:auto;position:relative;flex:1 1 210px;max-width:340px}
+#q{width:100%;padding:8px 12px;border:1px solid var(--line);border-radius:999px;
+  background:var(--bg);font:inherit;font-size:14px}
+#q:focus{outline:2px solid var(--green);outline-offset:1px}
+#results{position:absolute;top:110%;left:0;right:0;background:#fff;border:1px solid var(--line);
+  border-radius:var(--r);box-shadow:0 10px 30px rgba(0,0,0,.1);max-height:65vh;overflow:auto;z-index:9}
+#results a{display:block;padding:8px 12px;text-decoration:none;color:inherit;border-bottom:1px solid var(--line)}
+#results a:last-child{border-bottom:0}
+#results a:hover,#results a.sel{background:var(--green-2)}
+#results .r-hi{font-weight:600}
+#results .r-en{color:var(--ink-2);font-size:14px}
+#results .r-sci{color:var(--ink-3);font-size:12px;font-style:italic}
+#results .none{padding:10px 12px;color:var(--ink-3);font-size:14px}
+
+main{max-width:var(--wrap);margin:0 auto;padding:clamp(18px,4vw,34px) clamp(14px,4vw,28px) 50px}
+
+h1{font-size:clamp(24px,4.4vw,34px);line-height:1.2;margin:0 0 8px}
+h2{font-size:clamp(19px,2.6vw,23px);margin:34px 0 10px}
+h3{font-size:17px;margin:22px 0 6px}
+.hi{color:var(--ink-3);font-weight:500}
+h1 .hi,h2 .hi{font-size:.72em}
+.lead{color:var(--ink-2);max-width:66ch;margin:0 0 6px}
+.empty{color:var(--ink-3)}
+
+/* home */
+.hello{border-bottom:1px solid var(--line);padding-bottom:20px}
+.scoreboard{margin-top:14px;font-size:15px;color:var(--ink-2);
+  background:var(--green-2);border-radius:var(--r);padding:10px 14px;display:inline-block}
+.scoreboard b{color:var(--ink)}
+.thismonth{margin-top:6px}
+.more{margin-top:16px}
+
+/* cards */
+.grid{display:grid;gap:14px;margin-top:16px;
+  grid-template-columns:repeat(auto-fill,minmax(158px,1fr))}
+.card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);
+  border-radius:var(--r);overflow:hidden;text-decoration:none;color:inherit;
+  transition:transform .12s ease,box-shadow .12s ease}
+.card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.09);border-color:#d5cec2}
+.ph{display:block;aspect-ratio:3/2;background:#efece6;overflow:hidden}
+.ph img{width:100%;height:100%;object-fit:cover}
+.noimg{display:flex;align-items:center;justify-content:center;height:100%;
+  color:var(--ink-3);font-size:13px}
+.meta{padding:9px 11px 11px;display:flex;flex-direction:column;gap:1px}
+.n-hi{font-size:15px;font-weight:600;line-height:1.3}
+.n-en{font-size:13px;color:var(--ink-2)}
+.n-sci{font-size:11.5px;color:var(--ink-3);font-style:italic}
+
+/* chips */
+.chips{display:flex;flex-wrap:wrap;gap:9px;margin-top:12px}
+.chip{display:flex;align-items:baseline;gap:7px;background:#fff;border:1px solid var(--line);
+  border-radius:999px;padding:7px 14px;text-decoration:none;color:inherit;font-size:14px}
+.chip:hover{border-color:var(--green);background:var(--green-2)}
+.c-hi{font-weight:600}
+.c-en{color:var(--ink-2);font-size:13px}
+.chip b{color:var(--ink-3);font-weight:600;font-size:12px}
+
+/* species page */
+.crumbs{font-size:13px;color:var(--ink-3);margin-bottom:10px}
+.crumbs a{color:var(--ink-2)}
+.sphead h1{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px;margin-bottom:2px}
+.t-hi{font-size:1em}
+.t-en{font-size:.62em;color:var(--ink-2);font-weight:600}
+.sci{color:var(--ink-3);font-size:14px;margin:0 0 16px}
+.hero{margin:0 0 18px}
+.hero img{width:100%;max-height:min(58vh,460px);object-fit:cover;border-radius:var(--r);background:#efece6}
+.hero figcaption{font-size:12px;color:var(--ink-3);margin-top:6px;line-height:1.45}
+.hero.none{background:var(--green-2);border:1px dashed #c4d3c2;border-radius:var(--r);
+  padding:26px 18px;text-align:center;color:var(--ink-2)}
+.hero.none p{margin:0}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px 18px;
+  margin:0 0 22px;padding:14px 16px;background:#fff;border:1px solid var(--line);border-radius:var(--r)}
+.facts dt{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-3)}
+.facts dd{margin:1px 0 0;font-size:14.5px}
+.season h2{margin-top:0}
+.months{display:flex;list-style:none;margin:8px 0 0;padding:0;gap:3px;flex-wrap:wrap}
+.months li{flex:1 1 46px}
+.months a{display:block;text-align:center;font-size:11px;padding:6px 2px;border-radius:6px;
+  background:#fff;border:1px solid var(--line);color:var(--ink-3);text-decoration:none}
+.months li.on a{background:var(--green-2);border-color:#bcd2bb;color:var(--green);font-weight:600}
+.months li.now a{outline:2px solid var(--green)}
+.monthnav{font-size:14px;color:var(--ink-2);margin-top:4px}
+
+.evidence{background:#fdf7ec;border:1px solid #ecdcbc;border-left:3px solid #c98a2b;
+  border-radius:var(--r);padding:13px 16px;margin:22px 0}
+.evidence p{margin:0 0 6px;font-size:14px;line-height:1.55}
+.evidence p:last-child{margin-bottom:0}
+.evidence .ask{color:var(--ink-2)}
+
+.prose{max-width:74ch}
+.prose h2{border-bottom:1px solid var(--line);padding-bottom:5px}
+.prose img{border-radius:var(--r);margin:12px 0}
+.prose blockquote{margin:14px 0;padding:10px 15px;background:#fff;border-left:3px solid #cfd9cc;
+  border-radius:0 var(--r) var(--r) 0;color:var(--ink-2);font-size:15px}
+.prose ul,.prose ol{padding-left:22px}
+.prose li{margin:3px 0}
+.prose code{background:#f1efe9;padding:1px 5px;border-radius:4px;font-size:13px}
+.prose .dead{color:var(--ink-3)}
+.tw{overflow-x:auto;margin:12px 0}
+table{border-collapse:collapse;width:100%;font-size:14px;background:#fff}
+th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+th{background:#f4f2ec;font-weight:600}
+.narrow{max-width:68ch}
+.source{font-size:12px;color:var(--ink-3);margin-top:30px}
+
+.foot{border-top:1px solid var(--line);background:#fff;padding:22px clamp(14px,4vw,28px);
+  font-size:13px;color:var(--ink-3)}
+.foot p{max-width:80ch;margin:0 0 6px}
+
+@media (max-width:520px){
+  .grid{grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:11px}
+  .top{gap:8px 12px}
+  .search{order:3;flex-basis:100%;max-width:none;margin-left:0}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
