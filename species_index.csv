@@ -1,333 +1,333 @@
 id,scientific_name,common_name_english,common_name_hindi,kingdom,category,native_status,iucn_status,file_path,date_added
 AMP-0001,Duttaphrynus melanostictus,Asian Common Toad / Black-spectacled Toad,भेंडुक / गाँव का टोड,Animalia,fauna/amphibians,native,LC,species/fauna/amphibians/common_toad.md,
 AMP-0002,Hoplobatrachus tigerinus,Indian Bull Frog / Indian Tiger Frog,पहाड़ मेंढक / बड़ा मेंढक / राना,Animalia,fauna/amphibians,native,LC,species/fauna/amphibians/indian_bull_frog.md,
-AMP-0003,Euphlyctis cyanophlyctis,Skittering Frog / Skipper Frog / Indian Pond Frog,कूद मेंढक / छप मेंढक / तैरने वाला मेंढक,Animalia,fauna/amphibians,native,LC,species/fauna/amphibians/skipper_frog.md,2026-05-31
-AMP-0004,Polypedates maculatus,Indian Tree Frog / Common Indian Tree Frog,पेड़ मेंढक,Animalia,fauna/amphibians,native,LC,species/fauna/amphibians/indian_tree_frog.md,2026-06-07
-AMP-0005,Microhyla ornata,Ornate Narrow-mouthed Frog,छोटा मेंढक,Animalia,fauna/amphibians,native,LC,species/fauna/amphibians/ornate_narrow_mouthed_frog.md,2026-06-08
-AMP-0006,Fejervarya limnocharis,Asian Grass Frog,फुदकी मेंढक,Animalia,fauna/amphibians,native,LC,species/fauna/amphibians/asian_grass_frog.md,2026-06-08
-AMP-0007,Sphaerotheca breviceps,Indian Burrowing Frog,बिलकारी मेंढक,Animalia,fauna/amphibians,native,LC,species/fauna/amphibians/burrowing_frog.md,2026-06-08
-AMP-0008,Hoplobatrachus crassus,Jerdon's Bullfrog,चित्तीदार मेंढक,Animalia,fauna/amphibians,native,LC,species/fauna/amphibians/jerdons_bullfrog.md,2026-06-08
-BRD-0001,Prinia socialis,Ashy Prinia,राखी फुदकी / राखी प्रिनिया,Animalia,fauna/birds,native,LC,species/fauna/birds/ashy_prinia.md,2026-05-24
-BRD-0002,Antigone antigone,Sarus Crane,सारस,Animalia,fauna/birds,native,VU,species/fauna/birds/sarus_crane.md,2026-05-25
+AMP-0003,Euphlyctis cyanophlyctis,Skittering Frog / Skipper Frog / Indian Pond Frog,कूद मेंढक / छप मेंढक / तैरने वाला मेंढक,Animalia,fauna/amphibians,native,LC,species/fauna/amphibians/skipper_frog.md,
+AMP-0004,Polypedates maculatus,Indian Tree Frog / Common Indian Tree Frog,पेड़ मेंढक,Animalia,fauna/amphibians,native,LC,species/fauna/amphibians/indian_tree_frog.md,
+AMP-0005,Microhyla ornata,Ornate Narrow-mouthed Frog,छोटा मेंढक,Animalia,fauna/amphibians,native,LC,species/fauna/amphibians/ornate_narrow_mouthed_frog.md,
+AMP-0006,Fejervarya limnocharis,Asian Grass Frog,फुदकी मेंढक,Animalia,fauna/amphibians,native,LC,species/fauna/amphibians/asian_grass_frog.md,
+AMP-0007,Sphaerotheca breviceps,Indian Burrowing Frog,बिलकारी मेंढक,Animalia,fauna/amphibians,native,LC,species/fauna/amphibians/burrowing_frog.md,
+AMP-0008,Hoplobatrachus crassus,Jerdon's Bullfrog,चित्तीदार मेंढक,Animalia,fauna/amphibians,native,LC,species/fauna/amphibians/jerdons_bullfrog.md,
+BRD-0001,Prinia socialis,Ashy Prinia,राखी फुदकी / राखी प्रिनिया,Animalia,fauna/birds,native,LC,species/fauna/birds/ashy_prinia.md,
+BRD-0002,Antigone antigone,Sarus Crane,सारस,Animalia,fauna/birds,native,VU,species/fauna/birds/sarus_crane.md,
 BRD-0003,Coracias benghalensis,Indian Roller,नीलकंठ,Animalia,fauna/birds,native,LC,species/fauna/birds/indian_roller.md,
 BRD-0004,Ardeola grayii,Indian Pond Heron,बगुला / अंधा बगुला,Animalia,fauna/birds,native,LC,species/fauna/birds/indian_pond_heron.md,
 BRD-0005,Dicrurus macrocercus,Black Drongo,भुजंगा / कोतवाल,Animalia,fauna/birds,native,LC,species/fauna/birds/black_drongo.md,
-BRD-0006,Acridotheres tristis,Common Myna / Indian Myna,मैना / मैना पक्षी,Animalia,fauna/birds,native,LC,species/fauna/birds/common_myna.md,2026-05-29
-BRD-0007,Passer domesticus,House Sparrow,गौरैया,Animalia,fauna/birds,native,LC,species/fauna/birds/house_sparrow.md,2026-05-29
-BRD-0008,Psittacula krameri,Rose-ringed Parakeet / Ring-necked Parakeet,तोता / हरा तोता / कंठी तोता,Animalia,fauna/birds,native,LC,species/fauna/birds/rose_ringed_parakeet.md,2026-05-29
-BRD-0009,Pavo cristatus,Indian Peafowl / Common Peafowl,मोर / मयूर,Animalia,fauna/birds,native,LC,species/fauna/birds/indian_peafowl.md,2026-05-31
-BRD-0010,Alcedo atthis,Common Kingfisher / River Kingfisher,राम चिरैया / किलकिला,Animalia,fauna/birds,native,LC,species/fauna/birds/common_kingfisher.md,2026-05-31
-BRD-0011,Milvus migrans,Black Kite,चील / काली चील,Animalia,fauna/birds,native,LC,species/fauna/birds/black_kite.md,2026-05-31
-BRD-0012,Gracupica contra,Asian Pied Starling / Pied Myna,गुलाम मैना / नागपंछी / पैड मैना,Animalia,fauna/birds,native,LC,species/fauna/birds/asian_pied_starling.md,2026-05-31
-BRD-0013,Motacilla alba,White Wagtail,खंजन / धोबी चिड़िया,Animalia,fauna/birds,native,LC,species/fauna/birds/white_wagtail.md,2026-06-01
-BRD-0014,Eudynamys scolopaceus,Asian Koel,कोयल / कोकिला,Animalia,fauna/birds,native,LC,species/fauna/birds/asian_koel.md,2026-06-01
-BRD-0015,Orthotomus sutorius,Common Tailorbird,दर्जिन / दर्जी चिड़िया,Animalia,fauna/birds,native,LC,species/fauna/birds/common_tailorbird.md,2026-06-03
-BRD-0016,Cinnyris asiaticus,Purple Sunbird,शक्कर खोरा / जामुनी मधुचूषक,Animalia,fauna/birds,native,LC,species/fauna/birds/purple_sunbird.md,2026-06-03
-BRD-0017,Pycnonotus cafer,Red-vented Bulbul,गुलदुम बुलबुल,Animalia,fauna/birds,native,LC,species/fauna/birds/red_vented_bulbul.md,2026-06-07
-BRD-0018,Ploceus philippinus,Baya Weaver,बया,Animalia,fauna/birds,native,LC,species/fauna/birds/baya_weaver.md,2026-06-07
-BRD-0019,Athene brama,Spotted Owlet,चित्तीदार उल्लू,Animalia,fauna/birds,native,LC,species/fauna/birds/spotted_owlet.md,2026-06-08
-BRD-0020,Vanellus indicus,Red-wattled Lapwing,टिटहरी,Animalia,fauna/birds,native,LC,species/fauna/birds/red_wattled_lapwing.md,2026-06-08
-BRD-0021,Anastomus oscitans,Asian Openbill,घोंघिल,Animalia,fauna/birds,native,LC,species/fauna/birds/asian_openbill.md,2026-06-08
-BRD-0022,Ceryle rudis,Pied Kingfisher,छोटा किलकिला,Animalia,fauna/birds,native,LC,species/fauna/birds/pied_kingfisher.md,2026-06-08
-BRD-0023,Dendrocygna javanica,Lesser Whistling Duck,सीटी बत्तख,Animalia,fauna/birds,native,LC,species/fauna/birds/lesser_whistling_duck.md,2026-06-08
-BRD-0024,Columba livia,Rock Pigeon,कबूतर,Animalia,fauna/birds,native,LC,species/fauna/birds/rock_pigeon.md,2026-06-08
-BRD-0025,Spilopelia senegalensis,Laughing Dove,छोटी पंडुक,Animalia,fauna/birds,native,LC,species/fauna/birds/laughing_dove.md,2026-06-08
-BRD-0026,Streptopelia decaocto,Eurasian Collared Dove,धवल पंडुक,Animalia,fauna/birds,native,LC,species/fauna/birds/eurasian_collared_dove.md,2026-06-08
-BRD-0027,Corvus splendens,House Crow,कौआ,Animalia,fauna/birds,native,LC,species/fauna/birds/house_crow.md,2026-06-08
-BRD-0028,Corvus macrorhynchos,Jungle Crow,जंगली कौआ,Animalia,fauna/birds,native,LC,species/fauna/birds/jungle_crow.md,2026-06-08
-BRD-0029,Bubulcus ibis,Cattle Egret,गाय बगुला,Animalia,fauna/birds,native,LC,species/fauna/birds/cattle_egret.md,2026-06-08
-BRD-0030,Egretta garzetta,Little Egret,छोटा बगुला,Animalia,fauna/birds,native,LC,species/fauna/birds/little_egret.md,2026-06-08
-BRD-0031,Halcyon smyrnensis,White-throated Kingfisher,किलकिला,Animalia,fauna/birds,native,LC,species/fauna/birds/white_throated_kingfisher.md,2026-06-08
-BRD-0032,Merops orientalis,Asian Green Bee-eater,हरा पतरंगा,Animalia,fauna/birds,native,LC,species/fauna/birds/asian_green_bee_eater.md,2026-06-08
-BRD-0033,Upupa epops,Common Hoopoe,हुदहुद,Animalia,fauna/birds,native,LC,species/fauna/birds/common_hoopoe.md,2026-06-08
-BRD-0034,Centropus sinensis,Greater Coucal,महोख,Animalia,fauna/birds,native,LC,species/fauna/birds/greater_coucal.md,2026-06-08
-BRD-0035,Turdoides striata,Jungle Babbler,सातभाई,Animalia,fauna/birds,native,LC,species/fauna/birds/jungle_babbler.md,2026-06-08
-BRD-0036,Copsychus saularis,Oriental Magpie-Robin,दहियर,Animalia,fauna/birds,native,LC,species/fauna/birds/oriental_magpie_robin.md,2026-06-08
-BRD-0037,Lanius schach,Long-tailed Shrike,लटोरा,Animalia,fauna/birds,native,LC,species/fauna/birds/long_tailed_shrike.md,2026-06-08
-BRD-0038,Elanus caeruleus,Black-winged Kite,कपसी,Animalia,fauna/birds,native,LC,species/fauna/birds/black_winged_kite.md,2026-06-08
-BRD-0039,Amaurornis phoenicurus,White-breasted Waterhen,डहुआ,Animalia,fauna/birds,native,LC,species/fauna/birds/white_breasted_waterhen.md,2026-06-08
-BRD-0040,Metopidius indicus,Bronze-winged Jacana,दल-पीपी,Animalia,fauna/birds,native,LC,species/fauna/birds/bronze_winged_jacana.md,2026-06-08
-BRD-0041,Porphyrio poliocephalus,Grey-headed Swamphen,कैम,Animalia,fauna/birds,native,LC,species/fauna/birds/grey_headed_swamphen.md,2026-06-08
-BRD-0042,Cypsiurus balasiensis,Asian Palm Swift,ताड़-चट्री,Animalia,fauna/birds,native,LC,species/fauna/birds/asian_palm_swift.md,2026-06-08
-BRD-0043,Apus affinis,House Swift,अबाबील,Animalia,fauna/birds,native,LC,species/fauna/birds/house_swift.md,2026-06-08
-BRD-0044,Accipiter badius,Shikra,शिकरा,Animalia,fauna/birds,native,LC,species/fauna/birds/shikra.md,2026-07-01
-BRD-0045,Butastur teesa,White-eyed Buzzard,तीसा,Animalia,fauna/birds,native,LC,species/fauna/birds/white_eyed_buzzard.md,2026-07-01
-BRD-0046,Haliastur indus,Brahminy Kite,ब्राह्मणी चील,Animalia,fauna/birds,native,LC,species/fauna/birds/brahminy_kite.md,2026-07-01
-BRD-0047,Circus aeruginosus,Western Marsh Harrier,दलदल बाज,Animalia,fauna/birds,native,LC,species/fauna/birds/western_marsh_harrier.md,2026-07-01
-BRD-0048,Pandion haliaetus,Osprey,मछलीमार,Animalia,fauna/birds,native,LC,species/fauna/birds/osprey.md,2026-07-01
-BRD-0049,Falco tinnunculus,Common Kestrel,केस्ट्रेल,Animalia,fauna/birds,native,LC,species/fauna/birds/common_kestrel.md,2026-07-01
-BRD-0050,Tyto alba,Barn Owl,उल्लू,Animalia,fauna/birds,native,LC,species/fauna/birds/barn_owl.md,2026-07-01
-BRD-0051,Bubo bengalensis,Indian Eagle-Owl,बड़ा उल्लू,Animalia,fauna/birds,native,LC,species/fauna/birds/indian_eagle_owl.md,2026-07-01
-BRD-0052,Ketupa zeylonensis,Brown Fish Owl,मछली उल्लू,Animalia,fauna/birds,native,LC,species/fauna/birds/brown_fish_owl.md,2026-07-01
-BRD-0053,Asio flammeus,Short-eared Owl,अल्प-कर्ण उल्लू,Animalia,fauna/birds,native,LC,species/fauna/birds/short_eared_owl.md,2026-07-01
-BRD-0054,Ardea cinerea,Grey Heron,ग्रे बगुला,Animalia,fauna/birds,native,LC,species/fauna/birds/grey_heron.md,2026-07-01
-BRD-0055,Ardea purpurea,Purple Heron,बैंगनी बगुला,Animalia,fauna/birds,native,LC,species/fauna/birds/purple_heron.md,2026-07-01
-BRD-0056,Nycticorax nycticorax,Black-crowned Night Heron,रातबगुला,Animalia,fauna/birds,native,LC,species/fauna/birds/black_crowned_night_heron.md,2026-07-01
-BRD-0057,Gallinula chloropus,Common Moorhen,जलमुर्गी,Animalia,fauna/birds,native,LC,species/fauna/birds/common_moorhen.md,2026-07-01
-BRD-0058,Fulica atra,Common Coot,लालखर,Animalia,fauna/birds,native,LC,species/fauna/birds/common_coot.md,2026-07-01
-BRD-0059,Himantopus himantopus,Black-winged Stilt,आवाक,Animalia,fauna/birds,native,LC,species/fauna/birds/black_winged_stilt.md,2026-07-01
-BRD-0060,Charadrius dubius,Little Ringed Plover,छोटा बटेर,Animalia,fauna/birds,native,LC,species/fauna/birds/little_ringed_plover.md,2026-07-01
-BRD-0061,Anas acuta,Northern Pintail,पिनटेल बत्तख,Animalia,fauna/birds,native,LC,species/fauna/birds/northern_pintail.md,2026-07-01
-BRD-0062,Spatula querquedula,Garganey,गार्गनी बत्तख,Animalia,fauna/birds,native,LC,species/fauna/birds/garganey.md,2026-07-01
-BRD-0063,Actitis hypoleucos,Common Sandpiper,छोटा बटान,Animalia,fauna/birds,native,LC,species/fauna/birds/common_sandpiper.md,2026-07-01
-BRD-0064,Sturnia pagodarum,Brahminy Starling,ब्राह्मणी मैना,Animalia,fauna/birds,native,LC,species/fauna/birds/brahminy_starling.md,2026-07-01
-BRD-0065,Pastor roseus,Rosy Starling,गुलाबी मैना,Animalia,fauna/birds,native,LC,species/fauna/birds/rosy_starling.md,2026-07-01
-BRD-0066,Lonchura punctulata,Scaly-breasted Munia,तीतर मुनिया,Animalia,fauna/birds,native,LC,species/fauna/birds/scaly_breasted_munia.md,2026-07-01
-BRD-0067,Cisticola juncidis,Zitting Cisticola,जिंक फुदकी,Animalia,fauna/birds,native,LC,species/fauna/birds/zitting_cisticola.md,2026-07-01
-BRD-0068,Prinia inornata,Plain Prinia,मैदान फुदकी,Animalia,fauna/birds,native,LC,species/fauna/birds/plain_prinia.md,2026-07-01
-BRD-0069,Rhipidura aureola,White-spotted Fantail,पंखी,Animalia,fauna/birds,native,LC,species/fauna/birds/white_spotted_fantail.md,2026-07-01
-BRD-0070,Saxicola caprata,Pied Bushchat,पड्डू,Animalia,fauna/birds,native,LC,species/fauna/birds/pied_bushchat.md,2026-07-01
-BRD-0071,Pycnonotus jocosus,Red-whiskered Bulbul,गुलाबी बुलबुल,Animalia,fauna/birds,native,LC,species/fauna/birds/red_whiskered_bulbul.md,2026-07-01
-BRD-0072,Ocyceros birostris,Indian Grey Hornbill,धनेश,Animalia,fauna/birds,native,LC,species/fauna/birds/indian_grey_hornbill.md,2026-07-01
-BRD-0073,Hirundo rustica,Barn Swallow,घर अबाबील,Animalia,fauna/birds,native,LC,species/fauna/birds/barn_swallow.md,2026-07-01
-CRU-0001,Macrobrachium gangeticum,Ganga River Prawn / Freshwater Scampi,गंगा झींगा / मीठे पानी का झींगा / झींगा,Animalia,fauna/crustaceans,native,not_evaluated,species/fauna/crustaceans/river_prawn.md,2026-06-03
-CRU-0002,Barytelphusa guerini,Guerin's Freshwater Crab / Barytelphusa Crab,केकड़ा / मीठे पानी का केकड़ा,Animalia,fauna/crustaceans,native,not_evaluated,species/fauna/crustaceans/freshwater_crab.md,2026-06-03
-CRU-0003,Paratelphusa jacquemontii,Jacquemont's Field Crab / Paddy Field Crab,खेत का केकड़ा,Animalia,fauna/crustaceans,native,LC,species/fauna/crustaceans/freshwater_crab_paratelphusa.md,2026-06-08
-CRU-0004,Macrobrachium lamarrei,Freshwater Grass Shrimp,छोटा झींगा,Animalia,fauna/crustaceans,native,not_evaluated,species/fauna/crustaceans/freshwater_grass_shrimp.md,2026-07-01
-FLR-0001,Parthenium hysterophorus,Congress Grass / Carrot Weed,गाजर घास / काँग्रेस घास,Plantae,flora/weeds,invasive,not_evaluated,species/flora/weeds/parthenium_hysterophorus.md,2026-05-24
-FLR-0002,Calotropis gigantea,Giant Milkweed / Crown Flower,आक / मदार / अर्क,Plantae,flora/weeds,native,not_evaluated,species/flora/weeds/calotropis_gigantea.md,2026-05-24
-FLR-0003,Saccharum munja,Munja Grass / Munj Grass,मूँज,Plantae,flora/grasses,native,not_evaluated,species/flora/grasses/saccharum_munja.md,2026-05-25
-FLR-0004,Cynodon dactylon,Doob Grass / Bermuda Grass,दूब / दूर्वा,Plantae,flora/grasses,native,not_evaluated,species/flora/grasses/doob_grass.md,2026-05-26
-FLR-0005,Nelumbo nucifera,Indian Lotus / Sacred Lotus,कमल / पद्म,Plantae,flora/aquatic,native,LC,species/flora/aquatic/indian_lotus.md,2026-05-26
-FLR-0006,Ficus religiosa,Peepal / Sacred Fig / Bodhi Tree,पीपल / अश्वत्थ,Plantae,flora/trees,native,LC,species/flora/trees/peepal.md,2026-05-26
-FLR-0007,Lantana camara,Lantana / Wild Sage / Big Sage,पंचफूली / राईमुनिया / घनेरी,Plantae,flora/weeds,invasive,not_evaluated,species/flora/weeds/lantana_camara.md,2026-05-26
-FLR-0008,Ocimum tenuiflorum,Holy Basil / Tulsi,तुलसी / पवित्र तुलसी,Plantae,flora/medicinal,native,not_evaluated,species/flora/medicinal/tulsi.md,2026-05-29
-FLR-0009,Azadirachta indica,Neem,नीम,Plantae,flora/trees,native,not_evaluated,species/flora/trees/neem.md,2026-05-29
-FLR-0010,Ficus benghalensis,Banyan / Indian Banyan,बरगद / वट वृक्ष,Plantae,flora/trees,native,LC,species/flora/trees/banyan.md,2026-05-29
-FLR-0011,Mangifera indica,Mango / Indian Mango,आम,Plantae,flora/trees,native,not_evaluated,species/flora/trees/mango.md,2026-05-29
-FLR-0012,Tinospora cordifolia,Giloy / Heartleaf Moonseed / Guduchi,गिलोय / गुडूची / अमृता,Plantae,flora/climbers,native,not_evaluated,species/flora/climbers/giloy.md,2026-05-29
-FLR-0013,Eichhornia crassipes,Water Hyacinth,जलकुंभी / कुंभी,Plantae,flora/aquatic,invasive,not_evaluated,species/flora/aquatic/water_hyacinth.md,2026-05-29
-FLR-0014,Oryza sativa,Paddy / Asian Rice,धान / चावल,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/paddy.md,2026-05-29
-FLR-0015,Datura metel,Dhatura / Devil's Trumpet / Thorn Apple,धतूरा,Plantae,flora/weeds,native,not_evaluated,species/flora/weeds/datura.md,2026-05-29
-FLR-0016,Achyranthes aspera,Prickly Chaff Flower / Devil's Horsewhip,चिरचिटा / अपामार्ग,Plantae,flora/weeds,native,not_evaluated,species/flora/weeds/chirchita.md,2026-05-29
-FLR-0017,Mimosa pudica,Touch-me-not / Sensitive Plant,लाजवंती / छुई-मुई,Plantae,flora/weeds,invasive,not_evaluated,species/flora/weeds/lajwanti.md,2026-05-29
-FLR-0018,Senna tora,Sickle Senna / Coffee Weed / Foetid Cassia,चक्रमर्द / कसौंदी,Plantae,flora/weeds,native,not_evaluated,species/flora/weeds/chakramard.md,2026-05-29
-FLR-0019,Argemone mexicana,Mexican Prickly Poppy / Yellow Thistle,सत्यानाशी / भड़भाँड़,Plantae,flora/weeds,invasive,not_evaluated,species/flora/weeds/satyanashi.md,2026-05-29
-FLR-0020,Terminalia arjuna,Arjun Tree / White Murdah,अर्जुन / कोहा,Plantae,flora/trees,native,LC,species/flora/trees/arjun.md,2026-05-31
-FLR-0021,Madhuca longifolia,Mahua / Indian Butter Tree,महुआ / महुवा,Plantae,flora/trees,native,LC,species/flora/trees/mahua.md,2026-05-31
-FLR-0022,Neolamarckia cadamba,Kadam Tree / Burflower Tree,कदम्ब / कदम,Plantae,flora/trees,native,LC,species/flora/trees/kadam.md,2026-05-31
-FLR-0023,Annona squamosa,Custard Apple / Sugar Apple,सीताफल / शरीफा / सरीफा,Plantae,flora/trees,naturalized,not_evaluated,species/flora/trees/custard_apple.md,2026-05-31
-FLR-0024,Ipomoea carnea subsp. fistulosa,Pink Morning Glory / Bush Morning Glory / Shrubby Morning Glory,बेशरम / बेहया / गुलाबी घुइयाँ,Plantae,flora/weeds,naturalized,not_evaluated,species/flora/weeds/besharam.md,2026-06-01
-FLR-0025,Marsilea quadrifolia,Water Clover Fern / Four-leaf Water Fern,जल तिपतिया / चौपत्ती,Plantae,lower_plants/ferns,native,LC,species/lower_plants/ferns/water_clover_fern.md,2026-06-03
-FLR-0026,Funaria hygrometrica,Cord Moss / Bonfire Moss / Limestone Moss,काई / भूमि काई,Plantae,lower_plants/mosses,native,LC,species/lower_plants/mosses/cord_moss.md,2026-06-03
-FLR-0027,Trapa bispinosa,Water Chestnut / Indian Water Chestnut,सिंघाड़ा,Plantae,flora/aquatic,native,not_evaluated,species/flora/aquatic/water_chestnut.md,2026-06-07
-FLR-0028,Nymphaea nouchali,Blue Water Lily / Star Lotus,नीलकमल,Plantae,flora/aquatic,native,LC,species/flora/aquatic/blue_water_lily.md,2026-06-07
-FLR-0029,Pistia stratiotes,Water Lettuce / Shellflower,जलपत्ता,Plantae,flora/aquatic,invasive,LC,species/flora/aquatic/water_lettuce.md,2026-06-07
-FLR-0030,Ipomoea aquatica,Water Spinach / Swamp Cabbage,कलमी साग,Plantae,flora/aquatic,native,LC,species/flora/aquatic/water_spinach.md,2026-06-07
-FLR-0031,Aegle marmelos,Bael / Wood Apple,बेल,Plantae,flora/trees,native,not_evaluated,species/flora/trees/bel.md,2026-06-07
-FLR-0032,Dalbergia sissoo,Shisham / Indian Rosewood,शीशम,Plantae,flora/trees,native,LC,species/flora/trees/shisham.md,2026-06-07
-FLR-0033,Phyllanthus emblica,Indian Gooseberry / Amla,आँवला,Plantae,flora/trees,native,LC,species/flora/trees/amla.md,2026-06-07
-FLR-0034,Saccharum officinarum,Sugarcane,गन्ना,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/sugarcane.md,2026-06-07
-FLR-0035,Bombax ceiba,Semal / Red Silk Cotton Tree,सेमल,Plantae,flora/trees,native,LC,species/flora/trees/semal.md,2026-06-08
-FLR-0036,Syzygium cumini,Jamun / Indian Blackberry,जामुन,Plantae,flora/trees,native,LC,species/flora/trees/jamun.md,2026-06-08
-FLR-0037,Butea monosperma,Palash / Flame of the Forest,पलाश,Plantae,flora/trees,native,LC,species/flora/trees/palash.md,2026-06-08
-FLR-0038,Cassia fistula,Amaltas / Golden Shower / Indian Laburnum,अमलतास,Plantae,flora/trees,native,LC,species/flora/trees/amaltas.md,2026-06-08
-FLR-0039,Prosopis juliflora,Vilayati Kikar / Mesquite,विलायती कीकर,Plantae,flora/trees,invasive,not_evaluated,species/flora/trees/vilayati_kikar.md,2026-06-08
-FLR-0040,Bacopa monnieri,Brahmi / Water Hyssop,ब्राह्मी,Plantae,flora/medicinal,native,LC,species/flora/medicinal/brahmi.md,2026-06-08
-FLR-0041,Morus alba,White Mulberry,शहतूत,Plantae,flora/trees,cultivated,not_evaluated,species/flora/trees/white_mulberry.md,2026-06-08
-FLR-0042,Phoenix sylvestris,Wild Date Palm,खजूर,Plantae,flora/trees,native,not_evaluated,species/flora/trees/wild_date_palm.md,2026-06-08
-FLR-0043,Tamarindus indica,Tamarind,इमली,Plantae,flora/trees,naturalized,LC,species/flora/trees/tamarind.md,2026-06-08
-FLR-0044,Limonia acidissima,Wood Apple,कैथा,Plantae,flora/trees,native,not_evaluated,species/flora/trees/wood_apple.md,2026-06-08
-FLR-0045,Leucaena leucocephala,Subabul,सुबबूल,Plantae,flora/trees,invasive,not_evaluated,species/flora/trees/subabul.md,2026-06-08
-FLR-0046,Ziziphus mauritiana,Indian Jujube,बेर,Plantae,flora/trees,native,not_evaluated,species/flora/trees/ber.md,2026-06-08
-FLR-0047,Acacia nilotica,Babool,बबूल,Plantae,flora/trees,native,LC,species/flora/trees/babool.md,2026-06-08
-FLR-0048,Albizia lebbeck,Siris,शिरीष,Plantae,flora/trees,native,LC,species/flora/trees/siris.md,2026-06-08
-FLR-0049,Acacia auriculiformis,Earleaf Acacia,बंगाली बबूल,Plantae,flora/trees,invasive,LC,species/flora/trees/earleaf_acacia.md,2026-06-08
-FLR-0050,Cordia dichotoma,Lasora,लसोड़ा,Plantae,flora/trees,native,not_evaluated,species/flora/trees/lasora.md,2026-06-08
-FLR-0051,Triticum aestivum,Wheat,गेहूं,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/wheat.md,2026-06-08
-FLR-0052,Brassica juncea,Indian Mustard,सरसों,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/mustard.md,2026-06-08
-FLR-0053,Lens culinaris,Lentil,मसूर,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/lentil.md,2026-06-08
-FLR-0054,Zea mays,Maize,मक्का,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/maize.md,2026-06-08
-FLR-0055,Cajanus cajan,Pigeon Pea,अरहर,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/pigeon_pea.md,2026-06-08
-FLR-0056,Cicer arietinum,Chickpea,चना,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/chickpea.md,2026-06-08
-FLR-0057,Aloe vera,Aloe Vera,घृतकुमारी,Plantae,flora/medicinal,cultivated,not_evaluated,species/flora/medicinal/aloe_vera.md,2026-06-08
-FLR-0058,Solanum virginianum,Yellow-berried Nightshade,भटकटैया,Plantae,flora/medicinal,native,not_evaluated,species/flora/medicinal/yellow_berried_nightshade.md,2026-06-08
-FLR-0059,Centella asiatica,Asiatic Pennywort,मंडूकपर्णी,Plantae,flora/medicinal,native,not_evaluated,species/flora/medicinal/mandukaparni.md,2026-06-08
-FLR-0060,Croton bonplandianus,Ban Tulsi,बन तुलसी,Plantae,flora/weeds,invasive,not_evaluated,species/flora/weeds/ban_tulsi.md,2026-06-08
-FLR-0061,Ageratum conyzoides,Billygoat Weed,जंगली पुदीना,Plantae,flora/weeds,invasive,not_evaluated,species/flora/weeds/billygoat_weed.md,2026-06-08
-FLR-0062,Cascabela thevetia,Yellow Oleander,पीली कनेर,Plantae,flora/weeds,naturalized,not_evaluated,species/flora/weeds/yellow_oleander.md,2026-06-08
-FLR-0063,Moringa oleifera,Drumstick Tree,सहजन,Plantae,flora/trees,cultivated,not_evaluated,species/flora/trees/drumstick_tree.md,2026-07-01
-FLR-0064,Millettia pinnata,Indian Beech,करंज,Plantae,flora/trees,native,LC,species/flora/trees/indian_beech.md,2026-07-01
-FLR-0065,Artocarpus heterophyllus,Jackfruit,कटहल,Plantae,flora/trees,cultivated,LC,species/flora/trees/jackfruit.md,2026-07-01
-FLR-0066,Holoptelea integrifolia,Indian Elm,छिल्ली,Plantae,flora/trees,native,LC,species/flora/trees/indian_elm.md,2026-07-01
-FLR-0067,Melia azedarach,Chinaberry,बकाइन,Plantae,flora/trees,naturalized,not_evaluated,species/flora/trees/chinaberry.md,2026-07-01
-FLR-0068,Nyctanthes arbor-tristis,Night Jasmine,हरसिंगार,Plantae,flora/trees,native,not_evaluated,species/flora/trees/night_jasmine.md,2026-07-01
-FLR-0069,Erythrina variegata,Indian Coral Tree,पांगारा,Plantae,flora/trees,native,LC,species/flora/trees/indian_coral_tree.md,2026-07-01
-FLR-0070,Tectona grandis,Teak,सागवान,Plantae,flora/trees,cultivated,LC,species/flora/trees/teak.md,2026-07-01
-FLR-0071,Delonix regia,Flame Tree,गुलमोहर,Plantae,flora/trees,naturalized,LC,species/flora/trees/flame_tree.md,2026-07-01
-FLR-0072,Toona ciliata,Indian Toon,टून,Plantae,flora/trees,native,LC,species/flora/trees/indian_toon.md,2026-07-01
-FLR-0073,Chenopodium album,Bathua,बथुआ,Plantae,flora/weeds,native,not_evaluated,species/flora/weeds/bathua.md,2026-07-01
-FLR-0074,Amaranthus spinosus,Spiny Amaranth,कांटे वाली चौलाई,Plantae,flora/weeds,naturalized,not_evaluated,species/flora/weeds/spiny_amaranth.md,2026-07-01
-FLR-0075,Tridax procumbens,Tridax Daisy,बिधारा,Plantae,flora/weeds,invasive,not_evaluated,species/flora/weeds/tridax_daisy.md,2026-07-01
-FLR-0076,Convolvulus arvensis,Field Bindweed,हिरनखुरी,Plantae,flora/weeds,native,not_evaluated,species/flora/weeds/field_bindweed.md,2026-07-01
-FLR-0077,Physalis minima,Wild Cape Gooseberry,रसभरी,Plantae,flora/weeds,native,not_evaluated,species/flora/weeds/wild_cape_gooseberry.md,2026-07-01
-FLR-0078,Mikania micrantha,Mile-a-minute Weed,मीलभर खरपतवार,Plantae,flora/weeds,invasive,not_evaluated,species/flora/weeds/mile_a_minute_weed.md,2026-07-01
-FLR-0079,Cuscuta reflexa,Giant Dodder,अमरबेल,Plantae,flora/climbers,native,not_evaluated,species/flora/climbers/giant_dodder.md,2026-07-01
-FLR-0080,Ipomoea nil,Blue Morning Glory,नीली घुइयाँ,Plantae,flora/climbers,naturalized,not_evaluated,species/flora/climbers/blue_morning_glory.md,2026-07-01
-FLR-0081,Passiflora foetida,Wild Passion Fruit,जंगली पैशनफ्रूट,Plantae,flora/climbers,invasive,not_evaluated,species/flora/climbers/wild_passion_fruit.md,2026-07-01
-FLR-0082,Saccharum spontaneum,Kans Grass,काँस,Plantae,flora/grasses,native,not_evaluated,species/flora/grasses/kans_grass.md,2026-07-01
-FLR-0083,Withania somnifera,Ashwagandha,अश्वगंधा,Plantae,flora/medicinal,native,not_evaluated,species/flora/medicinal/ashwagandha.md,2026-07-01
-FLR-0084,Andrographis paniculata,Kalmegh,कालमेघ,Plantae,flora/medicinal,native,not_evaluated,species/flora/medicinal/kalmegh.md,2026-07-01
-FLR-0085,Boerhavia diffusa,Punarnava,पुनर्नवा,Plantae,flora/medicinal,native,not_evaluated,species/flora/medicinal/punarnava.md,2026-07-01
-FLR-0086,Asparagus racemosus,Shatavari,शतावरी,Plantae,flora/medicinal,native,not_evaluated,species/flora/medicinal/shatavari.md,2026-07-01
-FLR-0087,Terminalia chebula,Haritaki,हरड़,Plantae,flora/medicinal,native,LC,species/flora/medicinal/haritaki.md,2026-07-01
-FLR-0088,Phragmites karka,Common Reed,सरकंडा,Plantae,flora/aquatic,native,not_evaluated,species/flora/aquatic/common_reed.md,2026-07-01
-FLR-0089,Typha latifolia,Common Cattail,पटेर,Plantae,flora/aquatic,native,not_evaluated,species/flora/aquatic/cattail.md,2026-07-01
-FLR-0090,Azolla pinnata,Water Fern / Azolla,एज़ोला,Plantae,flora/aquatic,native,not_evaluated,species/flora/aquatic/azolla.md,2026-07-01
-FLR-0091,Lemna minor,Common Duckweed,जल-मसूर,Plantae,flora/aquatic,native,not_evaluated,species/flora/aquatic/duckweed.md,2026-07-01
-FLR-0092,Hydrilla verticillata,Hydrilla,जल-जड़ी,Plantae,flora/aquatic,invasive,not_evaluated,species/flora/aquatic/hydrilla.md,2026-07-01
-FLR-0093,Solanum melongena,Brinjal / Eggplant,बैंगन,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/brinjal.md,2026-07-01
-FLR-0094,Solanum lycopersicum,Tomato,टमाटर,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/tomato.md,2026-07-01
-FLR-0095,Capsicum annuum,Chilli,मिर्च,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/chilli.md,2026-07-01
-FLR-0096,Lagenaria siceraria,Bottle Gourd,लौकी,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/bottle_gourd.md,2026-07-01
-FLR-0097,Momordica charantia,Bitter Gourd,करेला,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/bitter_gourd.md,2026-07-01
-FLR-0098,Trigonella foenum-graecum,Fenugreek,मेथी,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/fenugreek.md,2026-07-01
-FLR-0099,Coriandrum sativum,Coriander,धनिया,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/coriander.md,2026-07-01
-FLR-0100,Psidium guajava,Guava,अमरूद,Plantae,flora/crops,naturalized,not_evaluated,species/flora/crops/guava.md,2026-07-01
-FLR-0101,Carica papaya,Papaya,पपीता,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/papaya.md,2026-07-01
-FLR-0102,Musa paradisiaca,Banana,केला,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/banana.md,2026-07-01
-FNG-0001,Termitomyces heimii,Termite Mushroom,दीमक छत्ता / बरसाती छाता,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/termite_mushroom.md,2026-05-24
-FNG-0002,Termitomyces clypeatus,Small Termite Mushroom,छोटा दीमक छत्ता,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/termitomyces_clypeatus.md,2026-05-25
-FNG-0003,Volvariella volvacea,Paddy Straw Mushroom / Rice Straw Mushroom,पुआल मशरूम / धान की खुम्बी / पराली मशरूम,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/paddy_straw_mushroom.md,2026-05-31
-FNG-0004,Ganoderma lucidum,Reishi / Lacquered Bracket Fungus / Lingzhi,रेशी / लिंगज़ी / गनोडर्मा / कड़वा ब्रैकेट,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/reishi_bracket.md,2026-05-31
-FNG-0005,Pleurotus ostreatus,Oyster Mushroom,ढींगरी / ओएस्टर मशरूम,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/oyster_mushroom.md,2026-06-03
-FNG-0006,Agaricus campestris,Field Mushroom,जंगली खुम्बी,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/field_mushroom.md,2026-06-08
-FNG-0007,Schizophyllum commune,Splitgill Mushroom,लकड़ी का कान,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/splitgill_mushroom.md,2026-06-08
-FNG-0008,Calvatia cyathiformis,Lilac Puffball,गोबर छत्ता,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/lilac_puffball.md,2026-06-08
-FNG-0009,Dacryopinax spathularia,Fan-shaped Jelly Fungus,पीली जेली,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/jelly_fungus.md,2026-06-08
-FNG-0010,Astraeus hygrometricus,Hygroscopic Earthstar,नमी-तारा खुम्बी,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/hygroscopic_earthstar.md,2026-07-01
-FNG-0011,Macrolepiota procera,Parasol Mushroom,छत्री खुम्बी,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/parasol_mushroom.md,2026-07-01
-FNG-0012,Phallus indusiatus,Veiled Stinkhorn,जालीदार खुम्बी,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/veiled_stinkhorn.md,2026-07-01
-FNG-0013,Auricularia auricula-judae,Wood Ear Fungus,कान की खुम्बी,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/wood_ear_fungus.md,2026-07-01
-FNG-0014,Trametes versicolor,Turkey Tail,तुर्की पूँछ,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/turkey_tail.md,2026-07-01
-FNG-0015,Cyathus striatus,Fluted Bird's Nest Fungus,चिड़िया घोंसला खुम्बी,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/birds_nest_fungus.md,2026-07-01
-FSH-0001,Labeo rohita,Rohu / Rohu Carp,रोहू / रोहु,Animalia,fauna/fish,native,not_evaluated,species/fauna/fish/rohu.md,2026-05-29
-FSH-0002,Catla catla,Catla / Major Indian Carp,कतला / कतल,Animalia,fauna/fish,native,LC,species/fauna/fish/catla.md,2026-05-31
-FSH-0003,Channa striata,Snakehead Murrel / Common Snakehead,सौर,Animalia,fauna/fish,native,LC,species/fauna/fish/snakehead_murrel.md,2026-06-07
-FSH-0004,Clarias batrachus,Walking Catfish,मांगुर,Animalia,fauna/fish,native,LC,species/fauna/fish/walking_catfish.md,2026-06-07
-FSH-0005,Wallago attu,Giant Catfish / Wallago / Freshwater Shark,मल्ला,Animalia,fauna/fish,native,VU,species/fauna/fish/giant_catfish.md,2026-06-07
-FSH-0006,Cirrhinus mrigala,Mrigal / Mrigal Carp,मृगल,Animalia,fauna/fish,native,LC,species/fauna/fish/mrigal.md,2026-06-08
-FSH-0007,Rita rita,Rita Catfish / Rita,रीता,Animalia,fauna/fish,native,LC,species/fauna/fish/rita_catfish.md,2026-06-08
-FSH-0008,Mystus vittatus,Striped Catfish / Tengra,टेंगरा,Animalia,fauna/fish,native,LC,species/fauna/fish/striped_catfish.md,2026-06-08
-FSH-0009,Channa marulius,Great Snakehead,सौर,Animalia,fauna/fish,native,LC,species/fauna/fish/great_snakehead.md,2026-06-08
-FSH-0010,Labeo calbasu,Kalbasu,कालबासु,Animalia,fauna/fish,native,LC,species/fauna/fish/kalbasu.md,2026-06-08
-FSH-0011,Heteropneustes fossilis,Stinging Catfish,सिंघी,Animalia,fauna/fish,native,LC,species/fauna/fish/stinging_catfish.md,2026-06-08
-FSH-0012,Chanda nama,Elongate Glassy Perchlet,चंदा,Animalia,fauna/fish,native,LC,species/fauna/fish/glassy_perchlet.md,2026-06-08
-FSH-0013,Xenentodon cancila,Freshwater Garfish,सुइया,Animalia,fauna/fish,native,LC,species/fauna/fish/freshwater_garfish.md,2026-06-08
-FSH-0014,Mastacembelus armatus,Zig-zag Spiny Eel,बाम,Animalia,fauna/fish,native,LC,species/fauna/fish/spiny_eel.md,2026-06-08
-FSH-0015,Puntius sophore,Pool Barb,सिधरी,Animalia,fauna/fish,native,LC,species/fauna/fish/pool_barb.md,2026-06-08
-FSH-0016,Notopterus notopterus,Bronze Featherback,मोई,Animalia,fauna/fish,native,LC,species/fauna/fish/bronze_featherback.md,2026-06-08
-INS-0001,Dysdercus cingulatus,Red Cotton Bug,लाल कपास कीड़ा,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/red_cotton_bug.md,2026-05-24
-INS-0002,Pantala flavescens,Wandering Glider / Globe Skimmer,सुनहरी व्याधपतंग,Animalia,fauna/insects,native,LC,species/fauna/insects/wandering_glider.md,2026-05-24
-INS-0003,Chrysocoris stolli,Stoll's Jewel Bug / Jewel Bug,रत्न-कीड़ा / चमकीला ढाल-कीड़ा,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/jewel_bug.md,2026-05-26
-INS-0004,Papilio demoleus,Lime Butterfly / Chequered Swallowtail,नींबू तितली / मालाबार तितली,Animalia,fauna/insects,native,LC,species/fauna/insects/lime_butterfly.md,2026-05-29
-INS-0005,Oxya fuscovittata,Paddy Grasshopper / Rice Grasshopper,धान टिड्डा / हरा टिड्डा,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/paddy_grasshopper.md,2026-05-29
-INS-0006,Hierodula membranacea,Giant Asian Mantis / Membranous Mantis,मंटिस / बद्धहस्त कीट / भिड़ड़,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/praying_mantis.md,2026-05-29
-INS-0007,Apis cerana,Asian Honey Bee / Eastern Honey Bee,मधुमक्खी / देसी मधुमक्खी,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/asian_honey_bee.md,2026-05-31
-INS-0008,Oecophylla smaragdina,Weaver Ant / Green Weaver Ant,बयनी चींटी / लाल बड़ी चींटी / सोने चींटी,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/weaver_ant.md,2026-05-31
-INS-0009,Mylabris pustulata,Red Blister Beetle / Spotted Blister Beetle,छाला भृंग / लाल ब्लिस्टर बीटल,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/blister_beetle.md,2026-05-31
-INS-0010,Danaus genutia,Striped Tiger Butterfly / Common Tiger,बाघ तितली / धारीदार बाघ तितली,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/striped_tiger_butterfly.md,2026-06-01
-INS-0011,Danaus chrysippus,Plain Tiger / African Monarch,साधारण बाघ तितली,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/plain_tiger.md,2026-06-07
-INS-0012,Gryllus bimaculatus,Two-Spotted Cricket / Field Cricket,झींगुर,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/field_cricket.md,2026-06-07
-INS-0013,Heliocopris dominus,Elephant Dung Beetle / Giant Dung Beetle,गोबर भृंग,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/dung_beetle.md,2026-06-07
-INS-0014,Apis dorsata,Giant Honey Bee / Rock Bee,रॉक बी / पहाड़ी मधुमक्खी,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/giant_honey_bee.md,2026-06-07
-INS-0015,Trithemis aurora,Crimson Marsh Glider,लाल व्याधपतंग,Animalia,fauna/insects,native,LC,species/fauna/insects/crimson_marsh_glider.md,2026-06-08
-INS-0016,Brachythemis contaminata,Ditch Jewel,पीली व्याधपतंग,Animalia,fauna/insects,native,LC,species/fauna/insects/ditch_jewel.md,2026-06-08
-INS-0017,Neurothemis fulvia,Fulvous Forest Skimmer,भूरी व्याधपतंग,Animalia,fauna/insects,native,LC,species/fauna/insects/fulvous_forest_skimmer.md,2026-06-08
-INS-0018,Pseudagrion microcephalum,Blue Dartlet,नीली व्याधपतंग,Animalia,fauna/insects,native,LC,species/fauna/insects/blue_dartlet.md,2026-06-08
-INS-0019,Crocothemis servilia,Scarlet Skimmer,सिंदूरी व्याधपतंग,Animalia,fauna/insects,native,LC,species/fauna/insects/scarlet_skimmer.md,2026-06-08
-INS-0020,Catopsilia pomona,Common Emigrant,पीली तितली,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/common_emigrant.md,2026-06-08
-INS-0021,Hypolimnas bolina,Great Eggfly,नील-चाँद तितली,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/great_eggfly.md,2026-06-08
-INS-0022,Acraea terpsicore,Tawny Coster,तौनी कोस्टर,Animalia,fauna/insects,native,LC,species/fauna/insects/tawny_coster.md,2026-06-08
-INS-0023,Junonia almana,Peacock Pansy,मयूर पंख तितली,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/peacock_pansy.md,2026-06-08
-INS-0024,Zizina otis,Lesser Grass Blue,छोटी नीली तितली,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/lesser_grass_blue.md,2026-06-08
-INS-0025,Orthetrum sabina,Slender Skimmer,हरी-चित्तीदार व्याधपतंग,Animalia,fauna/insects,native,LC,species/fauna/insects/slender_skimmer.md,2026-06-08
-INS-0026,Anax parthenope,Lesser Emperor,राजा व्याधपतंग,Animalia,fauna/insects,native,LC,species/fauna/insects/lesser_emperor.md,2026-06-08
-INS-0027,Diplacodes trivialis,Ground Skimmer,नीली व्याधपतंग,Animalia,fauna/insects,native,LC,species/fauna/insects/ground_skimmer.md,2026-06-08
-INS-0028,Coccinella transversalis,Transverse Ladybird,लेडीबर्ड बीटल,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/transverse_ladybird.md,2026-06-08
-INS-0029,Aulacophora foveicollis,Red Pumpkin Beetle,लाल कद्दू कीड़ा,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/red_pumpkin_beetle.md,2026-06-08
-INS-0030,Luciola praeusta,Indian Firefly,जुगनू,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/indian_firefly.md,2026-06-08
-INS-0031,Gerris spinolae,Indian Water Strider,जल-सर्पी,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/indian_water_strider.md,2026-06-08
-INS-0032,Leptocorisa varicornis,Rice Gundy Bug,गंधी कीड़ा,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/rice_gundy_bug.md,2026-06-08
-INS-0033,Platypleura capitata,Cicada,झींझी,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/cicada.md,2026-06-08
-INS-0034,Acherontia lachesis,Greater Death's Head Hawkmoth,कालमुख पतंगा,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/deaths_head_hawkmoth.md,2026-06-08
-INS-0035,Culex quinquefasciatus,Southern House Mosquito,मच्छर,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/culex_mosquito.md,2026-06-08
-INS-0036,Gryllotalpa africana,African Mole Cricket,भुरभुरा कीड़ा,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/mole_cricket.md,2026-06-08
-INS-0037,Polistes olivaceus,Yellow Paper Wasp,ततैया,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/yellow_paper_wasp.md,2026-06-08
-INS-0038,Apis florea,Dwarf Honey Bee,छोटी मधुमक्खी,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/dwarf_honey_bee.md,2026-06-08
-INS-0039,Solenopsis geminata,Tropical Fire Ant,लाल चींटी,Animalia,fauna/insects,naturalized,not_evaluated,species/fauna/insects/tropical_fire_ant.md,2026-06-08
-INS-0040,Spodoptera litura,Tobacco Cutworm,सेना पतंगा,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/tobacco_cutworm.md,2026-07-01
-INS-0041,Scirpophaga incertulas,Yellow Stem Borer,पीला तनाछेदक,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/yellow_stem_borer.md,2026-07-01
-INS-0042,Nezara viridula,Southern Green Stink Bug,हरा खटमल,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/southern_green_stink_bug.md,2026-07-01
-INS-0043,Bagrada hilaris,Painted Bug,रंगीन बग,Animalia,fauna/insects,naturalized,not_evaluated,species/fauna/insects/painted_bug.md,2026-07-01
-INS-0044,Poekilocerus pictus,Painted Grasshopper,रंगबिरंगा टिड्डा,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/painted_grasshopper.md,2026-07-01
-INS-0045,Papilio polytes,Common Mormon,सामान्य मॉर्मन,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/common_mormon.md,2026-07-01
-INS-0046,Eurema hecabe,Common Grass Yellow,घास पीतवर्णी,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/common_grass_yellow.md,2026-07-01
-INS-0047,Melanitis leda,Common Evening Brown,शाम भूरी तितली,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/common_evening_brown.md,2026-07-01
-INS-0048,Apis mellifera,European Honey Bee,युरोपीय मधुमक्खी,Animalia,fauna/insects,naturalized,not_evaluated,species/fauna/insects/european_honey_bee.md,2026-07-01
-INS-0049,Vespa tropica,Greater Banded Hornet,बड़ा ततैया,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/greater_banded_hornet.md,2026-07-01
-MAM-0001,Pteropus medius,Indian Flying Fox / Greater Indian Fruit Bat,बड़ा चमगादड़ / फल चमगादड़,Animalia,fauna/mammals,native,LC,species/fauna/mammals/indian_flying_fox.md,2026-05-28
-MAM-0002,Herpestes edwardsii,Small Indian Mongoose / Indian Grey Mongoose,नेवला,Animalia,fauna/mammals,native,LC,species/fauna/mammals/mongoose.md,2026-05-29
-MAM-0003,Felis chaus,Jungle Cat / Reed Cat / Swamp Cat,जंगली बिल्ली / जंगल बिलाव,Animalia,fauna/mammals,native,LC,species/fauna/mammals/jungle_cat.md,2026-05-31
-MAM-0004,Funambulus pennantii,Northern Palm Squirrel / Five-striped Palm Squirrel,गिलहरी / पाँचपट्टा गिलहरी,Animalia,fauna/mammals,native,LC,species/fauna/mammals/palm_squirrel.md,2026-05-31
-MAM-0005,Canis aureus,Golden Jackal / Indian Jackal,सियार / गीदड़,Animalia,fauna/mammals,native,LC,species/fauna/mammals/golden_jackal.md,2026-06-01
-MAM-0006,Macaca mulatta,Rhesus Macaque / Rhesus Monkey,बंदर / रीसस बंदर,Animalia,fauna/mammals,native,LC,species/fauna/mammals/rhesus_macaque.md,2026-06-07
-MAM-0007,Sus scrofa,Wild Boar / Indian Wild Boar,जंगली सूअर,Animalia,fauna/mammals,native,LC,species/fauna/mammals/wild_boar.md,2026-06-07
-MAM-0008,Hystrix indica,Indian Crested Porcupine / Indian Porcupine,साही,Animalia,fauna/mammals,native,LC,species/fauna/mammals/indian_porcupine.md,2026-06-07
-MAM-0009,Lepus nigricollis,Black-naped Hare,खरगोश,Animalia,fauna/mammals,native,LC,species/fauna/mammals/black_naped_hare.md,2026-06-08
-MAM-0010,Paradoxurus hermaphroditus,Common Palm Civet / Toddy Cat,खटास,Animalia,fauna/mammals,native,LC,species/fauna/mammals/common_palm_civet.md,2026-06-08
-MAM-0011,Boselaphus tragocamelus,Nilgai,नीलगाय,Animalia,fauna/mammals,native,LC,species/fauna/mammals/nilgai.md,2026-06-08
-MAM-0012,Viverricula indica,Small Indian Civet,कस्तूरी बिलाव,Animalia,fauna/mammals,native,LC,species/fauna/mammals/small_indian_civet.md,2026-06-08
-MAM-0013,Bandicota bengalensis,Lesser Bandicoot Rat,घुँस,Animalia,fauna/mammals,native,LC,species/fauna/mammals/lesser_bandicoot_rat.md,2026-06-08
-MAM-0014,Pipistrellus coromandra,Indian Pipistrelle,चमगादड़ी,Animalia,fauna/mammals,native,LC,species/fauna/mammals/indian_pipistrelle.md,2026-06-08
-MAM-0015,Suncus murinus,Asian House Shrew,छछूंदर,Animalia,fauna/mammals,native,LC,species/fauna/mammals/asian_house_shrew.md,2026-06-08
-MAM-0016,Vulpes bengalensis,Indian Fox,लोमड़ी,Animalia,fauna/mammals,native,LC,species/fauna/mammals/indian_fox.md,2026-07-01
-MAM-0017,Manis crassicaudata,Indian Pangolin,पैंगोलिन / सल्लू,Animalia,fauna/mammals,native,VU,species/fauna/mammals/indian_pangolin.md,2026-07-01
-MOL-0001,Pila globosa,Freshwater Apple Snail / Indian Apple Snail,घोंघा / सेब घोंघा,Animalia,fauna/mollusks,native,not_evaluated,species/fauna/mollusks/apple_snail.md,2026-05-29
-MOL-0002,Lamellidens marginalis,Freshwater Mussel / Indian Freshwater Mussel,सीप / मीठे पानी की सीप,Animalia,fauna/mollusks,native,not_evaluated,species/fauna/mollusks/freshwater_mussel.md,2026-06-03
-MOL-0003,Lymnaea acuminata,Freshwater Pond Snail / Pointed Pond Snail,मीठे पानी का घोंघा,Animalia,fauna/mollusks,native,not_evaluated,species/fauna/mollusks/freshwater_pond_snail.md,2026-06-07
-MOL-0004,Indoplanorbis exustus,Ramshorn Snail,चपटा घोंघा,Animalia,fauna/mollusks,native,not_evaluated,species/fauna/mollusks/ramshorn_snail.md,2026-06-08
-MOL-0005,Macrochlamys indica,Indian Land Snail,बगीचे का घोंघा,Animalia,fauna/mollusks,native,not_evaluated,species/fauna/mollusks/indian_land_snail.md,2026-06-08
-MOL-0007,Melanoides tuberculata,Red-rimmed Melania,जल घोंघा,Animalia,fauna/mollusks,native,not_evaluated,species/fauna/mollusks/red_rimmed_melania.md,2026-07-01
-MYR-0001,Scolopendra morsitans,Banded Indian Centipede / Tropical Centipede,कनखजूरा / गोजर,Animalia,fauna/myriapods,native,not_evaluated,species/fauna/myriapods/indian_centipede.md,2026-05-29
-MYR-0002,Trigoniulus corallinus,Rusty Millipede / Common Asian Millipede,लाल सहस्रपाद / कँखजूरा,Animalia,fauna/myriapods,native,not_evaluated,species/fauna/myriapods/rusty_millipede.md,2026-06-03
-MYR-0003,Asiomorpha coarctata,Flat-backed Millipede,चपटा गोजर,Animalia,fauna/myriapods,naturalized,not_evaluated,species/fauna/myriapods/flat_backed_millipede.md,2026-06-08
-MYR-0004,Scutigera coleoptrata,House Centipede,घरेलू कनखजूरा,Animalia,fauna/myriapods,native,not_evaluated,species/fauna/myriapods/house_centipede.md,2026-07-01
-REP-0001,Calotes versicolor,Oriental Garden Lizard / Common Garden Lizard,गिरगिट,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/garden_lizard.md,2026-05-25
-REP-0002,Ptyas mucosa,Indian Rat Snake / Oriental Rat Snake,धामन / दाउद साँप,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/indian_rat_snake.md,2026-05-29
-REP-0003,Chamaeleo zeylanicus,Indian Chameleon / Common Indian Chameleon,असली गिरगिट / गिलोट,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/indian_chameleon.md,2026-05-31
-REP-0004,Varanus bengalensis,Bengal Monitor / Common Indian Monitor,गोह / गोह छिपकली,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/bengal_monitor.md,2026-05-31
-REP-0005,Naja naja,Indian Cobra / Spectacled Cobra,नाग,Animalia,fauna/reptiles,native,not_evaluated,species/fauna/reptiles/indian_cobra.md,2026-06-07
-REP-0006,Bungarus caeruleus,Common Krait / Indian Krait,करैत,Animalia,fauna/reptiles,native,not_evaluated,species/fauna/reptiles/common_krait.md,2026-06-07
-REP-0007,Hemidactylus frenatus,Asian House Gecko / Common House Gecko,घर की छिपकली,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/house_gecko.md,2026-06-07
-REP-0008,Nilssonia gangetica,Indian Softshell Turtle / Gangetic Softshell Turtle,गंगा कछुआ,Animalia,fauna/reptiles,native,CR,species/fauna/reptiles/indian_softshell_turtle.md,2026-06-08
-REP-0009,Xenochrophis piscator,Checkered Keelback / Asiatic Water Snake,धारीदार पानी साँप,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/checkered_keelback.md,2026-06-08
-REP-0010,Daboia russelii,Russell's Viper,कोरिआला,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/russells_viper.md,2026-06-08
-REP-0011,Echis carinatus,Saw-scaled Viper,फुरसा,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/saw_scaled_viper.md,2026-06-08
-REP-0012,Lycodon aulicus,Common Wolf Snake,कौड़िया साँप,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/common_wolf_snake.md,2026-06-08
-REP-0013,Amphiesma stolatum,Buff-striped Keelback,सीता की लट,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/buff_striped_keelback.md,2026-06-08
-REP-0014,Eutropis carinata,Common Keeled Skink,बामनिहा,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/common_keeled_skink.md,2026-06-08
-REP-0015,Lissemys punctata,Indian Flapshell Turtle,चित्तीदार कछुआ,Animalia,fauna/reptiles,native,VU,species/fauna/reptiles/indian_flapshell_turtle.md,2026-06-08
-REP-0016,Python molurus,Indian Python,अजगर,Animalia,fauna/reptiles,native,VU,species/fauna/reptiles/indian_python.md,2026-07-01
-REP-0017,Eryx conicus,Common Sand Boa,डोमेन साँप,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/common_sand_boa.md,2026-07-01
-SFL-0001,Odontotermes obesus,Mound-building Termite / Indian Termite,दीमक / सफेद चींटी,Animalia,fauna/soil_fauna,native,not_evaluated,species/fauna/soil_fauna/termite.md,2026-05-28
-SFL-0002,Metaphire posthuma,Indian Common Earthworm,केंचुआ,Animalia,fauna/soil_fauna,native,not_evaluated,species/fauna/soil_fauna/earthworm.md,2026-05-29
-SFL-0003,Burmoniscus javanensis,Forest Leaf Woodlouse / Javanese Woodlouse,जंगली पत्ती जूँ / भूमि जूँ,Animalia,fauna/soil_fauna,native,not_evaluated,species/fauna/soil_fauna/forest_woodlouse.md,2026-06-03
-SFL-0004,Eisenia fetida,Red Worm,कम्पोस्ट केंचुआ,Animalia,fauna/soil_fauna,cultivated,not_evaluated,species/fauna/soil_fauna/red_worm.md,2026-06-08
-SFL-0005,Holotrichia consanguinea,White Grub,सफेद सूंडी,Animalia,fauna/soil_fauna,native,not_evaluated,species/fauna/soil_fauna/white_grub.md,2026-06-08
-SFL-0006,Periplaneta americana,American Cockroach,अमेरिकी तिलचट्टा,Animalia,fauna/soil_fauna,naturalized,not_evaluated,species/fauna/soil_fauna/american_cockroach.md,2026-07-01
-SFL-0007,Blatta orientalis,Oriental Cockroach,पूर्वी तिलचट्टा,Animalia,fauna/soil_fauna,native,not_evaluated,species/fauna/soil_fauna/oriental_cockroach.md,2026-07-01
-SPD-0001,Argiope anasuja,Signature Spider / Indian Garden Cross Spider,जोग मकड़ी / लिखावट मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/signature_spider.md,2026-05-28
-SPD-0002,Nephila pilipes,Giant Wood Spider / Northern Golden Orb-weaver,सोन मकड़ी / रेशमी मकड़ी / बड़ी जाल मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/giant_wood_spider.md,2026-05-31
-SPD-0003,Plexippus paykulli,Pantropical Jumping Spider,कूदने वाली मकड़ी / उछलती मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/pantropical_jumping_spider.md,2026-06-03
-SPD-0004,Heteropoda venatoria,Huntsman Spider / Giant Crab Spider,शिकारी मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/huntsman_spider.md,2026-06-08
-SPD-0005,Peucetia viridana,Green Lynx Spider,हरी मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/green_lynx_spider.md,2026-06-08
-SPD-0006,Hasarius adansoni,Adanson's Jumping Spider,घरेलू मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/adansons_jumping_spider.md,2026-06-08
-SPD-0007,Araneus mitificus,Kidney Garden Spider,बागीचा मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/kidney_garden_spider.md,2026-06-08
-SPD-0008,Oxyopes salticus,Striped Lynx Spider,शिकारी मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/striped_lynx_spider.md,2026-06-08
-SPD-0009,Cyrtophora citricola,Tropical Tent-web Spider,तंबू मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/tropical_tent_web_spider.md,2026-06-08
-SPD-0010,Pholcus phalangioides,Long-bodied Cellar Spider,पतली टांग वाली मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/cellar_spider.md,2026-06-08
-SPD-0011,Tetragnatha mandibulata,Long-jawed Orb-weaver,लंबे जबड़े की मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/long_jawed_spider.md,2026-07-01
-SPD-0012,Cheiracanthium melanostomum,Yellow Sac Spider,पीली थैली मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/yellow_sac_spider.md,2026-07-01
-SPD-0013,Stegodyphus sarasinorum,Social Velvet Spider,सामूहिक मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/social_velvet_spider.md,2026-07-01
-SPD-0014,Gasteracantha kuhli,Spiny Orb-weaver,कंटकदार मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/spiny_orb_weaver.md,2026-07-01
+BRD-0006,Acridotheres tristis,Common Myna / Indian Myna,मैना / मैना पक्षी,Animalia,fauna/birds,native,LC,species/fauna/birds/common_myna.md,
+BRD-0007,Passer domesticus,House Sparrow,गौरैया,Animalia,fauna/birds,native,LC,species/fauna/birds/house_sparrow.md,
+BRD-0008,Psittacula krameri,Rose-ringed Parakeet / Ring-necked Parakeet,तोता / हरा तोता / कंठी तोता,Animalia,fauna/birds,native,LC,species/fauna/birds/rose_ringed_parakeet.md,
+BRD-0009,Pavo cristatus,Indian Peafowl / Common Peafowl,मोर / मयूर,Animalia,fauna/birds,native,LC,species/fauna/birds/indian_peafowl.md,
+BRD-0010,Alcedo atthis,Common Kingfisher / River Kingfisher,राम चिरैया / किलकिला,Animalia,fauna/birds,native,LC,species/fauna/birds/common_kingfisher.md,
+BRD-0011,Milvus migrans,Black Kite,चील / काली चील,Animalia,fauna/birds,native,LC,species/fauna/birds/black_kite.md,
+BRD-0012,Gracupica contra,Asian Pied Starling / Pied Myna,गुलाम मैना / नागपंछी / पैड मैना,Animalia,fauna/birds,native,LC,species/fauna/birds/asian_pied_starling.md,
+BRD-0013,Motacilla alba,White Wagtail,खंजन / धोबी चिड़िया,Animalia,fauna/birds,native,LC,species/fauna/birds/white_wagtail.md,
+BRD-0014,Eudynamys scolopaceus,Asian Koel,कोयल / कोकिला,Animalia,fauna/birds,native,LC,species/fauna/birds/asian_koel.md,
+BRD-0015,Orthotomus sutorius,Common Tailorbird,दर्जिन / दर्जी चिड़िया,Animalia,fauna/birds,native,LC,species/fauna/birds/common_tailorbird.md,
+BRD-0016,Cinnyris asiaticus,Purple Sunbird,शक्कर खोरा / जामुनी मधुचूषक,Animalia,fauna/birds,native,LC,species/fauna/birds/purple_sunbird.md,
+BRD-0017,Pycnonotus cafer,Red-vented Bulbul,गुलदुम बुलबुल,Animalia,fauna/birds,native,LC,species/fauna/birds/red_vented_bulbul.md,
+BRD-0018,Ploceus philippinus,Baya Weaver,बया,Animalia,fauna/birds,native,LC,species/fauna/birds/baya_weaver.md,
+BRD-0019,Athene brama,Spotted Owlet,चित्तीदार उल्लू,Animalia,fauna/birds,native,LC,species/fauna/birds/spotted_owlet.md,
+BRD-0020,Vanellus indicus,Red-wattled Lapwing,टिटहरी,Animalia,fauna/birds,native,LC,species/fauna/birds/red_wattled_lapwing.md,
+BRD-0021,Anastomus oscitans,Asian Openbill,घोंघिल,Animalia,fauna/birds,native,LC,species/fauna/birds/asian_openbill.md,
+BRD-0022,Ceryle rudis,Pied Kingfisher,छोटा किलकिला,Animalia,fauna/birds,native,LC,species/fauna/birds/pied_kingfisher.md,
+BRD-0023,Dendrocygna javanica,Lesser Whistling Duck,सीटी बत्तख,Animalia,fauna/birds,native,LC,species/fauna/birds/lesser_whistling_duck.md,
+BRD-0024,Columba livia,Rock Pigeon,कबूतर,Animalia,fauna/birds,native,LC,species/fauna/birds/rock_pigeon.md,
+BRD-0025,Spilopelia senegalensis,Laughing Dove,छोटी पंडुक,Animalia,fauna/birds,native,LC,species/fauna/birds/laughing_dove.md,
+BRD-0026,Streptopelia decaocto,Eurasian Collared Dove,धवल पंडुक,Animalia,fauna/birds,native,LC,species/fauna/birds/eurasian_collared_dove.md,
+BRD-0027,Corvus splendens,House Crow,कौआ,Animalia,fauna/birds,native,LC,species/fauna/birds/house_crow.md,
+BRD-0028,Corvus macrorhynchos,Jungle Crow,जंगली कौआ,Animalia,fauna/birds,native,LC,species/fauna/birds/jungle_crow.md,
+BRD-0029,Bubulcus ibis,Cattle Egret,गाय बगुला,Animalia,fauna/birds,native,LC,species/fauna/birds/cattle_egret.md,
+BRD-0030,Egretta garzetta,Little Egret,छोटा बगुला,Animalia,fauna/birds,native,LC,species/fauna/birds/little_egret.md,
+BRD-0031,Halcyon smyrnensis,White-throated Kingfisher,किलकिला,Animalia,fauna/birds,native,LC,species/fauna/birds/white_throated_kingfisher.md,
+BRD-0032,Merops orientalis,Asian Green Bee-eater,हरा पतरंगा,Animalia,fauna/birds,native,LC,species/fauna/birds/asian_green_bee_eater.md,
+BRD-0033,Upupa epops,Common Hoopoe,हुदहुद,Animalia,fauna/birds,native,LC,species/fauna/birds/common_hoopoe.md,
+BRD-0034,Centropus sinensis,Greater Coucal,महोख,Animalia,fauna/birds,native,LC,species/fauna/birds/greater_coucal.md,
+BRD-0035,Turdoides striata,Jungle Babbler,सातभाई,Animalia,fauna/birds,native,LC,species/fauna/birds/jungle_babbler.md,
+BRD-0036,Copsychus saularis,Oriental Magpie-Robin,दहियर,Animalia,fauna/birds,native,LC,species/fauna/birds/oriental_magpie_robin.md,
+BRD-0037,Lanius schach,Long-tailed Shrike,लटोरा,Animalia,fauna/birds,native,LC,species/fauna/birds/long_tailed_shrike.md,
+BRD-0038,Elanus caeruleus,Black-winged Kite,कपसी,Animalia,fauna/birds,native,LC,species/fauna/birds/black_winged_kite.md,
+BRD-0039,Amaurornis phoenicurus,White-breasted Waterhen,डहुआ,Animalia,fauna/birds,native,LC,species/fauna/birds/white_breasted_waterhen.md,
+BRD-0040,Metopidius indicus,Bronze-winged Jacana,दल-पीपी,Animalia,fauna/birds,native,LC,species/fauna/birds/bronze_winged_jacana.md,
+BRD-0041,Porphyrio poliocephalus,Grey-headed Swamphen,कैम,Animalia,fauna/birds,native,LC,species/fauna/birds/grey_headed_swamphen.md,
+BRD-0042,Cypsiurus balasiensis,Asian Palm Swift,ताड़-चट्री,Animalia,fauna/birds,native,LC,species/fauna/birds/asian_palm_swift.md,
+BRD-0043,Apus affinis,House Swift,अबाबील,Animalia,fauna/birds,native,LC,species/fauna/birds/house_swift.md,
+BRD-0044,Accipiter badius,Shikra,शिकरा,Animalia,fauna/birds,native,LC,species/fauna/birds/shikra.md,
+BRD-0045,Butastur teesa,White-eyed Buzzard,तीसा,Animalia,fauna/birds,native,LC,species/fauna/birds/white_eyed_buzzard.md,
+BRD-0046,Haliastur indus,Brahminy Kite,ब्राह्मणी चील,Animalia,fauna/birds,native,LC,species/fauna/birds/brahminy_kite.md,
+BRD-0047,Circus aeruginosus,Western Marsh Harrier,दलदल बाज,Animalia,fauna/birds,native,LC,species/fauna/birds/western_marsh_harrier.md,
+BRD-0048,Pandion haliaetus,Osprey,मछलीमार,Animalia,fauna/birds,native,LC,species/fauna/birds/osprey.md,
+BRD-0049,Falco tinnunculus,Common Kestrel,केस्ट्रेल,Animalia,fauna/birds,native,LC,species/fauna/birds/common_kestrel.md,
+BRD-0050,Tyto alba,Barn Owl,उल्लू,Animalia,fauna/birds,native,LC,species/fauna/birds/barn_owl.md,
+BRD-0051,Bubo bengalensis,Indian Eagle-Owl,बड़ा उल्लू,Animalia,fauna/birds,native,LC,species/fauna/birds/indian_eagle_owl.md,
+BRD-0052,Ketupa zeylonensis,Brown Fish Owl,मछली उल्लू,Animalia,fauna/birds,native,LC,species/fauna/birds/brown_fish_owl.md,
+BRD-0053,Asio flammeus,Short-eared Owl,अल्प-कर्ण उल्लू,Animalia,fauna/birds,native,LC,species/fauna/birds/short_eared_owl.md,
+BRD-0054,Ardea cinerea,Grey Heron,ग्रे बगुला,Animalia,fauna/birds,native,LC,species/fauna/birds/grey_heron.md,
+BRD-0055,Ardea purpurea,Purple Heron,बैंगनी बगुला,Animalia,fauna/birds,native,LC,species/fauna/birds/purple_heron.md,
+BRD-0056,Nycticorax nycticorax,Black-crowned Night Heron,रातबगुला,Animalia,fauna/birds,native,LC,species/fauna/birds/black_crowned_night_heron.md,
+BRD-0057,Gallinula chloropus,Common Moorhen,जलमुर्गी,Animalia,fauna/birds,native,LC,species/fauna/birds/common_moorhen.md,
+BRD-0058,Fulica atra,Common Coot,लालखर,Animalia,fauna/birds,native,LC,species/fauna/birds/common_coot.md,
+BRD-0059,Himantopus himantopus,Black-winged Stilt,आवाक,Animalia,fauna/birds,native,LC,species/fauna/birds/black_winged_stilt.md,
+BRD-0060,Charadrius dubius,Little Ringed Plover,छोटा बटेर,Animalia,fauna/birds,native,LC,species/fauna/birds/little_ringed_plover.md,
+BRD-0061,Anas acuta,Northern Pintail,पिनटेल बत्तख,Animalia,fauna/birds,native,LC,species/fauna/birds/northern_pintail.md,
+BRD-0062,Spatula querquedula,Garganey,गार्गनी बत्तख,Animalia,fauna/birds,native,LC,species/fauna/birds/garganey.md,
+BRD-0063,Actitis hypoleucos,Common Sandpiper,छोटा बटान,Animalia,fauna/birds,native,LC,species/fauna/birds/common_sandpiper.md,
+BRD-0064,Sturnia pagodarum,Brahminy Starling,ब्राह्मणी मैना,Animalia,fauna/birds,native,LC,species/fauna/birds/brahminy_starling.md,
+BRD-0065,Pastor roseus,Rosy Starling,गुलाबी मैना,Animalia,fauna/birds,native,LC,species/fauna/birds/rosy_starling.md,
+BRD-0066,Lonchura punctulata,Scaly-breasted Munia,तीतर मुनिया,Animalia,fauna/birds,native,LC,species/fauna/birds/scaly_breasted_munia.md,
+BRD-0067,Cisticola juncidis,Zitting Cisticola,जिंक फुदकी,Animalia,fauna/birds,native,LC,species/fauna/birds/zitting_cisticola.md,
+BRD-0068,Prinia inornata,Plain Prinia,मैदान फुदकी,Animalia,fauna/birds,native,LC,species/fauna/birds/plain_prinia.md,
+BRD-0069,Rhipidura aureola,White-spotted Fantail,पंखी,Animalia,fauna/birds,native,LC,species/fauna/birds/white_spotted_fantail.md,
+BRD-0070,Saxicola caprata,Pied Bushchat,पड्डू,Animalia,fauna/birds,native,LC,species/fauna/birds/pied_bushchat.md,
+BRD-0071,Pycnonotus jocosus,Red-whiskered Bulbul,गुलाबी बुलबुल,Animalia,fauna/birds,native,LC,species/fauna/birds/red_whiskered_bulbul.md,
+BRD-0072,Ocyceros birostris,Indian Grey Hornbill,धनेश,Animalia,fauna/birds,native,LC,species/fauna/birds/indian_grey_hornbill.md,
+BRD-0073,Hirundo rustica,Barn Swallow,घर अबाबील,Animalia,fauna/birds,native,LC,species/fauna/birds/barn_swallow.md,
+CRU-0001,Macrobrachium gangeticum,Ganga River Prawn / Freshwater Scampi,गंगा झींगा / मीठे पानी का झींगा / झींगा,Animalia,fauna/crustaceans,native,not_evaluated,species/fauna/crustaceans/river_prawn.md,
+CRU-0002,Barytelphusa guerini,Guerin's Freshwater Crab / Barytelphusa Crab,केकड़ा / मीठे पानी का केकड़ा,Animalia,fauna/crustaceans,native,not_evaluated,species/fauna/crustaceans/freshwater_crab.md,
+CRU-0003,Paratelphusa jacquemontii,Jacquemont's Field Crab / Paddy Field Crab,खेत का केकड़ा,Animalia,fauna/crustaceans,native,LC,species/fauna/crustaceans/freshwater_crab_paratelphusa.md,
+CRU-0004,Macrobrachium lamarrei,Freshwater Grass Shrimp,छोटा झींगा,Animalia,fauna/crustaceans,native,not_evaluated,species/fauna/crustaceans/freshwater_grass_shrimp.md,
+FLR-0001,Parthenium hysterophorus,Congress Grass / Carrot Weed,गाजर घास / काँग्रेस घास,Plantae,flora/weeds,invasive,not_evaluated,species/flora/weeds/parthenium_hysterophorus.md,
+FLR-0002,Calotropis gigantea,Giant Milkweed / Crown Flower,आक / मदार / अर्क,Plantae,flora/weeds,native,not_evaluated,species/flora/weeds/calotropis_gigantea.md,
+FLR-0003,Saccharum munja,Munja Grass / Munj Grass,मूँज,Plantae,flora/grasses,native,not_evaluated,species/flora/grasses/saccharum_munja.md,
+FLR-0004,Cynodon dactylon,Doob Grass / Bermuda Grass,दूब / दूर्वा,Plantae,flora/grasses,native,not_evaluated,species/flora/grasses/doob_grass.md,
+FLR-0005,Nelumbo nucifera,Indian Lotus / Sacred Lotus,कमल / पद्म,Plantae,flora/aquatic,native,LC,species/flora/aquatic/indian_lotus.md,
+FLR-0006,Ficus religiosa,Peepal / Sacred Fig / Bodhi Tree,पीपल / अश्वत्थ,Plantae,flora/trees,native,LC,species/flora/trees/peepal.md,
+FLR-0007,Lantana camara,Lantana / Wild Sage / Big Sage,पंचफूली / राईमुनिया / घनेरी,Plantae,flora/weeds,invasive,not_evaluated,species/flora/weeds/lantana_camara.md,
+FLR-0008,Ocimum tenuiflorum,Holy Basil / Tulsi,तुलसी / पवित्र तुलसी,Plantae,flora/medicinal,native,not_evaluated,species/flora/medicinal/tulsi.md,
+FLR-0009,Azadirachta indica,Neem,नीम,Plantae,flora/trees,native,not_evaluated,species/flora/trees/neem.md,
+FLR-0010,Ficus benghalensis,Banyan / Indian Banyan,बरगद / वट वृक्ष,Plantae,flora/trees,native,LC,species/flora/trees/banyan.md,
+FLR-0011,Mangifera indica,Mango / Indian Mango,आम,Plantae,flora/trees,native,not_evaluated,species/flora/trees/mango.md,
+FLR-0012,Tinospora cordifolia,Giloy / Heartleaf Moonseed / Guduchi,गिलोय / गुडूची / अमृता,Plantae,flora/climbers,native,not_evaluated,species/flora/climbers/giloy.md,
+FLR-0013,Eichhornia crassipes,Water Hyacinth,जलकुंभी / कुंभी,Plantae,flora/aquatic,invasive,not_evaluated,species/flora/aquatic/water_hyacinth.md,
+FLR-0014,Oryza sativa,Paddy / Asian Rice,धान / चावल,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/paddy.md,
+FLR-0015,Datura metel,Dhatura / Devil's Trumpet / Thorn Apple,धतूरा,Plantae,flora/weeds,native,not_evaluated,species/flora/weeds/datura.md,
+FLR-0016,Achyranthes aspera,Prickly Chaff Flower / Devil's Horsewhip,चिरचिटा / अपामार्ग,Plantae,flora/weeds,native,not_evaluated,species/flora/weeds/chirchita.md,
+FLR-0017,Mimosa pudica,Touch-me-not / Sensitive Plant,लाजवंती / छुई-मुई,Plantae,flora/weeds,invasive,not_evaluated,species/flora/weeds/lajwanti.md,
+FLR-0018,Senna tora,Sickle Senna / Coffee Weed / Foetid Cassia,चक्रमर्द / कसौंदी,Plantae,flora/weeds,native,not_evaluated,species/flora/weeds/chakramard.md,
+FLR-0019,Argemone mexicana,Mexican Prickly Poppy / Yellow Thistle,सत्यानाशी / भड़भाँड़,Plantae,flora/weeds,invasive,not_evaluated,species/flora/weeds/satyanashi.md,
+FLR-0020,Terminalia arjuna,Arjun Tree / White Murdah,अर्जुन / कोहा,Plantae,flora/trees,native,LC,species/flora/trees/arjun.md,
+FLR-0021,Madhuca longifolia,Mahua / Indian Butter Tree,महुआ / महुवा,Plantae,flora/trees,native,LC,species/flora/trees/mahua.md,
+FLR-0022,Neolamarckia cadamba,Kadam Tree / Burflower Tree,कदम्ब / कदम,Plantae,flora/trees,native,LC,species/flora/trees/kadam.md,
+FLR-0023,Annona squamosa,Custard Apple / Sugar Apple,सीताफल / शरीफा / सरीफा,Plantae,flora/trees,naturalized,not_evaluated,species/flora/trees/custard_apple.md,
+FLR-0024,Ipomoea carnea subsp. fistulosa,Pink Morning Glory / Bush Morning Glory / Shrubby Morning Glory,बेशरम / बेहया / गुलाबी घुइयाँ,Plantae,flora/weeds,naturalized,not_evaluated,species/flora/weeds/besharam.md,
+FLR-0025,Marsilea quadrifolia,Water Clover Fern / Four-leaf Water Fern,जल तिपतिया / चौपत्ती,Plantae,lower_plants/ferns,native,LC,species/lower_plants/ferns/water_clover_fern.md,
+FLR-0026,Funaria hygrometrica,Cord Moss / Bonfire Moss / Limestone Moss,काई / भूमि काई,Plantae,lower_plants/mosses,native,LC,species/lower_plants/mosses/cord_moss.md,
+FLR-0027,Trapa bispinosa,Water Chestnut / Indian Water Chestnut,सिंघाड़ा,Plantae,flora/aquatic,native,not_evaluated,species/flora/aquatic/water_chestnut.md,
+FLR-0028,Nymphaea nouchali,Blue Water Lily / Star Lotus,नीलकमल,Plantae,flora/aquatic,native,LC,species/flora/aquatic/blue_water_lily.md,
+FLR-0029,Pistia stratiotes,Water Lettuce / Shellflower,जलपत्ता,Plantae,flora/aquatic,invasive,LC,species/flora/aquatic/water_lettuce.md,
+FLR-0030,Ipomoea aquatica,Water Spinach / Swamp Cabbage,कलमी साग,Plantae,flora/aquatic,native,LC,species/flora/aquatic/water_spinach.md,
+FLR-0031,Aegle marmelos,Bael / Wood Apple,बेल,Plantae,flora/trees,native,not_evaluated,species/flora/trees/bel.md,
+FLR-0032,Dalbergia sissoo,Shisham / Indian Rosewood,शीशम,Plantae,flora/trees,native,LC,species/flora/trees/shisham.md,
+FLR-0033,Phyllanthus emblica,Indian Gooseberry / Amla,आँवला,Plantae,flora/trees,native,LC,species/flora/trees/amla.md,
+FLR-0034,Saccharum officinarum,Sugarcane,गन्ना,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/sugarcane.md,
+FLR-0035,Bombax ceiba,Semal / Red Silk Cotton Tree,सेमल,Plantae,flora/trees,native,LC,species/flora/trees/semal.md,
+FLR-0036,Syzygium cumini,Jamun / Indian Blackberry,जामुन,Plantae,flora/trees,native,LC,species/flora/trees/jamun.md,
+FLR-0037,Butea monosperma,Palash / Flame of the Forest,पलाश,Plantae,flora/trees,native,LC,species/flora/trees/palash.md,
+FLR-0038,Cassia fistula,Amaltas / Golden Shower / Indian Laburnum,अमलतास,Plantae,flora/trees,native,LC,species/flora/trees/amaltas.md,
+FLR-0039,Prosopis juliflora,Vilayati Kikar / Mesquite,विलायती कीकर,Plantae,flora/trees,invasive,not_evaluated,species/flora/trees/vilayati_kikar.md,
+FLR-0040,Bacopa monnieri,Brahmi / Water Hyssop,ब्राह्मी,Plantae,flora/medicinal,native,LC,species/flora/medicinal/brahmi.md,
+FLR-0041,Morus alba,White Mulberry,शहतूत,Plantae,flora/trees,cultivated,not_evaluated,species/flora/trees/white_mulberry.md,
+FLR-0042,Phoenix sylvestris,Wild Date Palm,खजूर,Plantae,flora/trees,native,not_evaluated,species/flora/trees/wild_date_palm.md,
+FLR-0043,Tamarindus indica,Tamarind,इमली,Plantae,flora/trees,naturalized,LC,species/flora/trees/tamarind.md,
+FLR-0044,Limonia acidissima,Wood Apple,कैथा,Plantae,flora/trees,native,not_evaluated,species/flora/trees/wood_apple.md,
+FLR-0045,Leucaena leucocephala,Subabul,सुबबूल,Plantae,flora/trees,invasive,not_evaluated,species/flora/trees/subabul.md,
+FLR-0046,Ziziphus mauritiana,Indian Jujube,बेर,Plantae,flora/trees,native,not_evaluated,species/flora/trees/ber.md,
+FLR-0047,Acacia nilotica,Babool,बबूल,Plantae,flora/trees,native,LC,species/flora/trees/babool.md,
+FLR-0048,Albizia lebbeck,Siris,शिरीष,Plantae,flora/trees,native,LC,species/flora/trees/siris.md,
+FLR-0049,Acacia auriculiformis,Earleaf Acacia,बंगाली बबूल,Plantae,flora/trees,invasive,LC,species/flora/trees/earleaf_acacia.md,
+FLR-0050,Cordia dichotoma,Lasora,लसोड़ा,Plantae,flora/trees,native,not_evaluated,species/flora/trees/lasora.md,
+FLR-0051,Triticum aestivum,Wheat,गेहूं,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/wheat.md,
+FLR-0052,Brassica juncea,Indian Mustard,सरसों,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/mustard.md,
+FLR-0053,Lens culinaris,Lentil,मसूर,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/lentil.md,
+FLR-0054,Zea mays,Maize,मक्का,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/maize.md,
+FLR-0055,Cajanus cajan,Pigeon Pea,अरहर,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/pigeon_pea.md,
+FLR-0056,Cicer arietinum,Chickpea,चना,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/chickpea.md,
+FLR-0057,Aloe vera,Aloe Vera,घृतकुमारी,Plantae,flora/medicinal,cultivated,not_evaluated,species/flora/medicinal/aloe_vera.md,
+FLR-0058,Solanum virginianum,Yellow-berried Nightshade,भटकटैया,Plantae,flora/medicinal,native,not_evaluated,species/flora/medicinal/yellow_berried_nightshade.md,
+FLR-0059,Centella asiatica,Asiatic Pennywort,मंडूकपर्णी,Plantae,flora/medicinal,native,not_evaluated,species/flora/medicinal/mandukaparni.md,
+FLR-0060,Croton bonplandianus,Ban Tulsi,बन तुलसी,Plantae,flora/weeds,invasive,not_evaluated,species/flora/weeds/ban_tulsi.md,
+FLR-0061,Ageratum conyzoides,Billygoat Weed,जंगली पुदीना,Plantae,flora/weeds,invasive,not_evaluated,species/flora/weeds/billygoat_weed.md,
+FLR-0062,Cascabela thevetia,Yellow Oleander,पीली कनेर,Plantae,flora/weeds,naturalized,not_evaluated,species/flora/weeds/yellow_oleander.md,
+FLR-0063,Moringa oleifera,Drumstick Tree,सहजन,Plantae,flora/trees,cultivated,not_evaluated,species/flora/trees/drumstick_tree.md,
+FLR-0064,Millettia pinnata,Indian Beech,करंज,Plantae,flora/trees,native,LC,species/flora/trees/indian_beech.md,
+FLR-0065,Artocarpus heterophyllus,Jackfruit,कटहल,Plantae,flora/trees,cultivated,LC,species/flora/trees/jackfruit.md,
+FLR-0066,Holoptelea integrifolia,Indian Elm,छिल्ली,Plantae,flora/trees,native,LC,species/flora/trees/indian_elm.md,
+FLR-0067,Melia azedarach,Chinaberry,बकाइन,Plantae,flora/trees,naturalized,not_evaluated,species/flora/trees/chinaberry.md,
+FLR-0068,Nyctanthes arbor-tristis,Night Jasmine,हरसिंगार,Plantae,flora/trees,native,not_evaluated,species/flora/trees/night_jasmine.md,
+FLR-0069,Erythrina variegata,Indian Coral Tree,पांगारा,Plantae,flora/trees,native,LC,species/flora/trees/indian_coral_tree.md,
+FLR-0070,Tectona grandis,Teak,सागवान,Plantae,flora/trees,cultivated,LC,species/flora/trees/teak.md,
+FLR-0071,Delonix regia,Flame Tree,गुलमोहर,Plantae,flora/trees,naturalized,LC,species/flora/trees/flame_tree.md,
+FLR-0072,Toona ciliata,Indian Toon,टून,Plantae,flora/trees,native,LC,species/flora/trees/indian_toon.md,
+FLR-0073,Chenopodium album,Bathua,बथुआ,Plantae,flora/weeds,native,not_evaluated,species/flora/weeds/bathua.md,
+FLR-0074,Amaranthus spinosus,Spiny Amaranth,कांटे वाली चौलाई,Plantae,flora/weeds,naturalized,not_evaluated,species/flora/weeds/spiny_amaranth.md,
+FLR-0075,Tridax procumbens,Tridax Daisy,बिधारा,Plantae,flora/weeds,invasive,not_evaluated,species/flora/weeds/tridax_daisy.md,
+FLR-0076,Convolvulus arvensis,Field Bindweed,हिरनखुरी,Plantae,flora/weeds,native,not_evaluated,species/flora/weeds/field_bindweed.md,
+FLR-0077,Physalis minima,Wild Cape Gooseberry,रसभरी,Plantae,flora/weeds,native,not_evaluated,species/flora/weeds/wild_cape_gooseberry.md,
+FLR-0078,Mikania micrantha,Mile-a-minute Weed,मीलभर खरपतवार,Plantae,flora/weeds,invasive,not_evaluated,species/flora/weeds/mile_a_minute_weed.md,
+FLR-0079,Cuscuta reflexa,Giant Dodder,अमरबेल,Plantae,flora/climbers,native,not_evaluated,species/flora/climbers/giant_dodder.md,
+FLR-0080,Ipomoea nil,Blue Morning Glory,नीली घुइयाँ,Plantae,flora/climbers,naturalized,not_evaluated,species/flora/climbers/blue_morning_glory.md,
+FLR-0081,Passiflora foetida,Wild Passion Fruit,जंगली पैशनफ्रूट,Plantae,flora/climbers,invasive,not_evaluated,species/flora/climbers/wild_passion_fruit.md,
+FLR-0082,Saccharum spontaneum,Kans Grass,काँस,Plantae,flora/grasses,native,not_evaluated,species/flora/grasses/kans_grass.md,
+FLR-0083,Withania somnifera,Ashwagandha,अश्वगंधा,Plantae,flora/medicinal,native,not_evaluated,species/flora/medicinal/ashwagandha.md,
+FLR-0084,Andrographis paniculata,Kalmegh,कालमेघ,Plantae,flora/medicinal,native,not_evaluated,species/flora/medicinal/kalmegh.md,
+FLR-0085,Boerhavia diffusa,Punarnava,पुनर्नवा,Plantae,flora/medicinal,native,not_evaluated,species/flora/medicinal/punarnava.md,
+FLR-0086,Asparagus racemosus,Shatavari,शतावरी,Plantae,flora/medicinal,native,not_evaluated,species/flora/medicinal/shatavari.md,
+FLR-0087,Terminalia chebula,Haritaki,हरड़,Plantae,flora/medicinal,native,LC,species/flora/medicinal/haritaki.md,
+FLR-0088,Phragmites karka,Common Reed,सरकंडा,Plantae,flora/aquatic,native,not_evaluated,species/flora/aquatic/common_reed.md,
+FLR-0089,Typha latifolia,Common Cattail,पटेर,Plantae,flora/aquatic,native,not_evaluated,species/flora/aquatic/cattail.md,
+FLR-0090,Azolla pinnata,Water Fern / Azolla,एज़ोला,Plantae,flora/aquatic,native,not_evaluated,species/flora/aquatic/azolla.md,
+FLR-0091,Lemna minor,Common Duckweed,जल-मसूर,Plantae,flora/aquatic,native,not_evaluated,species/flora/aquatic/duckweed.md,
+FLR-0092,Hydrilla verticillata,Hydrilla,जल-जड़ी,Plantae,flora/aquatic,invasive,not_evaluated,species/flora/aquatic/hydrilla.md,
+FLR-0093,Solanum melongena,Brinjal / Eggplant,बैंगन,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/brinjal.md,
+FLR-0094,Solanum lycopersicum,Tomato,टमाटर,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/tomato.md,
+FLR-0095,Capsicum annuum,Chilli,मिर्च,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/chilli.md,
+FLR-0096,Lagenaria siceraria,Bottle Gourd,लौकी,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/bottle_gourd.md,
+FLR-0097,Momordica charantia,Bitter Gourd,करेला,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/bitter_gourd.md,
+FLR-0098,Trigonella foenum-graecum,Fenugreek,मेथी,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/fenugreek.md,
+FLR-0099,Coriandrum sativum,Coriander,धनिया,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/coriander.md,
+FLR-0100,Psidium guajava,Guava,अमरूद,Plantae,flora/crops,naturalized,not_evaluated,species/flora/crops/guava.md,
+FLR-0101,Carica papaya,Papaya,पपीता,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/papaya.md,
+FLR-0102,Musa paradisiaca,Banana,केला,Plantae,flora/crops,cultivated,not_evaluated,species/flora/crops/banana.md,
+FNG-0001,Termitomyces heimii,Termite Mushroom,दीमक छत्ता / बरसाती छाता,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/termite_mushroom.md,
+FNG-0002,Termitomyces clypeatus,Small Termite Mushroom,छोटा दीमक छत्ता,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/termitomyces_clypeatus.md,
+FNG-0003,Volvariella volvacea,Paddy Straw Mushroom / Rice Straw Mushroom,पुआल मशरूम / धान की खुम्बी / पराली मशरूम,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/paddy_straw_mushroom.md,
+FNG-0004,Ganoderma lucidum,Reishi / Lacquered Bracket Fungus / Lingzhi,रेशी / लिंगज़ी / गनोडर्मा / कड़वा ब्रैकेट,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/reishi_bracket.md,
+FNG-0005,Pleurotus ostreatus,Oyster Mushroom,ढींगरी / ओएस्टर मशरूम,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/oyster_mushroom.md,
+FNG-0006,Agaricus campestris,Field Mushroom,जंगली खुम्बी,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/field_mushroom.md,
+FNG-0007,Schizophyllum commune,Splitgill Mushroom,लकड़ी का कान,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/splitgill_mushroom.md,
+FNG-0008,Calvatia cyathiformis,Lilac Puffball,गोबर छत्ता,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/lilac_puffball.md,
+FNG-0009,Dacryopinax spathularia,Fan-shaped Jelly Fungus,पीली जेली,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/jelly_fungus.md,
+FNG-0010,Astraeus hygrometricus,Hygroscopic Earthstar,नमी-तारा खुम्बी,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/hygroscopic_earthstar.md,
+FNG-0011,Macrolepiota procera,Parasol Mushroom,छत्री खुम्बी,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/parasol_mushroom.md,
+FNG-0012,Phallus indusiatus,Veiled Stinkhorn,जालीदार खुम्बी,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/veiled_stinkhorn.md,
+FNG-0013,Auricularia auricula-judae,Wood Ear Fungus,कान की खुम्बी,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/wood_ear_fungus.md,
+FNG-0014,Trametes versicolor,Turkey Tail,तुर्की पूँछ,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/turkey_tail.md,
+FNG-0015,Cyathus striatus,Fluted Bird's Nest Fungus,चिड़िया घोंसला खुम्बी,Fungi,fungi/mushrooms,native,not_evaluated,species/fungi/mushrooms/birds_nest_fungus.md,
+FSH-0001,Labeo rohita,Rohu / Rohu Carp,रोहू / रोहु,Animalia,fauna/fish,native,not_evaluated,species/fauna/fish/rohu.md,
+FSH-0002,Catla catla,Catla / Major Indian Carp,कतला / कतल,Animalia,fauna/fish,native,LC,species/fauna/fish/catla.md,
+FSH-0003,Channa striata,Snakehead Murrel / Common Snakehead,सौर,Animalia,fauna/fish,native,LC,species/fauna/fish/snakehead_murrel.md,
+FSH-0004,Clarias batrachus,Walking Catfish,मांगुर,Animalia,fauna/fish,native,LC,species/fauna/fish/walking_catfish.md,
+FSH-0005,Wallago attu,Giant Catfish / Wallago / Freshwater Shark,मल्ला,Animalia,fauna/fish,native,VU,species/fauna/fish/giant_catfish.md,
+FSH-0006,Cirrhinus mrigala,Mrigal / Mrigal Carp,मृगल,Animalia,fauna/fish,native,LC,species/fauna/fish/mrigal.md,
+FSH-0007,Rita rita,Rita Catfish / Rita,रीता,Animalia,fauna/fish,native,LC,species/fauna/fish/rita_catfish.md,
+FSH-0008,Mystus vittatus,Striped Catfish / Tengra,टेंगरा,Animalia,fauna/fish,native,LC,species/fauna/fish/striped_catfish.md,
+FSH-0009,Channa marulius,Great Snakehead,सौर,Animalia,fauna/fish,native,LC,species/fauna/fish/great_snakehead.md,
+FSH-0010,Labeo calbasu,Kalbasu,कालबासु,Animalia,fauna/fish,native,LC,species/fauna/fish/kalbasu.md,
+FSH-0011,Heteropneustes fossilis,Stinging Catfish,सिंघी,Animalia,fauna/fish,native,LC,species/fauna/fish/stinging_catfish.md,
+FSH-0012,Chanda nama,Elongate Glassy Perchlet,चंदा,Animalia,fauna/fish,native,LC,species/fauna/fish/glassy_perchlet.md,
+FSH-0013,Xenentodon cancila,Freshwater Garfish,सुइया,Animalia,fauna/fish,native,LC,species/fauna/fish/freshwater_garfish.md,
+FSH-0014,Mastacembelus armatus,Zig-zag Spiny Eel,बाम,Animalia,fauna/fish,native,LC,species/fauna/fish/spiny_eel.md,
+FSH-0015,Puntius sophore,Pool Barb,सिधरी,Animalia,fauna/fish,native,LC,species/fauna/fish/pool_barb.md,
+FSH-0016,Notopterus notopterus,Bronze Featherback,मोई,Animalia,fauna/fish,native,LC,species/fauna/fish/bronze_featherback.md,
+INS-0001,Dysdercus cingulatus,Red Cotton Bug,लाल कपास कीड़ा,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/red_cotton_bug.md,
+INS-0002,Pantala flavescens,Wandering Glider / Globe Skimmer,सुनहरी व्याधपतंग,Animalia,fauna/insects,native,LC,species/fauna/insects/wandering_glider.md,
+INS-0003,Chrysocoris stolli,Stoll's Jewel Bug / Jewel Bug,रत्न-कीड़ा / चमकीला ढाल-कीड़ा,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/jewel_bug.md,
+INS-0004,Papilio demoleus,Lime Butterfly / Chequered Swallowtail,नींबू तितली / मालाबार तितली,Animalia,fauna/insects,native,LC,species/fauna/insects/lime_butterfly.md,
+INS-0005,Oxya fuscovittata,Paddy Grasshopper / Rice Grasshopper,धान टिड्डा / हरा टिड्डा,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/paddy_grasshopper.md,
+INS-0006,Hierodula membranacea,Giant Asian Mantis / Membranous Mantis,मंटिस / बद्धहस्त कीट / भिड़ड़,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/praying_mantis.md,
+INS-0007,Apis cerana,Asian Honey Bee / Eastern Honey Bee,मधुमक्खी / देसी मधुमक्खी,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/asian_honey_bee.md,
+INS-0008,Oecophylla smaragdina,Weaver Ant / Green Weaver Ant,बयनी चींटी / लाल बड़ी चींटी / सोने चींटी,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/weaver_ant.md,
+INS-0009,Mylabris pustulata,Red Blister Beetle / Spotted Blister Beetle,छाला भृंग / लाल ब्लिस्टर बीटल,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/blister_beetle.md,
+INS-0010,Danaus genutia,Striped Tiger Butterfly / Common Tiger,बाघ तितली / धारीदार बाघ तितली,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/striped_tiger_butterfly.md,
+INS-0011,Danaus chrysippus,Plain Tiger / African Monarch,साधारण बाघ तितली,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/plain_tiger.md,
+INS-0012,Gryllus bimaculatus,Two-Spotted Cricket / Field Cricket,झींगुर,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/field_cricket.md,
+INS-0013,Heliocopris dominus,Elephant Dung Beetle / Giant Dung Beetle,गोबर भृंग,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/dung_beetle.md,
+INS-0014,Apis dorsata,Giant Honey Bee / Rock Bee,रॉक बी / पहाड़ी मधुमक्खी,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/giant_honey_bee.md,
+INS-0015,Trithemis aurora,Crimson Marsh Glider,लाल व्याधपतंग,Animalia,fauna/insects,native,LC,species/fauna/insects/crimson_marsh_glider.md,
+INS-0016,Brachythemis contaminata,Ditch Jewel,पीली व्याधपतंग,Animalia,fauna/insects,native,LC,species/fauna/insects/ditch_jewel.md,
+INS-0017,Neurothemis fulvia,Fulvous Forest Skimmer,भूरी व्याधपतंग,Animalia,fauna/insects,native,LC,species/fauna/insects/fulvous_forest_skimmer.md,
+INS-0018,Pseudagrion microcephalum,Blue Dartlet,नीली व्याधपतंग,Animalia,fauna/insects,native,LC,species/fauna/insects/blue_dartlet.md,
+INS-0019,Crocothemis servilia,Scarlet Skimmer,सिंदूरी व्याधपतंग,Animalia,fauna/insects,native,LC,species/fauna/insects/scarlet_skimmer.md,
+INS-0020,Catopsilia pomona,Common Emigrant,पीली तितली,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/common_emigrant.md,
+INS-0021,Hypolimnas bolina,Great Eggfly,नील-चाँद तितली,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/great_eggfly.md,
+INS-0022,Acraea terpsicore,Tawny Coster,तौनी कोस्टर,Animalia,fauna/insects,native,LC,species/fauna/insects/tawny_coster.md,
+INS-0023,Junonia almana,Peacock Pansy,मयूर पंख तितली,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/peacock_pansy.md,
+INS-0024,Zizina otis,Lesser Grass Blue,छोटी नीली तितली,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/lesser_grass_blue.md,
+INS-0025,Orthetrum sabina,Slender Skimmer,हरी-चित्तीदार व्याधपतंग,Animalia,fauna/insects,native,LC,species/fauna/insects/slender_skimmer.md,
+INS-0026,Anax parthenope,Lesser Emperor,राजा व्याधपतंग,Animalia,fauna/insects,native,LC,species/fauna/insects/lesser_emperor.md,
+INS-0027,Diplacodes trivialis,Ground Skimmer,नीली व्याधपतंग,Animalia,fauna/insects,native,LC,species/fauna/insects/ground_skimmer.md,
+INS-0028,Coccinella transversalis,Transverse Ladybird,लेडीबर्ड बीटल,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/transverse_ladybird.md,
+INS-0029,Aulacophora foveicollis,Red Pumpkin Beetle,लाल कद्दू कीड़ा,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/red_pumpkin_beetle.md,
+INS-0030,Luciola praeusta,Indian Firefly,जुगनू,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/indian_firefly.md,
+INS-0031,Gerris spinolae,Indian Water Strider,जल-सर्पी,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/indian_water_strider.md,
+INS-0032,Leptocorisa varicornis,Rice Gundy Bug,गंधी कीड़ा,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/rice_gundy_bug.md,
+INS-0033,Platypleura capitata,Cicada,झींझी,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/cicada.md,
+INS-0034,Acherontia lachesis,Greater Death's Head Hawkmoth,कालमुख पतंगा,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/deaths_head_hawkmoth.md,
+INS-0035,Culex quinquefasciatus,Southern House Mosquito,मच्छर,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/culex_mosquito.md,
+INS-0036,Gryllotalpa africana,African Mole Cricket,भुरभुरा कीड़ा,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/mole_cricket.md,
+INS-0037,Polistes olivaceus,Yellow Paper Wasp,ततैया,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/yellow_paper_wasp.md,
+INS-0038,Apis florea,Dwarf Honey Bee,छोटी मधुमक्खी,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/dwarf_honey_bee.md,
+INS-0039,Solenopsis geminata,Tropical Fire Ant,लाल चींटी,Animalia,fauna/insects,naturalized,not_evaluated,species/fauna/insects/tropical_fire_ant.md,
+INS-0040,Spodoptera litura,Tobacco Cutworm,सेना पतंगा,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/tobacco_cutworm.md,
+INS-0041,Scirpophaga incertulas,Yellow Stem Borer,पीला तनाछेदक,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/yellow_stem_borer.md,
+INS-0042,Nezara viridula,Southern Green Stink Bug,हरा खटमल,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/southern_green_stink_bug.md,
+INS-0043,Bagrada hilaris,Painted Bug,रंगीन बग,Animalia,fauna/insects,naturalized,not_evaluated,species/fauna/insects/painted_bug.md,
+INS-0044,Poekilocerus pictus,Painted Grasshopper,रंगबिरंगा टिड्डा,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/painted_grasshopper.md,
+INS-0045,Papilio polytes,Common Mormon,सामान्य मॉर्मन,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/common_mormon.md,
+INS-0046,Eurema hecabe,Common Grass Yellow,घास पीतवर्णी,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/common_grass_yellow.md,
+INS-0047,Melanitis leda,Common Evening Brown,शाम भूरी तितली,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/common_evening_brown.md,
+INS-0048,Apis mellifera,European Honey Bee,युरोपीय मधुमक्खी,Animalia,fauna/insects,naturalized,not_evaluated,species/fauna/insects/european_honey_bee.md,
+INS-0049,Vespa tropica,Greater Banded Hornet,बड़ा ततैया,Animalia,fauna/insects,native,not_evaluated,species/fauna/insects/greater_banded_hornet.md,
+MAM-0001,Pteropus medius,Indian Flying Fox / Greater Indian Fruit Bat,बड़ा चमगादड़ / फल चमगादड़,Animalia,fauna/mammals,native,LC,species/fauna/mammals/indian_flying_fox.md,
+MAM-0002,Herpestes edwardsii,Small Indian Mongoose / Indian Grey Mongoose,नेवला,Animalia,fauna/mammals,native,LC,species/fauna/mammals/mongoose.md,
+MAM-0003,Felis chaus,Jungle Cat / Reed Cat / Swamp Cat,जंगली बिल्ली / जंगल बिलाव,Animalia,fauna/mammals,native,LC,species/fauna/mammals/jungle_cat.md,
+MAM-0004,Funambulus pennantii,Northern Palm Squirrel / Five-striped Palm Squirrel,गिलहरी / पाँचपट्टा गिलहरी,Animalia,fauna/mammals,native,LC,species/fauna/mammals/palm_squirrel.md,
+MAM-0005,Canis aureus,Golden Jackal / Indian Jackal,सियार / गीदड़,Animalia,fauna/mammals,native,LC,species/fauna/mammals/golden_jackal.md,
+MAM-0006,Macaca mulatta,Rhesus Macaque / Rhesus Monkey,बंदर / रीसस बंदर,Animalia,fauna/mammals,native,LC,species/fauna/mammals/rhesus_macaque.md,
+MAM-0007,Sus scrofa,Wild Boar / Indian Wild Boar,जंगली सूअर,Animalia,fauna/mammals,native,LC,species/fauna/mammals/wild_boar.md,
+MAM-0008,Hystrix indica,Indian Crested Porcupine / Indian Porcupine,साही,Animalia,fauna/mammals,native,LC,species/fauna/mammals/indian_porcupine.md,
+MAM-0009,Lepus nigricollis,Black-naped Hare,खरगोश,Animalia,fauna/mammals,native,LC,species/fauna/mammals/black_naped_hare.md,
+MAM-0010,Paradoxurus hermaphroditus,Common Palm Civet / Toddy Cat,खटास,Animalia,fauna/mammals,native,LC,species/fauna/mammals/common_palm_civet.md,
+MAM-0011,Boselaphus tragocamelus,Nilgai,नीलगाय,Animalia,fauna/mammals,native,LC,species/fauna/mammals/nilgai.md,
+MAM-0012,Viverricula indica,Small Indian Civet,कस्तूरी बिलाव,Animalia,fauna/mammals,native,LC,species/fauna/mammals/small_indian_civet.md,
+MAM-0013,Bandicota bengalensis,Lesser Bandicoot Rat,घुँस,Animalia,fauna/mammals,native,LC,species/fauna/mammals/lesser_bandicoot_rat.md,
+MAM-0014,Pipistrellus coromandra,Indian Pipistrelle,चमगादड़ी,Animalia,fauna/mammals,native,LC,species/fauna/mammals/indian_pipistrelle.md,
+MAM-0015,Suncus murinus,Asian House Shrew,छछूंदर,Animalia,fauna/mammals,native,LC,species/fauna/mammals/asian_house_shrew.md,
+MAM-0016,Vulpes bengalensis,Indian Fox,लोमड़ी,Animalia,fauna/mammals,native,LC,species/fauna/mammals/indian_fox.md,
+MAM-0017,Manis crassicaudata,Indian Pangolin,पैंगोलिन / सल्लू,Animalia,fauna/mammals,native,VU,species/fauna/mammals/indian_pangolin.md,
+MOL-0001,Pila globosa,Freshwater Apple Snail / Indian Apple Snail,घोंघा / सेब घोंघा,Animalia,fauna/mollusks,native,not_evaluated,species/fauna/mollusks/apple_snail.md,
+MOL-0002,Lamellidens marginalis,Freshwater Mussel / Indian Freshwater Mussel,सीप / मीठे पानी की सीप,Animalia,fauna/mollusks,native,not_evaluated,species/fauna/mollusks/freshwater_mussel.md,
+MOL-0003,Lymnaea acuminata,Freshwater Pond Snail / Pointed Pond Snail,मीठे पानी का घोंघा,Animalia,fauna/mollusks,native,not_evaluated,species/fauna/mollusks/freshwater_pond_snail.md,
+MOL-0004,Indoplanorbis exustus,Ramshorn Snail,चपटा घोंघा,Animalia,fauna/mollusks,native,not_evaluated,species/fauna/mollusks/ramshorn_snail.md,
+MOL-0005,Macrochlamys indica,Indian Land Snail,बगीचे का घोंघा,Animalia,fauna/mollusks,native,not_evaluated,species/fauna/mollusks/indian_land_snail.md,
+MOL-0007,Melanoides tuberculata,Red-rimmed Melania,जल घोंघा,Animalia,fauna/mollusks,native,not_evaluated,species/fauna/mollusks/red_rimmed_melania.md,
+MYR-0001,Scolopendra morsitans,Banded Indian Centipede / Tropical Centipede,कनखजूरा / गोजर,Animalia,fauna/myriapods,native,not_evaluated,species/fauna/myriapods/indian_centipede.md,
+MYR-0002,Trigoniulus corallinus,Rusty Millipede / Common Asian Millipede,लाल सहस्रपाद / कँखजूरा,Animalia,fauna/myriapods,native,not_evaluated,species/fauna/myriapods/rusty_millipede.md,
+MYR-0003,Asiomorpha coarctata,Flat-backed Millipede,चपटा गोजर,Animalia,fauna/myriapods,naturalized,not_evaluated,species/fauna/myriapods/flat_backed_millipede.md,
+MYR-0004,Scutigera coleoptrata,House Centipede,घरेलू कनखजूरा,Animalia,fauna/myriapods,native,not_evaluated,species/fauna/myriapods/house_centipede.md,
+REP-0001,Calotes versicolor,Oriental Garden Lizard / Common Garden Lizard,गिरगिट,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/garden_lizard.md,
+REP-0002,Ptyas mucosa,Indian Rat Snake / Oriental Rat Snake,धामन / दाउद साँप,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/indian_rat_snake.md,
+REP-0003,Chamaeleo zeylanicus,Indian Chameleon / Common Indian Chameleon,असली गिरगिट / गिलोट,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/indian_chameleon.md,
+REP-0004,Varanus bengalensis,Bengal Monitor / Common Indian Monitor,गोह / गोह छिपकली,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/bengal_monitor.md,
+REP-0005,Naja naja,Indian Cobra / Spectacled Cobra,नाग,Animalia,fauna/reptiles,native,not_evaluated,species/fauna/reptiles/indian_cobra.md,
+REP-0006,Bungarus caeruleus,Common Krait / Indian Krait,करैत,Animalia,fauna/reptiles,native,not_evaluated,species/fauna/reptiles/common_krait.md,
+REP-0007,Hemidactylus frenatus,Asian House Gecko / Common House Gecko,घर की छिपकली,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/house_gecko.md,
+REP-0008,Nilssonia gangetica,Indian Softshell Turtle / Gangetic Softshell Turtle,गंगा कछुआ,Animalia,fauna/reptiles,native,CR,species/fauna/reptiles/indian_softshell_turtle.md,
+REP-0009,Xenochrophis piscator,Checkered Keelback / Asiatic Water Snake,धारीदार पानी साँप,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/checkered_keelback.md,
+REP-0010,Daboia russelii,Russell's Viper,कोरिआला,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/russells_viper.md,
+REP-0011,Echis carinatus,Saw-scaled Viper,फुरसा,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/saw_scaled_viper.md,
+REP-0012,Lycodon aulicus,Common Wolf Snake,कौड़िया साँप,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/common_wolf_snake.md,
+REP-0013,Amphiesma stolatum,Buff-striped Keelback,सीता की लट,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/buff_striped_keelback.md,
+REP-0014,Eutropis carinata,Common Keeled Skink,बामनिहा,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/common_keeled_skink.md,
+REP-0015,Lissemys punctata,Indian Flapshell Turtle,चित्तीदार कछुआ,Animalia,fauna/reptiles,native,VU,species/fauna/reptiles/indian_flapshell_turtle.md,
+REP-0016,Python molurus,Indian Python,अजगर,Animalia,fauna/reptiles,native,VU,species/fauna/reptiles/indian_python.md,
+REP-0017,Eryx conicus,Common Sand Boa,डोमेन साँप,Animalia,fauna/reptiles,native,LC,species/fauna/reptiles/common_sand_boa.md,
+SFL-0001,Odontotermes obesus,Mound-building Termite / Indian Termite,दीमक / सफेद चींटी,Animalia,fauna/soil_fauna,native,not_evaluated,species/fauna/soil_fauna/termite.md,
+SFL-0002,Metaphire posthuma,Indian Common Earthworm,केंचुआ,Animalia,fauna/soil_fauna,native,not_evaluated,species/fauna/soil_fauna/earthworm.md,
+SFL-0003,Burmoniscus javanensis,Forest Leaf Woodlouse / Javanese Woodlouse,जंगली पत्ती जूँ / भूमि जूँ,Animalia,fauna/soil_fauna,native,not_evaluated,species/fauna/soil_fauna/forest_woodlouse.md,
+SFL-0004,Eisenia fetida,Red Worm,कम्पोस्ट केंचुआ,Animalia,fauna/soil_fauna,cultivated,not_evaluated,species/fauna/soil_fauna/red_worm.md,
+SFL-0005,Holotrichia consanguinea,White Grub,सफेद सूंडी,Animalia,fauna/soil_fauna,native,not_evaluated,species/fauna/soil_fauna/white_grub.md,
+SFL-0006,Periplaneta americana,American Cockroach,अमेरिकी तिलचट्टा,Animalia,fauna/soil_fauna,naturalized,not_evaluated,species/fauna/soil_fauna/american_cockroach.md,
+SFL-0007,Blatta orientalis,Oriental Cockroach,पूर्वी तिलचट्टा,Animalia,fauna/soil_fauna,native,not_evaluated,species/fauna/soil_fauna/oriental_cockroach.md,
+SPD-0001,Argiope anasuja,Signature Spider / Indian Garden Cross Spider,जोग मकड़ी / लिखावट मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/signature_spider.md,
+SPD-0002,Nephila pilipes,Giant Wood Spider / Northern Golden Orb-weaver,सोन मकड़ी / रेशमी मकड़ी / बड़ी जाल मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/giant_wood_spider.md,
+SPD-0003,Plexippus paykulli,Pantropical Jumping Spider,कूदने वाली मकड़ी / उछलती मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/pantropical_jumping_spider.md,
+SPD-0004,Heteropoda venatoria,Huntsman Spider / Giant Crab Spider,शिकारी मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/huntsman_spider.md,
+SPD-0005,Peucetia viridana,Green Lynx Spider,हरी मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/green_lynx_spider.md,
+SPD-0006,Hasarius adansoni,Adanson's Jumping Spider,घरेलू मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/adansons_jumping_spider.md,
+SPD-0007,Araneus mitificus,Kidney Garden Spider,बागीचा मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/kidney_garden_spider.md,
+SPD-0008,Oxyopes salticus,Striped Lynx Spider,शिकारी मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/striped_lynx_spider.md,
+SPD-0009,Cyrtophora citricola,Tropical Tent-web Spider,तंबू मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/tropical_tent_web_spider.md,
+SPD-0010,Pholcus phalangioides,Long-bodied Cellar Spider,पतली टांग वाली मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/cellar_spider.md,
+SPD-0011,Tetragnatha mandibulata,Long-jawed Orb-weaver,लंबे जबड़े की मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/long_jawed_spider.md,
+SPD-0012,Cheiracanthium melanostomum,Yellow Sac Spider,पीली थैली मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/yellow_sac_spider.md,
+SPD-0013,Stegodyphus sarasinorum,Social Velvet Spider,सामूहिक मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/social_velvet_spider.md,
+SPD-0014,Gasteracantha kuhli,Spiny Orb-weaver,कंटकदार मकड़ी,Animalia,fauna/spiders,native,not_evaluated,species/fauna/spiders/spiny_orb_weaver.md,
