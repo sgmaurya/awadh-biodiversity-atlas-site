@@ -1,3 +1,37 @@
+/* The home page follows the calendar by itself.
+   Every seasonal species is already in the HTML with the months it belongs to, so the page
+   never needs rebuilding to stay right. The build month is shown if scripting is off. */
+(function () {
+  var sec = document.getElementById('thismonth');
+  if (!sec) return;
+  var months, allYear;
+  try {
+    months = JSON.parse(sec.getAttribute('data-months'));
+    allYear = JSON.parse(sec.getAttribute('data-allyear'));
+  } catch (e) { return; }
+
+  var m = new Date().getMonth() + 1;
+  var nameEn = document.getElementById('mname');
+  var nameHi = document.getElementById('mname-hi');
+  if (nameEn) nameEn.textContent = months[m - 1][0];
+  if (nameHi) nameHi.textContent = months[m - 1][1];
+  var ay = document.getElementById('allyear');
+  if (ay && allYear[m - 1] != null) ay.textContent = allYear[m - 1];
+
+  var shown = 0;
+  var cards = sec.querySelectorAll('#seasonal .card');
+  for (var i = 0; i < cards.length; i++) {
+    var list = (cards[i].getAttribute('data-m') || '').split(',');
+    var on = list.indexOf(String(m)) !== -1;
+    cards[i].hidden = !on;
+    if (on) shown++;
+  }
+  var empty = document.getElementById('noseason');
+  var grid = document.getElementById('seasonal');
+  if (empty) empty.hidden = shown > 0;
+  if (grid) grid.hidden = shown === 0;
+})();
+
 /* Search across Hindi, English and scientific names. Loads a ~40 KB index on first use. */
 (function () {
   var input = document.getElementById('q');

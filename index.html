@@ -2,10 +2,10 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Awadh Biodiversity Atlas — the wildlife of a Basti village</title>
-<meta name="description" content="A bilingual field guide to the flora and fauna of the Basti–Ayodhya countryside in eastern Uttar Pradesh. 332 species, in Hindi and English, starting with the weeds and insects nobody writes down.">
-<meta property="og:title" content="Awadh Biodiversity Atlas — the wildlife of a Basti village">
-<meta property="og:description" content="A bilingual field guide to the flora and fauna of the Basti–Ayodhya countryside in eastern Uttar Pradesh. 332 species, in Hindi and English, starting with the weeds and insects nobody writes down.">
+<title>Awadh Biodiversity Atlas — the wildlife of the Basti–Ayodhya countryside</title>
+<meta name="description" content="A bilingual field guide to the flora and fauna of the Basti–Ayodhya region of eastern Uttar Pradesh. 332 species, in Hindi and English, starting with the weeds and insects nobody writes down.">
+<meta property="og:title" content="Awadh Biodiversity Atlas — the wildlife of the Basti–Ayodhya countryside">
+<meta property="og:description" content="A bilingual field guide to the flora and fauna of the Basti–Ayodhya region of eastern Uttar Pradesh. 332 species, in Hindi and English, starting with the weeds and insects nobody writes down.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Awadh Biodiversity Atlas">
 <meta property="og:image" content="https://sgmaurya.github.io/awadh-biodiversity-atlas-site/media/species/barn_swallow/wikimedia_01_t.jpg">
@@ -31,10 +31,10 @@
 </header>
 <main id="main">
 <section class="hello">
-  <h1>The wildlife of a Basti village <span class="hi">बस्ती के गाँव की जैव विविधता</span></h1>
-  <p class="lead">Every weed, insect, bird and frog of the Basti–Ayodhya countryside,
-     written in Hindi and English. We started with the ones nobody writes down:
-     the weeds, the roadside insects, the so-called pests. They are the backbone.</p>
+  <h1>The wildlife of the Basti–Ayodhya region <span class="hi">बस्ती–अयोध्या क्षेत्र की जैव विविधता</span></h1>
+  <p class="lead">Every weed, insect, bird and frog of the Basti–Ayodhya countryside in
+     eastern Uttar Pradesh, written in Hindi and English. We started with the ones nobody
+     writes down: the weeds, the roadside insects, the so-called pests. They are the backbone.</p>
   <p class="scoreboard">
      <b>332</b> species profiled ·
      <b>307</b> with a photograph ·
@@ -43,12 +43,16 @@
   </p>
 </section>
 
-<section class="thismonth">
-  <h2>What to look for in September <span class="hi">सितंबर में क्या देखें</span></h2>
-  <p class="lead">These are the species whose season is now, according to published accounts
-     for eastern Uttar Pradesh. Not a record of what anyone has seen.
-     293 more species are about all year.</p>
-  <div class="grid"><a class="card" href="species/barn_swallow/">
+<section class="thismonth" id="thismonth"
+         data-months='[["January","जनवरी"],["February","फ़रवरी"],["March","मार्च"],["April","अप्रैल"],["May","मई"],["June","जून"],["July","जुलाई"],["August","अगस्त"],["September","सितंबर"],["October","अक्टूबर"],["November","नवंबर"],["December","दिसंबर"]]' data-allyear='[243,244,259,260,259,261,262,262,262,263,257,243]'>
+  <h2>What to look for in <span id="mname">September</span>
+      <span class="hi"><span id="mname-hi">सितंबर</span> में क्या देखें</span></h2>
+  <p class="lead">The species whose season is now, according to published accounts for
+     eastern Uttar Pradesh. Not a record of what anyone has seen.
+     <span id="allyear">262</span> more species are about all year.</p>
+  <noscript><p class="lead"><em>This list is set to September. Pick another month:
+     <a href="month/1/">January</a> · <a href="month/2/">February</a> · <a href="month/3/">March</a> · <a href="month/4/">April</a> · <a href="month/5/">May</a> · <a href="month/6/">June</a> · <a href="month/7/">July</a> · <a href="month/8/">August</a> · <a href="month/9/">September</a> · <a href="month/10/">October</a> · <a href="month/11/">November</a> · <a href="month/12/">December</a></em></p></noscript>
+  <div class="grid" id="seasonal"><a class="card" href="species/barn_swallow/" data-m="4,5,6,7,8,9">
   <span class="ph"><img loading="lazy" src="media/species/barn_swallow/wikimedia_01_t.jpg" alt="Barn Swallow" width="380" height="260"></span>
   <span class="meta">
     <span class="n-hi">घर अबाबील</span>
@@ -56,95 +60,23 @@
     <span class="n-sci">Hirundo rustica</span>
   </span>
 </a>
-<a class="card" href="species/paddy/">
-  <span class="ph"><img loading="lazy" src="media/species/paddy/wikimedia_01_t.jpg" alt="Paddy" width="380" height="260"></span>
+<a class="card" href="species/bathua/" data-m="1,2,3,10,11,12" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/bathua/wikimedia_01_t.jpg" alt="Bathua" width="380" height="260"></span>
   <span class="meta">
-    <span class="n-hi">धान</span>
-    <span class="n-en">Paddy</span>
-    <span class="n-sci">Oryza sativa</span>
+    <span class="n-hi">बथुआ</span>
+    <span class="n-en">Bathua</span>
+    <span class="n-sci">Chenopodium album</span>
   </span>
 </a>
-<a class="card" href="species/chakramard/">
-  <span class="ph"><img loading="lazy" src="media/species/chakramard/wikimedia_01_t.jpg" alt="Sickle Senna" width="380" height="260"></span>
+<a class="card" href="species/billygoat_weed/" data-m="1,2,3,4,10,11,12" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/billygoat_weed/wikimedia_01_t.jpg" alt="Billygoat Weed" width="380" height="260"></span>
   <span class="meta">
-    <span class="n-hi">चक्रमर्द</span>
-    <span class="n-en">Sickle Senna</span>
-    <span class="n-sci">Senna tora</span>
+    <span class="n-hi">जंगली पुदीना</span>
+    <span class="n-en">Billygoat Weed</span>
+    <span class="n-sci">Ageratum conyzoides</span>
   </span>
 </a>
-<a class="card" href="species/water_chestnut/">
-  <span class="ph"><span class="noimg" aria-hidden="true">जलीय पौधे और घास</span></span>
-  <span class="meta">
-    <span class="n-hi">सिंघाड़ा</span>
-    <span class="n-en">Water Chestnut</span>
-    <span class="n-sci">Trapa bispinosa</span>
-  </span>
-</a>
-<a class="card" href="species/maize/">
-  <span class="ph"><img loading="lazy" src="media/species/maize/wikimedia_01_t.jpg" alt="Maize" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">मक्का</span>
-    <span class="n-en">Maize</span>
-    <span class="n-sci">Zea mays</span>
-  </span>
-</a>
-<a class="card" href="species/spiny_amaranth/">
-  <span class="ph"><img loading="lazy" src="media/species/spiny_amaranth/wikimedia_01_t.jpg" alt="Spiny Amaranth" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">कांटे वाली चौलाई</span>
-    <span class="n-en">Spiny Amaranth</span>
-    <span class="n-sci">Amaranthus spinosus</span>
-  </span>
-</a>
-<a class="card" href="species/wild_cape_gooseberry/">
-  <span class="ph"><img loading="lazy" src="media/species/wild_cape_gooseberry/wikimedia_01_t.jpg" alt="Wild Cape Gooseberry" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">रसभरी</span>
-    <span class="n-en">Wild Cape Gooseberry</span>
-    <span class="n-sci">Physalis minima</span>
-  </span>
-</a>
-<a class="card" href="species/mile_a_minute_weed/">
-  <span class="ph"><img loading="lazy" src="media/species/mile_a_minute_weed/wikimedia_01_t.jpg" alt="Mile-a-minute Weed" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">मीलभर खरपतवार</span>
-    <span class="n-en">Mile-a-minute Weed</span>
-    <span class="n-sci">Mikania micrantha</span>
-  </span>
-</a>
-<a class="card" href="species/blue_morning_glory/">
-  <span class="ph"><img loading="lazy" src="media/species/blue_morning_glory/wikimedia_01_t.jpg" alt="Blue Morning Glory" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">नीली घुइयाँ</span>
-    <span class="n-en">Blue Morning Glory</span>
-    <span class="n-sci">Ipomoea nil</span>
-  </span>
-</a>
-<a class="card" href="species/wild_passion_fruit/">
-  <span class="ph"><img loading="lazy" src="media/species/wild_passion_fruit/wikimedia_01_t.jpg" alt="Wild Passion Fruit" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">जंगली पैशनफ्रूट</span>
-    <span class="n-en">Wild Passion Fruit</span>
-    <span class="n-sci">Passiflora foetida</span>
-  </span>
-</a>
-<a class="card" href="species/kalmegh/">
-  <span class="ph"><img loading="lazy" src="media/species/kalmegh/wikimedia_01_t.jpg" alt="Kalmegh" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">कालमेघ</span>
-    <span class="n-en">Kalmegh</span>
-    <span class="n-sci">Andrographis paniculata</span>
-  </span>
-</a>
-<a class="card" href="species/bottle_gourd/">
-  <span class="ph"><img loading="lazy" src="media/species/bottle_gourd/wikimedia_01_t.jpg" alt="Bottle Gourd" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">लौकी</span>
-    <span class="n-en">Bottle Gourd</span>
-    <span class="n-sci">Lagenaria siceraria</span>
-  </span>
-</a>
-<a class="card" href="species/bitter_gourd/">
+<a class="card" href="species/bitter_gourd/" data-m="6,7,8,9,10,11">
   <span class="ph"><img loading="lazy" src="media/species/bitter_gourd/wikimedia_01_t.jpg" alt="Bitter Gourd" width="380" height="260"></span>
   <span class="meta">
     <span class="n-hi">करेला</span>
@@ -152,159 +84,23 @@
     <span class="n-sci">Momordica charantia</span>
   </span>
 </a>
-<a class="card" href="species/paddy_straw_mushroom/">
-  <span class="ph"><img loading="lazy" src="media/species/paddy_straw_mushroom/wikimedia_01_t.jpg" alt="Paddy Straw Mushroom" width="380" height="260"></span>
+<a class="card" href="species/blue_morning_glory/" data-m="7,8,9,10,11,12">
+  <span class="ph"><img loading="lazy" src="media/species/blue_morning_glory/wikimedia_01_t.jpg" alt="Blue Morning Glory" width="380" height="260"></span>
   <span class="meta">
-    <span class="n-hi">पुआल मशरूम</span>
-    <span class="n-en">Paddy Straw Mushroom</span>
-    <span class="n-sci">Volvariella volvacea</span>
+    <span class="n-hi">नीली घुइयाँ</span>
+    <span class="n-en">Blue Morning Glory</span>
+    <span class="n-sci">Ipomoea nil</span>
   </span>
 </a>
-<a class="card" href="species/field_mushroom/">
-  <span class="ph"><img loading="lazy" src="media/species/field_mushroom/wikimedia_01_t.jpg" alt="Field Mushroom" width="380" height="260"></span>
+<a class="card" href="species/bottle_gourd/" data-m="6,7,8,9,10,11">
+  <span class="ph"><img loading="lazy" src="media/species/bottle_gourd/wikimedia_01_t.jpg" alt="Bottle Gourd" width="380" height="260"></span>
   <span class="meta">
-    <span class="n-hi">जंगली खुम्बी</span>
-    <span class="n-en">Field Mushroom</span>
-    <span class="n-sci">Agaricus campestris</span>
+    <span class="n-hi">लौकी</span>
+    <span class="n-en">Bottle Gourd</span>
+    <span class="n-sci">Lagenaria siceraria</span>
   </span>
 </a>
-<a class="card" href="species/lilac_puffball/">
-  <span class="ph"><img loading="lazy" src="media/species/lilac_puffball/wikimedia_01_t.jpg" alt="Lilac Puffball" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">गोबर छत्ता</span>
-    <span class="n-en">Lilac Puffball</span>
-    <span class="n-sci">Calvatia cyathiformis</span>
-  </span>
-</a>
-<a class="card" href="species/jelly_fungus/">
-  <span class="ph"><img loading="lazy" src="media/species/jelly_fungus/wikimedia_01_t.jpg" alt="Fan-shaped Jelly Fungus" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">पीली जेली</span>
-    <span class="n-en">Fan-shaped Jelly Fungus</span>
-    <span class="n-sci">Dacryopinax spathularia</span>
-  </span>
-</a>
-<a class="card" href="species/hygroscopic_earthstar/">
-  <span class="ph"><img loading="lazy" src="media/species/hygroscopic_earthstar/wikimedia_01_t.jpg" alt="Hygroscopic Earthstar" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">नमी-तारा खुम्बी</span>
-    <span class="n-en">Hygroscopic Earthstar</span>
-    <span class="n-sci">Astraeus hygrometricus</span>
-  </span>
-</a>
-<a class="card" href="species/parasol_mushroom/">
-  <span class="ph"><img loading="lazy" src="media/species/parasol_mushroom/wikimedia_01_t.jpg" alt="Parasol Mushroom" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">छत्री खुम्बी</span>
-    <span class="n-en">Parasol Mushroom</span>
-    <span class="n-sci">Macrolepiota procera</span>
-  </span>
-</a>
-<a class="card" href="species/veiled_stinkhorn/">
-  <span class="ph"><img loading="lazy" src="media/species/veiled_stinkhorn/wikimedia_01_t.jpg" alt="Veiled Stinkhorn" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">जालीदार खुम्बी</span>
-    <span class="n-en">Veiled Stinkhorn</span>
-    <span class="n-sci">Phallus indusiatus</span>
-  </span>
-</a>
-<a class="card" href="species/wood_ear_fungus/">
-  <span class="ph"><img loading="lazy" src="media/species/wood_ear_fungus/wikimedia_01_t.jpg" alt="Wood Ear Fungus" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">कान की खुम्बी</span>
-    <span class="n-en">Wood Ear Fungus</span>
-    <span class="n-sci">Auricularia auricula-judae</span>
-  </span>
-</a>
-<a class="card" href="species/birds_nest_fungus/">
-  <span class="ph"><img loading="lazy" src="media/species/birds_nest_fungus/wikimedia_01_t.jpg" alt="Fluted Bird&#39;s Nest Fungus" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">चिड़िया घोंसला खुम्बी</span>
-    <span class="n-en">Fluted Bird&#39;s Nest Fungus</span>
-    <span class="n-sci">Cyathus striatus</span>
-  </span>
-</a>
-<a class="card" href="species/wandering_glider/">
-  <span class="ph"><img loading="lazy" src="media/species/wandering_glider/wikimedia_01_t.jpg" alt="Wandering Glider" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">सुनहरी व्याधपतंग</span>
-    <span class="n-en">Wandering Glider</span>
-    <span class="n-sci">Pantala flavescens</span>
-  </span>
-</a>
-<a class="card" href="species/paddy_grasshopper/">
-  <span class="ph"><span class="noimg" aria-hidden="true">कीट</span></span>
-  <span class="meta">
-    <span class="n-hi">धान टिड्डा</span>
-    <span class="n-en">Paddy Grasshopper</span>
-    <span class="n-sci">Oxya fuscovittata</span>
-  </span>
-</a>
-<a class="card" href="species/blister_beetle/">
-  <span class="ph"><span class="noimg" aria-hidden="true">कीट</span></span>
-  <span class="meta">
-    <span class="n-hi">छाला भृंग</span>
-    <span class="n-en">Red Blister Beetle</span>
-    <span class="n-sci">Mylabris pustulata</span>
-  </span>
-</a>
-<a class="card" href="species/indian_firefly/">
-  <span class="ph"><span class="noimg" aria-hidden="true">कीट</span></span>
-  <span class="meta">
-    <span class="n-hi">जुगनू</span>
-    <span class="n-en">Indian Firefly</span>
-    <span class="n-sci">Luciola praeusta</span>
-  </span>
-</a>
-<a class="card" href="species/rice_gundy_bug/">
-  <span class="ph"><span class="noimg" aria-hidden="true">कीट</span></span>
-  <span class="meta">
-    <span class="n-hi">गंधी कीड़ा</span>
-    <span class="n-en">Rice Gundy Bug</span>
-    <span class="n-sci">Leptocorisa varicornis</span>
-  </span>
-</a>
-<a class="card" href="species/yellow_stem_borer/">
-  <span class="ph"><img loading="lazy" src="media/species/yellow_stem_borer/wikimedia_01_t.jpg" alt="Yellow Stem Borer" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">पीला तनाछेदक</span>
-    <span class="n-en">Yellow Stem Borer</span>
-    <span class="n-sci">Scirpophaga incertulas</span>
-  </span>
-</a>
-<a class="card" href="species/apple_snail/">
-  <span class="ph"><img loading="lazy" src="media/species/apple_snail/wikimedia_01_t.jpg" alt="Freshwater Apple Snail" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">घोंघा</span>
-    <span class="n-en">Freshwater Apple Snail</span>
-    <span class="n-sci">Pila globosa</span>
-  </span>
-</a>
-<a class="card" href="species/indian_land_snail/">
-  <span class="ph"><img loading="lazy" src="media/species/indian_land_snail/wikimedia_01_t.jpg" alt="Indian Land Snail" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">बगीचे का घोंघा</span>
-    <span class="n-en">Indian Land Snail</span>
-    <span class="n-sci">Macrochlamys indica</span>
-  </span>
-</a>
-<a class="card" href="species/rusty_millipede/">
-  <span class="ph"><img loading="lazy" src="media/species/rusty_millipede/wikimedia_01_t.jpg" alt="Rusty Millipede" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">लाल सहस्रपाद</span>
-    <span class="n-en">Rusty Millipede</span>
-    <span class="n-sci">Trigoniulus corallinus</span>
-  </span>
-</a>
-<a class="card" href="species/flat_backed_millipede/">
-  <span class="ph"><img loading="lazy" src="media/species/flat_backed_millipede/wikimedia_01_t.jpg" alt="Flat-backed Millipede" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">चपटा गोजर</span>
-    <span class="n-en">Flat-backed Millipede</span>
-    <span class="n-sci">Asiomorpha coarctata</span>
-  </span>
-</a>
-<a class="card" href="species/buff_striped_keelback/">
+<a class="card" href="species/buff_striped_keelback/" data-m="6,7,8,9,10,11">
   <span class="ph"><img loading="lazy" src="media/species/buff_striped_keelback/wikimedia_01_t.jpg" alt="Buff-striped Keelback" width="380" height="260"></span>
   <span class="meta">
     <span class="n-hi">सीता की लट</span>
@@ -312,15 +108,111 @@
     <span class="n-sci">Amphiesma stolatum</span>
   </span>
 </a>
-<a class="card" href="species/termite/">
-  <span class="ph"><span class="noimg" aria-hidden="true">मिट्टी के जीव</span></span>
+<a class="card" href="species/chickpea/" data-m="1,2,3,10,11,12" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/chickpea/wikimedia_01_t.jpg" alt="Chickpea" width="380" height="260"></span>
   <span class="meta">
-    <span class="n-hi">दीमक</span>
-    <span class="n-en">Mound-building Termite</span>
-    <span class="n-sci">Odontotermes obesus</span>
+    <span class="n-hi">चना</span>
+    <span class="n-en">Chickpea</span>
+    <span class="n-sci">Cicer arietinum</span>
   </span>
 </a>
-<a class="card" href="species/earthworm/">
+<a class="card" href="species/cicada/" data-m="5,6,7,8" hidden>
+  <span class="ph"><span class="noimg" aria-hidden="true">कीट</span></span>
+  <span class="meta">
+    <span class="n-hi">झींझी</span>
+    <span class="n-en">Cicada</span>
+    <span class="n-sci">Platypleura capitata</span>
+  </span>
+</a>
+<a class="card" href="species/common_coot/" data-m="10,11,12,1,2,3,4" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/common_coot/wikimedia_01_t.jpg" alt="Common Coot" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">लालखर</span>
+    <span class="n-en">Common Coot</span>
+    <span class="n-sci">Fulica atra</span>
+  </span>
+</a>
+<a class="card" href="species/coriander/" data-m="10,11,12,1,2,3,4" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/coriander/wikimedia_01_t.jpg" alt="Coriander" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">धनिया</span>
+    <span class="n-en">Coriander</span>
+    <span class="n-sci">Coriandrum sativum</span>
+  </span>
+</a>
+<a class="card" href="species/jelly_fungus/" data-m="6,7,8,9">
+  <span class="ph"><img loading="lazy" src="media/species/jelly_fungus/wikimedia_01_t.jpg" alt="Fan-shaped Jelly Fungus" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पीली जेली</span>
+    <span class="n-en">Fan-shaped Jelly Fungus</span>
+    <span class="n-sci">Dacryopinax spathularia</span>
+  </span>
+</a>
+<a class="card" href="species/fenugreek/" data-m="10,11,12,1,2,3,4" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/fenugreek/wikimedia_01_t.jpg" alt="Fenugreek" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">मेथी</span>
+    <span class="n-en">Fenugreek</span>
+    <span class="n-sci">Trigonella foenum-graecum</span>
+  </span>
+</a>
+<a class="card" href="species/field_bindweed/" data-m="1,2,3,10,11,12" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/field_bindweed/wikimedia_01_t.jpg" alt="Field Bindweed" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">हिरनखुरी</span>
+    <span class="n-en">Field Bindweed</span>
+    <span class="n-sci">Convolvulus arvensis</span>
+  </span>
+</a>
+<a class="card" href="species/field_mushroom/" data-m="8,9,10">
+  <span class="ph"><img loading="lazy" src="media/species/field_mushroom/wikimedia_01_t.jpg" alt="Field Mushroom" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">जंगली खुम्बी</span>
+    <span class="n-en">Field Mushroom</span>
+    <span class="n-sci">Agaricus campestris</span>
+  </span>
+</a>
+<a class="card" href="species/flat_backed_millipede/" data-m="6,7,8,9,10,11">
+  <span class="ph"><img loading="lazy" src="media/species/flat_backed_millipede/wikimedia_01_t.jpg" alt="Flat-backed Millipede" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">चपटा गोजर</span>
+    <span class="n-en">Flat-backed Millipede</span>
+    <span class="n-sci">Asiomorpha coarctata</span>
+  </span>
+</a>
+<a class="card" href="species/birds_nest_fungus/" data-m="7,8,9,10">
+  <span class="ph"><img loading="lazy" src="media/species/birds_nest_fungus/wikimedia_01_t.jpg" alt="Fluted Bird&#39;s Nest Fungus" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">चिड़िया घोंसला खुम्बी</span>
+    <span class="n-en">Fluted Bird&#39;s Nest Fungus</span>
+    <span class="n-sci">Cyathus striatus</span>
+  </span>
+</a>
+<a class="card" href="species/apple_snail/" data-m="6,7,8,9,10,11">
+  <span class="ph"><img loading="lazy" src="media/species/apple_snail/wikimedia_01_t.jpg" alt="Freshwater Apple Snail" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">घोंघा</span>
+    <span class="n-en">Freshwater Apple Snail</span>
+    <span class="n-sci">Pila globosa</span>
+  </span>
+</a>
+<a class="card" href="species/garganey/" data-m="10,11,12,1,2,3,4" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/garganey/wikimedia_01_t.jpg" alt="Garganey" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">गार्गनी बत्तख</span>
+    <span class="n-en">Garganey</span>
+    <span class="n-sci">Spatula querquedula</span>
+  </span>
+</a>
+<a class="card" href="species/hygroscopic_earthstar/" data-m="9,10,11,12">
+  <span class="ph"><img loading="lazy" src="media/species/hygroscopic_earthstar/wikimedia_01_t.jpg" alt="Hygroscopic Earthstar" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">नमी-तारा खुम्बी</span>
+    <span class="n-en">Hygroscopic Earthstar</span>
+    <span class="n-sci">Astraeus hygrometricus</span>
+  </span>
+</a>
+<a class="card" href="species/earthworm/" data-m="6,7,8,9,10,11">
   <span class="ph"><img loading="lazy" src="media/species/earthworm/wikimedia_01_t.jpg" alt="Indian Common Earthworm" width="380" height="260"></span>
   <span class="meta">
     <span class="n-hi">केंचुआ</span>
@@ -328,23 +220,39 @@
     <span class="n-sci">Metaphire posthuma</span>
   </span>
 </a>
-<a class="card" href="species/white_grub/">
-  <span class="ph"><span class="noimg" aria-hidden="true">मिट्टी के जीव</span></span>
+<a class="card" href="species/indian_firefly/" data-m="6,7,8,9">
+  <span class="ph"><span class="noimg" aria-hidden="true">कीट</span></span>
   <span class="meta">
-    <span class="n-hi">सफेद सूंडी</span>
-    <span class="n-en">White Grub</span>
-    <span class="n-sci">Holotrichia consanguinea</span>
+    <span class="n-hi">जुगनू</span>
+    <span class="n-en">Indian Firefly</span>
+    <span class="n-sci">Luciola praeusta</span>
   </span>
 </a>
-<a class="card" href="species/signature_spider/">
-  <span class="ph"><img loading="lazy" src="media/species/signature_spider/wikimedia_01_t.jpg" alt="Signature Spider" width="380" height="260"></span>
+<a class="card" href="species/indian_land_snail/" data-m="6,7,8,9,10,11">
+  <span class="ph"><img loading="lazy" src="media/species/indian_land_snail/wikimedia_01_t.jpg" alt="Indian Land Snail" width="380" height="260"></span>
   <span class="meta">
-    <span class="n-hi">जोग मकड़ी</span>
-    <span class="n-en">Signature Spider</span>
-    <span class="n-sci">Argiope anasuja</span>
+    <span class="n-hi">बगीचे का घोंघा</span>
+    <span class="n-en">Indian Land Snail</span>
+    <span class="n-sci">Macrochlamys indica</span>
   </span>
 </a>
-<a class="card" href="species/kidney_garden_spider/">
+<a class="card" href="species/mustard/" data-m="1,2,3,10,11,12" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/mustard/wikimedia_01_t.jpg" alt="Indian Mustard" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">सरसों</span>
+    <span class="n-en">Indian Mustard</span>
+    <span class="n-sci">Brassica juncea</span>
+  </span>
+</a>
+<a class="card" href="species/kalmegh/" data-m="9,10,11,12,1,2">
+  <span class="ph"><img loading="lazy" src="media/species/kalmegh/wikimedia_01_t.jpg" alt="Kalmegh" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कालमेघ</span>
+    <span class="n-en">Kalmegh</span>
+    <span class="n-sci">Andrographis paniculata</span>
+  </span>
+</a>
+<a class="card" href="species/kidney_garden_spider/" data-m="6,7,8,9,10,11">
   <span class="ph"><img loading="lazy" src="media/species/kidney_garden_spider/wikimedia_01_t.jpg" alt="Kidney Garden Spider" width="380" height="260"></span>
   <span class="meta">
     <span class="n-hi">बागीचा मकड़ी</span>
@@ -352,14 +260,288 @@
     <span class="n-sci">Araneus mitificus</span>
   </span>
 </a>
-<a class="card" href="species/tropical_tent_web_spider/">
+<a class="card" href="species/lentil/" data-m="1,2,3,11,12" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/lentil/wikimedia_01_t.jpg" alt="Lentil" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">मसूर</span>
+    <span class="n-en">Lentil</span>
+    <span class="n-sci">Lens culinaris</span>
+  </span>
+</a>
+<a class="card" href="species/lilac_puffball/" data-m="8,9,10">
+  <span class="ph"><img loading="lazy" src="media/species/lilac_puffball/wikimedia_01_t.jpg" alt="Lilac Puffball" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">गोबर छत्ता</span>
+    <span class="n-en">Lilac Puffball</span>
+    <span class="n-sci">Calvatia cyathiformis</span>
+  </span>
+</a>
+<a class="card" href="species/maize/" data-m="6,7,8,9,10">
+  <span class="ph"><img loading="lazy" src="media/species/maize/wikimedia_01_t.jpg" alt="Maize" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">मक्का</span>
+    <span class="n-en">Maize</span>
+    <span class="n-sci">Zea mays</span>
+  </span>
+</a>
+<a class="card" href="species/mile_a_minute_weed/" data-m="7,8,9,10,11,12,1">
+  <span class="ph"><img loading="lazy" src="media/species/mile_a_minute_weed/wikimedia_01_t.jpg" alt="Mile-a-minute Weed" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">मीलभर खरपतवार</span>
+    <span class="n-en">Mile-a-minute Weed</span>
+    <span class="n-sci">Mikania micrantha</span>
+  </span>
+</a>
+<a class="card" href="species/termite/" data-m="6,7,8,9,10,11">
+  <span class="ph"><span class="noimg" aria-hidden="true">मिट्टी के जीव</span></span>
+  <span class="meta">
+    <span class="n-hi">दीमक</span>
+    <span class="n-en">Mound-building Termite</span>
+    <span class="n-sci">Odontotermes obesus</span>
+  </span>
+</a>
+<a class="card" href="species/northern_pintail/" data-m="10,11,12,1,2,3,4" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/northern_pintail/wikimedia_01_t.jpg" alt="Northern Pintail" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पिनटेल बत्तख</span>
+    <span class="n-en">Northern Pintail</span>
+    <span class="n-sci">Anas acuta</span>
+  </span>
+</a>
+<a class="card" href="species/osprey/" data-m="10,11,12,1,2,3" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/osprey/wikimedia_01_t.jpg" alt="Osprey" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">मछलीमार</span>
+    <span class="n-en">Osprey</span>
+    <span class="n-sci">Pandion haliaetus</span>
+  </span>
+</a>
+<a class="card" href="species/paddy/" data-m="6,7,8,9,10,11">
+  <span class="ph"><img loading="lazy" src="media/species/paddy/wikimedia_01_t.jpg" alt="Paddy" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">धान</span>
+    <span class="n-en">Paddy</span>
+    <span class="n-sci">Oryza sativa</span>
+  </span>
+</a>
+<a class="card" href="species/paddy_grasshopper/" data-m="6,7,8,9,10,11">
+  <span class="ph"><span class="noimg" aria-hidden="true">कीट</span></span>
+  <span class="meta">
+    <span class="n-hi">धान टिड्डा</span>
+    <span class="n-en">Paddy Grasshopper</span>
+    <span class="n-sci">Oxya fuscovittata</span>
+  </span>
+</a>
+<a class="card" href="species/paddy_straw_mushroom/" data-m="7,8,9,10">
+  <span class="ph"><img loading="lazy" src="media/species/paddy_straw_mushroom/wikimedia_01_t.jpg" alt="Paddy Straw Mushroom" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पुआल मशरूम</span>
+    <span class="n-en">Paddy Straw Mushroom</span>
+    <span class="n-sci">Volvariella volvacea</span>
+  </span>
+</a>
+<a class="card" href="species/painted_bug/" data-m="10,11,12,1,2,3" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/painted_bug/wikimedia_01_t.jpg" alt="Painted Bug" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">रंगीन बग</span>
+    <span class="n-en">Painted Bug</span>
+    <span class="n-sci">Bagrada hilaris</span>
+  </span>
+</a>
+<a class="card" href="species/parasol_mushroom/" data-m="8,9,10">
+  <span class="ph"><img loading="lazy" src="media/species/parasol_mushroom/wikimedia_01_t.jpg" alt="Parasol Mushroom" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">छत्री खुम्बी</span>
+    <span class="n-en">Parasol Mushroom</span>
+    <span class="n-sci">Macrolepiota procera</span>
+  </span>
+</a>
+<a class="card" href="species/blister_beetle/" data-m="9,10,11">
+  <span class="ph"><span class="noimg" aria-hidden="true">कीट</span></span>
+  <span class="meta">
+    <span class="n-hi">छाला भृंग</span>
+    <span class="n-en">Red Blister Beetle</span>
+    <span class="n-sci">Mylabris pustulata</span>
+  </span>
+</a>
+<a class="card" href="species/rice_gundy_bug/" data-m="7,8,9,10,11">
+  <span class="ph"><span class="noimg" aria-hidden="true">कीट</span></span>
+  <span class="meta">
+    <span class="n-hi">गंधी कीड़ा</span>
+    <span class="n-en">Rice Gundy Bug</span>
+    <span class="n-sci">Leptocorisa varicornis</span>
+  </span>
+</a>
+<a class="card" href="species/rosy_starling/" data-m="11,12,1,2,3,4" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/rosy_starling/wikimedia_01_t.jpg" alt="Rosy Starling" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">गुलाबी मैना</span>
+    <span class="n-en">Rosy Starling</span>
+    <span class="n-sci">Pastor roseus</span>
+  </span>
+</a>
+<a class="card" href="species/rusty_millipede/" data-m="6,7,8,9,10,11">
+  <span class="ph"><img loading="lazy" src="media/species/rusty_millipede/wikimedia_01_t.jpg" alt="Rusty Millipede" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">लाल सहस्रपाद</span>
+    <span class="n-en">Rusty Millipede</span>
+    <span class="n-sci">Trigoniulus corallinus</span>
+  </span>
+</a>
+<a class="card" href="species/short_eared_owl/" data-m="11,12,1,2,3" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/short_eared_owl/wikimedia_01_t.jpg" alt="Short-eared Owl" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">अल्प-कर्ण उल्लू</span>
+    <span class="n-en">Short-eared Owl</span>
+    <span class="n-sci">Asio flammeus</span>
+  </span>
+</a>
+<a class="card" href="species/chakramard/" data-m="6,7,8,9,10,11">
+  <span class="ph"><img loading="lazy" src="media/species/chakramard/wikimedia_01_t.jpg" alt="Sickle Senna" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">चक्रमर्द</span>
+    <span class="n-en">Sickle Senna</span>
+    <span class="n-sci">Senna tora</span>
+  </span>
+</a>
+<a class="card" href="species/signature_spider/" data-m="6,7,8,9,10,11">
+  <span class="ph"><img loading="lazy" src="media/species/signature_spider/wikimedia_01_t.jpg" alt="Signature Spider" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">जोग मकड़ी</span>
+    <span class="n-en">Signature Spider</span>
+    <span class="n-sci">Argiope anasuja</span>
+  </span>
+</a>
+<a class="card" href="species/termitomyces_clypeatus/" data-m="6,7,8" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/termitomyces_clypeatus/wikimedia_01_t.jpg" alt="Small Termite Mushroom" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">छोटा दीमक छत्ता</span>
+    <span class="n-en">Small Termite Mushroom</span>
+    <span class="n-sci">Termitomyces clypeatus</span>
+  </span>
+</a>
+<a class="card" href="species/spiny_amaranth/" data-m="5,6,7,8,9,10,11">
+  <span class="ph"><img loading="lazy" src="media/species/spiny_amaranth/wikimedia_01_t.jpg" alt="Spiny Amaranth" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कांटे वाली चौलाई</span>
+    <span class="n-en">Spiny Amaranth</span>
+    <span class="n-sci">Amaranthus spinosus</span>
+  </span>
+</a>
+<a class="card" href="species/termite_mushroom/" data-m="6,7,8" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/termite_mushroom/wikimedia_01_t.jpg" alt="Termite Mushroom" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">दीमक छत्ता</span>
+    <span class="n-en">Termite Mushroom</span>
+    <span class="n-sci">Termitomyces heimii</span>
+  </span>
+</a>
+<a class="card" href="species/tomato/" data-m="10,11,12,1,2,3,4" hidden>
+  <span class="ph"><span class="noimg" aria-hidden="true">फ़सलें</span></span>
+  <span class="meta">
+    <span class="n-hi">टमाटर</span>
+    <span class="n-en">Tomato</span>
+    <span class="n-sci">Solanum lycopersicum</span>
+  </span>
+</a>
+<a class="card" href="species/tropical_tent_web_spider/" data-m="6,7,8,9,10,11,12">
   <span class="ph"><img loading="lazy" src="media/species/tropical_tent_web_spider/wikimedia_01_t.jpg" alt="Tropical Tent-web Spider" width="380" height="260"></span>
   <span class="meta">
     <span class="n-hi">तंबू मकड़ी</span>
     <span class="n-en">Tropical Tent-web Spider</span>
     <span class="n-sci">Cyrtophora citricola</span>
   </span>
+</a>
+<a class="card" href="species/veiled_stinkhorn/" data-m="5,6,7,8,9">
+  <span class="ph"><img loading="lazy" src="media/species/veiled_stinkhorn/wikimedia_01_t.jpg" alt="Veiled Stinkhorn" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">जालीदार खुम्बी</span>
+    <span class="n-en">Veiled Stinkhorn</span>
+    <span class="n-sci">Phallus indusiatus</span>
+  </span>
+</a>
+<a class="card" href="species/wandering_glider/" data-m="5,6,7,8,9,10,11">
+  <span class="ph"><img loading="lazy" src="media/species/wandering_glider/wikimedia_01_t.jpg" alt="Wandering Glider" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">सुनहरी व्याधपतंग</span>
+    <span class="n-en">Wandering Glider</span>
+    <span class="n-sci">Pantala flavescens</span>
+  </span>
+</a>
+<a class="card" href="species/water_chestnut/" data-m="6,7,8,9,10,11,12">
+  <span class="ph"><span class="noimg" aria-hidden="true">जलीय पौधे और घास</span></span>
+  <span class="meta">
+    <span class="n-hi">सिंघाड़ा</span>
+    <span class="n-en">Water Chestnut</span>
+    <span class="n-sci">Trapa bispinosa</span>
+  </span>
+</a>
+<a class="card" href="species/western_marsh_harrier/" data-m="10,11,12,1,2,3" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/western_marsh_harrier/wikimedia_01_t.jpg" alt="Western Marsh Harrier" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">दलदल बाज</span>
+    <span class="n-en">Western Marsh Harrier</span>
+    <span class="n-sci">Circus aeruginosus</span>
+  </span>
+</a>
+<a class="card" href="species/wheat/" data-m="1,2,3,4,10,11,12" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/wheat/wikimedia_01_t.jpg" alt="Wheat" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">गेहूं</span>
+    <span class="n-en">Wheat</span>
+    <span class="n-sci">Triticum aestivum</span>
+  </span>
+</a>
+<a class="card" href="species/white_grub/" data-m="6,7,8,9,10">
+  <span class="ph"><span class="noimg" aria-hidden="true">मिट्टी के जीव</span></span>
+  <span class="meta">
+    <span class="n-hi">सफेद सूंडी</span>
+    <span class="n-en">White Grub</span>
+    <span class="n-sci">Holotrichia consanguinea</span>
+  </span>
+</a>
+<a class="card" href="species/white_wagtail/" data-m="1,2,3,10,11,12" hidden>
+  <span class="ph"><img loading="lazy" src="media/species/white_wagtail/wikimedia_01_t.jpg" alt="White Wagtail" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">खंजन</span>
+    <span class="n-en">White Wagtail</span>
+    <span class="n-sci">Motacilla alba</span>
+  </span>
+</a>
+<a class="card" href="species/wild_cape_gooseberry/" data-m="7,8,9,10,11,12">
+  <span class="ph"><img loading="lazy" src="media/species/wild_cape_gooseberry/wikimedia_01_t.jpg" alt="Wild Cape Gooseberry" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">रसभरी</span>
+    <span class="n-en">Wild Cape Gooseberry</span>
+    <span class="n-sci">Physalis minima</span>
+  </span>
+</a>
+<a class="card" href="species/wild_passion_fruit/" data-m="7,8,9,10,11,12">
+  <span class="ph"><img loading="lazy" src="media/species/wild_passion_fruit/wikimedia_01_t.jpg" alt="Wild Passion Fruit" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">जंगली पैशनफ्रूट</span>
+    <span class="n-en">Wild Passion Fruit</span>
+    <span class="n-sci">Passiflora foetida</span>
+  </span>
+</a>
+<a class="card" href="species/wood_ear_fungus/" data-m="6,7,8,9">
+  <span class="ph"><img loading="lazy" src="media/species/wood_ear_fungus/wikimedia_01_t.jpg" alt="Wood Ear Fungus" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कान की खुम्बी</span>
+    <span class="n-en">Wood Ear Fungus</span>
+    <span class="n-sci">Auricularia auricula-judae</span>
+  </span>
+</a>
+<a class="card" href="species/yellow_stem_borer/" data-m="7,8,9,10,11">
+  <span class="ph"><img loading="lazy" src="media/species/yellow_stem_borer/wikimedia_01_t.jpg" alt="Yellow Stem Borer" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पीला तनाछेदक</span>
+    <span class="n-en">Yellow Stem Borer</span>
+    <span class="n-sci">Scirpophaga incertulas</span>
+  </span>
 </a></div>
+  <p class="empty" id="noseason" hidden>Quiet month. Everything here is about all year —
+     <a href="all/">browse all 332 species</a>.</p>
   <p class="more"><a href="all/">See all 332 species →</a></p>
 </section>
 
