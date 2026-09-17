@@ -2,8 +2,10 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}</script>
 <title>जल-मसूर · Common Duckweed (Lemna minor) — Awadh Biodiversity Atlas</title>
 <meta name="description" content="Common Duckweed, Lemna minor, जल-मसूर — how to recognise it in the Basti–Ayodhya countryside, what it does, and why it matters.">
+<meta name="color-scheme" content="light dark">
 <meta property="og:title" content="जल-मसूर · Common Duckweed (Lemna minor) — Awadh Biodiversity Atlas">
 <meta property="og:description" content="Common Duckweed, Lemna minor, जल-मसूर — how to recognise it in the Basti–Ayodhya countryside, what it does, and why it matters.">
 <meta property="og:type" content="website">
@@ -20,8 +22,11 @@
   </a>
   <nav>
     <a href="../../">This month</a>
-    <a href="../../all/">All species</a>
+    <a href="../../all/">Explore</a>
     <a href="../../about/">About</a>
+    <button id="theme" type="button" aria-label="Switch between light and dark" title="Light / dark">
+      <span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span>
+    </button>
   </nav>
   <form class="search" role="search" onsubmit="return false">
     <input id="q" type="search" placeholder="Search name, हिंदी नाम, or species" autocomplete="off"
@@ -31,7 +36,7 @@
 </header>
 <main id="main">
 <article>
-<nav class="crumbs"><a href="../../">Home</a> › <a href="../../group/water-plants/">Water plants &amp; grasses</a></nav>
+<nav class="crumbs"><a href="../../">Home</a> › <a href="../../all/">Explore</a> › <a href="../../group/water-plants/">Water plants &amp; grasses</a></nav>
 <header class="sphead">
   <h1><span class="t-hi">जल-मसूर</span><span class="t-en">Common Duckweed</span></h1>
   <p class="sci"><i>Lemna minor</i> · Araceae · FLR-0091</p>

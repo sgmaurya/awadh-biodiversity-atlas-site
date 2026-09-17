@@ -2,13 +2,15 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}</script>
 <title>Insects — Awadh Biodiversity Atlas</title>
-<meta name="description" content="49 species of the Basti–Ayodhya countryside.">
+<meta name="description" content="49 species of the Basti–Ayodhya countryside, with look-alikes kept together by family.">
+<meta name="color-scheme" content="light dark">
 <meta property="og:title" content="Insects — Awadh Biodiversity Atlas">
-<meta property="og:description" content="49 species of the Basti–Ayodhya countryside.">
+<meta property="og:description" content="49 species of the Basti–Ayodhya countryside, with look-alikes kept together by family.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Awadh Biodiversity Atlas">
-<meta property="og:image" content="https://sgmaurya.github.io/awadh-biodiversity-atlas-site/media/species/mole_cricket/wikimedia_01_t.jpg">
+<meta property="og:image" content="https://sgmaurya.github.io/awadh-biodiversity-atlas-site/media/species/crimson_marsh_glider/wikimedia_01_t.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="stylesheet" href="../../assets/atlas.css">
 <body class="">
@@ -20,8 +22,11 @@
   </a>
   <nav>
     <a href="../../">This month</a>
-    <a href="../../all/">All species</a>
+    <a href="../../all/">Explore</a>
     <a href="../../about/">About</a>
+    <button id="theme" type="button" aria-label="Switch between light and dark" title="Light / dark">
+      <span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span>
+    </button>
   </nav>
   <form class="search" role="search" onsubmit="return false">
     <input id="q" type="search" placeholder="Search name, हिंदी नाम, or species" autocomplete="off"
@@ -30,25 +35,261 @@
   </form>
 </header>
 <main id="main">
+<nav class="crumbs"><a href="../../">Home</a> › <a href="../../all/">Explore</a></nav>
 <header class="ph1">
   <h1>Insects <span class="hi">कीट</span></h1>
-  <p class="lead">49 species of the Basti–Ayodhya countryside.</p>
+  <p class="lead">49 species of the Basti–Ayodhya countryside, with look-alikes kept together by family.</p>
 </header>
 
-<div class="grid"><a class="card" href="../../species/mole_cricket/">
-  <span class="ph"><img loading="lazy" src="../../media/species/mole_cricket/wikimedia_01_t.jpg" alt="African Mole Cricket" width="380" height="260"></span>
+<nav class="jump" aria-label="Sections"><a href="#libellulidae">Libellulidae <b>7</b></a><a href="#nymphalidae">Nymphalidae <b>6</b></a><a href="#apidae">Apidae <b>4</b></a><a href="#formicidae">Formicidae <b>2</b></a><a href="#papilionidae">Papilionidae <b>2</b></a><a href="#pentatomidae">Pentatomidae <b>2</b></a><a href="#pieridae">Pieridae <b>2</b></a><a href="#vespidae">Vespidae <b>2</b></a><a href="#others">Others <b>22</b></a></nav>
+<section class="sect" id="libellulidae">
+  <h2>Libellulidae <b class="cnt">7</b></h2>
+  <div class="grid"><a class="card" href="../../species/crimson_marsh_glider/">
+  <span class="ph"><img loading="lazy" src="../../media/species/crimson_marsh_glider/wikimedia_01_t.jpg" alt="Crimson Marsh Glider" width="380" height="260"></span>
   <span class="meta">
-    <span class="n-hi">भुरभुरा कीड़ा</span>
-    <span class="n-en">African Mole Cricket</span>
-    <span class="n-sci">Gryllotalpa africana</span>
+    <span class="n-hi">लाल व्याधपतंग</span>
+    <span class="n-en">Crimson Marsh Glider</span>
+    <span class="n-sci">Trithemis aurora</span>
   </span>
 </a>
-<a class="card" href="../../species/asian_honey_bee/">
+<a class="card" href="../../species/ditch_jewel/">
+  <span class="ph"><img loading="lazy" src="../../media/species/ditch_jewel/wikimedia_01_t.jpg" alt="Ditch Jewel" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पीली व्याधपतंग</span>
+    <span class="n-en">Ditch Jewel</span>
+    <span class="n-sci">Brachythemis contaminata</span>
+  </span>
+</a>
+<a class="card" href="../../species/fulvous_forest_skimmer/">
+  <span class="ph"><img loading="lazy" src="../../media/species/fulvous_forest_skimmer/wikimedia_01_t.jpg" alt="Fulvous Forest Skimmer" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">भूरी व्याधपतंग</span>
+    <span class="n-en">Fulvous Forest Skimmer</span>
+    <span class="n-sci">Neurothemis fulvia</span>
+  </span>
+</a>
+<a class="card" href="../../species/ground_skimmer/">
+  <span class="ph"><img loading="lazy" src="../../media/species/ground_skimmer/wikimedia_01_t.jpg" alt="Ground Skimmer" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">नीली व्याधपतंग</span>
+    <span class="n-en">Ground Skimmer</span>
+    <span class="n-sci">Diplacodes trivialis</span>
+  </span>
+</a>
+<a class="card" href="../../species/scarlet_skimmer/">
+  <span class="ph"><img loading="lazy" src="../../media/species/scarlet_skimmer/wikimedia_01_t.jpg" alt="Scarlet Skimmer" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">सिंदूरी व्याधपतंग</span>
+    <span class="n-en">Scarlet Skimmer</span>
+    <span class="n-sci">Crocothemis servilia</span>
+  </span>
+</a>
+<a class="card" href="../../species/slender_skimmer/">
+  <span class="ph"><img loading="lazy" src="../../media/species/slender_skimmer/wikimedia_01_t.jpg" alt="Slender Skimmer" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">हरी-चित्तीदार व्याधपतंग</span>
+    <span class="n-en">Slender Skimmer</span>
+    <span class="n-sci">Orthetrum sabina</span>
+  </span>
+</a>
+<a class="card" href="../../species/wandering_glider/">
+  <span class="ph"><img loading="lazy" src="../../media/species/wandering_glider/wikimedia_01_t.jpg" alt="Wandering Glider" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">सुनहरी व्याधपतंग</span>
+    <span class="n-en">Wandering Glider</span>
+    <span class="n-sci">Pantala flavescens</span>
+  </span>
+</a></div>
+</section>
+<section class="sect" id="nymphalidae">
+  <h2>Nymphalidae <b class="cnt">6</b></h2>
+  <div class="grid"><a class="card" href="../../species/common_evening_brown/">
+  <span class="ph"><img loading="lazy" src="../../media/species/common_evening_brown/wikimedia_01_t.jpg" alt="Common Evening Brown" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">शाम भूरी तितली</span>
+    <span class="n-en">Common Evening Brown</span>
+    <span class="n-sci">Melanitis leda</span>
+  </span>
+</a>
+<a class="card" href="../../species/great_eggfly/">
+  <span class="ph"><img loading="lazy" src="../../media/species/great_eggfly/wikimedia_01_t.jpg" alt="Great Eggfly" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">नील-चाँद तितली</span>
+    <span class="n-en">Great Eggfly</span>
+    <span class="n-sci">Hypolimnas bolina</span>
+  </span>
+</a>
+<a class="card" href="../../species/peacock_pansy/">
+  <span class="ph"><img loading="lazy" src="../../media/species/peacock_pansy/wikimedia_01_t.jpg" alt="Peacock Pansy" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">मयूर पंख तितली</span>
+    <span class="n-en">Peacock Pansy</span>
+    <span class="n-sci">Junonia almana</span>
+  </span>
+</a>
+<a class="card" href="../../species/plain_tiger/">
+  <span class="ph"><img loading="lazy" src="../../media/species/plain_tiger/wikimedia_01_t.jpg" alt="Plain Tiger" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">साधारण बाघ तितली</span>
+    <span class="n-en">Plain Tiger</span>
+    <span class="n-sci">Danaus chrysippus</span>
+  </span>
+</a>
+<a class="card" href="../../species/striped_tiger_butterfly/">
+  <span class="ph"><img loading="lazy" src="../../media/species/striped_tiger_butterfly/wikimedia_01_t.jpg" alt="Striped Tiger Butterfly" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">बाघ तितली</span>
+    <span class="n-en">Striped Tiger Butterfly</span>
+    <span class="n-sci">Danaus genutia</span>
+  </span>
+</a>
+<a class="card" href="../../species/tawny_coster/">
+  <span class="ph"><img loading="lazy" src="../../media/species/tawny_coster/wikimedia_01_t.jpg" alt="Tawny Coster" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">तौनी कोस्टर</span>
+    <span class="n-en">Tawny Coster</span>
+    <span class="n-sci">Acraea terpsicore</span>
+  </span>
+</a></div>
+</section>
+<section class="sect" id="apidae">
+  <h2>Apidae <b class="cnt">4</b></h2>
+  <div class="grid"><a class="card" href="../../species/asian_honey_bee/">
   <span class="ph"><img loading="lazy" src="../../media/species/asian_honey_bee/wikimedia_01_t.jpg" alt="Asian Honey Bee" width="380" height="260"></span>
   <span class="meta">
     <span class="n-hi">मधुमक्खी</span>
     <span class="n-en">Asian Honey Bee</span>
     <span class="n-sci">Apis cerana</span>
+  </span>
+</a>
+<a class="card" href="../../species/dwarf_honey_bee/">
+  <span class="ph"><img loading="lazy" src="../../media/species/dwarf_honey_bee/wikimedia_01_t.jpg" alt="Dwarf Honey Bee" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">छोटी मधुमक्खी</span>
+    <span class="n-en">Dwarf Honey Bee</span>
+    <span class="n-sci">Apis florea</span>
+  </span>
+</a>
+<a class="card" href="../../species/european_honey_bee/">
+  <span class="ph"><img loading="lazy" src="../../media/species/european_honey_bee/wikimedia_01_t.jpg" alt="European Honey Bee" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">युरोपीय मधुमक्खी</span>
+    <span class="n-en">European Honey Bee</span>
+    <span class="n-sci">Apis mellifera</span>
+  </span>
+</a>
+<a class="card" href="../../species/giant_honey_bee/">
+  <span class="ph"><img loading="lazy" src="../../media/species/giant_honey_bee/wikimedia_01_t.jpg" alt="Giant Honey Bee" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">रॉक बी</span>
+    <span class="n-en">Giant Honey Bee</span>
+    <span class="n-sci">Apis dorsata</span>
+  </span>
+</a></div>
+</section>
+<section class="sect" id="formicidae">
+  <h2>Formicidae <b class="cnt">2</b></h2>
+  <div class="grid"><a class="card" href="../../species/tropical_fire_ant/">
+  <span class="ph"><img loading="lazy" src="../../media/species/tropical_fire_ant/wikimedia_01_t.jpg" alt="Tropical Fire Ant" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">लाल चींटी</span>
+    <span class="n-en">Tropical Fire Ant</span>
+    <span class="n-sci">Solenopsis geminata</span>
+  </span>
+</a>
+<a class="card" href="../../species/weaver_ant/">
+  <span class="ph"><img loading="lazy" src="../../media/species/weaver_ant/wikimedia_01_t.jpg" alt="Weaver Ant" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">बयनी चींटी</span>
+    <span class="n-en">Weaver Ant</span>
+    <span class="n-sci">Oecophylla smaragdina</span>
+  </span>
+</a></div>
+</section>
+<section class="sect" id="papilionidae">
+  <h2>Papilionidae <b class="cnt">2</b></h2>
+  <div class="grid"><a class="card" href="../../species/common_mormon/">
+  <span class="ph"><span class="noimg" aria-hidden="true">कीट</span></span>
+  <span class="meta">
+    <span class="n-hi">सामान्य मॉर्मन</span>
+    <span class="n-en">Common Mormon</span>
+    <span class="n-sci">Papilio polytes</span>
+  </span>
+</a>
+<a class="card" href="../../species/lime_butterfly/">
+  <span class="ph"><img loading="lazy" src="../../media/species/lime_butterfly/wikimedia_01_t.jpg" alt="Lime Butterfly" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">नींबू तितली</span>
+    <span class="n-en">Lime Butterfly</span>
+    <span class="n-sci">Papilio demoleus</span>
+  </span>
+</a></div>
+</section>
+<section class="sect" id="pentatomidae">
+  <h2>Pentatomidae <b class="cnt">2</b></h2>
+  <div class="grid"><a class="card" href="../../species/painted_bug/">
+  <span class="ph"><img loading="lazy" src="../../media/species/painted_bug/wikimedia_01_t.jpg" alt="Painted Bug" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">रंगीन बग</span>
+    <span class="n-en">Painted Bug</span>
+    <span class="n-sci">Bagrada hilaris</span>
+  </span>
+</a>
+<a class="card" href="../../species/southern_green_stink_bug/">
+  <span class="ph"><img loading="lazy" src="../../media/species/southern_green_stink_bug/wikimedia_01_t.jpg" alt="Southern Green Stink Bug" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">हरा खटमल</span>
+    <span class="n-en">Southern Green Stink Bug</span>
+    <span class="n-sci">Nezara viridula</span>
+  </span>
+</a></div>
+</section>
+<section class="sect" id="pieridae">
+  <h2>Pieridae <b class="cnt">2</b></h2>
+  <div class="grid"><a class="card" href="../../species/common_emigrant/">
+  <span class="ph"><img loading="lazy" src="../../media/species/common_emigrant/wikimedia_01_t.jpg" alt="Common Emigrant" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पीली तितली</span>
+    <span class="n-en">Common Emigrant</span>
+    <span class="n-sci">Catopsilia pomona</span>
+  </span>
+</a>
+<a class="card" href="../../species/common_grass_yellow/">
+  <span class="ph"><img loading="lazy" src="../../media/species/common_grass_yellow/wikimedia_01_t.jpg" alt="Common Grass Yellow" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">घास पीतवर्णी</span>
+    <span class="n-en">Common Grass Yellow</span>
+    <span class="n-sci">Eurema hecabe</span>
+  </span>
+</a></div>
+</section>
+<section class="sect" id="vespidae">
+  <h2>Vespidae <b class="cnt">2</b></h2>
+  <div class="grid"><a class="card" href="../../species/greater_banded_hornet/">
+  <span class="ph"><img loading="lazy" src="../../media/species/greater_banded_hornet/wikimedia_01_t.jpg" alt="Greater Banded Hornet" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">बड़ा ततैया</span>
+    <span class="n-en">Greater Banded Hornet</span>
+    <span class="n-sci">Vespa tropica</span>
+  </span>
+</a>
+<a class="card" href="../../species/yellow_paper_wasp/">
+  <span class="ph"><img loading="lazy" src="../../media/species/yellow_paper_wasp/wikimedia_01_t.jpg" alt="Yellow Paper Wasp" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">ततैया</span>
+    <span class="n-en">Yellow Paper Wasp</span>
+    <span class="n-sci">Polistes olivaceus</span>
+  </span>
+</a></div>
+</section>
+<section class="sect" id="others">
+  <h2>Others <span class="hi">अन्य</span> <b class="cnt">22</b></h2>
+  <div class="grid"><a class="card" href="../../species/mole_cricket/">
+  <span class="ph"><img loading="lazy" src="../../media/species/mole_cricket/wikimedia_01_t.jpg" alt="African Mole Cricket" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">भुरभुरा कीड़ा</span>
+    <span class="n-en">African Mole Cricket</span>
+    <span class="n-sci">Gryllotalpa africana</span>
   </span>
 </a>
 <a class="card" href="../../species/blue_dartlet/">
@@ -67,84 +308,12 @@
     <span class="n-sci">Platypleura capitata</span>
   </span>
 </a>
-<a class="card" href="../../species/common_emigrant/">
-  <span class="ph"><img loading="lazy" src="../../media/species/common_emigrant/wikimedia_01_t.jpg" alt="Common Emigrant" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">पीली तितली</span>
-    <span class="n-en">Common Emigrant</span>
-    <span class="n-sci">Catopsilia pomona</span>
-  </span>
-</a>
-<a class="card" href="../../species/common_evening_brown/">
-  <span class="ph"><img loading="lazy" src="../../media/species/common_evening_brown/wikimedia_01_t.jpg" alt="Common Evening Brown" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">शाम भूरी तितली</span>
-    <span class="n-en">Common Evening Brown</span>
-    <span class="n-sci">Melanitis leda</span>
-  </span>
-</a>
-<a class="card" href="../../species/common_grass_yellow/">
-  <span class="ph"><img loading="lazy" src="../../media/species/common_grass_yellow/wikimedia_01_t.jpg" alt="Common Grass Yellow" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">घास पीतवर्णी</span>
-    <span class="n-en">Common Grass Yellow</span>
-    <span class="n-sci">Eurema hecabe</span>
-  </span>
-</a>
-<a class="card" href="../../species/common_mormon/">
-  <span class="ph"><span class="noimg" aria-hidden="true">कीट</span></span>
-  <span class="meta">
-    <span class="n-hi">सामान्य मॉर्मन</span>
-    <span class="n-en">Common Mormon</span>
-    <span class="n-sci">Papilio polytes</span>
-  </span>
-</a>
-<a class="card" href="../../species/crimson_marsh_glider/">
-  <span class="ph"><img loading="lazy" src="../../media/species/crimson_marsh_glider/wikimedia_01_t.jpg" alt="Crimson Marsh Glider" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">लाल व्याधपतंग</span>
-    <span class="n-en">Crimson Marsh Glider</span>
-    <span class="n-sci">Trithemis aurora</span>
-  </span>
-</a>
-<a class="card" href="../../species/ditch_jewel/">
-  <span class="ph"><img loading="lazy" src="../../media/species/ditch_jewel/wikimedia_01_t.jpg" alt="Ditch Jewel" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">पीली व्याधपतंग</span>
-    <span class="n-en">Ditch Jewel</span>
-    <span class="n-sci">Brachythemis contaminata</span>
-  </span>
-</a>
-<a class="card" href="../../species/dwarf_honey_bee/">
-  <span class="ph"><img loading="lazy" src="../../media/species/dwarf_honey_bee/wikimedia_01_t.jpg" alt="Dwarf Honey Bee" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">छोटी मधुमक्खी</span>
-    <span class="n-en">Dwarf Honey Bee</span>
-    <span class="n-sci">Apis florea</span>
-  </span>
-</a>
 <a class="card" href="../../species/dung_beetle/">
   <span class="ph"><img loading="lazy" src="../../media/species/dung_beetle/wikimedia_01_t.jpg" alt="Elephant Dung Beetle" width="380" height="260"></span>
   <span class="meta">
     <span class="n-hi">गोबर भृंग</span>
     <span class="n-en">Elephant Dung Beetle</span>
     <span class="n-sci">Heliocopris dominus</span>
-  </span>
-</a>
-<a class="card" href="../../species/european_honey_bee/">
-  <span class="ph"><img loading="lazy" src="../../media/species/european_honey_bee/wikimedia_01_t.jpg" alt="European Honey Bee" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">युरोपीय मधुमक्खी</span>
-    <span class="n-en">European Honey Bee</span>
-    <span class="n-sci">Apis mellifera</span>
-  </span>
-</a>
-<a class="card" href="../../species/fulvous_forest_skimmer/">
-  <span class="ph"><img loading="lazy" src="../../media/species/fulvous_forest_skimmer/wikimedia_01_t.jpg" alt="Fulvous Forest Skimmer" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">भूरी व्याधपतंग</span>
-    <span class="n-en">Fulvous Forest Skimmer</span>
-    <span class="n-sci">Neurothemis fulvia</span>
   </span>
 </a>
 <a class="card" href="../../species/praying_mantis/">
@@ -155,44 +324,12 @@
     <span class="n-sci">Hierodula membranacea</span>
   </span>
 </a>
-<a class="card" href="../../species/giant_honey_bee/">
-  <span class="ph"><img loading="lazy" src="../../media/species/giant_honey_bee/wikimedia_01_t.jpg" alt="Giant Honey Bee" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">रॉक बी</span>
-    <span class="n-en">Giant Honey Bee</span>
-    <span class="n-sci">Apis dorsata</span>
-  </span>
-</a>
-<a class="card" href="../../species/great_eggfly/">
-  <span class="ph"><img loading="lazy" src="../../media/species/great_eggfly/wikimedia_01_t.jpg" alt="Great Eggfly" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">नील-चाँद तितली</span>
-    <span class="n-en">Great Eggfly</span>
-    <span class="n-sci">Hypolimnas bolina</span>
-  </span>
-</a>
-<a class="card" href="../../species/greater_banded_hornet/">
-  <span class="ph"><img loading="lazy" src="../../media/species/greater_banded_hornet/wikimedia_01_t.jpg" alt="Greater Banded Hornet" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">बड़ा ततैया</span>
-    <span class="n-en">Greater Banded Hornet</span>
-    <span class="n-sci">Vespa tropica</span>
-  </span>
-</a>
 <a class="card" href="../../species/deaths_head_hawkmoth/">
   <span class="ph"><img loading="lazy" src="../../media/species/deaths_head_hawkmoth/wikimedia_01_t.jpg" alt="Greater Death&#39;s Head Hawkmoth" width="380" height="260"></span>
   <span class="meta">
     <span class="n-hi">कालमुख पतंगा</span>
     <span class="n-en">Greater Death&#39;s Head Hawkmoth</span>
     <span class="n-sci">Acherontia lachesis</span>
-  </span>
-</a>
-<a class="card" href="../../species/ground_skimmer/">
-  <span class="ph"><img loading="lazy" src="../../media/species/ground_skimmer/wikimedia_01_t.jpg" alt="Ground Skimmer" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">नीली व्याधपतंग</span>
-    <span class="n-en">Ground Skimmer</span>
-    <span class="n-sci">Diplacodes trivialis</span>
   </span>
 </a>
 <a class="card" href="../../species/indian_firefly/">
@@ -227,14 +364,6 @@
     <span class="n-sci">Zizina otis</span>
   </span>
 </a>
-<a class="card" href="../../species/lime_butterfly/">
-  <span class="ph"><img loading="lazy" src="../../media/species/lime_butterfly/wikimedia_01_t.jpg" alt="Lime Butterfly" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">नींबू तितली</span>
-    <span class="n-en">Lime Butterfly</span>
-    <span class="n-sci">Papilio demoleus</span>
-  </span>
-</a>
 <a class="card" href="../../species/paddy_grasshopper/">
   <span class="ph"><span class="noimg" aria-hidden="true">कीट</span></span>
   <span class="meta">
@@ -243,36 +372,12 @@
     <span class="n-sci">Oxya fuscovittata</span>
   </span>
 </a>
-<a class="card" href="../../species/painted_bug/">
-  <span class="ph"><img loading="lazy" src="../../media/species/painted_bug/wikimedia_01_t.jpg" alt="Painted Bug" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">रंगीन बग</span>
-    <span class="n-en">Painted Bug</span>
-    <span class="n-sci">Bagrada hilaris</span>
-  </span>
-</a>
 <a class="card" href="../../species/painted_grasshopper/">
   <span class="ph"><img loading="lazy" src="../../media/species/painted_grasshopper/wikimedia_01_t.jpg" alt="Painted Grasshopper" width="380" height="260"></span>
   <span class="meta">
     <span class="n-hi">रंगबिरंगा टिड्डा</span>
     <span class="n-en">Painted Grasshopper</span>
     <span class="n-sci">Poekilocerus pictus</span>
-  </span>
-</a>
-<a class="card" href="../../species/peacock_pansy/">
-  <span class="ph"><img loading="lazy" src="../../media/species/peacock_pansy/wikimedia_01_t.jpg" alt="Peacock Pansy" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">मयूर पंख तितली</span>
-    <span class="n-en">Peacock Pansy</span>
-    <span class="n-sci">Junonia almana</span>
-  </span>
-</a>
-<a class="card" href="../../species/plain_tiger/">
-  <span class="ph"><img loading="lazy" src="../../media/species/plain_tiger/wikimedia_01_t.jpg" alt="Plain Tiger" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">साधारण बाघ तितली</span>
-    <span class="n-en">Plain Tiger</span>
-    <span class="n-sci">Danaus chrysippus</span>
   </span>
 </a>
 <a class="card" href="../../species/blister_beetle/">
@@ -307,30 +412,6 @@
     <span class="n-sci">Leptocorisa varicornis</span>
   </span>
 </a>
-<a class="card" href="../../species/scarlet_skimmer/">
-  <span class="ph"><img loading="lazy" src="../../media/species/scarlet_skimmer/wikimedia_01_t.jpg" alt="Scarlet Skimmer" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">सिंदूरी व्याधपतंग</span>
-    <span class="n-en">Scarlet Skimmer</span>
-    <span class="n-sci">Crocothemis servilia</span>
-  </span>
-</a>
-<a class="card" href="../../species/slender_skimmer/">
-  <span class="ph"><img loading="lazy" src="../../media/species/slender_skimmer/wikimedia_01_t.jpg" alt="Slender Skimmer" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">हरी-चित्तीदार व्याधपतंग</span>
-    <span class="n-en">Slender Skimmer</span>
-    <span class="n-sci">Orthetrum sabina</span>
-  </span>
-</a>
-<a class="card" href="../../species/southern_green_stink_bug/">
-  <span class="ph"><img loading="lazy" src="../../media/species/southern_green_stink_bug/wikimedia_01_t.jpg" alt="Southern Green Stink Bug" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">हरा खटमल</span>
-    <span class="n-en">Southern Green Stink Bug</span>
-    <span class="n-sci">Nezara viridula</span>
-  </span>
-</a>
 <a class="card" href="../../species/culex_mosquito/">
   <span class="ph"><img loading="lazy" src="../../media/species/culex_mosquito/wikimedia_01_t.jpg" alt="Southern House Mosquito" width="380" height="260"></span>
   <span class="meta">
@@ -345,22 +426,6 @@
     <span class="n-hi">रत्न-कीड़ा</span>
     <span class="n-en">Stoll&#39;s Jewel Bug</span>
     <span class="n-sci">Chrysocoris stolli</span>
-  </span>
-</a>
-<a class="card" href="../../species/striped_tiger_butterfly/">
-  <span class="ph"><img loading="lazy" src="../../media/species/striped_tiger_butterfly/wikimedia_01_t.jpg" alt="Striped Tiger Butterfly" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">बाघ तितली</span>
-    <span class="n-en">Striped Tiger Butterfly</span>
-    <span class="n-sci">Danaus genutia</span>
-  </span>
-</a>
-<a class="card" href="../../species/tawny_coster/">
-  <span class="ph"><img loading="lazy" src="../../media/species/tawny_coster/wikimedia_01_t.jpg" alt="Tawny Coster" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">तौनी कोस्टर</span>
-    <span class="n-en">Tawny Coster</span>
-    <span class="n-sci">Acraea terpsicore</span>
   </span>
 </a>
 <a class="card" href="../../species/tobacco_cutworm/">
@@ -379,44 +444,12 @@
     <span class="n-sci">Coccinella transversalis</span>
   </span>
 </a>
-<a class="card" href="../../species/tropical_fire_ant/">
-  <span class="ph"><img loading="lazy" src="../../media/species/tropical_fire_ant/wikimedia_01_t.jpg" alt="Tropical Fire Ant" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">लाल चींटी</span>
-    <span class="n-en">Tropical Fire Ant</span>
-    <span class="n-sci">Solenopsis geminata</span>
-  </span>
-</a>
 <a class="card" href="../../species/field_cricket/">
   <span class="ph"><img loading="lazy" src="../../media/species/field_cricket/wikimedia_01_t.jpg" alt="Two-Spotted Cricket" width="380" height="260"></span>
   <span class="meta">
     <span class="n-hi">झींगुर</span>
     <span class="n-en">Two-Spotted Cricket</span>
     <span class="n-sci">Gryllus bimaculatus</span>
-  </span>
-</a>
-<a class="card" href="../../species/wandering_glider/">
-  <span class="ph"><img loading="lazy" src="../../media/species/wandering_glider/wikimedia_01_t.jpg" alt="Wandering Glider" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">सुनहरी व्याधपतंग</span>
-    <span class="n-en">Wandering Glider</span>
-    <span class="n-sci">Pantala flavescens</span>
-  </span>
-</a>
-<a class="card" href="../../species/weaver_ant/">
-  <span class="ph"><img loading="lazy" src="../../media/species/weaver_ant/wikimedia_01_t.jpg" alt="Weaver Ant" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">बयनी चींटी</span>
-    <span class="n-en">Weaver Ant</span>
-    <span class="n-sci">Oecophylla smaragdina</span>
-  </span>
-</a>
-<a class="card" href="../../species/yellow_paper_wasp/">
-  <span class="ph"><img loading="lazy" src="../../media/species/yellow_paper_wasp/wikimedia_01_t.jpg" alt="Yellow Paper Wasp" width="380" height="260"></span>
-  <span class="meta">
-    <span class="n-hi">ततैया</span>
-    <span class="n-en">Yellow Paper Wasp</span>
-    <span class="n-sci">Polistes olivaceus</span>
   </span>
 </a>
 <a class="card" href="../../species/yellow_stem_borer/">
@@ -427,6 +460,7 @@
     <span class="n-sci">Scirpophaga incertulas</span>
   </span>
 </a></div>
+</section>
 </main>
 <footer class="foot">
   <p><strong>Awadh Biodiversity Atlas</strong> — the flora and fauna of the Basti–Ayodhya countryside,

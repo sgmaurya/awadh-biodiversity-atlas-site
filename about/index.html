@@ -2,10 +2,12 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}</script>
 <title>About — Awadh Biodiversity Atlas</title>
-<meta name="description" content="What the Awadh Biodiversity Atlas is, who makes it, how to contribute a sighting, and the licence.">
+<meta name="description" content="What the Awadh Biodiversity Atlas is for: knowing the flora and fauna of the Basti–Ayodhya countryside well enough to live from it sustainably. How to contribute, and the licence.">
+<meta name="color-scheme" content="light dark">
 <meta property="og:title" content="About — Awadh Biodiversity Atlas">
-<meta property="og:description" content="What the Awadh Biodiversity Atlas is, who makes it, how to contribute a sighting, and the licence.">
+<meta property="og:description" content="What the Awadh Biodiversity Atlas is for: knowing the flora and fauna of the Basti–Ayodhya countryside well enough to live from it sustainably. How to contribute, and the licence.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Awadh Biodiversity Atlas">
 <meta name="twitter:card" content="summary">
@@ -19,8 +21,11 @@
   </a>
   <nav>
     <a href="../">This month</a>
-    <a href="../all/">All species</a>
+    <a href="../all/">Explore</a>
     <a href="../about/">About</a>
+    <button id="theme" type="button" aria-label="Switch between light and dark" title="Light / dark">
+      <span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span>
+    </button>
   </nav>
   <form class="search" role="search" onsubmit="return false">
     <input id="q" type="search" placeholder="Search name, हिंदी नाम, or species" autocomplete="off"
@@ -42,6 +47,23 @@ understands them. A weed is not just a weed and a pest is not just a pest. Every
 explains what the organism actually does — pollinator, decomposer, seed disperser, predator,
 pioneer — instead of sorting life into good and bad.</p>
 
+<h2 id="purpose">What it is for <span class="hi">यह किसलिए है</span></h2>
+<p>To know what grows and lives here well enough to <strong>live from it without using it
+up</strong>. Munja grass was rope, mats and baskets in every home a generation ago; neem and
+reetha washed clothes and skin; rice husk is nearly a third silica, and researchers are
+turning it into building material; lantana, the invader, is being made into furniture;
+water hyacinth, the pond-choker, into paper and biogas. Some of this is memory being lost,
+some is a living craft, some is one study away from a village enterprise.</p>
+<p class="hi">इस एटलस का उद्देश्य है कि हम अपने आसपास के पौधों और जीवों को इतना जानें कि उनसे
+टिकाऊ ढंग से जीविका चला सकें — जैसे मूँज की रस्सी और टोकरी, नीम और रीठे का साबुन, धान की भूसी
+से बनने वाली चीज़ें। जो हुनर खो रहे हैं उन्हें दर्ज करना, और जो नए रास्ते विज्ञान दिखा रहा है
+उन्हें गाँव तक पहुँचाना।</p>
+<p>So each profile records the traditional uses that are documented, the uses still
+practised, and the research directions that exist — labelled as exactly that, with their
+sources. Nothing here is medical advice, and a species that is toxic or protected by law
+says so before any use is described. The atlas is a starting point for makers, self-help
+groups and students, not a set of instructions to follow blindly.</p>
+
 <h2>What this is, and what it is not <span class="hi">यह क्या है</span></h2>
 <p>It is a <strong>checklist with accounts</strong>: what published sources say should live
 in this landscape, written up carefully in two languages. It is <strong>not</strong> a record
@@ -53,9 +75,8 @@ page says so. Turning "expected" into "confirmed" is the work, and anyone can he
 record. Note what you saw, where, and when; photograph it if you can, even badly.</p>
 <p class="hi">आपने कोई पौधा, कीट, पक्षी या मेंढक देखा हो तो उसकी फोटो, जगह और तारीख़ लिख लीजिए।
 यही असली वैज्ञानिक जानकारी है।</p>
-<p>Sightings can be sent through the
-<a href="https://github.com/sgmaurya/awadh-biodiversity-atlas/issues" target="_blank" rel="noopener">project's issue tracker</a>,
-and a Hindi reporting form and an iNaturalist project are being set up.</p>
+<p>A simple way to send sightings in is being set up. Until then, write to the project through
+the <a href="https://github.com/sgmaurya/awadh-biodiversity-atlas/issues" target="_blank" rel="noopener">issue tracker</a>.</p>
 
 <h2>Photographs</h2>
 <p>Most photographs here are borrowed from Wikimedia Commons under free licences, each

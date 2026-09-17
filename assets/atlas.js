@@ -1,13 +1,27 @@
+/* Light by default; dark on request, remembered on this phone. */
+(function () {
+  var btn = document.getElementById('theme');
+  if (!btn) return;
+  btn.addEventListener('click', function () {
+    var root = document.documentElement;
+    var dark = root.getAttribute('data-theme') === 'dark';
+    if (dark) root.removeAttribute('data-theme'); else root.setAttribute('data-theme', 'dark');
+    try { localStorage.setItem('theme', dark ? 'light' : 'dark'); } catch (e) {}
+  });
+})();
+
 /* The home page follows the calendar by itself.
    Every seasonal species is already in the HTML with the months it belongs to, so the page
    never needs rebuilding to stay right. The build month is shown if scripting is off. */
 (function () {
   var sec = document.getElementById('thismonth');
   if (!sec) return;
-  var months, allYear;
+  var months, allYear, perMonth, max;
   try {
     months = JSON.parse(sec.getAttribute('data-months'));
     allYear = JSON.parse(sec.getAttribute('data-allyear'));
+    perMonth = JSON.parse(sec.getAttribute('data-permonth'));
+    max = parseInt(sec.getAttribute('data-max'), 10) || 12;
   } catch (e) { return; }
 
   var m = new Date().getMonth() + 1;
@@ -22,7 +36,7 @@
   var cards = sec.querySelectorAll('#seasonal .card');
   for (var i = 0; i < cards.length; i++) {
     var list = (cards[i].getAttribute('data-m') || '').split(',');
-    var on = list.indexOf(String(m)) !== -1;
+    var on = list.indexOf(String(m)) !== -1 && shown < max;
     cards[i].hidden = !on;
     if (on) shown++;
   }
@@ -30,6 +44,16 @@
   var grid = document.getElementById('seasonal');
   if (empty) empty.hidden = shown > 0;
   if (grid) grid.hidden = shown === 0;
+  var see = document.getElementById('seemonth');
+  if (see) {
+    var total = perMonth[m - 1] || 0;
+    see.hidden = total <= shown;
+    var a = see.querySelector('a');
+    if (a) {
+      a.setAttribute('href', 'month/' + m + '/');
+      a.textContent = 'See all ' + total + ' for ' + months[m - 1][0] + ' \u2192';
+    }
+  }
 })();
 
 /* Search across Hindi, English and scientific names. Loads a ~40 KB index on first use. */

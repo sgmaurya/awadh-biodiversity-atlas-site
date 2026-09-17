@@ -2,12 +2,12 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}</script>
 <title>What to look for in November — Awadh Biodiversity Atlas</title>
-<meta name="description" content="Species whose season is November in eastern Uttar Pradesh, according to published
-             accounts. A further 257 species are about all year.">
+<meta name="description" content="Species whose season is November in eastern Uttar Pradesh, according to published accounts. A further 257 species are about all year.">
+<meta name="color-scheme" content="light dark">
 <meta property="og:title" content="What to look for in November — Awadh Biodiversity Atlas">
-<meta property="og:description" content="Species whose season is November in eastern Uttar Pradesh, according to published
-             accounts. A further 257 species are about all year.">
+<meta property="og:description" content="Species whose season is November in eastern Uttar Pradesh, according to published accounts. A further 257 species are about all year.">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Awadh Biodiversity Atlas">
 <meta property="og:image" content="https://sgmaurya.github.io/awadh-biodiversity-atlas-site/media/species/bathua/wikimedia_01_t.jpg">
@@ -22,8 +22,11 @@
   </a>
   <nav>
     <a href="../../">This month</a>
-    <a href="../../all/">All species</a>
+    <a href="../../all/">Explore</a>
     <a href="../../about/">About</a>
+    <button id="theme" type="button" aria-label="Switch between light and dark" title="Light / dark">
+      <span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span>
+    </button>
   </nav>
   <form class="search" role="search" onsubmit="return false">
     <input id="q" type="search" placeholder="Search name, हिंदी नाम, or species" autocomplete="off"
@@ -32,6 +35,7 @@
   </form>
 </header>
 <main id="main">
+<nav class="crumbs"><a href="../../">Home</a></nav>
 <header class="ph1">
   <h1>What to look for in November <span class="hi">नवंबर में</span></h1>
   <p class="lead">Species whose season is November in eastern Uttar Pradesh, according to published
