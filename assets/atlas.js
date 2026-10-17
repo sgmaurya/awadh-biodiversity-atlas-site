@@ -56,6 +56,26 @@
   }
 })();
 
+/* Species of the day: the date picks one, in the same way the build did, so the page
+   changes every day without a rebuild. Uses the search index, which has every name. */
+(function () {
+  var card = document.getElementById('daycard');
+  if (!card) return;
+  fetch('assets/search.json').then(function (r) { return r.json(); }).then(function (all) {
+    var pics = all.filter(function (d) { return d.t; }).sort(function (a, b) { return a.e.localeCompare(b.e); });
+    if (!pics.length) return;
+    var now = new Date();
+    var day = Math.floor((Date.now() - Date.UTC(now.getUTCFullYear(), 0, 0)) / 86400000);
+    var d = pics[day % pics.length];
+    card.setAttribute('href', 'species/' + d.s + '/');
+    card.querySelector('img').src = d.t.replace('_t.', '.');
+    card.querySelector('img').alt = d.e;
+    card.querySelector('.n-hi').textContent = (d.h || '').split('/')[0].trim();
+    card.querySelector('.n-en').textContent = d.e;
+    card.querySelector('.n-sci').textContent = d.n;
+  }).catch(function () {});
+})();
+
 /* Search across Hindi, English and scientific names. Loads a ~40 KB index on first use. */
 (function () {
   var input = document.getElementById('q');
