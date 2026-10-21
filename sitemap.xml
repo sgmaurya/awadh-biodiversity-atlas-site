@@ -38,6 +38,8 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/asian_grass_frog/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/burrowing_frog/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/jerdons_bullfrog/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/marbled_toad/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/balloon_frog/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/ashy_prinia/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/sarus_crane/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_roller/</loc></url>
@@ -265,6 +267,8 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/spiny_eel/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/pool_barb/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/bronze_featherback/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/climbing_perch/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/tilapia/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/red_cotton_bug/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/wandering_glider/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/jewel_bug/</loc></url>
@@ -317,6 +321,9 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/giant_water_bug/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/dengue_mosquito/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/malaria_mosquito/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/brown_planthopper/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/common_indian_crow/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/carpenter_bee/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_flying_fox/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/mongoose/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/jungle_cat/</loc></url>
@@ -340,6 +347,7 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/ramshorn_snail/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_land_snail/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/red_rimmed_melania/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/pond_snail_bellamya/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_centipede/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/rusty_millipede/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/flat_backed_millipede/</loc></url>
@@ -368,6 +376,7 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/white_grub/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/american_cockroach/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/oriental_cockroach/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/shore_earwig/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/signature_spider/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/giant_wood_spider/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/pantropical_jumping_spider/</loc></url>
@@ -382,4 +391,5 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/yellow_sac_spider/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/social_velvet_spider/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/spiny_orb_weaver/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_red_scorpion/</loc></url>
 </urlset>
