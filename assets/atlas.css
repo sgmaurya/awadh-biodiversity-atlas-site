@@ -54,6 +54,8 @@ a:hover{color:var(--accent)}
 #results .r-en{color:var(--ink-2);font-size:14px}
 #results .r-sci{color:var(--ink-3);font-size:12px;font-style:italic}
 #results .none{padding:10px 12px;color:var(--ink-3);font-size:14px}
+#results .dym{margin:0;padding:7px 12px 4px;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--green);background:var(--soft);border-bottom:1px solid var(--line)}
+#results .dym .hi{text-transform:none;letter-spacing:0;margin-left:4px}
 
 main{max-width:var(--wrap);margin:0 auto;padding:clamp(18px,4vw,34px) clamp(14px,4vw,28px) 50px}
 
