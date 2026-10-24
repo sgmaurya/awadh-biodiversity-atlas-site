@@ -68,6 +68,8 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/marbled_toad/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/balloon_frog/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_green_frog/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/painted_frog/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/chorus_frog/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/ashy_prinia/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/sarus_crane/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_roller/</loc></url>
@@ -161,11 +163,30 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_robin/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_silverbill/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/pied_cuckoo/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/common_teal/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/northern_shoveler/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/cotton_pygmy_goose/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/knob_billed_duck/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_cormorant/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/oriental_darter/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/eurasian_spoonbill/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/common_snipe/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/river_lapwing/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/egyptian_vulture/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/common_hawk_cuckoo/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_nightjar/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_scops_owl/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/blue_tailed_bee_eater/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/wire_tailed_swallow/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/paddyfield_pipit/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_golden_oriole/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/red_avadavat/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/river_prawn/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/freshwater_crab/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/freshwater_crab_paratelphusa/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/freshwater_grass_shrimp/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/water_flea/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/cyclops/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/parthenium_hysterophorus/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/calotropis_gigantea/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/saccharum_munja/</loc></url>
@@ -321,6 +342,36 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/gokhru/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/shankhpushpi/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/marchantia/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/false_ashoka/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/sita_ashok/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/kachnar/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/khair/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/haldu/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/sal/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/tendu/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/kusum/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/jhau/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/kaner/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/patharchatta/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/bhang/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/kanphuti/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/aparajita/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/napier_grass/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/parwal/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/bhindi/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/cauliflower/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/moong/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/turmeric/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/cyperus_iria/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/jangli_palak/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/ankri/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/piazi/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/water_snowflake/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/giant_salvinia/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/sarpagandha/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/sadabahar/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/pudina/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/microcystis/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/termite_mushroom/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/termitomyces_clypeatus/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/paddy_straw_mushroom/</loc></url>
@@ -340,6 +391,10 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/rice_blast/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/black_bread_mold/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/stone_flower_lichen/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/aflatoxin_mold/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/late_blight/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/red_rot/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/loose_smut/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/rohu/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/catla/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/snakehead_murrel/</loc></url>
@@ -364,6 +419,11 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/common_carp/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/mosquito_fish/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/cuchia/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/panchax/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/ticto_barb/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/pabda/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/chapra/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/silver_carp/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/red_cotton_bug/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/wandering_glider/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/jewel_bug/</loc></url>
@@ -433,6 +493,33 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/rice_leaf_folder/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/marmalade_hoverfly/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/black_soldier_fly/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/common_rose/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/blue_tiger/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/common_leopard/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/common_sailer/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/lemon_pansy/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/common_pierrot/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/pea_blue/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/eri_silkmoth/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/six_spotted_ladybird/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/pied_paddy_skimmer/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/rice_weevil/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/pulse_beetle/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/mango_stone_weevil/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/cotton_mealybug/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/whitefly/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/lac_insect/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/sugarcane_pyrilla/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/rice_hispa/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/carpenter_ant/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/mud_dauber_wasp/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/potter_wasp/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/stingless_bee/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/house_fly/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/sand_fly/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/tropical_bed_bug/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/paederus_beetle/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/grey_pansy/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_flying_fox/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/mongoose/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/jungle_cat/</loc></url>
@@ -456,6 +543,9 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/short_nosed_fruit_bat/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/ganges_river_dolphin/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/striped_hyena/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_gerbil/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/smooth_coated_otter/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/false_vampire_bat/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/apple_snail/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/freshwater_mussel/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/freshwater_pond_snail/</loc></url>
@@ -466,6 +556,8 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/giant_african_snail/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/leatherleaf_slug/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/asian_clam/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/river_snail_brotia/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/gyraulus/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_centipede/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/rusty_millipede/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/flat_backed_millipede/</loc></url>
@@ -492,6 +584,9 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/common_bronzeback/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_roofed_turtle/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/mugger/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/gharial/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/banded_krait/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/red_sand_boa/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/termite/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/earthworm/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/forest_woodlouse/</loc></url>
@@ -502,6 +597,8 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/shore_earwig/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/root_knot_nematode/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_blue_worm/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/lampito_earthworm/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/springtail/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/signature_spider/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/giant_wood_spider/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/pantropical_jumping_spider/</loc></url>
@@ -519,4 +616,7 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_red_scorpion/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/red_velvet_mite/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/two_tailed_spider/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/funnel_web_wolf_spider/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/cattle_tick/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/flower_crab_spider/</loc></url>
 </urlset>
