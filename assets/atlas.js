@@ -227,6 +227,8 @@
   if (nameHi) nameHi.textContent = months[m - 1][1];
   var ay = document.getElementById('allyear');
   if (ay && allYear[m - 1] != null) ay.textContent = allYear[m - 1];
+  var vw = document.getElementById('v-winter'), vs = document.getElementById('v-summer');
+  if (vw && vs) { var winter = m >= 10 || m <= 3; vw.hidden = !winter; vs.hidden = winter; }
 
   var shown = 0;
   var cards = sec.querySelectorAll('#seasonal .card');
