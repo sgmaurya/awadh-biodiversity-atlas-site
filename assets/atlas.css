@@ -132,6 +132,7 @@ h1 .hi,h2 .hi{font-size:.72em}
 .names a{text-decoration:none;color:var(--ink)}
 .names a:hover{color:var(--green);text-decoration:underline}
 .names i{color:var(--ink-3);font-size:12.5px}
+.names .n-loc{color:var(--ink-3);font-size:12px;margin-left:4px}
 @media (min-width:760px){.names{columns:3}}
 
 /* species page */
