@@ -266,6 +266,22 @@ th{background:var(--soft);font-weight:600}
 .fbtn.on{background:var(--green);color:#fff;border-color:var(--green)}
 .fcount{margin:14px 0 6px;font-size:15px}
 .learnteaser{margin-top:6px}
+.score{width:100%;border-collapse:collapse;font-size:14px;margin:8px 0 18px}
+.score th,.score td{border-bottom:1px solid var(--line);padding:6px 8px;text-align:right}
+.score th:first-child,.score td:first-child{text-align:left}
+.score thead th{font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-3)}
+.score .tot th,.score .tot td{font-weight:700}
+@media print{
+  .top,.foot,.search,#theme,#lang,.skip,.crumbs,.source,.more,.apartbox .chips a::after{display:none!important}
+  body{background:#fff;color:#000;font-size:11pt}
+  main{max-width:none;padding:0}
+  .hero img{max-height:9cm;width:auto;max-width:100%}
+  .facts{grid-template-columns:repeat(3,1fr)}
+  a{color:#000;text-decoration:none}
+  .prose h2{page-break-after:avoid}
+  .sp .evidence,.sp .merlin{border:1px solid #999}
+  .card,.pair,.box{break-inside:avoid}
+}
 
 /* sprint 4: Hindi interface */
 .l-hi{display:none}
