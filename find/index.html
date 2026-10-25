@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="author" content="Satyaghosh Maurya">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}</script>
+<title>Find by look — Awadh Biodiversity Atlas</title>
+<meta name="description" content="Do not know the name? Pick what kind of thing it was, how big, what colour and where you saw it, and the atlas narrows the list.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="Find by look — Awadh Biodiversity Atlas">
+<meta property="og:description" content="Do not know the name? Pick what kind of thing it was, how big, what colour and where you saw it, and the atlas narrows the list.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Awadh Biodiversity Atlas">
+<meta property="og:image" content="https://sgmaurya.github.io/awadh-biodiversity-atlas-site/media/species/common_toad/wikimedia_01_t.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../assets/atlas.css">
+<body class="find">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="../">
+    <span class="bn-hi">अवध जैव विविधता एटलस</span>
+    <span class="bn-en">Awadh Biodiversity Atlas</span>
+  </a>
+  <nav>
+    <a href="../">This month</a>
+    <a href="../all/">Explore</a>
+    <a href="../find/">Find</a>
+    <a href="../learn/">Learn</a>
+    <a href="../use/">Make &amp; use</a>
+    <a href="../about/">About</a>
+    <button id="theme" type="button" aria-label="Switch between light and dark" title="Light / dark">
+      <span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span>
+    </button>
+  </nav>
+  <form class="search" role="search" onsubmit="return false">
+    <input id="q" type="search" placeholder="Name, हिंदी नाम, local name, or species" autocomplete="off"
+           aria-label="Search species" data-root="../">
+    <div id="results" hidden></div>
+  </form>
+</header>
+<main id="main">
+<nav class="crumbs"><a href="../">Home</a></nav>
+<header class="ph1"><h1>Find by look <span class="hi">देखकर खोजें</span></h1>
+<p class="lead">No name needed. Choose what kind of thing it was, how big, what colour, and where you saw it; the list narrows as you go.
+The size, colour and place come from each profile's own identification table and habitat list, so treat them as a rough sieve, not a key.</p>
+<p class="lead hi">नाम नहीं मालूम? बताइए वह क्या था, कितना बड़ा, किस रंग का और कहाँ दिखा — सूची छोटी होती जाएगी।</p></header>
+<section class="finder" id="finder" data-root="../">
+<div class="facet" data-facet="g"><h3>What kind of thing <span class="hi">किस तरह का</span></h3><div class="fbtns"><button type="button" class="fbtn" data-v="trees">Trees <span class="hi">पेड़</span></button><button type="button" class="fbtn" data-v="weeds">Weeds, shrubs &amp; wild plants <span class="hi">खर-पतवार और झाड़ियाँ</span></button><button type="button" class="fbtn" data-v="crops">Crops <span class="hi">फ़सलें</span></button><button type="button" class="fbtn" data-v="medicinal">Medicinal plants <span class="hi">औषधीय पौधे</span></button><button type="button" class="fbtn" data-v="water-plants">Water plants &amp; grasses <span class="hi">जलीय पौधे और घास</span></button><button type="button" class="fbtn" data-v="fungi">Fungi <span class="hi">कवक</span></button><button type="button" class="fbtn" data-v="birds">Birds <span class="hi">पक्षी</span></button><button type="button" class="fbtn" data-v="insects">Insects <span class="hi">कीट</span></button><button type="button" class="fbtn" data-v="spiders">Spiders <span class="hi">मकड़ियाँ</span></button><button type="button" class="fbtn" data-v="reptiles">Reptiles <span class="hi">सरीसृप</span></button><button type="button" class="fbtn" data-v="amphibians">Frogs &amp; toads <span class="hi">मेंढक</span></button><button type="button" class="fbtn" data-v="mammals">Mammals <span class="hi">स्तनधारी</span></button><button type="button" class="fbtn" data-v="fish">Fish <span class="hi">मछलियाँ</span></button><button type="button" class="fbtn" data-v="small-water-life">Snails, crabs &amp; prawns <span class="hi">घोंघे और केकड़े</span></button><button type="button" class="fbtn" data-v="soil-life">Soil life &amp; millipedes <span class="hi">मिट्टी के जीव</span></button></div></div>
+<div class="facet" data-facet="z"><h3>How big <span class="hi">कितना बड़ा</span></h3><div class="fbtns"><button type="button" class="fbtn" data-v="tiny">Smaller than a fingernail <span class="hi">नाखून से छोटा</span></button><button type="button" class="fbtn" data-v="small">Fits in a hand <span class="hi">हाथ में आ जाए</span></button><button type="button" class="fbtn" data-v="medium">Up to an arm <span class="hi">बाँह भर</span></button><button type="button" class="fbtn" data-v="large">Up to a person <span class="hi">आदमी तक</span></button><button type="button" class="fbtn" data-v="huge">Taller than a person <span class="hi">आदमी से ऊँचा</span></button></div></div>
+<div class="facet" data-facet="c"><h3>Colour <span class="hi">रंग</span></h3><div class="fbtns"><button type="button" class="fbtn" data-v="green">Green <span class="hi">हरा</span></button><button type="button" class="fbtn" data-v="brown">Brown <span class="hi">भूरा</span></button><button type="button" class="fbtn" data-v="grey">Grey <span class="hi">धूसर</span></button><button type="button" class="fbtn" data-v="black">Black <span class="hi">काला</span></button><button type="button" class="fbtn" data-v="white">White <span class="hi">सफ़ेद</span></button><button type="button" class="fbtn" data-v="yellow">Yellow <span class="hi">पीला</span></button><button type="button" class="fbtn" data-v="red">Red or orange <span class="hi">लाल या नारंगी</span></button><button type="button" class="fbtn" data-v="blue">Blue or purple <span class="hi">नीला या बैंगनी</span></button><button type="button" class="fbtn" data-v="pink">Pink <span class="hi">गुलाबी</span></button></div></div>
+<div class="facet" data-facet="w"><h3>Where you saw it <span class="hi">कहाँ दिखा</span></h3><div class="fbtns"><button type="button" class="fbtn" data-v="water">Water <span class="hi">पानी</span></button><button type="button" class="fbtn" data-v="fields">Fields and crops <span class="hi">खेत</span></button><button type="button" class="fbtn" data-v="village">Village and house <span class="hi">गाँव और घर</span></button><button type="button" class="fbtn" data-v="trees">Trees and groves <span class="hi">पेड़ और बाग़</span></button><button type="button" class="fbtn" data-v="open">Grass, scrub and roadsides <span class="hi">घास, झाड़, सड़क</span></button><button type="button" class="fbtn" data-v="soil">Soil, litter and dung <span class="hi">मिट्टी और गोबर</span></button></div></div>
+<p class="fcount"><b id="fcount">582</b> <span id="fword">species match</span> · <button type="button" id="fclear" class="linkbtn">clear <span class="hi">साफ़ करें</span></button></p>
+<div class="grid" id="fgrid"><noscript><p class="empty">The finder needs scripting. <a href="../all/">Explore by group instead.</a></p></noscript></div>
+<p class="more" id="fmore" hidden><button type="button" class="linkbtn" id="fmorebtn">show more</button></p>
+</section>
+</main>
+<footer class="foot">
+  <p><strong>Awadh Biodiversity Atlas</strong> — the flora and fauna of the Basti–Ayodhya countryside,
+     eastern Uttar Pradesh. 582 species profiled from published sources.</p>
+  <p>Text and data <a href="../LICENSE.md">CC BY 4.0</a>. Photographs carry their own licence,
+     credited on each page. Built from the
+     <a href="https://github.com/sgmaurya/awadh-biodiversity-atlas" target="_blank" rel="noopener">atlas vault</a>.</p>
+  <p>Begun and maintained by <a href="https://satyaghoshmaurya.github.io/" rel="author">Satyaghosh Maurya</a>,
+     a chemical engineer and single-molecule biophysicist from Basti district.</p>
+</footer>
+<script src="../assets/atlas.js"></script>
+<script data-goatcounter="https://awadh-atlas.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</html>

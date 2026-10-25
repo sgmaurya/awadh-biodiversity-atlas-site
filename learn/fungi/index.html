@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="author" content="Satyaghosh Maurya">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}</script>
+<title>Learn: Fungi — Awadh Biodiversity Atlas</title>
+<meta name="description" content="Flash cards and a quiz on the 23 fungi of the Basti–Ayodhya countryside, in Hindi and English.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="Learn: Fungi — Awadh Biodiversity Atlas">
+<meta property="og:description" content="Flash cards and a quiz on the 23 fungi of the Basti–Ayodhya countryside, in Hindi and English.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Awadh Biodiversity Atlas">
+<meta property="og:image" content="https://sgmaurya.github.io/awadh-biodiversity-atlas-site/media/species/termite_mushroom/wikimedia_01_t.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/atlas.css">
+<body class="learn">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="../../">
+    <span class="bn-hi">अवध जैव विविधता एटलस</span>
+    <span class="bn-en">Awadh Biodiversity Atlas</span>
+  </a>
+  <nav>
+    <a href="../../">This month</a>
+    <a href="../../all/">Explore</a>
+    <a href="../../find/">Find</a>
+    <a href="../../learn/">Learn</a>
+    <a href="../../use/">Make &amp; use</a>
+    <a href="../../about/">About</a>
+    <button id="theme" type="button" aria-label="Switch between light and dark" title="Light / dark">
+      <span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span>
+    </button>
+  </nav>
+  <form class="search" role="search" onsubmit="return false">
+    <input id="q" type="search" placeholder="Name, हिंदी नाम, local name, or species" autocomplete="off"
+           aria-label="Search species" data-root="../../">
+    <div id="results" hidden></div>
+  </form>
+</header>
+<main id="main">
+<nav class="crumbs"><a href="../../">Home</a> › <a href="../../learn/">Learn</a></nav>
+<header class="ph1"><h1>Fungi <span class="hi">कवक</span></h1>
+<p class="lead">Every fungi in the atlas with a photograph. <b>23</b> species. Cards: tap the photograph to see the name. Quiz: ten photographs, four names each; your best score stays on this phone.</p>
+<p class="lead hi">कार्ड: तस्वीर पर टैप करें, नाम दिखेगा। प्रश्नोत्तरी: दस तस्वीरें, हर एक के चार नाम; आपका सबसे अच्छा स्कोर इसी फ़ोन पर रहता है।</p></header>
+<section class="deck" id="deck" data-deck="[{&quot;s&quot;:&quot;termite_mushroom&quot;,&quot;h&quot;:&quot;दीमक छत्ता&quot;,&quot;e&quot;:&quot;Termite Mushroom&quot;,&quot;n&quot;:&quot;Termitomyces heimii&quot;,&quot;t&quot;:&quot;media/species/termite_mushroom/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;termitomyces_clypeatus&quot;,&quot;h&quot;:&quot;छोटा दीमक छत्ता&quot;,&quot;e&quot;:&quot;Small Termite Mushroom&quot;,&quot;n&quot;:&quot;Termitomyces clypeatus&quot;,&quot;t&quot;:&quot;media/species/termitomyces_clypeatus/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;paddy_straw_mushroom&quot;,&quot;h&quot;:&quot;पुआल मशरूम&quot;,&quot;e&quot;:&quot;Paddy Straw Mushroom&quot;,&quot;n&quot;:&quot;Volvariella volvacea&quot;,&quot;t&quot;:&quot;media/species/paddy_straw_mushroom/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;reishi_bracket&quot;,&quot;h&quot;:&quot;रेशी&quot;,&quot;e&quot;:&quot;Reishi&quot;,&quot;n&quot;:&quot;Ganoderma lucidum&quot;,&quot;t&quot;:&quot;media/species/reishi_bracket/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;oyster_mushroom&quot;,&quot;h&quot;:&quot;ढींगरी&quot;,&quot;e&quot;:&quot;Oyster Mushroom&quot;,&quot;n&quot;:&quot;Pleurotus ostreatus&quot;,&quot;t&quot;:&quot;media/species/oyster_mushroom/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;field_mushroom&quot;,&quot;h&quot;:&quot;जंगली खुम्बी&quot;,&quot;e&quot;:&quot;Field Mushroom&quot;,&quot;n&quot;:&quot;Agaricus campestris&quot;,&quot;t&quot;:&quot;media/species/field_mushroom/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;splitgill_mushroom&quot;,&quot;h&quot;:&quot;लकड़ी का कान&quot;,&quot;e&quot;:&quot;Splitgill Mushroom&quot;,&quot;n&quot;:&quot;Schizophyllum commune&quot;,&quot;t&quot;:&quot;media/species/splitgill_mushroom/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;lilac_puffball&quot;,&quot;h&quot;:&quot;गोबर छत्ता&quot;,&quot;e&quot;:&quot;Lilac Puffball&quot;,&quot;n&quot;:&quot;Calvatia cyathiformis&quot;,&quot;t&quot;:&quot;media/species/lilac_puffball/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;jelly_fungus&quot;,&quot;h&quot;:&quot;पीली जेली&quot;,&quot;e&quot;:&quot;Fan-shaped Jelly Fungus&quot;,&quot;n&quot;:&quot;Dacryopinax spathularia&quot;,&quot;t&quot;:&quot;media/species/jelly_fungus/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;hygroscopic_earthstar&quot;,&quot;h&quot;:&quot;नमी-तारा खुम्बी&quot;,&quot;e&quot;:&quot;Hygroscopic Earthstar&quot;,&quot;n&quot;:&quot;Astraeus hygrometricus&quot;,&quot;t&quot;:&quot;media/species/hygroscopic_earthstar/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;parasol_mushroom&quot;,&quot;h&quot;:&quot;छत्री खुम्बी&quot;,&quot;e&quot;:&quot;Parasol Mushroom&quot;,&quot;n&quot;:&quot;Macrolepiota procera&quot;,&quot;t&quot;:&quot;media/species/parasol_mushroom/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;veiled_stinkhorn&quot;,&quot;h&quot;:&quot;जालीदार खुम्बी&quot;,&quot;e&quot;:&quot;Veiled Stinkhorn&quot;,&quot;n&quot;:&quot;Phallus indusiatus&quot;,&quot;t&quot;:&quot;media/species/veiled_stinkhorn/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;wood_ear_fungus&quot;,&quot;h&quot;:&quot;कान की खुम्बी&quot;,&quot;e&quot;:&quot;Wood Ear Fungus&quot;,&quot;n&quot;:&quot;Auricularia auricula-judae&quot;,&quot;t&quot;:&quot;media/species/wood_ear_fungus/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;turkey_tail&quot;,&quot;h&quot;:&quot;तुर्की पूँछ&quot;,&quot;e&quot;:&quot;Turkey Tail&quot;,&quot;n&quot;:&quot;Trametes versicolor&quot;,&quot;t&quot;:&quot;media/species/turkey_tail/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;birds_nest_fungus&quot;,&quot;h&quot;:&quot;चिड़िया घोंसला खुम्बी&quot;,&quot;e&quot;:&quot;Fluted Bird&#39;s Nest Fungus&quot;,&quot;n&quot;:&quot;Cyathus striatus&quot;,&quot;t&quot;:&quot;media/species/birds_nest_fungus/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;wheat_leaf_rust&quot;,&quot;h&quot;:&quot;गेहूँ का रतुआ&quot;,&quot;e&quot;:&quot;Wheat Leaf Rust&quot;,&quot;n&quot;:&quot;Puccinia triticina&quot;,&quot;t&quot;:&quot;media/species/wheat_leaf_rust/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;rice_blast&quot;,&quot;h&quot;:&quot;धान का झोंका&quot;,&quot;e&quot;:&quot;Rice Blast Fungus&quot;,&quot;n&quot;:&quot;Magnaporthe oryzae&quot;,&quot;t&quot;:&quot;media/species/rice_blast/commons_01_t.jpg&quot;},{&quot;s&quot;:&quot;black_bread_mold&quot;,&quot;h&quot;:&quot;रोटी की फफूंद&quot;,&quot;e&quot;:&quot;Black Bread Mold&quot;,&quot;n&quot;:&quot;Rhizopus stolonifer&quot;,&quot;t&quot;:&quot;media/species/black_bread_mold/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;stone_flower_lichen&quot;,&quot;h&quot;:&quot;पत्थर फूल&quot;,&quot;e&quot;:&quot;Stone-flower Lichen&quot;,&quot;n&quot;:&quot;Parmotrema tinctorum&quot;,&quot;t&quot;:&quot;media/species/stone_flower_lichen/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;aflatoxin_mold&quot;,&quot;h&quot;:&quot;अफ्लाटॉक्सिन फफूंद&quot;,&quot;e&quot;:&quot;Aflatoxin Mold&quot;,&quot;n&quot;:&quot;Aspergillus flavus&quot;,&quot;t&quot;:&quot;media/species/aflatoxin_mold/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;late_blight&quot;,&quot;h&quot;:&quot;आलू का पिछेती झुलसा&quot;,&quot;e&quot;:&quot;Potato Late Blight&quot;,&quot;n&quot;:&quot;Phytophthora infestans&quot;,&quot;t&quot;:&quot;media/species/late_blight/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;red_rot&quot;,&quot;h&quot;:&quot;गन्ने का लाल सड़न&quot;,&quot;e&quot;:&quot;Sugarcane Red Rot&quot;,&quot;n&quot;:&quot;Colletotrichum falcatum&quot;,&quot;t&quot;:&quot;media/species/red_rot/inat_01_t.jpg&quot;},{&quot;s&quot;:&quot;loose_smut&quot;,&quot;h&quot;:&quot;गेहूँ का कंडुआ&quot;,&quot;e&quot;:&quot;Wheat Loose Smut&quot;,&quot;n&quot;:&quot;Ustilago tritici&quot;,&quot;t&quot;:&quot;media/species/loose_smut/wikimedia_01_t.jpg&quot;}]" data-slug="fungi" data-root="../../">
+  <div class="modes"><button type="button" class="mode on" data-mode="cards">Cards <span class="hi">कार्ड</span></button><button type="button" class="mode" data-mode="quiz">Quiz <span class="hi">प्रश्नोत्तरी</span></button><span class="best" id="best"></span></div>
+  <div id="stage" class="stage"><noscript><p class="empty">The cards need scripting. <a href="../../group/fungi/">See the species as a list instead.</a></p></noscript></div>
+</section>
+<section class="inguide"><h2>The species in this deck <span class="hi">इस डेक की प्रजातियाँ</span></h2><div class="grid"><a class="card" href="../../species/termite_mushroom/">
+  <span class="ph"><img loading="lazy" src="../../media/species/termite_mushroom/wikimedia_01_t.jpg" alt="Termite Mushroom" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">दीमक छत्ता</span>
+    <span class="n-en">Termite Mushroom</span>
+    <span class="n-sci">Termitomyces heimii</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/termitomyces_clypeatus/">
+  <span class="ph"><img loading="lazy" src="../../media/species/termitomyces_clypeatus/wikimedia_01_t.jpg" alt="Small Termite Mushroom" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">छोटा दीमक छत्ता</span>
+    <span class="n-en">Small Termite Mushroom</span>
+    <span class="n-sci">Termitomyces clypeatus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/paddy_straw_mushroom/">
+  <span class="ph"><img loading="lazy" src="../../media/species/paddy_straw_mushroom/wikimedia_01_t.jpg" alt="Paddy Straw Mushroom" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पुआल मशरूम</span>
+    <span class="n-en">Paddy Straw Mushroom</span>
+    <span class="n-sci">Volvariella volvacea</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/reishi_bracket/">
+  <span class="ph"><img loading="lazy" src="../../media/species/reishi_bracket/wikimedia_01_t.jpg" alt="Reishi" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">रेशी</span>
+    <span class="n-en">Reishi</span>
+    <span class="n-sci">Ganoderma lucidum</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/oyster_mushroom/">
+  <span class="ph"><img loading="lazy" src="../../media/species/oyster_mushroom/wikimedia_01_t.jpg" alt="Oyster Mushroom" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">ढींगरी</span>
+    <span class="n-en">Oyster Mushroom</span>
+    <span class="n-sci">Pleurotus ostreatus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/field_mushroom/">
+  <span class="ph"><img loading="lazy" src="../../media/species/field_mushroom/wikimedia_01_t.jpg" alt="Field Mushroom" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">जंगली खुम्बी</span>
+    <span class="n-en">Field Mushroom</span>
+    <span class="n-sci">Agaricus campestris</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/splitgill_mushroom/">
+  <span class="ph"><img loading="lazy" src="../../media/species/splitgill_mushroom/wikimedia_01_t.jpg" alt="Splitgill Mushroom" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">लकड़ी का कान</span>
+    <span class="n-en">Splitgill Mushroom</span>
+    <span class="n-sci">Schizophyllum commune</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/lilac_puffball/">
+  <span class="ph"><img loading="lazy" src="../../media/species/lilac_puffball/wikimedia_01_t.jpg" alt="Lilac Puffball" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">गोबर छत्ता</span>
+    <span class="n-en">Lilac Puffball</span>
+    <span class="n-sci">Calvatia cyathiformis</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/jelly_fungus/">
+  <span class="ph"><img loading="lazy" src="../../media/species/jelly_fungus/wikimedia_01_t.jpg" alt="Fan-shaped Jelly Fungus" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पीली जेली</span>
+    <span class="n-en">Fan-shaped Jelly Fungus</span>
+    <span class="n-sci">Dacryopinax spathularia</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/hygroscopic_earthstar/">
+  <span class="ph"><img loading="lazy" src="../../media/species/hygroscopic_earthstar/wikimedia_01_t.jpg" alt="Hygroscopic Earthstar" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">नमी-तारा खुम्बी</span>
+    <span class="n-en">Hygroscopic Earthstar</span>
+    <span class="n-sci">Astraeus hygrometricus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/parasol_mushroom/">
+  <span class="ph"><img loading="lazy" src="../../media/species/parasol_mushroom/wikimedia_01_t.jpg" alt="Parasol Mushroom" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">छत्री खुम्बी</span>
+    <span class="n-en">Parasol Mushroom</span>
+    <span class="n-sci">Macrolepiota procera</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/veiled_stinkhorn/">
+  <span class="ph"><img loading="lazy" src="../../media/species/veiled_stinkhorn/wikimedia_01_t.jpg" alt="Veiled Stinkhorn" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">जालीदार खुम्बी</span>
+    <span class="n-en">Veiled Stinkhorn</span>
+    <span class="n-sci">Phallus indusiatus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/wood_ear_fungus/">
+  <span class="ph"><img loading="lazy" src="../../media/species/wood_ear_fungus/wikimedia_01_t.jpg" alt="Wood Ear Fungus" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कान की खुम्बी</span>
+    <span class="n-en">Wood Ear Fungus</span>
+    <span class="n-sci">Auricularia auricula-judae</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/turkey_tail/">
+  <span class="ph"><img loading="lazy" src="../../media/species/turkey_tail/wikimedia_01_t.jpg" alt="Turkey Tail" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">तुर्की पूँछ</span>
+    <span class="n-en">Turkey Tail</span>
+    <span class="n-sci">Trametes versicolor</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/birds_nest_fungus/">
+  <span class="ph"><img loading="lazy" src="../../media/species/birds_nest_fungus/wikimedia_01_t.jpg" alt="Fluted Bird&#39;s Nest Fungus" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">चिड़िया घोंसला खुम्बी</span>
+    <span class="n-en">Fluted Bird&#39;s Nest Fungus</span>
+    <span class="n-sci">Cyathus striatus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/wheat_leaf_rust/">
+  <span class="ph"><img loading="lazy" src="../../media/species/wheat_leaf_rust/wikimedia_01_t.jpg" alt="Wheat Leaf Rust" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">गेहूँ का रतुआ</span>
+    <span class="n-en">Wheat Leaf Rust</span>
+    <span class="n-sci">Puccinia triticina</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/rice_blast/">
+  <span class="ph"><img loading="lazy" src="../../media/species/rice_blast/commons_01_t.jpg" alt="Rice Blast Fungus" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">धान का झोंका</span>
+    <span class="n-en">Rice Blast Fungus</span>
+    <span class="n-sci">Magnaporthe oryzae</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/black_bread_mold/">
+  <span class="ph"><img loading="lazy" src="../../media/species/black_bread_mold/wikimedia_01_t.jpg" alt="Black Bread Mold" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">रोटी की फफूंद</span>
+    <span class="n-en">Black Bread Mold</span>
+    <span class="n-sci">Rhizopus stolonifer</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/stone_flower_lichen/">
+  <span class="ph"><img loading="lazy" src="../../media/species/stone_flower_lichen/wikimedia_01_t.jpg" alt="Stone-flower Lichen" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पत्थर फूल</span>
+    <span class="n-en">Stone-flower Lichen</span>
+    <span class="n-sci">Parmotrema tinctorum</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/aflatoxin_mold/">
+  <span class="ph"><img loading="lazy" src="../../media/species/aflatoxin_mold/wikimedia_01_t.jpg" alt="Aflatoxin Mold" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">अफ्लाटॉक्सिन फफूंद</span>
+    <span class="n-en">Aflatoxin Mold</span>
+    <span class="n-sci">Aspergillus flavus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/late_blight/">
+  <span class="ph"><img loading="lazy" src="../../media/species/late_blight/wikimedia_01_t.jpg" alt="Potato Late Blight" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">आलू का पिछेती झुलसा</span>
+    <span class="n-en">Potato Late Blight</span>
+    <span class="n-sci">Phytophthora infestans</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/red_rot/">
+  <span class="ph"><img loading="lazy" src="../../media/species/red_rot/inat_01_t.jpg" alt="Sugarcane Red Rot" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">गन्ने का लाल सड़न</span>
+    <span class="n-en">Sugarcane Red Rot</span>
+    <span class="n-sci">Colletotrichum falcatum</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/loose_smut/">
+  <span class="ph"><img loading="lazy" src="../../media/species/loose_smut/wikimedia_01_t.jpg" alt="Wheat Loose Smut" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">गेहूँ का कंडुआ</span>
+    <span class="n-en">Wheat Loose Smut</span>
+    <span class="n-sci">Ustilago tritici</span>
+    
+    
+  </span>
+</a></div></section>
+</main>
+<footer class="foot">
+  <p><strong>Awadh Biodiversity Atlas</strong> — the flora and fauna of the Basti–Ayodhya countryside,
+     eastern Uttar Pradesh. 582 species profiled from published sources.</p>
+  <p>Text and data <a href="../../LICENSE.md">CC BY 4.0</a>. Photographs carry their own licence,
+     credited on each page. Built from the
+     <a href="https://github.com/sgmaurya/awadh-biodiversity-atlas" target="_blank" rel="noopener">atlas vault</a>.</p>
+  <p>Begun and maintained by <a href="https://satyaghoshmaurya.github.io/" rel="author">Satyaghosh Maurya</a>,
+     a chemical engineer and single-molecule biophysicist from Basti district.</p>
+</footer>
+<script src="../../assets/atlas.js"></script>
+<script data-goatcounter="https://awadh-atlas.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</html>

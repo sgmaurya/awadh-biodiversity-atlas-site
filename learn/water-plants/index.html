@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="author" content="Satyaghosh Maurya">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}</script>
+<title>Learn: Water plants &amp; grasses — Awadh Biodiversity Atlas</title>
+<meta name="description" content="Flash cards and a quiz on the 30 water plants &amp; grasses of the Basti–Ayodhya countryside, in Hindi and English.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="Learn: Water plants &amp; grasses — Awadh Biodiversity Atlas">
+<meta property="og:description" content="Flash cards and a quiz on the 30 water plants &amp; grasses of the Basti–Ayodhya countryside, in Hindi and English.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Awadh Biodiversity Atlas">
+<meta property="og:image" content="https://sgmaurya.github.io/awadh-biodiversity-atlas-site/media/species/saccharum_munja/wikimedia_01_t.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/atlas.css">
+<body class="learn">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="../../">
+    <span class="bn-hi">अवध जैव विविधता एटलस</span>
+    <span class="bn-en">Awadh Biodiversity Atlas</span>
+  </a>
+  <nav>
+    <a href="../../">This month</a>
+    <a href="../../all/">Explore</a>
+    <a href="../../find/">Find</a>
+    <a href="../../learn/">Learn</a>
+    <a href="../../use/">Make &amp; use</a>
+    <a href="../../about/">About</a>
+    <button id="theme" type="button" aria-label="Switch between light and dark" title="Light / dark">
+      <span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span>
+    </button>
+  </nav>
+  <form class="search" role="search" onsubmit="return false">
+    <input id="q" type="search" placeholder="Name, हिंदी नाम, local name, or species" autocomplete="off"
+           aria-label="Search species" data-root="../../">
+    <div id="results" hidden></div>
+  </form>
+</header>
+<main id="main">
+<nav class="crumbs"><a href="../../">Home</a> › <a href="../../learn/">Learn</a></nav>
+<header class="ph1"><h1>Water plants &amp; grasses <span class="hi">जलीय पौधे और घास</span></h1>
+<p class="lead">Every water plants and grasses in the atlas with a photograph. <b>30</b> species. Cards: tap the photograph to see the name. Quiz: ten photographs, four names each; your best score stays on this phone.</p>
+<p class="lead hi">कार्ड: तस्वीर पर टैप करें, नाम दिखेगा। प्रश्नोत्तरी: दस तस्वीरें, हर एक के चार नाम; आपका सबसे अच्छा स्कोर इसी फ़ोन पर रहता है।</p></header>
+<section class="deck" id="deck" data-deck="[{&quot;s&quot;:&quot;saccharum_munja&quot;,&quot;h&quot;:&quot;मूँज&quot;,&quot;e&quot;:&quot;Munja Grass&quot;,&quot;n&quot;:&quot;Saccharum munja&quot;,&quot;t&quot;:&quot;media/species/saccharum_munja/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;doob_grass&quot;,&quot;h&quot;:&quot;दूब&quot;,&quot;e&quot;:&quot;Doob Grass&quot;,&quot;n&quot;:&quot;Cynodon dactylon&quot;,&quot;t&quot;:&quot;media/species/doob_grass/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;indian_lotus&quot;,&quot;h&quot;:&quot;कमल&quot;,&quot;e&quot;:&quot;Indian Lotus&quot;,&quot;n&quot;:&quot;Nelumbo nucifera&quot;,&quot;t&quot;:&quot;media/species/indian_lotus/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;water_hyacinth&quot;,&quot;h&quot;:&quot;जलकुंभी&quot;,&quot;e&quot;:&quot;Water Hyacinth&quot;,&quot;n&quot;:&quot;Eichhornia crassipes&quot;,&quot;t&quot;:&quot;media/species/water_hyacinth/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;water_clover_fern&quot;,&quot;h&quot;:&quot;जल तिपतिया&quot;,&quot;e&quot;:&quot;Water Clover Fern&quot;,&quot;n&quot;:&quot;Marsilea quadrifolia&quot;,&quot;t&quot;:&quot;media/species/water_clover_fern/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;cord_moss&quot;,&quot;h&quot;:&quot;काई&quot;,&quot;e&quot;:&quot;Cord Moss&quot;,&quot;n&quot;:&quot;Funaria hygrometrica&quot;,&quot;t&quot;:&quot;media/species/cord_moss/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;blue_water_lily&quot;,&quot;h&quot;:&quot;नीलकमल&quot;,&quot;e&quot;:&quot;Blue Water Lily&quot;,&quot;n&quot;:&quot;Nymphaea nouchali&quot;,&quot;t&quot;:&quot;media/species/blue_water_lily/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;water_lettuce&quot;,&quot;h&quot;:&quot;जलपत्ता&quot;,&quot;e&quot;:&quot;Water Lettuce&quot;,&quot;n&quot;:&quot;Pistia stratiotes&quot;,&quot;t&quot;:&quot;media/species/water_lettuce/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;water_spinach&quot;,&quot;h&quot;:&quot;कलमी साग&quot;,&quot;e&quot;:&quot;Water Spinach&quot;,&quot;n&quot;:&quot;Ipomoea aquatica&quot;,&quot;t&quot;:&quot;media/species/water_spinach/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;kans_grass&quot;,&quot;h&quot;:&quot;काँस&quot;,&quot;e&quot;:&quot;Kans Grass&quot;,&quot;n&quot;:&quot;Saccharum spontaneum&quot;,&quot;t&quot;:&quot;media/species/kans_grass/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;common_reed&quot;,&quot;h&quot;:&quot;सरकंडा&quot;,&quot;e&quot;:&quot;Common Reed&quot;,&quot;n&quot;:&quot;Phragmites karka&quot;,&quot;t&quot;:&quot;media/species/common_reed/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;cattail&quot;,&quot;h&quot;:&quot;पटेर&quot;,&quot;e&quot;:&quot;Common Cattail&quot;,&quot;n&quot;:&quot;Typha latifolia&quot;,&quot;t&quot;:&quot;media/species/cattail/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;azolla&quot;,&quot;h&quot;:&quot;एज़ोला&quot;,&quot;e&quot;:&quot;Water Fern&quot;,&quot;n&quot;:&quot;Azolla pinnata&quot;,&quot;t&quot;:&quot;media/species/azolla/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;duckweed&quot;,&quot;h&quot;:&quot;जल-मसूर&quot;,&quot;e&quot;:&quot;Common Duckweed&quot;,&quot;n&quot;:&quot;Lemna minor&quot;,&quot;t&quot;:&quot;media/species/duckweed/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;hydrilla&quot;,&quot;h&quot;:&quot;जल-जड़ी&quot;,&quot;e&quot;:&quot;Hydrilla&quot;,&quot;n&quot;:&quot;Hydrilla verticillata&quot;,&quot;t&quot;:&quot;media/species/hydrilla/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;kusha_grass&quot;,&quot;h&quot;:&quot;कुश&quot;,&quot;e&quot;:&quot;Kusha Grass&quot;,&quot;n&quot;:&quot;Desmostachya bipinnata&quot;,&quot;t&quot;:&quot;media/species/kusha_grass/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;khas_grass&quot;,&quot;h&quot;:&quot;खस&quot;,&quot;e&quot;:&quot;Vetiver&quot;,&quot;n&quot;:&quot;Chrysopogon zizanioides&quot;,&quot;t&quot;:&quot;media/species/khas_grass/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;nostoc&quot;,&quot;h&quot;:&quot;काई (ज़मीन की जेली वाली काई)&quot;,&quot;e&quot;:&quot;Star Jelly&quot;,&quot;n&quot;:&quot;Nostoc commune&quot;,&quot;t&quot;:&quot;media/species/nostoc/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;riccia&quot;,&quot;h&quot;:&quot;काई (ज़मीन की हरी गुलाबी काई)&quot;,&quot;e&quot;:&quot;Crystalwort&quot;,&quot;n&quot;:&quot;Riccia&quot;,&quot;t&quot;:&quot;media/species/riccia/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;spirogyra&quot;,&quot;h&quot;:&quot;पानी की काई&quot;,&quot;e&quot;:&quot;Water Silk&quot;,&quot;n&quot;:&quot;Spirogyra&quot;,&quot;t&quot;:&quot;media/species/spirogyra/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;thatch_grass&quot;,&quot;h&quot;:&quot;छीर&quot;,&quot;e&quot;:&quot;Thatch Grass&quot;,&quot;n&quot;:&quot;Imperata cylindrica&quot;,&quot;t&quot;:&quot;media/species/thatch_grass/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;sawan_grass&quot;,&quot;h&quot;:&quot;सावाँ&quot;,&quot;e&quot;:&quot;Jungle Rice&quot;,&quot;n&quot;:&quot;Echinochloa colona&quot;,&quot;t&quot;:&quot;media/species/sawan_grass/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;goosegrass&quot;,&quot;h&quot;:&quot;कोदई घास&quot;,&quot;e&quot;:&quot;Goosegrass&quot;,&quot;n&quot;:&quot;Eleusine indica&quot;,&quot;t&quot;:&quot;media/species/goosegrass/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;crowfoot_grass&quot;,&quot;h&quot;:&quot;मकरा&quot;,&quot;e&quot;:&quot;Crowfoot Grass&quot;,&quot;n&quot;:&quot;Dactyloctenium aegyptium&quot;,&quot;t&quot;:&quot;media/species/crowfoot_grass/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;hornwort&quot;,&quot;h&quot;:&quot;जलनीम&quot;,&quot;e&quot;:&quot;Hornwort&quot;,&quot;n&quot;:&quot;Ceratophyllum demersum&quot;,&quot;t&quot;:&quot;media/species/hornwort/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;marchantia&quot;,&quot;h&quot;:&quot;काई (गुच्छेदार)&quot;,&quot;e&quot;:&quot;Common Liverwort&quot;,&quot;n&quot;:&quot;Marchantia polymorpha&quot;,&quot;t&quot;:&quot;media/species/marchantia/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;napier_grass&quot;,&quot;h&quot;:&quot;नेपियर घास&quot;,&quot;e&quot;:&quot;Napier Grass&quot;,&quot;n&quot;:&quot;Cenchrus purpureus&quot;,&quot;t&quot;:&quot;media/species/napier_grass/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;water_snowflake&quot;,&quot;h&quot;:&quot;छोटी कुमुदिनी&quot;,&quot;e&quot;:&quot;Water Snowflake&quot;,&quot;n&quot;:&quot;Nymphoides indica&quot;,&quot;t&quot;:&quot;media/species/water_snowflake/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;giant_salvinia&quot;,&quot;h&quot;:&quot;सालविनिया&quot;,&quot;e&quot;:&quot;Giant Salvinia&quot;,&quot;n&quot;:&quot;Salvinia molesta&quot;,&quot;t&quot;:&quot;media/species/giant_salvinia/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;microcystis&quot;,&quot;h&quot;:&quot;हरी काई (ज़हरीली)&quot;,&quot;e&quot;:&quot;Microcystis&quot;,&quot;n&quot;:&quot;Microcystis aeruginosa&quot;,&quot;t&quot;:&quot;media/species/microcystis/wikimedia_01_t.jpg&quot;}]" data-slug="water-plants" data-root="../../">
+  <div class="modes"><button type="button" class="mode on" data-mode="cards">Cards <span class="hi">कार्ड</span></button><button type="button" class="mode" data-mode="quiz">Quiz <span class="hi">प्रश्नोत्तरी</span></button><span class="best" id="best"></span></div>
+  <div id="stage" class="stage"><noscript><p class="empty">The cards need scripting. <a href="../../group/water-plants/">See the species as a list instead.</a></p></noscript></div>
+</section>
+<section class="inguide"><h2>The species in this deck <span class="hi">इस डेक की प्रजातियाँ</span></h2><div class="grid"><a class="card" href="../../species/saccharum_munja/">
+  <span class="ph"><img loading="lazy" src="../../media/species/saccharum_munja/wikimedia_01_t.jpg" alt="Munja Grass" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">मूँज</span>
+    <span class="n-en">Munja Grass</span>
+    <span class="n-sci">Saccharum munja</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/doob_grass/">
+  <span class="ph"><img loading="lazy" src="../../media/species/doob_grass/wikimedia_01_t.jpg" alt="Doob Grass" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">दूब</span>
+    <span class="n-en">Doob Grass</span>
+    <span class="n-sci">Cynodon dactylon</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/indian_lotus/">
+  <span class="ph"><img loading="lazy" src="../../media/species/indian_lotus/wikimedia_01_t.jpg" alt="Indian Lotus" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कमल</span>
+    <span class="n-en">Indian Lotus</span>
+    <span class="n-sci">Nelumbo nucifera</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/water_hyacinth/">
+  <span class="ph"><img loading="lazy" src="../../media/species/water_hyacinth/wikimedia_01_t.jpg" alt="Water Hyacinth" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">जलकुंभी</span>
+    <span class="n-en">Water Hyacinth</span>
+    <span class="n-sci">Eichhornia crassipes</span>
+    
+    <span class="cb"><b class="c-invasive">Invasive</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/water_clover_fern/">
+  <span class="ph"><img loading="lazy" src="../../media/species/water_clover_fern/wikimedia_01_t.jpg" alt="Water Clover Fern" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">जल तिपतिया</span>
+    <span class="n-en">Water Clover Fern</span>
+    <span class="n-sci">Marsilea quadrifolia</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/cord_moss/">
+  <span class="ph"><img loading="lazy" src="../../media/species/cord_moss/wikimedia_01_t.jpg" alt="Cord Moss" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">काई</span>
+    <span class="n-en">Cord Moss</span>
+    <span class="n-sci">Funaria hygrometrica</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/blue_water_lily/">
+  <span class="ph"><img loading="lazy" src="../../media/species/blue_water_lily/wikimedia_01_t.jpg" alt="Blue Water Lily" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">नीलकमल</span>
+    <span class="n-en">Blue Water Lily</span>
+    <span class="n-sci">Nymphaea nouchali</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/water_lettuce/">
+  <span class="ph"><img loading="lazy" src="../../media/species/water_lettuce/wikimedia_01_t.jpg" alt="Water Lettuce" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">जलपत्ता</span>
+    <span class="n-en">Water Lettuce</span>
+    <span class="n-sci">Pistia stratiotes</span>
+    
+    <span class="cb"><b class="c-invasive">Invasive</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/water_spinach/">
+  <span class="ph"><img loading="lazy" src="../../media/species/water_spinach/wikimedia_01_t.jpg" alt="Water Spinach" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कलमी साग</span>
+    <span class="n-en">Water Spinach</span>
+    <span class="n-sci">Ipomoea aquatica</span>
+    
+    <span class="cb"><b class="c-invasive">Invasive</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/kans_grass/">
+  <span class="ph"><img loading="lazy" src="../../media/species/kans_grass/wikimedia_01_t.jpg" alt="Kans Grass" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">काँस</span>
+    <span class="n-en">Kans Grass</span>
+    <span class="n-sci">Saccharum spontaneum</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/common_reed/">
+  <span class="ph"><img loading="lazy" src="../../media/species/common_reed/wikimedia_01_t.jpg" alt="Common Reed" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">सरकंडा</span>
+    <span class="n-en">Common Reed</span>
+    <span class="n-sci">Phragmites karka</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/cattail/">
+  <span class="ph"><img loading="lazy" src="../../media/species/cattail/wikimedia_01_t.jpg" alt="Common Cattail" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पटेर</span>
+    <span class="n-en">Common Cattail</span>
+    <span class="n-sci">Typha latifolia</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/azolla/">
+  <span class="ph"><img loading="lazy" src="../../media/species/azolla/wikimedia_01_t.jpg" alt="Water Fern" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">एज़ोला</span>
+    <span class="n-en">Water Fern</span>
+    <span class="n-sci">Azolla pinnata</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/duckweed/">
+  <span class="ph"><img loading="lazy" src="../../media/species/duckweed/wikimedia_01_t.jpg" alt="Common Duckweed" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">जल-मसूर</span>
+    <span class="n-en">Common Duckweed</span>
+    <span class="n-sci">Lemna minor</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/hydrilla/">
+  <span class="ph"><img loading="lazy" src="../../media/species/hydrilla/wikimedia_01_t.jpg" alt="Hydrilla" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">जल-जड़ी</span>
+    <span class="n-en">Hydrilla</span>
+    <span class="n-sci">Hydrilla verticillata</span>
+    
+    <span class="cb"><b class="c-invasive">Invasive</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/kusha_grass/">
+  <span class="ph"><img loading="lazy" src="../../media/species/kusha_grass/wikimedia_01_t.jpg" alt="Kusha Grass" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कुश</span>
+    <span class="n-en">Kusha Grass</span>
+    <span class="n-sci">Desmostachya bipinnata</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/khas_grass/">
+  <span class="ph"><img loading="lazy" src="../../media/species/khas_grass/wikimedia_01_t.jpg" alt="Vetiver" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">खस</span>
+    <span class="n-en">Vetiver</span>
+    <span class="n-sci">Chrysopogon zizanioides</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/nostoc/">
+  <span class="ph"><img loading="lazy" src="../../media/species/nostoc/wikimedia_01_t.jpg" alt="Star Jelly" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">काई (ज़मीन की जेली वाली काई)</span>
+    <span class="n-en">Star Jelly</span>
+    <span class="n-sci">Nostoc commune</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/riccia/">
+  <span class="ph"><img loading="lazy" src="../../media/species/riccia/wikimedia_01_t.jpg" alt="Crystalwort" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">काई (ज़मीन की हरी गुलाबी काई)</span>
+    <span class="n-en">Crystalwort</span>
+    <span class="n-sci">Riccia</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/spirogyra/">
+  <span class="ph"><img loading="lazy" src="../../media/species/spirogyra/wikimedia_01_t.jpg" alt="Water Silk" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पानी की काई</span>
+    <span class="n-en">Water Silk</span>
+    <span class="n-sci">Spirogyra</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/thatch_grass/">
+  <span class="ph"><img loading="lazy" src="../../media/species/thatch_grass/wikimedia_01_t.jpg" alt="Thatch Grass" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">छीर</span>
+    <span class="n-en">Thatch Grass</span>
+    <span class="n-sci">Imperata cylindrica</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/sawan_grass/">
+  <span class="ph"><img loading="lazy" src="../../media/species/sawan_grass/wikimedia_01_t.jpg" alt="Jungle Rice" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">सावाँ</span>
+    <span class="n-en">Jungle Rice</span>
+    <span class="n-sci">Echinochloa colona</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/goosegrass/">
+  <span class="ph"><img loading="lazy" src="../../media/species/goosegrass/wikimedia_01_t.jpg" alt="Goosegrass" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कोदई घास</span>
+    <span class="n-en">Goosegrass</span>
+    <span class="n-sci">Eleusine indica</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/crowfoot_grass/">
+  <span class="ph"><img loading="lazy" src="../../media/species/crowfoot_grass/wikimedia_01_t.jpg" alt="Crowfoot Grass" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">मकरा</span>
+    <span class="n-en">Crowfoot Grass</span>
+    <span class="n-sci">Dactyloctenium aegyptium</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/hornwort/">
+  <span class="ph"><img loading="lazy" src="../../media/species/hornwort/wikimedia_01_t.jpg" alt="Hornwort" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">जलनीम</span>
+    <span class="n-en">Hornwort</span>
+    <span class="n-sci">Ceratophyllum demersum</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/marchantia/">
+  <span class="ph"><img loading="lazy" src="../../media/species/marchantia/wikimedia_01_t.jpg" alt="Common Liverwort" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">काई (गुच्छेदार)</span>
+    <span class="n-en">Common Liverwort</span>
+    <span class="n-sci">Marchantia polymorpha</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/napier_grass/">
+  <span class="ph"><img loading="lazy" src="../../media/species/napier_grass/wikimedia_01_t.jpg" alt="Napier Grass" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">नेपियर घास</span>
+    <span class="n-en">Napier Grass</span>
+    <span class="n-sci">Cenchrus purpureus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/water_snowflake/">
+  <span class="ph"><img loading="lazy" src="../../media/species/water_snowflake/wikimedia_01_t.jpg" alt="Water Snowflake" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">छोटी कुमुदिनी</span>
+    <span class="n-en">Water Snowflake</span>
+    <span class="n-sci">Nymphoides indica</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/giant_salvinia/">
+  <span class="ph"><img loading="lazy" src="../../media/species/giant_salvinia/wikimedia_01_t.jpg" alt="Giant Salvinia" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">सालविनिया</span>
+    <span class="n-en">Giant Salvinia</span>
+    <span class="n-sci">Salvinia molesta</span>
+    
+    <span class="cb"><b class="c-invasive">Invasive</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/microcystis/">
+  <span class="ph"><img loading="lazy" src="../../media/species/microcystis/wikimedia_01_t.jpg" alt="Microcystis" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">हरी काई (ज़हरीली)</span>
+    <span class="n-en">Microcystis</span>
+    <span class="n-sci">Microcystis aeruginosa</span>
+    
+    <span class="cb"><b class="c-toxic">Toxic</b></span>
+  </span>
+</a></div></section>
+</main>
+<footer class="foot">
+  <p><strong>Awadh Biodiversity Atlas</strong> — the flora and fauna of the Basti–Ayodhya countryside,
+     eastern Uttar Pradesh. 582 species profiled from published sources.</p>
+  <p>Text and data <a href="../../LICENSE.md">CC BY 4.0</a>. Photographs carry their own licence,
+     credited on each page. Built from the
+     <a href="https://github.com/sgmaurya/awadh-biodiversity-atlas" target="_blank" rel="noopener">atlas vault</a>.</p>
+  <p>Begun and maintained by <a href="https://satyaghoshmaurya.github.io/" rel="author">Satyaghosh Maurya</a>,
+     a chemical engineer and single-molecule biophysicist from Basti district.</p>
+</footer>
+<script src="../../assets/atlas.js"></script>
+<script data-goatcounter="https://awadh-atlas.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</html>

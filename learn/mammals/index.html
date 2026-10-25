@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="author" content="Satyaghosh Maurya">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}</script>
+<title>Learn: Mammals — Awadh Biodiversity Atlas</title>
+<meta name="description" content="Flash cards and a quiz on the 25 mammals of the Basti–Ayodhya countryside, in Hindi and English.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="Learn: Mammals — Awadh Biodiversity Atlas">
+<meta property="og:description" content="Flash cards and a quiz on the 25 mammals of the Basti–Ayodhya countryside, in Hindi and English.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Awadh Biodiversity Atlas">
+<meta property="og:image" content="https://sgmaurya.github.io/awadh-biodiversity-atlas-site/media/species/indian_flying_fox/wikimedia_01_t.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/atlas.css">
+<body class="learn">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="../../">
+    <span class="bn-hi">अवध जैव विविधता एटलस</span>
+    <span class="bn-en">Awadh Biodiversity Atlas</span>
+  </a>
+  <nav>
+    <a href="../../">This month</a>
+    <a href="../../all/">Explore</a>
+    <a href="../../find/">Find</a>
+    <a href="../../learn/">Learn</a>
+    <a href="../../use/">Make &amp; use</a>
+    <a href="../../about/">About</a>
+    <button id="theme" type="button" aria-label="Switch between light and dark" title="Light / dark">
+      <span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span>
+    </button>
+  </nav>
+  <form class="search" role="search" onsubmit="return false">
+    <input id="q" type="search" placeholder="Name, हिंदी नाम, local name, or species" autocomplete="off"
+           aria-label="Search species" data-root="../../">
+    <div id="results" hidden></div>
+  </form>
+</header>
+<main id="main">
+<nav class="crumbs"><a href="../../">Home</a> › <a href="../../learn/">Learn</a></nav>
+<header class="ph1"><h1>Mammals <span class="hi">स्तनधारी</span></h1>
+<p class="lead">Every mammals in the atlas with a photograph. <b>25</b> species. Cards: tap the photograph to see the name. Quiz: ten photographs, four names each; your best score stays on this phone.</p>
+<p class="lead hi">कार्ड: तस्वीर पर टैप करें, नाम दिखेगा। प्रश्नोत्तरी: दस तस्वीरें, हर एक के चार नाम; आपका सबसे अच्छा स्कोर इसी फ़ोन पर रहता है।</p></header>
+<section class="deck" id="deck" data-deck="[{&quot;s&quot;:&quot;indian_flying_fox&quot;,&quot;h&quot;:&quot;बड़ा चमगादड़&quot;,&quot;e&quot;:&quot;Indian Flying Fox&quot;,&quot;n&quot;:&quot;Pteropus medius&quot;,&quot;t&quot;:&quot;media/species/indian_flying_fox/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;mongoose&quot;,&quot;h&quot;:&quot;नेवला&quot;,&quot;e&quot;:&quot;Small Indian Mongoose&quot;,&quot;n&quot;:&quot;Herpestes edwardsii&quot;,&quot;t&quot;:&quot;media/species/mongoose/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;jungle_cat&quot;,&quot;h&quot;:&quot;जंगली बिल्ली&quot;,&quot;e&quot;:&quot;Jungle Cat&quot;,&quot;n&quot;:&quot;Felis chaus&quot;,&quot;t&quot;:&quot;media/species/jungle_cat/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;palm_squirrel&quot;,&quot;h&quot;:&quot;गिलहरी&quot;,&quot;e&quot;:&quot;Northern Palm Squirrel&quot;,&quot;n&quot;:&quot;Funambulus pennantii&quot;,&quot;t&quot;:&quot;media/species/palm_squirrel/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;golden_jackal&quot;,&quot;h&quot;:&quot;सियार&quot;,&quot;e&quot;:&quot;Golden Jackal&quot;,&quot;n&quot;:&quot;Canis aureus&quot;,&quot;t&quot;:&quot;media/species/golden_jackal/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;rhesus_macaque&quot;,&quot;h&quot;:&quot;बंदर&quot;,&quot;e&quot;:&quot;Rhesus Macaque&quot;,&quot;n&quot;:&quot;Macaca mulatta&quot;,&quot;t&quot;:&quot;media/species/rhesus_macaque/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;wild_boar&quot;,&quot;h&quot;:&quot;जंगली सूअर&quot;,&quot;e&quot;:&quot;Wild Boar&quot;,&quot;n&quot;:&quot;Sus scrofa&quot;,&quot;t&quot;:&quot;media/species/wild_boar/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;indian_porcupine&quot;,&quot;h&quot;:&quot;साही&quot;,&quot;e&quot;:&quot;Indian Crested Porcupine&quot;,&quot;n&quot;:&quot;Hystrix indica&quot;,&quot;t&quot;:&quot;media/species/indian_porcupine/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;common_palm_civet&quot;,&quot;h&quot;:&quot;खटास&quot;,&quot;e&quot;:&quot;Common Palm Civet&quot;,&quot;n&quot;:&quot;Paradoxurus hermaphroditus&quot;,&quot;t&quot;:&quot;media/species/common_palm_civet/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;nilgai&quot;,&quot;h&quot;:&quot;नीलगाय&quot;,&quot;e&quot;:&quot;Nilgai&quot;,&quot;n&quot;:&quot;Boselaphus tragocamelus&quot;,&quot;t&quot;:&quot;media/species/nilgai/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;small_indian_civet&quot;,&quot;h&quot;:&quot;कस्तूरी बिलाव&quot;,&quot;e&quot;:&quot;Small Indian Civet&quot;,&quot;n&quot;:&quot;Viverricula indica&quot;,&quot;t&quot;:&quot;media/species/small_indian_civet/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;lesser_bandicoot_rat&quot;,&quot;h&quot;:&quot;घुँस&quot;,&quot;e&quot;:&quot;Lesser Bandicoot Rat&quot;,&quot;n&quot;:&quot;Bandicota bengalensis&quot;,&quot;t&quot;:&quot;media/species/lesser_bandicoot_rat/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;indian_pipistrelle&quot;,&quot;h&quot;:&quot;चमगादड़ी&quot;,&quot;e&quot;:&quot;Indian Pipistrelle&quot;,&quot;n&quot;:&quot;Pipistrellus coromandra&quot;,&quot;t&quot;:&quot;media/species/indian_pipistrelle/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;asian_house_shrew&quot;,&quot;h&quot;:&quot;छछूंदर&quot;,&quot;e&quot;:&quot;Asian House Shrew&quot;,&quot;n&quot;:&quot;Suncus murinus&quot;,&quot;t&quot;:&quot;media/species/asian_house_shrew/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;indian_fox&quot;,&quot;h&quot;:&quot;लोमड़ी&quot;,&quot;e&quot;:&quot;Indian Fox&quot;,&quot;n&quot;:&quot;Vulpes bengalensis&quot;,&quot;t&quot;:&quot;media/species/indian_fox/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;indian_pangolin&quot;,&quot;h&quot;:&quot;पैंगोलिन&quot;,&quot;e&quot;:&quot;Indian Pangolin&quot;,&quot;n&quot;:&quot;Manis crassicaudata&quot;,&quot;t&quot;:&quot;media/species/indian_pangolin/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;house_rat&quot;,&quot;h&quot;:&quot;घर का चूहा&quot;,&quot;e&quot;:&quot;House Rat&quot;,&quot;n&quot;:&quot;Rattus rattus&quot;,&quot;t&quot;:&quot;media/species/house_rat/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;house_mouse&quot;,&quot;h&quot;:&quot;चुहिया&quot;,&quot;e&quot;:&quot;House Mouse&quot;,&quot;n&quot;:&quot;Mus musculus&quot;,&quot;t&quot;:&quot;media/species/house_mouse/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;grey_langur&quot;,&quot;h&quot;:&quot;लंगूर&quot;,&quot;e&quot;:&quot;Northern Plains Grey Langur&quot;,&quot;n&quot;:&quot;Semnopithecus entellus&quot;,&quot;t&quot;:&quot;media/species/grey_langur/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;short_nosed_fruit_bat&quot;,&quot;h&quot;:&quot;छोटा चमगादड़&quot;,&quot;e&quot;:&quot;Greater Short-nosed Fruit Bat&quot;,&quot;n&quot;:&quot;Cynopterus sphinx&quot;,&quot;t&quot;:&quot;media/species/short_nosed_fruit_bat/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;ganges_river_dolphin&quot;,&quot;h&quot;:&quot;सोंस&quot;,&quot;e&quot;:&quot;Ganges River Dolphin&quot;,&quot;n&quot;:&quot;Platanista gangetica&quot;,&quot;t&quot;:&quot;media/species/ganges_river_dolphin/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;striped_hyena&quot;,&quot;h&quot;:&quot;लकड़बग्घा&quot;,&quot;e&quot;:&quot;Striped Hyena&quot;,&quot;n&quot;:&quot;Hyaena hyaena&quot;,&quot;t&quot;:&quot;media/species/striped_hyena/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;indian_gerbil&quot;,&quot;h&quot;:&quot;अंतरी चूहा&quot;,&quot;e&quot;:&quot;Indian Gerbil&quot;,&quot;n&quot;:&quot;Tatera indica&quot;,&quot;t&quot;:&quot;media/species/indian_gerbil/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;smooth_coated_otter&quot;,&quot;h&quot;:&quot;ऊदबिलाव&quot;,&quot;e&quot;:&quot;Smooth-coated Otter&quot;,&quot;n&quot;:&quot;Lutrogale perspicillata&quot;,&quot;t&quot;:&quot;media/species/smooth_coated_otter/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;false_vampire_bat&quot;,&quot;h&quot;:&quot;बड़ा चमगादड़&quot;,&quot;e&quot;:&quot;Greater False Vampire Bat&quot;,&quot;n&quot;:&quot;Lyroderma lyra&quot;,&quot;t&quot;:&quot;media/species/false_vampire_bat/wikimedia_01_t.jpg&quot;}]" data-slug="mammals" data-root="../../">
+  <div class="modes"><button type="button" class="mode on" data-mode="cards">Cards <span class="hi">कार्ड</span></button><button type="button" class="mode" data-mode="quiz">Quiz <span class="hi">प्रश्नोत्तरी</span></button><span class="best" id="best"></span></div>
+  <div id="stage" class="stage"><noscript><p class="empty">The cards need scripting. <a href="../../group/mammals/">See the species as a list instead.</a></p></noscript></div>
+</section>
+<section class="inguide"><h2>The species in this deck <span class="hi">इस डेक की प्रजातियाँ</span></h2><div class="grid"><a class="card" href="../../species/indian_flying_fox/">
+  <span class="ph"><img loading="lazy" src="../../media/species/indian_flying_fox/wikimedia_01_t.jpg" alt="Indian Flying Fox" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">बड़ा चमगादड़</span>
+    <span class="n-en">Indian Flying Fox</span>
+    <span class="n-sci">Pteropus medius</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/mongoose/">
+  <span class="ph"><img loading="lazy" src="../../media/species/mongoose/wikimedia_01_t.jpg" alt="Small Indian Mongoose" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">नेवला</span>
+    <span class="n-en">Small Indian Mongoose</span>
+    <span class="n-sci">Herpestes edwardsii</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/jungle_cat/">
+  <span class="ph"><img loading="lazy" src="../../media/species/jungle_cat/wikimedia_01_t.jpg" alt="Jungle Cat" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">जंगली बिल्ली</span>
+    <span class="n-en">Jungle Cat</span>
+    <span class="n-sci">Felis chaus</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/palm_squirrel/">
+  <span class="ph"><img loading="lazy" src="../../media/species/palm_squirrel/wikimedia_01_t.jpg" alt="Northern Palm Squirrel" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">गिलहरी</span>
+    <span class="n-en">Northern Palm Squirrel</span>
+    <span class="n-sci">Funambulus pennantii</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/golden_jackal/">
+  <span class="ph"><img loading="lazy" src="../../media/species/golden_jackal/wikimedia_01_t.jpg" alt="Golden Jackal" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">सियार</span>
+    <span class="n-en">Golden Jackal</span>
+    <span class="n-sci">Canis aureus</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/rhesus_macaque/">
+  <span class="ph"><img loading="lazy" src="../../media/species/rhesus_macaque/wikimedia_01_t.jpg" alt="Rhesus Macaque" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">बंदर</span>
+    <span class="n-en">Rhesus Macaque</span>
+    <span class="n-sci">Macaca mulatta</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/wild_boar/">
+  <span class="ph"><img loading="lazy" src="../../media/species/wild_boar/wikimedia_01_t.jpg" alt="Wild Boar" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">जंगली सूअर</span>
+    <span class="n-en">Wild Boar</span>
+    <span class="n-sci">Sus scrofa</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/indian_porcupine/">
+  <span class="ph"><img loading="lazy" src="../../media/species/indian_porcupine/wikimedia_01_t.jpg" alt="Indian Crested Porcupine" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">साही</span>
+    <span class="n-en">Indian Crested Porcupine</span>
+    <span class="n-sci">Hystrix indica</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/common_palm_civet/">
+  <span class="ph"><img loading="lazy" src="../../media/species/common_palm_civet/wikimedia_01_t.jpg" alt="Common Palm Civet" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">खटास</span>
+    <span class="n-en">Common Palm Civet</span>
+    <span class="n-sci">Paradoxurus hermaphroditus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/nilgai/">
+  <span class="ph"><img loading="lazy" src="../../media/species/nilgai/wikimedia_01_t.jpg" alt="Nilgai" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">नीलगाय</span>
+    <span class="n-en">Nilgai</span>
+    <span class="n-sci">Boselaphus tragocamelus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/small_indian_civet/">
+  <span class="ph"><img loading="lazy" src="../../media/species/small_indian_civet/wikimedia_01_t.jpg" alt="Small Indian Civet" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कस्तूरी बिलाव</span>
+    <span class="n-en">Small Indian Civet</span>
+    <span class="n-sci">Viverricula indica</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/lesser_bandicoot_rat/">
+  <span class="ph"><img loading="lazy" src="../../media/species/lesser_bandicoot_rat/wikimedia_01_t.jpg" alt="Lesser Bandicoot Rat" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">घुँस</span>
+    <span class="n-en">Lesser Bandicoot Rat</span>
+    <span class="n-sci">Bandicota bengalensis</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/indian_pipistrelle/">
+  <span class="ph"><img loading="lazy" src="../../media/species/indian_pipistrelle/wikimedia_01_t.jpg" alt="Indian Pipistrelle" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">चमगादड़ी</span>
+    <span class="n-en">Indian Pipistrelle</span>
+    <span class="n-sci">Pipistrellus coromandra</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/asian_house_shrew/">
+  <span class="ph"><img loading="lazy" src="../../media/species/asian_house_shrew/wikimedia_01_t.jpg" alt="Asian House Shrew" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">छछूंदर</span>
+    <span class="n-en">Asian House Shrew</span>
+    <span class="n-sci">Suncus murinus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/indian_fox/">
+  <span class="ph"><img loading="lazy" src="../../media/species/indian_fox/wikimedia_01_t.jpg" alt="Indian Fox" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">लोमड़ी</span>
+    <span class="n-en">Indian Fox</span>
+    <span class="n-sci">Vulpes bengalensis</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/indian_pangolin/">
+  <span class="ph"><img loading="lazy" src="../../media/species/indian_pangolin/wikimedia_01_t.jpg" alt="Indian Pangolin" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पैंगोलिन</span>
+    <span class="n-en">Indian Pangolin</span>
+    <span class="n-sci">Manis crassicaudata</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/house_rat/">
+  <span class="ph"><img loading="lazy" src="../../media/species/house_rat/wikimedia_01_t.jpg" alt="House Rat" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">घर का चूहा</span>
+    <span class="n-en">House Rat</span>
+    <span class="n-sci">Rattus rattus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/house_mouse/">
+  <span class="ph"><img loading="lazy" src="../../media/species/house_mouse/wikimedia_01_t.jpg" alt="House Mouse" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">चुहिया</span>
+    <span class="n-en">House Mouse</span>
+    <span class="n-sci">Mus musculus</span>
+    
+    <span class="cb"><b class="c-disease-vector">Carries disease</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/grey_langur/">
+  <span class="ph"><img loading="lazy" src="../../media/species/grey_langur/wikimedia_01_t.jpg" alt="Northern Plains Grey Langur" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">लंगूर</span>
+    <span class="n-en">Northern Plains Grey Langur</span>
+    <span class="n-sci">Semnopithecus entellus</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/short_nosed_fruit_bat/">
+  <span class="ph"><img loading="lazy" src="../../media/species/short_nosed_fruit_bat/wikimedia_01_t.jpg" alt="Greater Short-nosed Fruit Bat" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">छोटा चमगादड़</span>
+    <span class="n-en">Greater Short-nosed Fruit Bat</span>
+    <span class="n-sci">Cynopterus sphinx</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/ganges_river_dolphin/">
+  <span class="ph"><img loading="lazy" src="../../media/species/ganges_river_dolphin/wikimedia_01_t.jpg" alt="Ganges River Dolphin" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">सोंस</span>
+    <span class="n-en">Ganges River Dolphin</span>
+    <span class="n-sci">Platanista gangetica</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/striped_hyena/">
+  <span class="ph"><img loading="lazy" src="../../media/species/striped_hyena/wikimedia_01_t.jpg" alt="Striped Hyena" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">लकड़बग्घा</span>
+    <span class="n-en">Striped Hyena</span>
+    <span class="n-sci">Hyaena hyaena</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/indian_gerbil/">
+  <span class="ph"><img loading="lazy" src="../../media/species/indian_gerbil/wikimedia_01_t.jpg" alt="Indian Gerbil" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">अंतरी चूहा</span>
+    <span class="n-en">Indian Gerbil</span>
+    <span class="n-sci">Tatera indica</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/smooth_coated_otter/">
+  <span class="ph"><img loading="lazy" src="../../media/species/smooth_coated_otter/wikimedia_01_t.jpg" alt="Smooth-coated Otter" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">ऊदबिलाव</span>
+    <span class="n-en">Smooth-coated Otter</span>
+    <span class="n-sci">Lutrogale perspicillata</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/false_vampire_bat/">
+  <span class="ph"><img loading="lazy" src="../../media/species/false_vampire_bat/wikimedia_01_t.jpg" alt="Greater False Vampire Bat" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">बड़ा चमगादड़</span>
+    <span class="n-en">Greater False Vampire Bat</span>
+    <span class="n-sci">Lyroderma lyra</span>
+    
+    
+  </span>
+</a></div></section>
+</main>
+<footer class="foot">
+  <p><strong>Awadh Biodiversity Atlas</strong> — the flora and fauna of the Basti–Ayodhya countryside,
+     eastern Uttar Pradesh. 582 species profiled from published sources.</p>
+  <p>Text and data <a href="../../LICENSE.md">CC BY 4.0</a>. Photographs carry their own licence,
+     credited on each page. Built from the
+     <a href="https://github.com/sgmaurya/awadh-biodiversity-atlas" target="_blank" rel="noopener">atlas vault</a>.</p>
+  <p>Begun and maintained by <a href="https://satyaghoshmaurya.github.io/" rel="author">Satyaghosh Maurya</a>,
+     a chemical engineer and single-molecule biophysicist from Basti district.</p>
+</footer>
+<script src="../../assets/atlas.js"></script>
+<script data-goatcounter="https://awadh-atlas.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</html>

@@ -348,3 +348,128 @@
     if (!box.contains(e.target) && e.target !== input) box.hidden = true;
   });
 })();
+
+/* Learn: flash cards and a quiz, from the deck embedded in the page. */
+(function () {
+  var sec = document.getElementById('deck');
+  if (!sec) return;
+  var deck, root = sec.getAttribute('data-root') || '', slug = sec.getAttribute('data-slug') || 'deck';
+  try { deck = JSON.parse(sec.getAttribute('data-deck')); } catch (e) { return; }
+  var stage = document.getElementById('stage'), best = document.getElementById('best');
+  function esc(s) { return String(s || '').replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function shuffle(a) { a = a.slice(); for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)); var t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+  function pic(it) { return root + it.t; }
+  function showBest() {
+    var b = null; try { b = localStorage.getItem('deck:' + slug); } catch (e) {}
+    best.textContent = b ? 'Best: ' + b + ' / 10 · सबसे अच्छा' : '';
+  }
+  function cards() {
+    var order = shuffle(deck), i = 0, open = false;
+    function draw() {
+      var it = order[i];
+      stage.innerHTML = '<div class="flash">' +
+        '<img class="pic" src="' + esc(pic(it)) + '" alt="" title="Tap to reveal">' +
+        '<div class="ans">' + (open ? '<span class="n-hi">' + esc(it.h) + '</span><span class="n-en">' + esc(it.e) + '</span><span class="n-sci">' + esc(it.n) + '</span>' +
+          '<a href="' + root + 'species/' + it.s + '/">Read the profile →</a>' : '<span class="n-en">Tap the photograph · तस्वीर पर टैप करें</span>') + '</div>' +
+        '<div class="ctl"><button type="button" class="dbtn" data-go="-1">← Back</button><button type="button" class="dbtn" data-go="flip">' + (open ? 'Hide' : 'Show the name · नाम दिखाएँ') + '</button><button type="button" class="dbtn" data-go="1">Next →</button></div>' +
+        '<p class="prog">' + (i + 1) + ' / ' + order.length + '</p></div>';
+      stage.querySelector('.pic').onclick = function () { open = !open; draw(); };
+      var btns = stage.querySelectorAll('.dbtn');
+      for (var k = 0; k < btns.length; k++) btns[k].onclick = function () {
+        var g = this.getAttribute('data-go');
+        if (g === 'flip') { open = !open; } else { i = (i + parseInt(g, 10) + order.length) % order.length; open = false; }
+        draw();
+      };
+    }
+    draw();
+  }
+  function quiz(subset) {
+    var pool = subset && subset.length >= 4 ? subset : deck;
+    var qs = shuffle(pool).slice(0, Math.min(10, pool.length)), i = 0, score = 0, missed = [];
+    function draw() {
+      if (i >= qs.length) {
+        var prev = 0; try { prev = parseInt(localStorage.getItem('deck:' + slug) || '0', 10); } catch (e) {}
+        var scaled = Math.round(score * 10 / qs.length);
+        if (scaled > prev) { try { localStorage.setItem('deck:' + slug, String(scaled)); } catch (e) {} }
+        showBest();
+        stage.innerHTML = '<div class="flash quiz"><p class="score">' + score + ' / ' + qs.length + (scaled >= 9 ? ' · शाबाश!' : scaled >= 6 ? ' · अच्छा' : ' · फिर से') + '</p>' +
+          '<div class="ctl"><button type="button" class="dbtn" id="again">Again · फिर से</button>' +
+          (missed.length >= 4 ? '<button type="button" class="dbtn" id="missed">Only the ones I missed</button>' : '') + '</div>' +
+          (missed.length ? '<p class="verdict">Missed: ' + missed.map(function (m) { return '<a href="' + root + 'species/' + m.s + '/">' + esc(m.h) + ' (' + esc(m.e) + ')</a>'; }).join(', ') + '</p>' : '') + '</div>';
+        document.getElementById('again').onclick = function () { quiz(); };
+        var mb = document.getElementById('missed'); if (mb) mb.onclick = function () { quiz(missed); };
+        return;
+      }
+      var it = qs[i];
+      var others = shuffle(deck.filter(function (x) { return x.s !== it.s; })).slice(0, 3);
+      var opts = shuffle(others.concat([it]));
+      stage.innerHTML = '<div class="flash quiz"><img class="pic" src="' + esc(pic(it)) + '" alt="">' +
+        '<div class="opts">' + opts.map(function (o) { return '<button type="button" class="opt" data-s="' + esc(o.s) + '"><span class="n-hi">' + esc(o.h) + '</span><span class="n-en">' + esc(o.e) + '</span></button>'; }).join('') + '</div>' +
+        '<p class="verdict" id="verdict"></p><p class="prog">' + (i + 1) + ' / ' + qs.length + ' · ' + score + ' right</p></div>';
+      var btns = stage.querySelectorAll('.opt'), done = false;
+      for (var k = 0; k < btns.length; k++) btns[k].onclick = function () {
+        if (done) return; done = true;
+        var ok = this.getAttribute('data-s') === it.s;
+        if (ok) score++; else missed.push(it);
+        for (var j = 0; j < btns.length; j++) { if (btns[j].getAttribute('data-s') === it.s) btns[j].className += ' right'; }
+        if (!ok) this.className += ' wrong';
+        document.getElementById('verdict').innerHTML = (ok ? 'Right · सही' : 'It is <b>' + esc(it.h) + '</b>, ' + esc(it.e)) +
+          ' · <a href="' + root + 'species/' + it.s + '/">profile</a> · <button type="button" class="dbtn" id="next">Next →</button>';
+        document.getElementById('next').onclick = function () { i++; draw(); };
+      };
+    }
+    draw();
+  }
+  var modes = sec.querySelectorAll('.mode');
+  for (var m = 0; m < modes.length; m++) modes[m].onclick = function () {
+    for (var j = 0; j < modes.length; j++) modes[j].className = 'mode';
+    this.className = 'mode on';
+    if (this.getAttribute('data-mode') === 'quiz') quiz(); else cards();
+  };
+  showBest();
+  cards();
+})();
+
+/* Find by look: facet buttons narrow the embedded species list. */
+(function () {
+  var sec = document.getElementById('finder');
+  if (!sec) return;
+  var all = [], root = sec.getAttribute('data-root') || '';
+  var sel = { g: [], z: [], c: [], w: [] }, shown = 48;
+  var grid = document.getElementById('fgrid'), count = document.getElementById('fcount'), more = document.getElementById('fmore');
+  function esc(s) { return String(s || '').replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function matches(it) {
+    if (sel.g.length && sel.g.indexOf(it.g) === -1) return false;
+    if (sel.z.length && sel.z.indexOf(it.z) === -1) return false;
+    if (sel.c.length && !sel.c.some(function (c) { return it.c.indexOf(c) !== -1; })) return false;
+    if (sel.w.length && !sel.w.some(function (w) { return it.w.indexOf(w) !== -1; })) return false;
+    return true;
+  }
+  function card(it) {
+    return '<a class="card" href="' + root + 'species/' + it.s + '/"><span class="ph">' + (it.t ? '<img loading="lazy" src="' + root + esc(it.t) + '" alt="" width="380" height="260">' : '<span class="noimg"></span>') + '</span>' +
+      '<span class="meta"><span class="n-hi">' + esc(it.h) + '</span><span class="n-en">' + esc(it.e) + '</span><span class="n-sci">' + esc(it.n) + '</span></span></a>';
+  }
+  function draw() {
+    var hits = all.filter(matches);
+    count.textContent = hits.length;
+    grid.innerHTML = hits.slice(0, shown).map(card).join('');
+    more.hidden = hits.length <= shown;
+  }
+  var btns = sec.querySelectorAll('.fbtn');
+  for (var i = 0; i < btns.length; i++) btns[i].onclick = function () {
+    var f = this.parentNode.parentNode.getAttribute('data-facet'), v = this.getAttribute('data-v');
+    var k = sel[f].indexOf(v);
+    if (k === -1) sel[f].push(v); else sel[f].splice(k, 1);
+    this.className = k === -1 ? 'fbtn on' : 'fbtn';
+    shown = 48; draw();
+  };
+  document.getElementById('fclear').onclick = function () {
+    sel = { g: [], z: [], c: [], w: [] };
+    for (var i = 0; i < btns.length; i++) btns[i].className = 'fbtn';
+    shown = 48; draw();
+  };
+  document.getElementById('fmorebtn').onclick = function () { shown += 48; draw(); };
+  fetch(root + 'assets/find.json').then(function (r) { return r.json(); }).then(function (d) { all = d; draw(); })
+    .catch(function () { grid.innerHTML = '<p class="empty">Could not load the list. <a href="' + root + 'all/">Explore by group instead.</a></p>'; });
+})();
+

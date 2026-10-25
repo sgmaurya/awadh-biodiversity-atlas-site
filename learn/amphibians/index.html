@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="author" content="Satyaghosh Maurya">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}</script>
+<title>Learn: Frogs &amp; toads — Awadh Biodiversity Atlas</title>
+<meta name="description" content="Flash cards and a quiz on the 12 frogs &amp; toads of the Basti–Ayodhya countryside, in Hindi and English.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="Learn: Frogs &amp; toads — Awadh Biodiversity Atlas">
+<meta property="og:description" content="Flash cards and a quiz on the 12 frogs &amp; toads of the Basti–Ayodhya countryside, in Hindi and English.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Awadh Biodiversity Atlas">
+<meta property="og:image" content="https://sgmaurya.github.io/awadh-biodiversity-atlas-site/media/species/common_toad/wikimedia_01_t.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/atlas.css">
+<body class="learn">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="../../">
+    <span class="bn-hi">अवध जैव विविधता एटलस</span>
+    <span class="bn-en">Awadh Biodiversity Atlas</span>
+  </a>
+  <nav>
+    <a href="../../">This month</a>
+    <a href="../../all/">Explore</a>
+    <a href="../../find/">Find</a>
+    <a href="../../learn/">Learn</a>
+    <a href="../../use/">Make &amp; use</a>
+    <a href="../../about/">About</a>
+    <button id="theme" type="button" aria-label="Switch between light and dark" title="Light / dark">
+      <span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span>
+    </button>
+  </nav>
+  <form class="search" role="search" onsubmit="return false">
+    <input id="q" type="search" placeholder="Name, हिंदी नाम, local name, or species" autocomplete="off"
+           aria-label="Search species" data-root="../../">
+    <div id="results" hidden></div>
+  </form>
+</header>
+<main id="main">
+<nav class="crumbs"><a href="../../">Home</a> › <a href="../../learn/">Learn</a></nav>
+<header class="ph1"><h1>Frogs &amp; toads <span class="hi">मेंढक</span></h1>
+<p class="lead">Every frogs and toads in the atlas with a photograph. <b>12</b> species. Cards: tap the photograph to see the name. Quiz: ten photographs, four names each; your best score stays on this phone.</p>
+<p class="lead hi">कार्ड: तस्वीर पर टैप करें, नाम दिखेगा। प्रश्नोत्तरी: दस तस्वीरें, हर एक के चार नाम; आपका सबसे अच्छा स्कोर इसी फ़ोन पर रहता है।</p></header>
+<section class="deck" id="deck" data-deck="[{&quot;s&quot;:&quot;common_toad&quot;,&quot;h&quot;:&quot;भेंडुक&quot;,&quot;e&quot;:&quot;Asian Common Toad&quot;,&quot;n&quot;:&quot;Duttaphrynus melanostictus&quot;,&quot;t&quot;:&quot;media/species/common_toad/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;indian_bull_frog&quot;,&quot;h&quot;:&quot;पहाड़ मेंढक&quot;,&quot;e&quot;:&quot;Indian Bull Frog&quot;,&quot;n&quot;:&quot;Hoplobatrachus tigerinus&quot;,&quot;t&quot;:&quot;media/species/indian_bull_frog/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;skipper_frog&quot;,&quot;h&quot;:&quot;कूद मेंढक&quot;,&quot;e&quot;:&quot;Skittering Frog&quot;,&quot;n&quot;:&quot;Euphlyctis cyanophlyctis&quot;,&quot;t&quot;:&quot;media/species/skipper_frog/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;indian_tree_frog&quot;,&quot;h&quot;:&quot;पेड़ मेंढक&quot;,&quot;e&quot;:&quot;Indian Tree Frog&quot;,&quot;n&quot;:&quot;Polypedates maculatus&quot;,&quot;t&quot;:&quot;media/species/indian_tree_frog/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;ornate_narrow_mouthed_frog&quot;,&quot;h&quot;:&quot;छोटा मेंढक&quot;,&quot;e&quot;:&quot;Ornate Narrow-mouthed Frog&quot;,&quot;n&quot;:&quot;Microhyla ornata&quot;,&quot;t&quot;:&quot;media/species/ornate_narrow_mouthed_frog/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;asian_grass_frog&quot;,&quot;h&quot;:&quot;फुदकी मेंढक&quot;,&quot;e&quot;:&quot;Asian Grass Frog&quot;,&quot;n&quot;:&quot;Fejervarya limnocharis&quot;,&quot;t&quot;:&quot;media/species/asian_grass_frog/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;burrowing_frog&quot;,&quot;h&quot;:&quot;बिलकारी मेंढक&quot;,&quot;e&quot;:&quot;Indian Burrowing Frog&quot;,&quot;n&quot;:&quot;Sphaerotheca breviceps&quot;,&quot;t&quot;:&quot;media/species/burrowing_frog/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;jerdons_bullfrog&quot;,&quot;h&quot;:&quot;चित्तीदार मेंढक&quot;,&quot;e&quot;:&quot;Jerdon&#39;s Bullfrog&quot;,&quot;n&quot;:&quot;Hoplobatrachus crassus&quot;,&quot;t&quot;:&quot;media/species/jerdons_bullfrog/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;balloon_frog&quot;,&quot;h&quot;:&quot;गुब्बारा मेंढक&quot;,&quot;e&quot;:&quot;Marbled Balloon Frog&quot;,&quot;n&quot;:&quot;Uperodon taprobanicus&quot;,&quot;t&quot;:&quot;media/species/balloon_frog/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;indian_green_frog&quot;,&quot;h&quot;:&quot;हरा मेंढक&quot;,&quot;e&quot;:&quot;Indian Green Frog&quot;,&quot;n&quot;:&quot;Euphlyctis hexadactylus&quot;,&quot;t&quot;:&quot;media/species/indian_green_frog/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;painted_frog&quot;,&quot;h&quot;:&quot;रंगीन मेंढक&quot;,&quot;e&quot;:&quot;Common Indian Kaloula&quot;,&quot;n&quot;:&quot;Kaloula taprobanica&quot;,&quot;t&quot;:&quot;media/species/painted_frog/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;chorus_frog&quot;,&quot;h&quot;:&quot;छोटा टिड्डा मेंढक&quot;,&quot;e&quot;:&quot;Nilphamari Narrow-mouthed Frog&quot;,&quot;n&quot;:&quot;Microhyla nilphamariensis&quot;,&quot;t&quot;:&quot;media/species/chorus_frog/wikimedia_01_t.jpg&quot;}]" data-slug="amphibians" data-root="../../">
+  <div class="modes"><button type="button" class="mode on" data-mode="cards">Cards <span class="hi">कार्ड</span></button><button type="button" class="mode" data-mode="quiz">Quiz <span class="hi">प्रश्नोत्तरी</span></button><span class="best" id="best"></span></div>
+  <div id="stage" class="stage"><noscript><p class="empty">The cards need scripting. <a href="../../group/amphibians/">See the species as a list instead.</a></p></noscript></div>
+</section>
+<section class="inguide"><h2>The species in this deck <span class="hi">इस डेक की प्रजातियाँ</span></h2><div class="grid"><a class="card" href="../../species/common_toad/">
+  <span class="ph"><img loading="lazy" src="../../media/species/common_toad/wikimedia_01_t.jpg" alt="Asian Common Toad" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">भेंडुक</span>
+    <span class="n-en">Asian Common Toad</span>
+    <span class="n-sci">Duttaphrynus melanostictus</span>
+    
+    <span class="cb"><b class="c-toxic">Toxic</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/indian_bull_frog/">
+  <span class="ph"><img loading="lazy" src="../../media/species/indian_bull_frog/wikimedia_01_t.jpg" alt="Indian Bull Frog" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पहाड़ मेंढक</span>
+    <span class="n-en">Indian Bull Frog</span>
+    <span class="n-sci">Hoplobatrachus tigerinus</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/skipper_frog/">
+  <span class="ph"><img loading="lazy" src="../../media/species/skipper_frog/wikimedia_01_t.jpg" alt="Skittering Frog" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कूद मेंढक</span>
+    <span class="n-en">Skittering Frog</span>
+    <span class="n-sci">Euphlyctis cyanophlyctis</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/indian_tree_frog/">
+  <span class="ph"><img loading="lazy" src="../../media/species/indian_tree_frog/wikimedia_01_t.jpg" alt="Indian Tree Frog" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पेड़ मेंढक</span>
+    <span class="n-en">Indian Tree Frog</span>
+    <span class="n-sci">Polypedates maculatus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/ornate_narrow_mouthed_frog/">
+  <span class="ph"><img loading="lazy" src="../../media/species/ornate_narrow_mouthed_frog/wikimedia_01_t.jpg" alt="Ornate Narrow-mouthed Frog" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">छोटा मेंढक</span>
+    <span class="n-en">Ornate Narrow-mouthed Frog</span>
+    <span class="n-sci">Microhyla ornata</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/asian_grass_frog/">
+  <span class="ph"><img loading="lazy" src="../../media/species/asian_grass_frog/wikimedia_01_t.jpg" alt="Asian Grass Frog" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">फुदकी मेंढक</span>
+    <span class="n-en">Asian Grass Frog</span>
+    <span class="n-sci">Fejervarya limnocharis</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/burrowing_frog/">
+  <span class="ph"><img loading="lazy" src="../../media/species/burrowing_frog/wikimedia_01_t.jpg" alt="Indian Burrowing Frog" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">बिलकारी मेंढक</span>
+    <span class="n-en">Indian Burrowing Frog</span>
+    <span class="n-sci">Sphaerotheca breviceps</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/jerdons_bullfrog/">
+  <span class="ph"><img loading="lazy" src="../../media/species/jerdons_bullfrog/wikimedia_01_t.jpg" alt="Jerdon&#39;s Bullfrog" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">चित्तीदार मेंढक</span>
+    <span class="n-en">Jerdon&#39;s Bullfrog</span>
+    <span class="n-sci">Hoplobatrachus crassus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/balloon_frog/">
+  <span class="ph"><img loading="lazy" src="../../media/species/balloon_frog/wikimedia_01_t.jpg" alt="Marbled Balloon Frog" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">गुब्बारा मेंढक</span>
+    <span class="n-en">Marbled Balloon Frog</span>
+    <span class="n-sci">Uperodon taprobanicus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/indian_green_frog/">
+  <span class="ph"><img loading="lazy" src="../../media/species/indian_green_frog/wikimedia_01_t.jpg" alt="Indian Green Frog" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">हरा मेंढक</span>
+    <span class="n-en">Indian Green Frog</span>
+    <span class="n-sci">Euphlyctis hexadactylus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/painted_frog/">
+  <span class="ph"><img loading="lazy" src="../../media/species/painted_frog/wikimedia_01_t.jpg" alt="Common Indian Kaloula" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">रंगीन मेंढक</span>
+    <span class="n-en">Common Indian Kaloula</span>
+    <span class="n-sci">Kaloula taprobanica</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/chorus_frog/">
+  <span class="ph"><img loading="lazy" src="../../media/species/chorus_frog/wikimedia_01_t.jpg" alt="Nilphamari Narrow-mouthed Frog" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">छोटा टिड्डा मेंढक</span>
+    <span class="n-en">Nilphamari Narrow-mouthed Frog</span>
+    <span class="n-sci">Microhyla nilphamariensis</span>
+    
+    
+  </span>
+</a></div></section>
+</main>
+<footer class="foot">
+  <p><strong>Awadh Biodiversity Atlas</strong> — the flora and fauna of the Basti–Ayodhya countryside,
+     eastern Uttar Pradesh. 582 species profiled from published sources.</p>
+  <p>Text and data <a href="../../LICENSE.md">CC BY 4.0</a>. Photographs carry their own licence,
+     credited on each page. Built from the
+     <a href="https://github.com/sgmaurya/awadh-biodiversity-atlas" target="_blank" rel="noopener">atlas vault</a>.</p>
+  <p>Begun and maintained by <a href="https://satyaghoshmaurya.github.io/" rel="author">Satyaghosh Maurya</a>,
+     a chemical engineer and single-molecule biophysicist from Basti district.</p>
+</footer>
+<script src="../../assets/atlas.js"></script>
+<script data-goatcounter="https://awadh-atlas.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</html>

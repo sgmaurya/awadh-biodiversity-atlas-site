@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="author" content="Satyaghosh Maurya">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}</script>
+<title>Learn: Weeds, shrubs &amp; wild plants — Awadh Biodiversity Atlas</title>
+<meta name="description" content="Flash cards and a quiz on the 44 weeds, shrubs &amp; wild plants of the Basti–Ayodhya countryside, in Hindi and English.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="Learn: Weeds, shrubs &amp; wild plants — Awadh Biodiversity Atlas">
+<meta property="og:description" content="Flash cards and a quiz on the 44 weeds, shrubs &amp; wild plants of the Basti–Ayodhya countryside, in Hindi and English.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Awadh Biodiversity Atlas">
+<meta property="og:image" content="https://sgmaurya.github.io/awadh-biodiversity-atlas-site/media/species/parthenium_hysterophorus/wikimedia_01_t.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/atlas.css">
+<body class="learn">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="../../">
+    <span class="bn-hi">अवध जैव विविधता एटलस</span>
+    <span class="bn-en">Awadh Biodiversity Atlas</span>
+  </a>
+  <nav>
+    <a href="../../">This month</a>
+    <a href="../../all/">Explore</a>
+    <a href="../../find/">Find</a>
+    <a href="../../learn/">Learn</a>
+    <a href="../../use/">Make &amp; use</a>
+    <a href="../../about/">About</a>
+    <button id="theme" type="button" aria-label="Switch between light and dark" title="Light / dark">
+      <span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span>
+    </button>
+  </nav>
+  <form class="search" role="search" onsubmit="return false">
+    <input id="q" type="search" placeholder="Name, हिंदी नाम, local name, or species" autocomplete="off"
+           aria-label="Search species" data-root="../../">
+    <div id="results" hidden></div>
+  </form>
+</header>
+<main id="main">
+<nav class="crumbs"><a href="../../">Home</a> › <a href="../../learn/">Learn</a></nav>
+<header class="ph1"><h1>Weeds, shrubs &amp; wild plants <span class="hi">खर-पतवार और झाड़ियाँ</span></h1>
+<p class="lead">Every weeds, shrubs and wild plants in the atlas with a photograph. <b>44</b> species. Cards: tap the photograph to see the name. Quiz: ten photographs, four names each; your best score stays on this phone.</p>
+<p class="lead hi">कार्ड: तस्वीर पर टैप करें, नाम दिखेगा। प्रश्नोत्तरी: दस तस्वीरें, हर एक के चार नाम; आपका सबसे अच्छा स्कोर इसी फ़ोन पर रहता है।</p></header>
+<section class="deck" id="deck" data-deck="[{&quot;s&quot;:&quot;parthenium_hysterophorus&quot;,&quot;h&quot;:&quot;गाजर घास&quot;,&quot;e&quot;:&quot;Congress Grass&quot;,&quot;n&quot;:&quot;Parthenium hysterophorus&quot;,&quot;t&quot;:&quot;media/species/parthenium_hysterophorus/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;calotropis_gigantea&quot;,&quot;h&quot;:&quot;आक&quot;,&quot;e&quot;:&quot;Giant Milkweed&quot;,&quot;n&quot;:&quot;Calotropis gigantea&quot;,&quot;t&quot;:&quot;media/species/calotropis_gigantea/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;lantana_camara&quot;,&quot;h&quot;:&quot;पंचफूली&quot;,&quot;e&quot;:&quot;Lantana&quot;,&quot;n&quot;:&quot;Lantana camara&quot;,&quot;t&quot;:&quot;media/species/lantana_camara/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;giloy&quot;,&quot;h&quot;:&quot;गिलोय&quot;,&quot;e&quot;:&quot;Giloy&quot;,&quot;n&quot;:&quot;Tinospora cordifolia&quot;,&quot;t&quot;:&quot;media/species/giloy/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;datura&quot;,&quot;h&quot;:&quot;धतूरा&quot;,&quot;e&quot;:&quot;Dhatura&quot;,&quot;n&quot;:&quot;Datura metel&quot;,&quot;t&quot;:&quot;media/species/datura/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;chirchita&quot;,&quot;h&quot;:&quot;चिरचिटा&quot;,&quot;e&quot;:&quot;Prickly Chaff Flower&quot;,&quot;n&quot;:&quot;Achyranthes aspera&quot;,&quot;t&quot;:&quot;media/species/chirchita/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;lajwanti&quot;,&quot;h&quot;:&quot;लाजवंती&quot;,&quot;e&quot;:&quot;Touch-me-not&quot;,&quot;n&quot;:&quot;Mimosa pudica&quot;,&quot;t&quot;:&quot;media/species/lajwanti/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;chakramard&quot;,&quot;h&quot;:&quot;चक्रमर्द&quot;,&quot;e&quot;:&quot;Sickle Senna&quot;,&quot;n&quot;:&quot;Senna tora&quot;,&quot;t&quot;:&quot;media/species/chakramard/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;satyanashi&quot;,&quot;h&quot;:&quot;सत्यानाशी&quot;,&quot;e&quot;:&quot;Mexican Prickly Poppy&quot;,&quot;n&quot;:&quot;Argemone mexicana&quot;,&quot;t&quot;:&quot;media/species/satyanashi/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;besharam&quot;,&quot;h&quot;:&quot;बेशरम&quot;,&quot;e&quot;:&quot;Pink Morning Glory&quot;,&quot;n&quot;:&quot;Ipomoea carnea subsp. fistulosa&quot;,&quot;t&quot;:&quot;media/species/besharam/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;ban_tulsi&quot;,&quot;h&quot;:&quot;बन तुलसी&quot;,&quot;e&quot;:&quot;Ban Tulsi&quot;,&quot;n&quot;:&quot;Croton bonplandianus&quot;,&quot;t&quot;:&quot;media/species/ban_tulsi/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;billygoat_weed&quot;,&quot;h&quot;:&quot;जंगली पुदीना&quot;,&quot;e&quot;:&quot;Billygoat Weed&quot;,&quot;n&quot;:&quot;Ageratum conyzoides&quot;,&quot;t&quot;:&quot;media/species/billygoat_weed/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;yellow_oleander&quot;,&quot;h&quot;:&quot;पीली कनेर&quot;,&quot;e&quot;:&quot;Yellow Oleander&quot;,&quot;n&quot;:&quot;Cascabela thevetia&quot;,&quot;t&quot;:&quot;media/species/yellow_oleander/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;bathua&quot;,&quot;h&quot;:&quot;बथुआ&quot;,&quot;e&quot;:&quot;Bathua&quot;,&quot;n&quot;:&quot;Chenopodium album&quot;,&quot;t&quot;:&quot;media/species/bathua/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;spiny_amaranth&quot;,&quot;h&quot;:&quot;कांटे वाली चौलाई&quot;,&quot;e&quot;:&quot;Spiny Amaranth&quot;,&quot;n&quot;:&quot;Amaranthus spinosus&quot;,&quot;t&quot;:&quot;media/species/spiny_amaranth/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;tridax_daisy&quot;,&quot;h&quot;:&quot;बिधारा&quot;,&quot;e&quot;:&quot;Tridax Daisy&quot;,&quot;n&quot;:&quot;Tridax procumbens&quot;,&quot;t&quot;:&quot;media/species/tridax_daisy/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;field_bindweed&quot;,&quot;h&quot;:&quot;हिरनखुरी&quot;,&quot;e&quot;:&quot;Field Bindweed&quot;,&quot;n&quot;:&quot;Convolvulus arvensis&quot;,&quot;t&quot;:&quot;media/species/field_bindweed/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;wild_cape_gooseberry&quot;,&quot;h&quot;:&quot;रसभरी&quot;,&quot;e&quot;:&quot;Wild Cape Gooseberry&quot;,&quot;n&quot;:&quot;Physalis minima&quot;,&quot;t&quot;:&quot;media/species/wild_cape_gooseberry/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;mile_a_minute_weed&quot;,&quot;h&quot;:&quot;मीलभर खरपतवार&quot;,&quot;e&quot;:&quot;Mile-a-minute Weed&quot;,&quot;n&quot;:&quot;Mikania micrantha&quot;,&quot;t&quot;:&quot;media/species/mile_a_minute_weed/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;giant_dodder&quot;,&quot;h&quot;:&quot;अमरबेल&quot;,&quot;e&quot;:&quot;Giant Dodder&quot;,&quot;n&quot;:&quot;Cuscuta reflexa&quot;,&quot;t&quot;:&quot;media/species/giant_dodder/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;blue_morning_glory&quot;,&quot;h&quot;:&quot;नीली घुइयाँ&quot;,&quot;e&quot;:&quot;Blue Morning Glory&quot;,&quot;n&quot;:&quot;Ipomoea nil&quot;,&quot;t&quot;:&quot;media/species/blue_morning_glory/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;wild_passion_fruit&quot;,&quot;h&quot;:&quot;जंगली पैशनफ्रूट&quot;,&quot;e&quot;:&quot;Wild Passion Fruit&quot;,&quot;n&quot;:&quot;Passiflora foetida&quot;,&quot;t&quot;:&quot;media/species/wild_passion_fruit/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;castor&quot;,&quot;h&quot;:&quot;अरंडी&quot;,&quot;e&quot;:&quot;Castor&quot;,&quot;n&quot;:&quot;Ricinus communis&quot;,&quot;t&quot;:&quot;media/species/castor/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;mehndi&quot;,&quot;h&quot;:&quot;मेहंदी&quot;,&quot;e&quot;:&quot;Henna&quot;,&quot;n&quot;:&quot;Lawsonia inermis&quot;,&quot;t&quot;:&quot;media/species/mehndi/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;motha&quot;,&quot;h&quot;:&quot;मोथा&quot;,&quot;e&quot;:&quot;Nutgrass&quot;,&quot;n&quot;:&quot;Cyperus rotundus&quot;,&quot;t&quot;:&quot;media/species/motha/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;dudhi&quot;,&quot;h&quot;:&quot;दूधी&quot;,&quot;e&quot;:&quot;Asthma Weed&quot;,&quot;n&quot;:&quot;Euphorbia hirta&quot;,&quot;t&quot;:&quot;media/species/dudhi/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;makoi&quot;,&quot;h&quot;:&quot;मकोय&quot;,&quot;e&quot;:&quot;Black Nightshade&quot;,&quot;n&quot;:&quot;Solanum nigrum&quot;,&quot;t&quot;:&quot;media/species/makoi/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;kulfa&quot;,&quot;h&quot;:&quot;कुल्फा&quot;,&quot;e&quot;:&quot;Purslane&quot;,&quot;n&quot;:&quot;Portulaca oleracea&quot;,&quot;t&quot;:&quot;media/species/kulfa/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;nirgundi&quot;,&quot;h&quot;:&quot;निर्गुंडी&quot;,&quot;e&quot;:&quot;Nirgundi&quot;,&quot;n&quot;:&quot;Vitex negundo&quot;,&quot;t&quot;:&quot;media/species/nirgundi/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;adusa&quot;,&quot;h&quot;:&quot;अडूसा&quot;,&quot;e&quot;:&quot;Adusa&quot;,&quot;n&quot;:&quot;Justicia adhatoda&quot;,&quot;t&quot;:&quot;media/species/adusa/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;karonda&quot;,&quot;h&quot;:&quot;करौंदा&quot;,&quot;e&quot;:&quot;Karonda&quot;,&quot;n&quot;:&quot;Carissa carandas&quot;,&quot;t&quot;:&quot;media/species/karonda/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;jatropha&quot;,&quot;h&quot;:&quot;रतनजोत&quot;,&quot;e&quot;:&quot;Jatropha&quot;,&quot;n&quot;:&quot;Jatropha curcas&quot;,&quot;t&quot;:&quot;media/species/jatropha/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;bhant&quot;,&quot;h&quot;:&quot;भांट&quot;,&quot;e&quot;:&quot;Bhant&quot;,&quot;n&quot;:&quot;Clerodendrum infortunatum&quot;,&quot;t&quot;:&quot;media/species/bhant/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;white_aak&quot;,&quot;h&quot;:&quot;सफेद आक&quot;,&quot;e&quot;:&quot;White Aak&quot;,&quot;n&quot;:&quot;Calotropis procera&quot;,&quot;t&quot;:&quot;media/species/white_aak/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;kundru&quot;,&quot;h&quot;:&quot;कुंदरू&quot;,&quot;e&quot;:&quot;Ivy Gourd&quot;,&quot;n&quot;:&quot;Coccinia grandis&quot;,&quot;t&quot;:&quot;media/species/kundru/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;ratti&quot;,&quot;h&quot;:&quot;रत्ती&quot;,&quot;e&quot;:&quot;Rosary Pea&quot;,&quot;n&quot;:&quot;Abrus precatorius&quot;,&quot;t&quot;:&quot;media/species/ratti/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;ridge_gourd&quot;,&quot;h&quot;:&quot;तोरई&quot;,&quot;e&quot;:&quot;Ridge Gourd&quot;,&quot;n&quot;:&quot;Luffa acutangula&quot;,&quot;t&quot;:&quot;media/species/ridge_gourd/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;patha&quot;,&quot;h&quot;:&quot;पाठा&quot;,&quot;e&quot;:&quot;Patha&quot;,&quot;n&quot;:&quot;Cissampelos pareira&quot;,&quot;t&quot;:&quot;media/species/patha/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;jhau&quot;,&quot;h&quot;:&quot;झाऊ&quot;,&quot;e&quot;:&quot;Jhau&quot;,&quot;n&quot;:&quot;Tamarix dioica&quot;,&quot;t&quot;:&quot;media/species/jhau/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;kaner&quot;,&quot;h&quot;:&quot;कनेर&quot;,&quot;e&quot;:&quot;Kaner&quot;,&quot;n&quot;:&quot;Nerium oleander&quot;,&quot;t&quot;:&quot;media/species/kaner/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;patharchatta&quot;,&quot;h&quot;:&quot;पत्थरचट्टा&quot;,&quot;e&quot;:&quot;Patharchatta&quot;,&quot;n&quot;:&quot;Bryophyllum pinnatum&quot;,&quot;t&quot;:&quot;media/species/patharchatta/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;bhang&quot;,&quot;h&quot;:&quot;भांग&quot;,&quot;e&quot;:&quot;Bhang&quot;,&quot;n&quot;:&quot;Cannabis sativa&quot;,&quot;t&quot;:&quot;media/species/bhang/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;kanphuti&quot;,&quot;h&quot;:&quot;कनफूटी&quot;,&quot;e&quot;:&quot;Balloon Vine&quot;,&quot;n&quot;:&quot;Cardiospermum halicacabum&quot;,&quot;t&quot;:&quot;media/species/kanphuti/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;aparajita&quot;,&quot;h&quot;:&quot;अपराजिता&quot;,&quot;e&quot;:&quot;Butterfly Pea&quot;,&quot;n&quot;:&quot;Clitoria ternatea&quot;,&quot;t&quot;:&quot;media/species/aparajita/wikimedia_01_t.jpg&quot;}]" data-slug="weeds" data-root="../../">
+  <div class="modes"><button type="button" class="mode on" data-mode="cards">Cards <span class="hi">कार्ड</span></button><button type="button" class="mode" data-mode="quiz">Quiz <span class="hi">प्रश्नोत्तरी</span></button><span class="best" id="best"></span></div>
+  <div id="stage" class="stage"><noscript><p class="empty">The cards need scripting. <a href="../../group/weeds/">See the species as a list instead.</a></p></noscript></div>
+</section>
+<section class="inguide"><h2>The species in this deck <span class="hi">इस डेक की प्रजातियाँ</span></h2><div class="grid"><a class="card" href="../../species/parthenium_hysterophorus/">
+  <span class="ph"><img loading="lazy" src="../../media/species/parthenium_hysterophorus/wikimedia_01_t.jpg" alt="Congress Grass" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">गाजर घास</span>
+    <span class="n-en">Congress Grass</span>
+    <span class="n-sci">Parthenium hysterophorus</span>
+    
+    <span class="cb"><b class="c-toxic">Toxic</b><b class="c-invasive">Invasive</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/calotropis_gigantea/">
+  <span class="ph"><img loading="lazy" src="../../media/species/calotropis_gigantea/wikimedia_01_t.jpg" alt="Giant Milkweed" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">आक</span>
+    <span class="n-en">Giant Milkweed</span>
+    <span class="n-sci">Calotropis gigantea</span>
+    
+    <span class="cb"><b class="c-toxic">Toxic</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/lantana_camara/">
+  <span class="ph"><img loading="lazy" src="../../media/species/lantana_camara/wikimedia_01_t.jpg" alt="Lantana" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पंचफूली</span>
+    <span class="n-en">Lantana</span>
+    <span class="n-sci">Lantana camara</span>
+    
+    <span class="cb"><b class="c-toxic">Toxic</b><b class="c-invasive">Invasive</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/giloy/">
+  <span class="ph"><img loading="lazy" src="../../media/species/giloy/wikimedia_01_t.jpg" alt="Giloy" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">गिलोय</span>
+    <span class="n-en">Giloy</span>
+    <span class="n-sci">Tinospora cordifolia</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/datura/">
+  <span class="ph"><img loading="lazy" src="../../media/species/datura/wikimedia_01_t.jpg" alt="Dhatura" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">धतूरा</span>
+    <span class="n-en">Dhatura</span>
+    <span class="n-sci">Datura metel</span>
+    
+    <span class="cb"><b class="c-toxic">Toxic</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/chirchita/">
+  <span class="ph"><img loading="lazy" src="../../media/species/chirchita/wikimedia_01_t.jpg" alt="Prickly Chaff Flower" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">चिरचिटा</span>
+    <span class="n-en">Prickly Chaff Flower</span>
+    <span class="n-sci">Achyranthes aspera</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/lajwanti/">
+  <span class="ph"><img loading="lazy" src="../../media/species/lajwanti/wikimedia_01_t.jpg" alt="Touch-me-not" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">लाजवंती</span>
+    <span class="n-en">Touch-me-not</span>
+    <span class="n-sci">Mimosa pudica</span>
+    
+    <span class="cb"><b class="c-invasive">Invasive</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/chakramard/">
+  <span class="ph"><img loading="lazy" src="../../media/species/chakramard/wikimedia_01_t.jpg" alt="Sickle Senna" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">चक्रमर्द</span>
+    <span class="n-en">Sickle Senna</span>
+    <span class="n-sci">Senna tora</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/satyanashi/">
+  <span class="ph"><img loading="lazy" src="../../media/species/satyanashi/wikimedia_01_t.jpg" alt="Mexican Prickly Poppy" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">सत्यानाशी</span>
+    <span class="n-en">Mexican Prickly Poppy</span>
+    <span class="n-sci">Argemone mexicana</span>
+    
+    <span class="cb"><b class="c-toxic">Toxic</b><b class="c-invasive">Invasive</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/besharam/">
+  <span class="ph"><img loading="lazy" src="../../media/species/besharam/wikimedia_01_t.jpg" alt="Pink Morning Glory" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">बेशरम</span>
+    <span class="n-en">Pink Morning Glory</span>
+    <span class="n-sci">Ipomoea carnea subsp. fistulosa</span>
+    
+    <span class="cb"><b class="c-toxic">Toxic</b><b class="c-invasive">Invasive</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/ban_tulsi/">
+  <span class="ph"><img loading="lazy" src="../../media/species/ban_tulsi/wikimedia_01_t.jpg" alt="Ban Tulsi" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">बन तुलसी</span>
+    <span class="n-en">Ban Tulsi</span>
+    <span class="n-sci">Croton bonplandianus</span>
+    
+    <span class="cb"><b class="c-toxic">Toxic</b><b class="c-invasive">Invasive</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/billygoat_weed/">
+  <span class="ph"><img loading="lazy" src="../../media/species/billygoat_weed/wikimedia_01_t.jpg" alt="Billygoat Weed" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">जंगली पुदीना</span>
+    <span class="n-en">Billygoat Weed</span>
+    <span class="n-sci">Ageratum conyzoides</span>
+    
+    <span class="cb"><b class="c-toxic">Toxic</b><b class="c-invasive">Invasive</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/yellow_oleander/">
+  <span class="ph"><img loading="lazy" src="../../media/species/yellow_oleander/wikimedia_01_t.jpg" alt="Yellow Oleander" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पीली कनेर</span>
+    <span class="n-en">Yellow Oleander</span>
+    <span class="n-sci">Cascabela thevetia</span>
+    
+    <span class="cb"><b class="c-toxic">Toxic</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/bathua/">
+  <span class="ph"><img loading="lazy" src="../../media/species/bathua/wikimedia_01_t.jpg" alt="Bathua" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">बथुआ</span>
+    <span class="n-en">Bathua</span>
+    <span class="n-sci">Chenopodium album</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/spiny_amaranth/">
+  <span class="ph"><img loading="lazy" src="../../media/species/spiny_amaranth/wikimedia_01_t.jpg" alt="Spiny Amaranth" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कांटे वाली चौलाई</span>
+    <span class="n-en">Spiny Amaranth</span>
+    <span class="n-sci">Amaranthus spinosus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/tridax_daisy/">
+  <span class="ph"><img loading="lazy" src="../../media/species/tridax_daisy/wikimedia_01_t.jpg" alt="Tridax Daisy" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">बिधारा</span>
+    <span class="n-en">Tridax Daisy</span>
+    <span class="n-sci">Tridax procumbens</span>
+    
+    <span class="cb"><b class="c-invasive">Invasive</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/field_bindweed/">
+  <span class="ph"><img loading="lazy" src="../../media/species/field_bindweed/wikimedia_01_t.jpg" alt="Field Bindweed" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">हिरनखुरी</span>
+    <span class="n-en">Field Bindweed</span>
+    <span class="n-sci">Convolvulus arvensis</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/wild_cape_gooseberry/">
+  <span class="ph"><img loading="lazy" src="../../media/species/wild_cape_gooseberry/wikimedia_01_t.jpg" alt="Wild Cape Gooseberry" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">रसभरी</span>
+    <span class="n-en">Wild Cape Gooseberry</span>
+    <span class="n-sci">Physalis minima</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/mile_a_minute_weed/">
+  <span class="ph"><img loading="lazy" src="../../media/species/mile_a_minute_weed/wikimedia_01_t.jpg" alt="Mile-a-minute Weed" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">मीलभर खरपतवार</span>
+    <span class="n-en">Mile-a-minute Weed</span>
+    <span class="n-sci">Mikania micrantha</span>
+    
+    <span class="cb"><b class="c-invasive">Invasive</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/giant_dodder/">
+  <span class="ph"><img loading="lazy" src="../../media/species/giant_dodder/wikimedia_01_t.jpg" alt="Giant Dodder" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">अमरबेल</span>
+    <span class="n-en">Giant Dodder</span>
+    <span class="n-sci">Cuscuta reflexa</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/blue_morning_glory/">
+  <span class="ph"><img loading="lazy" src="../../media/species/blue_morning_glory/wikimedia_01_t.jpg" alt="Blue Morning Glory" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">नीली घुइयाँ</span>
+    <span class="n-en">Blue Morning Glory</span>
+    <span class="n-sci">Ipomoea nil</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/wild_passion_fruit/">
+  <span class="ph"><img loading="lazy" src="../../media/species/wild_passion_fruit/wikimedia_01_t.jpg" alt="Wild Passion Fruit" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">जंगली पैशनफ्रूट</span>
+    <span class="n-en">Wild Passion Fruit</span>
+    <span class="n-sci">Passiflora foetida</span>
+    
+    <span class="cb"><b class="c-invasive">Invasive</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/castor/">
+  <span class="ph"><img loading="lazy" src="../../media/species/castor/wikimedia_01_t.jpg" alt="Castor" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">अरंडी</span>
+    <span class="n-en">Castor</span>
+    <span class="n-sci">Ricinus communis</span>
+    
+    <span class="cb"><b class="c-toxic">Toxic</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/mehndi/">
+  <span class="ph"><img loading="lazy" src="../../media/species/mehndi/wikimedia_01_t.jpg" alt="Henna" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">मेहंदी</span>
+    <span class="n-en">Henna</span>
+    <span class="n-sci">Lawsonia inermis</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/motha/">
+  <span class="ph"><img loading="lazy" src="../../media/species/motha/wikimedia_01_t.jpg" alt="Nutgrass" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">मोथा</span>
+    <span class="n-en">Nutgrass</span>
+    <span class="n-sci">Cyperus rotundus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/dudhi/">
+  <span class="ph"><img loading="lazy" src="../../media/species/dudhi/wikimedia_01_t.jpg" alt="Asthma Weed" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">दूधी</span>
+    <span class="n-en">Asthma Weed</span>
+    <span class="n-sci">Euphorbia hirta</span>
+    
+    <span class="cb"><b class="c-toxic">Toxic</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/makoi/">
+  <span class="ph"><img loading="lazy" src="../../media/species/makoi/wikimedia_01_t.jpg" alt="Black Nightshade" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">मकोय</span>
+    <span class="n-en">Black Nightshade</span>
+    <span class="n-sci">Solanum nigrum</span>
+    
+    <span class="cb"><b class="c-toxic">Toxic</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/kulfa/">
+  <span class="ph"><img loading="lazy" src="../../media/species/kulfa/wikimedia_01_t.jpg" alt="Purslane" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कुल्फा</span>
+    <span class="n-en">Purslane</span>
+    <span class="n-sci">Portulaca oleracea</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/nirgundi/">
+  <span class="ph"><img loading="lazy" src="../../media/species/nirgundi/wikimedia_01_t.jpg" alt="Nirgundi" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">निर्गुंडी</span>
+    <span class="n-en">Nirgundi</span>
+    <span class="n-sci">Vitex negundo</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/adusa/">
+  <span class="ph"><img loading="lazy" src="../../media/species/adusa/wikimedia_01_t.jpg" alt="Adusa" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">अडूसा</span>
+    <span class="n-en">Adusa</span>
+    <span class="n-sci">Justicia adhatoda</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/karonda/">
+  <span class="ph"><img loading="lazy" src="../../media/species/karonda/wikimedia_01_t.jpg" alt="Karonda" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">करौंदा</span>
+    <span class="n-en">Karonda</span>
+    <span class="n-sci">Carissa carandas</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/jatropha/">
+  <span class="ph"><img loading="lazy" src="../../media/species/jatropha/wikimedia_01_t.jpg" alt="Jatropha" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">रतनजोत</span>
+    <span class="n-en">Jatropha</span>
+    <span class="n-sci">Jatropha curcas</span>
+    
+    <span class="cb"><b class="c-toxic">Toxic</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/bhant/">
+  <span class="ph"><img loading="lazy" src="../../media/species/bhant/wikimedia_01_t.jpg" alt="Bhant" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">भांट</span>
+    <span class="n-en">Bhant</span>
+    <span class="n-sci">Clerodendrum infortunatum</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/white_aak/">
+  <span class="ph"><img loading="lazy" src="../../media/species/white_aak/wikimedia_01_t.jpg" alt="White Aak" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">सफेद आक</span>
+    <span class="n-en">White Aak</span>
+    <span class="n-sci">Calotropis procera</span>
+    
+    <span class="cb"><b class="c-toxic">Toxic</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/kundru/">
+  <span class="ph"><img loading="lazy" src="../../media/species/kundru/wikimedia_01_t.jpg" alt="Ivy Gourd" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कुंदरू</span>
+    <span class="n-en">Ivy Gourd</span>
+    <span class="n-sci">Coccinia grandis</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/ratti/">
+  <span class="ph"><img loading="lazy" src="../../media/species/ratti/wikimedia_01_t.jpg" alt="Rosary Pea" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">रत्ती</span>
+    <span class="n-en">Rosary Pea</span>
+    <span class="n-sci">Abrus precatorius</span>
+    
+    <span class="cb"><b class="c-toxic">Toxic</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/ridge_gourd/">
+  <span class="ph"><img loading="lazy" src="../../media/species/ridge_gourd/wikimedia_01_t.jpg" alt="Ridge Gourd" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">तोरई</span>
+    <span class="n-en">Ridge Gourd</span>
+    <span class="n-sci">Luffa acutangula</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/patha/">
+  <span class="ph"><img loading="lazy" src="../../media/species/patha/wikimedia_01_t.jpg" alt="Patha" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पाठा</span>
+    <span class="n-en">Patha</span>
+    <span class="n-sci">Cissampelos pareira</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/jhau/">
+  <span class="ph"><img loading="lazy" src="../../media/species/jhau/wikimedia_01_t.jpg" alt="Jhau" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">झाऊ</span>
+    <span class="n-en">Jhau</span>
+    <span class="n-sci">Tamarix dioica</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/kaner/">
+  <span class="ph"><img loading="lazy" src="../../media/species/kaner/wikimedia_01_t.jpg" alt="Kaner" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कनेर</span>
+    <span class="n-en">Kaner</span>
+    <span class="n-sci">Nerium oleander</span>
+    
+    <span class="cb"><b class="c-toxic">Toxic</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/patharchatta/">
+  <span class="ph"><img loading="lazy" src="../../media/species/patharchatta/wikimedia_01_t.jpg" alt="Patharchatta" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पत्थरचट्टा</span>
+    <span class="n-en">Patharchatta</span>
+    <span class="n-sci">Bryophyllum pinnatum</span>
+    
+    <span class="cb"><b class="c-invasive">Invasive</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/bhang/">
+  <span class="ph"><img loading="lazy" src="../../media/species/bhang/wikimedia_01_t.jpg" alt="Bhang" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">भांग</span>
+    <span class="n-en">Bhang</span>
+    <span class="n-sci">Cannabis sativa</span>
+    
+    <span class="cb"><b class="c-toxic">Toxic</b><b class="c-invasive">Invasive</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/kanphuti/">
+  <span class="ph"><img loading="lazy" src="../../media/species/kanphuti/wikimedia_01_t.jpg" alt="Balloon Vine" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कनफूटी</span>
+    <span class="n-en">Balloon Vine</span>
+    <span class="n-sci">Cardiospermum halicacabum</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/aparajita/">
+  <span class="ph"><img loading="lazy" src="../../media/species/aparajita/wikimedia_01_t.jpg" alt="Butterfly Pea" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">अपराजिता</span>
+    <span class="n-en">Butterfly Pea</span>
+    <span class="n-sci">Clitoria ternatea</span>
+    
+    
+  </span>
+</a></div></section>
+</main>
+<footer class="foot">
+  <p><strong>Awadh Biodiversity Atlas</strong> — the flora and fauna of the Basti–Ayodhya countryside,
+     eastern Uttar Pradesh. 582 species profiled from published sources.</p>
+  <p>Text and data <a href="../../LICENSE.md">CC BY 4.0</a>. Photographs carry their own licence,
+     credited on each page. Built from the
+     <a href="https://github.com/sgmaurya/awadh-biodiversity-atlas" target="_blank" rel="noopener">atlas vault</a>.</p>
+  <p>Begun and maintained by <a href="https://satyaghoshmaurya.github.io/" rel="author">Satyaghosh Maurya</a>,
+     a chemical engineer and single-molecule biophysicist from Basti district.</p>
+</footer>
+<script src="../../assets/atlas.js"></script>
+<script data-goatcounter="https://awadh-atlas.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</html>

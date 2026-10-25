@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="author" content="Satyaghosh Maurya">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}</script>
+<title>Learn — Awadh Biodiversity Atlas</title>
+<meta name="description" content="Flash cards and quizzes on the birds, trees, insects, snakes and weeds of the Basti–Ayodhya countryside, in Hindi and English. 19 decks.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="Learn — Awadh Biodiversity Atlas">
+<meta property="og:description" content="Flash cards and quizzes on the birds, trees, insects, snakes and weeds of the Basti–Ayodhya countryside, in Hindi and English. 19 decks.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Awadh Biodiversity Atlas">
+<meta property="og:image" content="https://sgmaurya.github.io/awadh-biodiversity-atlas-site/media/species/peepal/wikimedia_01_t.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../assets/atlas.css">
+<body class="">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="../">
+    <span class="bn-hi">अवध जैव विविधता एटलस</span>
+    <span class="bn-en">Awadh Biodiversity Atlas</span>
+  </a>
+  <nav>
+    <a href="../">This month</a>
+    <a href="../all/">Explore</a>
+    <a href="../find/">Find</a>
+    <a href="../learn/">Learn</a>
+    <a href="../use/">Make &amp; use</a>
+    <a href="../about/">About</a>
+    <button id="theme" type="button" aria-label="Switch between light and dark" title="Light / dark">
+      <span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span>
+    </button>
+  </nav>
+  <form class="search" role="search" onsubmit="return false">
+    <input id="q" type="search" placeholder="Name, हिंदी नाम, local name, or species" autocomplete="off"
+           aria-label="Search species" data-root="../">
+    <div id="results" hidden></div>
+  </form>
+</header>
+<main id="main">
+<nav class="crumbs"><a href="../">Home</a></nav>
+<header class="ph1"><h1>Learn <span class="hi">सीखें</span></h1>
+<p class="lead"><b>19</b> decks of flash cards, each with a quiz. Pick a group, look at the photograph, say the name
+before you tap. A class can do a deck together on one phone; a child can do one on the way to school. Best scores stay on the phone.</p>
+<p class="lead hi">तस्वीर देखिए, टैप करने से पहले नाम बोलिए। हर डेक के साथ एक प्रश्नोत्तरी है। सबसे अच्छा स्कोर इसी फ़ोन पर रहता है।</p></header>
+<div class="hub"><a class="box" href="../learn/trees/">
+  <span class="mosaic n4"><img loading="lazy" src="../media/species/peepal/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/neem/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/banyan/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/mango/wikimedia_01_t.jpg" alt="" width="190" height="130"></span>
+  <span class="bmeta">
+    <span class="b-hi">पेड़</span>
+    <span class="b-en">Trees</span>
+    <span class="b-n">55 species</span>
+  </span>
+</a>
+<a class="box" href="../learn/weeds/">
+  <span class="mosaic n4"><img loading="lazy" src="../media/species/parthenium_hysterophorus/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/calotropis_gigantea/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/lantana_camara/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/giloy/wikimedia_01_t.jpg" alt="" width="190" height="130"></span>
+  <span class="bmeta">
+    <span class="b-hi">खर-पतवार और झाड़ियाँ</span>
+    <span class="b-en">Weeds, shrubs &amp; wild plants</span>
+    <span class="b-n">44 species</span>
+  </span>
+</a>
+<a class="box" href="../learn/crops/">
+  <span class="mosaic n4"><img loading="lazy" src="../media/species/paddy/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/sugarcane/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/wheat/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/mustard/wikimedia_01_t.jpg" alt="" width="190" height="130"></span>
+  <span class="bmeta">
+    <span class="b-hi">फ़सलें</span>
+    <span class="b-en">Crops</span>
+    <span class="b-n">35 species</span>
+  </span>
+</a>
+<a class="box" href="../learn/medicinal/">
+  <span class="mosaic n4"><img loading="lazy" src="../media/species/tulsi/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/brahmi/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/aloe_vera/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/yellow_berried_nightshade/wikimedia_01_t.jpg" alt="" width="190" height="130"></span>
+  <span class="bmeta">
+    <span class="b-hi">औषधीय पौधे</span>
+    <span class="b-en">Medicinal plants</span>
+    <span class="b-n">17 species</span>
+  </span>
+</a>
+<a class="box" href="../learn/water-plants/">
+  <span class="mosaic n4"><img loading="lazy" src="../media/species/saccharum_munja/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/doob_grass/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/indian_lotus/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/water_hyacinth/wikimedia_01_t.jpg" alt="" width="190" height="130"></span>
+  <span class="bmeta">
+    <span class="b-hi">जलीय पौधे और घास</span>
+    <span class="b-en">Water plants &amp; grasses</span>
+    <span class="b-n">30 species</span>
+  </span>
+</a>
+<a class="box" href="../learn/fungi/">
+  <span class="mosaic n4"><img loading="lazy" src="../media/species/termite_mushroom/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/termitomyces_clypeatus/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/paddy_straw_mushroom/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/reishi_bracket/wikimedia_01_t.jpg" alt="" width="190" height="130"></span>
+  <span class="bmeta">
+    <span class="b-hi">कवक</span>
+    <span class="b-en">Fungi</span>
+    <span class="b-n">23 species</span>
+  </span>
+</a>
+<a class="box" href="../learn/birds/">
+  <span class="mosaic n4"><img loading="lazy" src="../media/species/ashy_prinia/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/sarus_crane/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/indian_roller/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/indian_pond_heron/wikimedia_01_t.jpg" alt="" width="190" height="130"></span>
+  <span class="bmeta">
+    <span class="b-hi">पक्षी</span>
+    <span class="b-en">Birds</span>
+    <span class="b-n">130 species</span>
+  </span>
+</a>
+<a class="box" href="../learn/insects/">
+  <span class="mosaic n4"><img loading="lazy" src="../media/species/red_cotton_bug/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/wandering_glider/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/lime_butterfly/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/praying_mantis/wikimedia_01_t.jpg" alt="" width="190" height="130"></span>
+  <span class="bmeta">
+    <span class="b-hi">कीट</span>
+    <span class="b-en">Insects</span>
+    <span class="b-n">84 species</span>
+  </span>
+</a>
+<a class="box" href="../learn/spiders/">
+  <span class="mosaic n4"><img loading="lazy" src="../media/species/signature_spider/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/giant_wood_spider/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/pantropical_jumping_spider/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/huntsman_spider/wikimedia_01_t.jpg" alt="" width="190" height="130"></span>
+  <span class="bmeta">
+    <span class="b-hi">मकड़ियाँ</span>
+    <span class="b-en">Spiders</span>
+    <span class="b-n">19 species</span>
+  </span>
+</a>
+<a class="box" href="../learn/reptiles/">
+  <span class="mosaic n4"><img loading="lazy" src="../media/species/garden_lizard/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/indian_rat_snake/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/indian_chameleon/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/indian_cobra/wikimedia_01_t.jpg" alt="" width="190" height="130"></span>
+  <span class="bmeta">
+    <span class="b-hi">सरीसृप</span>
+    <span class="b-en">Reptiles</span>
+    <span class="b-n">24 species</span>
+  </span>
+</a>
+<a class="box" href="../learn/amphibians/">
+  <span class="mosaic n4"><img loading="lazy" src="../media/species/common_toad/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/indian_bull_frog/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/skipper_frog/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/indian_tree_frog/wikimedia_01_t.jpg" alt="" width="190" height="130"></span>
+  <span class="bmeta">
+    <span class="b-hi">मेंढक</span>
+    <span class="b-en">Frogs &amp; toads</span>
+    <span class="b-n">12 species</span>
+  </span>
+</a>
+<a class="box" href="../learn/mammals/">
+  <span class="mosaic n4"><img loading="lazy" src="../media/species/indian_flying_fox/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/mongoose/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/jungle_cat/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/palm_squirrel/wikimedia_01_t.jpg" alt="" width="190" height="130"></span>
+  <span class="bmeta">
+    <span class="b-hi">स्तनधारी</span>
+    <span class="b-en">Mammals</span>
+    <span class="b-n">25 species</span>
+  </span>
+</a>
+<a class="box" href="../learn/fish/">
+  <span class="mosaic n4"><img loading="lazy" src="../media/species/rohu/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/catla/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/snakehead_murrel/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/walking_catfish/wikimedia_01_t.jpg" alt="" width="190" height="130"></span>
+  <span class="bmeta">
+    <span class="b-hi">मछलियाँ</span>
+    <span class="b-en">Fish</span>
+    <span class="b-n">29 species</span>
+  </span>
+</a>
+<a class="box" href="../learn/small-water-life/">
+  <span class="mosaic n4"><img loading="lazy" src="../media/species/freshwater_grass_shrimp/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/water_flea/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/cyclops/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/apple_snail/wikimedia_01_t.jpg" alt="" width="190" height="130"></span>
+  <span class="bmeta">
+    <span class="b-hi">घोंघे और केकड़े</span>
+    <span class="b-en">Snails, crabs &amp; prawns</span>
+    <span class="b-n">13 species</span>
+  </span>
+</a>
+<a class="box" href="../learn/soil-life/">
+  <span class="mosaic n4"><img loading="lazy" src="../media/species/indian_centipede/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/rusty_millipede/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/flat_backed_millipede/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/house_centipede/wikimedia_01_t.jpg" alt="" width="190" height="130"></span>
+  <span class="bmeta">
+    <span class="b-hi">मिट्टी के जीव</span>
+    <span class="b-en">Soil life &amp; millipedes</span>
+    <span class="b-n">12 species</span>
+  </span>
+</a>
+<a class="box" href="../learn/winter-visitors/">
+  <span class="mosaic n4"><img loading="lazy" src="../media/species/white_wagtail/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/western_marsh_harrier/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/osprey/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/short_eared_owl/wikimedia_01_t.jpg" alt="" width="190" height="130"></span>
+  <span class="bmeta">
+    <span class="b-hi">शीतकालीन प्रवासी</span>
+    <span class="b-en">Winter visitors</span>
+    <span class="b-n">34 species</span>
+  </span>
+</a>
+<a class="box" href="../learn/dangerous/">
+  <span class="mosaic n4"><img loading="lazy" src="../media/species/common_toad/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/parthenium_hysterophorus/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/calotropis_gigantea/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/lantana_camara/wikimedia_01_t.jpg" alt="" width="190" height="130"></span>
+  <span class="bmeta">
+    <span class="b-hi">विषैले और ज़हरीले</span>
+    <span class="b-en">Venomous and toxic</span>
+    <span class="b-n">34 species</span>
+  </span>
+</a>
+<a class="box" href="../learn/wild-food/">
+  <span class="mosaic n4"><img loading="lazy" src="../media/species/pheasant_tailed_jacana/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/indian_golden_oriole/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/mango/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/water_clover_fern/wikimedia_01_t.jpg" alt="" width="190" height="130"></span>
+  <span class="bmeta">
+    <span class="b-hi">जंगली भोजन</span>
+    <span class="b-en">Wild food</span>
+    <span class="b-n">61 species</span>
+  </span>
+</a>
+<a class="box" href="../learn/medicinal/">
+  <span class="mosaic n4"><img loading="lazy" src="../media/species/skipper_frog/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/calotropis_gigantea/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/peepal/wikimedia_01_t.jpg" alt="" width="190" height="130"><img loading="lazy" src="../media/species/neem/wikimedia_01_t.jpg" alt="" width="190" height="130"></span>
+  <span class="bmeta">
+    <span class="b-hi">औषधीय पौधे</span>
+    <span class="b-en">Medicinal plants</span>
+    <span class="b-n">114 species</span>
+  </span>
+</a></div>
+<p class="more"><a href="../apart/">Tell them apart: 645 look-alike pairs side by side →</a></p>
+</main>
+<footer class="foot">
+  <p><strong>Awadh Biodiversity Atlas</strong> — the flora and fauna of the Basti–Ayodhya countryside,
+     eastern Uttar Pradesh. 582 species profiled from published sources.</p>
+  <p>Text and data <a href="../LICENSE.md">CC BY 4.0</a>. Photographs carry their own licence,
+     credited on each page. Built from the
+     <a href="https://github.com/sgmaurya/awadh-biodiversity-atlas" target="_blank" rel="noopener">atlas vault</a>.</p>
+  <p>Begun and maintained by <a href="https://satyaghoshmaurya.github.io/" rel="author">Satyaghosh Maurya</a>,
+     a chemical engineer and single-molecule biophysicist from Basti district.</p>
+</footer>
+<script src="../assets/atlas.js"></script>
+<script data-goatcounter="https://awadh-atlas.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</html>

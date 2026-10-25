@@ -1,0 +1,402 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="author" content="Satyaghosh Maurya">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}</script>
+<title>Learn: Winter visitors — Awadh Biodiversity Atlas</title>
+<meta name="description" content="Flash cards and a quiz on the 34 winter visitors of the Basti–Ayodhya countryside, in Hindi and English.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="Learn: Winter visitors — Awadh Biodiversity Atlas">
+<meta property="og:description" content="Flash cards and a quiz on the 34 winter visitors of the Basti–Ayodhya countryside, in Hindi and English.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Awadh Biodiversity Atlas">
+<meta property="og:image" content="https://sgmaurya.github.io/awadh-biodiversity-atlas-site/media/species/white_wagtail/wikimedia_01_t.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/atlas.css">
+<body class="learn">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="../../">
+    <span class="bn-hi">अवध जैव विविधता एटलस</span>
+    <span class="bn-en">Awadh Biodiversity Atlas</span>
+  </a>
+  <nav>
+    <a href="../../">This month</a>
+    <a href="../../all/">Explore</a>
+    <a href="../../find/">Find</a>
+    <a href="../../learn/">Learn</a>
+    <a href="../../use/">Make &amp; use</a>
+    <a href="../../about/">About</a>
+    <button id="theme" type="button" aria-label="Switch between light and dark" title="Light / dark">
+      <span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span>
+    </button>
+  </nav>
+  <form class="search" role="search" onsubmit="return false">
+    <input id="q" type="search" placeholder="Name, हिंदी नाम, local name, or species" autocomplete="off"
+           aria-label="Search species" data-root="../../">
+    <div id="results" hidden></div>
+  </form>
+</header>
+<main id="main">
+<nav class="crumbs"><a href="../../">Home</a> › <a href="../../learn/">Learn</a></nav>
+<header class="ph1"><h1>Winter visitors <span class="hi">शीतकालीन प्रवासी</span></h1>
+<p class="lead">The birds that arrive in October and leave by April. <b>34</b> species. Cards: tap the photograph to see the name. Quiz: ten photographs, four names each; your best score stays on this phone.</p>
+<p class="lead hi">कार्ड: तस्वीर पर टैप करें, नाम दिखेगा। प्रश्नोत्तरी: दस तस्वीरें, हर एक के चार नाम; आपका सबसे अच्छा स्कोर इसी फ़ोन पर रहता है।</p></header>
+<section class="deck" id="deck" data-deck="[{&quot;s&quot;:&quot;white_wagtail&quot;,&quot;h&quot;:&quot;खंजन&quot;,&quot;e&quot;:&quot;White Wagtail&quot;,&quot;n&quot;:&quot;Motacilla alba&quot;,&quot;t&quot;:&quot;media/species/white_wagtail/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;western_marsh_harrier&quot;,&quot;h&quot;:&quot;दलदल बाज&quot;,&quot;e&quot;:&quot;Western Marsh Harrier&quot;,&quot;n&quot;:&quot;Circus aeruginosus&quot;,&quot;t&quot;:&quot;media/species/western_marsh_harrier/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;osprey&quot;,&quot;h&quot;:&quot;मछलीमार&quot;,&quot;e&quot;:&quot;Osprey&quot;,&quot;n&quot;:&quot;Pandion haliaetus&quot;,&quot;t&quot;:&quot;media/species/osprey/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;short_eared_owl&quot;,&quot;h&quot;:&quot;अल्प-कर्ण उल्लू&quot;,&quot;e&quot;:&quot;Short-eared Owl&quot;,&quot;n&quot;:&quot;Asio flammeus&quot;,&quot;t&quot;:&quot;media/species/short_eared_owl/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;common_coot&quot;,&quot;h&quot;:&quot;लालखर&quot;,&quot;e&quot;:&quot;Common Coot&quot;,&quot;n&quot;:&quot;Fulica atra&quot;,&quot;t&quot;:&quot;media/species/common_coot/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;northern_pintail&quot;,&quot;h&quot;:&quot;पिनटेल बत्तख&quot;,&quot;e&quot;:&quot;Northern Pintail&quot;,&quot;n&quot;:&quot;Anas acuta&quot;,&quot;t&quot;:&quot;media/species/northern_pintail/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;garganey&quot;,&quot;h&quot;:&quot;गार्गनी बत्तख&quot;,&quot;e&quot;:&quot;Garganey&quot;,&quot;n&quot;:&quot;Spatula querquedula&quot;,&quot;t&quot;:&quot;media/species/garganey/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;rosy_starling&quot;,&quot;h&quot;:&quot;गुलाबी मैना&quot;,&quot;e&quot;:&quot;Rosy Starling&quot;,&quot;n&quot;:&quot;Pastor roseus&quot;,&quot;t&quot;:&quot;media/species/rosy_starling/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;barn_swallow&quot;,&quot;h&quot;:&quot;घर अबाबील&quot;,&quot;e&quot;:&quot;Barn Swallow&quot;,&quot;n&quot;:&quot;Hirundo rustica&quot;,&quot;t&quot;:&quot;media/species/barn_swallow/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;bar_headed_goose&quot;,&quot;h&quot;:&quot;राजहंस&quot;,&quot;e&quot;:&quot;Bar-headed Goose&quot;,&quot;n&quot;:&quot;Anser indicus&quot;,&quot;t&quot;:&quot;media/species/bar_headed_goose/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;common_teal&quot;,&quot;h&quot;:&quot;छोटी मुर्गाबी&quot;,&quot;e&quot;:&quot;Common Teal&quot;,&quot;n&quot;:&quot;Anas crecca&quot;,&quot;t&quot;:&quot;media/species/common_teal/commons_01_t.jpg&quot;},{&quot;s&quot;:&quot;northern_shoveler&quot;,&quot;h&quot;:&quot;तिदारी&quot;,&quot;e&quot;:&quot;Northern Shoveler&quot;,&quot;n&quot;:&quot;Spatula clypeata&quot;,&quot;t&quot;:&quot;media/species/northern_shoveler/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;eurasian_spoonbill&quot;,&quot;h&quot;:&quot;चमचा&quot;,&quot;e&quot;:&quot;Eurasian Spoonbill&quot;,&quot;n&quot;:&quot;Platalea leucorodia&quot;,&quot;t&quot;:&quot;media/species/eurasian_spoonbill/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;common_snipe&quot;,&quot;h&quot;:&quot;चाहा&quot;,&quot;e&quot;:&quot;Common Snipe&quot;,&quot;n&quot;:&quot;Gallinago gallinago&quot;,&quot;t&quot;:&quot;media/species/common_snipe/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;greylag_goose&quot;,&quot;h&quot;:&quot;कलहंस&quot;,&quot;e&quot;:&quot;Greylag Goose&quot;,&quot;n&quot;:&quot;Anser anser&quot;,&quot;t&quot;:&quot;media/species/greylag_goose/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;ruddy_shelduck&quot;,&quot;h&quot;:&quot;सुर्खाब&quot;,&quot;e&quot;:&quot;Ruddy Shelduck&quot;,&quot;n&quot;:&quot;Tadorna ferruginea&quot;,&quot;t&quot;:&quot;media/species/ruddy_shelduck/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;gadwall&quot;,&quot;h&quot;:&quot;गैडवॉल बत्तख&quot;,&quot;e&quot;:&quot;Gadwall&quot;,&quot;n&quot;:&quot;Mareca strepera&quot;,&quot;t&quot;:&quot;media/species/gadwall/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;eurasian_wigeon&quot;,&quot;h&quot;:&quot;यूरेशियन विजन&quot;,&quot;e&quot;:&quot;Eurasian Wigeon&quot;,&quot;n&quot;:&quot;Mareca penelope&quot;,&quot;t&quot;:&quot;media/species/eurasian_wigeon/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;mallard&quot;,&quot;h&quot;:&quot;नीलसर&quot;,&quot;e&quot;:&quot;Mallard&quot;,&quot;n&quot;:&quot;Anas platyrhynchos&quot;,&quot;t&quot;:&quot;media/species/mallard/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;red_crested_pochard&quot;,&quot;h&quot;:&quot;लालसर&quot;,&quot;e&quot;:&quot;Red-crested Pochard&quot;,&quot;n&quot;:&quot;Netta rufina&quot;,&quot;t&quot;:&quot;media/species/red_crested_pochard/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;common_pochard&quot;,&quot;h&quot;:&quot;कॉमन पोचार्ड&quot;,&quot;e&quot;:&quot;Common Pochard&quot;,&quot;n&quot;:&quot;Aythya ferina&quot;,&quot;t&quot;:&quot;media/species/common_pochard/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;tufted_duck&quot;,&quot;h&quot;:&quot;टफ्टेड बत्तख&quot;,&quot;e&quot;:&quot;Tufted Duck&quot;,&quot;n&quot;:&quot;Aythya fuligula&quot;,&quot;t&quot;:&quot;media/species/tufted_duck/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;white_stork&quot;,&quot;h&quot;:&quot;हाजी लगलग&quot;,&quot;e&quot;:&quot;White Stork&quot;,&quot;n&quot;:&quot;Ciconia ciconia&quot;,&quot;t&quot;:&quot;media/species/white_stork/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;steppe_eagle&quot;,&quot;h&quot;:&quot;स्टेपी ईगल&quot;,&quot;e&quot;:&quot;Steppe Eagle&quot;,&quot;n&quot;:&quot;Aquila nipalensis&quot;,&quot;t&quot;:&quot;media/species/steppe_eagle/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;common_redshank&quot;,&quot;h&quot;:&quot;कॉमन रेडशैंक&quot;,&quot;e&quot;:&quot;Common Redshank&quot;,&quot;n&quot;:&quot;Tringa totanus&quot;,&quot;t&quot;:&quot;media/species/common_redshank/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;common_greenshank&quot;,&quot;h&quot;:&quot;कॉमन ग्रीनशैंक&quot;,&quot;e&quot;:&quot;Common Greenshank&quot;,&quot;n&quot;:&quot;Tringa nebularia&quot;,&quot;t&quot;:&quot;media/species/common_greenshank/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;green_sandpiper&quot;,&quot;h&quot;:&quot;ग्रीन सैंडपाइपर&quot;,&quot;e&quot;:&quot;Green Sandpiper&quot;,&quot;n&quot;:&quot;Tringa ochropus&quot;,&quot;t&quot;:&quot;media/species/green_sandpiper/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;wood_sandpiper&quot;,&quot;h&quot;:&quot;वुड सैंडपाइपर&quot;,&quot;e&quot;:&quot;Wood Sandpiper&quot;,&quot;n&quot;:&quot;Tringa glareola&quot;,&quot;t&quot;:&quot;media/species/wood_sandpiper/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;little_stint&quot;,&quot;h&quot;:&quot;लिटिल स्टिंट&quot;,&quot;e&quot;:&quot;Little Stint&quot;,&quot;n&quot;:&quot;Calidris minuta&quot;,&quot;t&quot;:&quot;media/species/little_stint/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;bluethroat&quot;,&quot;h&quot;:&quot;हुसैनी पिद्दा&quot;,&quot;e&quot;:&quot;Bluethroat&quot;,&quot;n&quot;:&quot;Luscinia svecica&quot;,&quot;t&quot;:&quot;media/species/bluethroat/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;citrine_wagtail&quot;,&quot;h&quot;:&quot;सिट्रीन खंजन&quot;,&quot;e&quot;:&quot;Citrine Wagtail&quot;,&quot;n&quot;:&quot;Motacilla citreola&quot;,&quot;t&quot;:&quot;media/species/citrine_wagtail/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;black_redstart&quot;,&quot;h&quot;:&quot;थिरथिरा&quot;,&quot;e&quot;:&quot;Black Redstart&quot;,&quot;n&quot;:&quot;Phoenicurus ochruros&quot;,&quot;t&quot;:&quot;media/species/black_redstart/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;siberian_stonechat&quot;,&quot;h&quot;:&quot;खर पिद्दा&quot;,&quot;e&quot;:&quot;Siberian Stonechat&quot;,&quot;n&quot;:&quot;Saxicola maurus&quot;,&quot;t&quot;:&quot;media/species/siberian_stonechat/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;blyths_reed_warbler&quot;,&quot;h&quot;:&quot;ब्लाइथ रीड वार्बलर&quot;,&quot;e&quot;:&quot;Blyth&#39;s Reed Warbler&quot;,&quot;n&quot;:&quot;Acrocephalus dumetorum&quot;,&quot;t&quot;:&quot;media/species/blyths_reed_warbler/wikimedia_01_t.jpg&quot;}]" data-slug="winter-visitors" data-root="../../">
+  <div class="modes"><button type="button" class="mode on" data-mode="cards">Cards <span class="hi">कार्ड</span></button><button type="button" class="mode" data-mode="quiz">Quiz <span class="hi">प्रश्नोत्तरी</span></button><span class="best" id="best"></span></div>
+  <div id="stage" class="stage"><noscript><p class="empty">The cards need scripting. <a href="../../group/winter-visitors/">See the species as a list instead.</a></p></noscript></div>
+</section>
+<section class="inguide"><h2>The species in this deck <span class="hi">इस डेक की प्रजातियाँ</span></h2><div class="grid"><a class="card" href="../../species/white_wagtail/">
+  <span class="ph"><img loading="lazy" src="../../media/species/white_wagtail/wikimedia_01_t.jpg" alt="White Wagtail" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">खंजन</span>
+    <span class="n-en">White Wagtail</span>
+    <span class="n-sci">Motacilla alba</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/western_marsh_harrier/">
+  <span class="ph"><img loading="lazy" src="../../media/species/western_marsh_harrier/wikimedia_01_t.jpg" alt="Western Marsh Harrier" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">दलदल बाज</span>
+    <span class="n-en">Western Marsh Harrier</span>
+    <span class="n-sci">Circus aeruginosus</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/osprey/">
+  <span class="ph"><img loading="lazy" src="../../media/species/osprey/wikimedia_01_t.jpg" alt="Osprey" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">मछलीमार</span>
+    <span class="n-en">Osprey</span>
+    <span class="n-sci">Pandion haliaetus</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/short_eared_owl/">
+  <span class="ph"><img loading="lazy" src="../../media/species/short_eared_owl/wikimedia_01_t.jpg" alt="Short-eared Owl" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">अल्प-कर्ण उल्लू</span>
+    <span class="n-en">Short-eared Owl</span>
+    <span class="n-sci">Asio flammeus</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/common_coot/">
+  <span class="ph"><img loading="lazy" src="../../media/species/common_coot/wikimedia_01_t.jpg" alt="Common Coot" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">लालखर</span>
+    <span class="n-en">Common Coot</span>
+    <span class="n-sci">Fulica atra</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/northern_pintail/">
+  <span class="ph"><img loading="lazy" src="../../media/species/northern_pintail/wikimedia_01_t.jpg" alt="Northern Pintail" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पिनटेल बत्तख</span>
+    <span class="n-en">Northern Pintail</span>
+    <span class="n-sci">Anas acuta</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/garganey/">
+  <span class="ph"><img loading="lazy" src="../../media/species/garganey/wikimedia_01_t.jpg" alt="Garganey" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">गार्गनी बत्तख</span>
+    <span class="n-en">Garganey</span>
+    <span class="n-sci">Spatula querquedula</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/rosy_starling/">
+  <span class="ph"><img loading="lazy" src="../../media/species/rosy_starling/wikimedia_01_t.jpg" alt="Rosy Starling" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">गुलाबी मैना</span>
+    <span class="n-en">Rosy Starling</span>
+    <span class="n-sci">Pastor roseus</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/barn_swallow/">
+  <span class="ph"><img loading="lazy" src="../../media/species/barn_swallow/wikimedia_01_t.jpg" alt="Barn Swallow" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">घर अबाबील</span>
+    <span class="n-en">Barn Swallow</span>
+    <span class="n-sci">Hirundo rustica</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/bar_headed_goose/">
+  <span class="ph"><img loading="lazy" src="../../media/species/bar_headed_goose/wikimedia_01_t.jpg" alt="Bar-headed Goose" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">राजहंस</span>
+    <span class="n-en">Bar-headed Goose</span>
+    <span class="n-sci">Anser indicus</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/common_teal/">
+  <span class="ph"><img loading="lazy" src="../../media/species/common_teal/commons_01_t.jpg" alt="Common Teal" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">छोटी मुर्गाबी</span>
+    <span class="n-en">Common Teal</span>
+    <span class="n-sci">Anas crecca</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/northern_shoveler/">
+  <span class="ph"><img loading="lazy" src="../../media/species/northern_shoveler/wikimedia_01_t.jpg" alt="Northern Shoveler" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">तिदारी</span>
+    <span class="n-en">Northern Shoveler</span>
+    <span class="n-sci">Spatula clypeata</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/eurasian_spoonbill/">
+  <span class="ph"><img loading="lazy" src="../../media/species/eurasian_spoonbill/wikimedia_01_t.jpg" alt="Eurasian Spoonbill" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">चमचा</span>
+    <span class="n-en">Eurasian Spoonbill</span>
+    <span class="n-sci">Platalea leucorodia</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/common_snipe/">
+  <span class="ph"><img loading="lazy" src="../../media/species/common_snipe/wikimedia_01_t.jpg" alt="Common Snipe" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">चाहा</span>
+    <span class="n-en">Common Snipe</span>
+    <span class="n-sci">Gallinago gallinago</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/greylag_goose/">
+  <span class="ph"><img loading="lazy" src="../../media/species/greylag_goose/wikimedia_01_t.jpg" alt="Greylag Goose" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कलहंस</span>
+    <span class="n-en">Greylag Goose</span>
+    <span class="n-sci">Anser anser</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/ruddy_shelduck/">
+  <span class="ph"><img loading="lazy" src="../../media/species/ruddy_shelduck/wikimedia_01_t.jpg" alt="Ruddy Shelduck" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">सुर्खाब</span>
+    <span class="n-en">Ruddy Shelduck</span>
+    <span class="n-sci">Tadorna ferruginea</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/gadwall/">
+  <span class="ph"><img loading="lazy" src="../../media/species/gadwall/wikimedia_01_t.jpg" alt="Gadwall" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">गैडवॉल बत्तख</span>
+    <span class="n-en">Gadwall</span>
+    <span class="n-sci">Mareca strepera</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/eurasian_wigeon/">
+  <span class="ph"><img loading="lazy" src="../../media/species/eurasian_wigeon/wikimedia_01_t.jpg" alt="Eurasian Wigeon" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">यूरेशियन विजन</span>
+    <span class="n-en">Eurasian Wigeon</span>
+    <span class="n-sci">Mareca penelope</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/mallard/">
+  <span class="ph"><img loading="lazy" src="../../media/species/mallard/wikimedia_01_t.jpg" alt="Mallard" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">नीलसर</span>
+    <span class="n-en">Mallard</span>
+    <span class="n-sci">Anas platyrhynchos</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/red_crested_pochard/">
+  <span class="ph"><img loading="lazy" src="../../media/species/red_crested_pochard/wikimedia_01_t.jpg" alt="Red-crested Pochard" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">लालसर</span>
+    <span class="n-en">Red-crested Pochard</span>
+    <span class="n-sci">Netta rufina</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/common_pochard/">
+  <span class="ph"><img loading="lazy" src="../../media/species/common_pochard/wikimedia_01_t.jpg" alt="Common Pochard" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कॉमन पोचार्ड</span>
+    <span class="n-en">Common Pochard</span>
+    <span class="n-sci">Aythya ferina</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/tufted_duck/">
+  <span class="ph"><img loading="lazy" src="../../media/species/tufted_duck/wikimedia_01_t.jpg" alt="Tufted Duck" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">टफ्टेड बत्तख</span>
+    <span class="n-en">Tufted Duck</span>
+    <span class="n-sci">Aythya fuligula</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/white_stork/">
+  <span class="ph"><img loading="lazy" src="../../media/species/white_stork/wikimedia_01_t.jpg" alt="White Stork" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">हाजी लगलग</span>
+    <span class="n-en">White Stork</span>
+    <span class="n-sci">Ciconia ciconia</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/steppe_eagle/">
+  <span class="ph"><img loading="lazy" src="../../media/species/steppe_eagle/wikimedia_01_t.jpg" alt="Steppe Eagle" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">स्टेपी ईगल</span>
+    <span class="n-en">Steppe Eagle</span>
+    <span class="n-sci">Aquila nipalensis</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/common_redshank/">
+  <span class="ph"><img loading="lazy" src="../../media/species/common_redshank/wikimedia_01_t.jpg" alt="Common Redshank" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कॉमन रेडशैंक</span>
+    <span class="n-en">Common Redshank</span>
+    <span class="n-sci">Tringa totanus</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/common_greenshank/">
+  <span class="ph"><img loading="lazy" src="../../media/species/common_greenshank/wikimedia_01_t.jpg" alt="Common Greenshank" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कॉमन ग्रीनशैंक</span>
+    <span class="n-en">Common Greenshank</span>
+    <span class="n-sci">Tringa nebularia</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/green_sandpiper/">
+  <span class="ph"><img loading="lazy" src="../../media/species/green_sandpiper/wikimedia_01_t.jpg" alt="Green Sandpiper" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">ग्रीन सैंडपाइपर</span>
+    <span class="n-en">Green Sandpiper</span>
+    <span class="n-sci">Tringa ochropus</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/wood_sandpiper/">
+  <span class="ph"><img loading="lazy" src="../../media/species/wood_sandpiper/wikimedia_01_t.jpg" alt="Wood Sandpiper" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">वुड सैंडपाइपर</span>
+    <span class="n-en">Wood Sandpiper</span>
+    <span class="n-sci">Tringa glareola</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/little_stint/">
+  <span class="ph"><img loading="lazy" src="../../media/species/little_stint/wikimedia_01_t.jpg" alt="Little Stint" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">लिटिल स्टिंट</span>
+    <span class="n-en">Little Stint</span>
+    <span class="n-sci">Calidris minuta</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/bluethroat/">
+  <span class="ph"><img loading="lazy" src="../../media/species/bluethroat/wikimedia_01_t.jpg" alt="Bluethroat" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">हुसैनी पिद्दा</span>
+    <span class="n-en">Bluethroat</span>
+    <span class="n-sci">Luscinia svecica</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/citrine_wagtail/">
+  <span class="ph"><img loading="lazy" src="../../media/species/citrine_wagtail/wikimedia_01_t.jpg" alt="Citrine Wagtail" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">सिट्रीन खंजन</span>
+    <span class="n-en">Citrine Wagtail</span>
+    <span class="n-sci">Motacilla citreola</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/black_redstart/">
+  <span class="ph"><img loading="lazy" src="../../media/species/black_redstart/wikimedia_01_t.jpg" alt="Black Redstart" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">थिरथिरा</span>
+    <span class="n-en">Black Redstart</span>
+    <span class="n-sci">Phoenicurus ochruros</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/siberian_stonechat/">
+  <span class="ph"><img loading="lazy" src="../../media/species/siberian_stonechat/wikimedia_01_t.jpg" alt="Siberian Stonechat" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">खर पिद्दा</span>
+    <span class="n-en">Siberian Stonechat</span>
+    <span class="n-sci">Saxicola maurus</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/blyths_reed_warbler/">
+  <span class="ph"><img loading="lazy" src="../../media/species/blyths_reed_warbler/wikimedia_01_t.jpg" alt="Blyth&#39;s Reed Warbler" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">ब्लाइथ रीड वार्बलर</span>
+    <span class="n-en">Blyth&#39;s Reed Warbler</span>
+    <span class="n-sci">Acrocephalus dumetorum</span>
+    <span class="mv mv-winter_visitor">Winter visitor</span>
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a></div></section>
+</main>
+<footer class="foot">
+  <p><strong>Awadh Biodiversity Atlas</strong> — the flora and fauna of the Basti–Ayodhya countryside,
+     eastern Uttar Pradesh. 582 species profiled from published sources.</p>
+  <p>Text and data <a href="../../LICENSE.md">CC BY 4.0</a>. Photographs carry their own licence,
+     credited on each page. Built from the
+     <a href="https://github.com/sgmaurya/awadh-biodiversity-atlas" target="_blank" rel="noopener">atlas vault</a>.</p>
+  <p>Begun and maintained by <a href="https://satyaghoshmaurya.github.io/" rel="author">Satyaghosh Maurya</a>,
+     a chemical engineer and single-molecule biophysicist from Basti district.</p>
+</footer>
+<script src="../../assets/atlas.js"></script>
+<script data-goatcounter="https://awadh-atlas.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</html>

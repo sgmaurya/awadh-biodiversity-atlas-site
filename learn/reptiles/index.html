@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="author" content="Satyaghosh Maurya">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}</script>
+<title>Learn: Reptiles — Awadh Biodiversity Atlas</title>
+<meta name="description" content="Flash cards and a quiz on the 24 reptiles of the Basti–Ayodhya countryside, in Hindi and English.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="Learn: Reptiles — Awadh Biodiversity Atlas">
+<meta property="og:description" content="Flash cards and a quiz on the 24 reptiles of the Basti–Ayodhya countryside, in Hindi and English.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Awadh Biodiversity Atlas">
+<meta property="og:image" content="https://sgmaurya.github.io/awadh-biodiversity-atlas-site/media/species/garden_lizard/wikimedia_01_t.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/atlas.css">
+<body class="learn">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="../../">
+    <span class="bn-hi">अवध जैव विविधता एटलस</span>
+    <span class="bn-en">Awadh Biodiversity Atlas</span>
+  </a>
+  <nav>
+    <a href="../../">This month</a>
+    <a href="../../all/">Explore</a>
+    <a href="../../find/">Find</a>
+    <a href="../../learn/">Learn</a>
+    <a href="../../use/">Make &amp; use</a>
+    <a href="../../about/">About</a>
+    <button id="theme" type="button" aria-label="Switch between light and dark" title="Light / dark">
+      <span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span>
+    </button>
+  </nav>
+  <form class="search" role="search" onsubmit="return false">
+    <input id="q" type="search" placeholder="Name, हिंदी नाम, local name, or species" autocomplete="off"
+           aria-label="Search species" data-root="../../">
+    <div id="results" hidden></div>
+  </form>
+</header>
+<main id="main">
+<nav class="crumbs"><a href="../../">Home</a> › <a href="../../learn/">Learn</a></nav>
+<header class="ph1"><h1>Reptiles <span class="hi">सरीसृप</span></h1>
+<p class="lead">Every reptiles in the atlas with a photograph. <b>24</b> species. Cards: tap the photograph to see the name. Quiz: ten photographs, four names each; your best score stays on this phone.</p>
+<p class="lead hi">कार्ड: तस्वीर पर टैप करें, नाम दिखेगा। प्रश्नोत्तरी: दस तस्वीरें, हर एक के चार नाम; आपका सबसे अच्छा स्कोर इसी फ़ोन पर रहता है।</p></header>
+<section class="deck" id="deck" data-deck="[{&quot;s&quot;:&quot;garden_lizard&quot;,&quot;h&quot;:&quot;गिरगिट&quot;,&quot;e&quot;:&quot;Oriental Garden Lizard&quot;,&quot;n&quot;:&quot;Calotes versicolor&quot;,&quot;t&quot;:&quot;media/species/garden_lizard/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;indian_rat_snake&quot;,&quot;h&quot;:&quot;धामन&quot;,&quot;e&quot;:&quot;Indian Rat Snake&quot;,&quot;n&quot;:&quot;Ptyas mucosa&quot;,&quot;t&quot;:&quot;media/species/indian_rat_snake/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;indian_chameleon&quot;,&quot;h&quot;:&quot;असली गिरगिट&quot;,&quot;e&quot;:&quot;Indian Chameleon&quot;,&quot;n&quot;:&quot;Chamaeleo zeylanicus&quot;,&quot;t&quot;:&quot;media/species/indian_chameleon/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;indian_cobra&quot;,&quot;h&quot;:&quot;नाग&quot;,&quot;e&quot;:&quot;Indian Cobra&quot;,&quot;n&quot;:&quot;Naja naja&quot;,&quot;t&quot;:&quot;media/species/indian_cobra/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;common_krait&quot;,&quot;h&quot;:&quot;करैत&quot;,&quot;e&quot;:&quot;Common Krait&quot;,&quot;n&quot;:&quot;Bungarus caeruleus&quot;,&quot;t&quot;:&quot;media/species/common_krait/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;house_gecko&quot;,&quot;h&quot;:&quot;घर की छिपकली&quot;,&quot;e&quot;:&quot;Asian House Gecko&quot;,&quot;n&quot;:&quot;Hemidactylus frenatus&quot;,&quot;t&quot;:&quot;media/species/house_gecko/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;indian_softshell_turtle&quot;,&quot;h&quot;:&quot;गंगा कछुआ&quot;,&quot;e&quot;:&quot;Indian Softshell Turtle&quot;,&quot;n&quot;:&quot;Nilssonia gangetica&quot;,&quot;t&quot;:&quot;media/species/indian_softshell_turtle/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;checkered_keelback&quot;,&quot;h&quot;:&quot;धारीदार पानी साँप&quot;,&quot;e&quot;:&quot;Checkered Keelback&quot;,&quot;n&quot;:&quot;Xenochrophis piscator&quot;,&quot;t&quot;:&quot;media/species/checkered_keelback/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;russells_viper&quot;,&quot;h&quot;:&quot;कोरिआला&quot;,&quot;e&quot;:&quot;Russell&#39;s Viper&quot;,&quot;n&quot;:&quot;Daboia russelii&quot;,&quot;t&quot;:&quot;media/species/russells_viper/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;saw_scaled_viper&quot;,&quot;h&quot;:&quot;फुरसा&quot;,&quot;e&quot;:&quot;Saw-scaled Viper&quot;,&quot;n&quot;:&quot;Echis carinatus&quot;,&quot;t&quot;:&quot;media/species/saw_scaled_viper/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;common_wolf_snake&quot;,&quot;h&quot;:&quot;कौड़िया साँप&quot;,&quot;e&quot;:&quot;Common Wolf Snake&quot;,&quot;n&quot;:&quot;Lycodon aulicus&quot;,&quot;t&quot;:&quot;media/species/common_wolf_snake/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;buff_striped_keelback&quot;,&quot;h&quot;:&quot;सीता की लट&quot;,&quot;e&quot;:&quot;Buff-striped Keelback&quot;,&quot;n&quot;:&quot;Amphiesma stolatum&quot;,&quot;t&quot;:&quot;media/species/buff_striped_keelback/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;common_keeled_skink&quot;,&quot;h&quot;:&quot;बामनिहा&quot;,&quot;e&quot;:&quot;Common Keeled Skink&quot;,&quot;n&quot;:&quot;Eutropis carinata&quot;,&quot;t&quot;:&quot;media/species/common_keeled_skink/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;indian_flapshell_turtle&quot;,&quot;h&quot;:&quot;चित्तीदार कछुआ&quot;,&quot;e&quot;:&quot;Indian Flapshell Turtle&quot;,&quot;n&quot;:&quot;Lissemys punctata&quot;,&quot;t&quot;:&quot;media/species/indian_flapshell_turtle/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;indian_python&quot;,&quot;h&quot;:&quot;अजगर&quot;,&quot;e&quot;:&quot;Indian Python&quot;,&quot;n&quot;:&quot;Python molurus&quot;,&quot;t&quot;:&quot;media/species/indian_python/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;common_sand_boa&quot;,&quot;h&quot;:&quot;डोमेन साँप&quot;,&quot;e&quot;:&quot;Common Sand Boa&quot;,&quot;n&quot;:&quot;Eryx conicus&quot;,&quot;t&quot;:&quot;media/species/common_sand_boa/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;brahminy_blind_snake&quot;,&quot;h&quot;:&quot;अंधा साँप&quot;,&quot;e&quot;:&quot;Brahminy Blind Snake&quot;,&quot;n&quot;:&quot;Indotyphlops braminus&quot;,&quot;t&quot;:&quot;media/species/brahminy_blind_snake/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;common_kukri_snake&quot;,&quot;h&quot;:&quot;कुकरी साँप&quot;,&quot;e&quot;:&quot;Common Kukri Snake&quot;,&quot;n&quot;:&quot;Oligodon arnensis&quot;,&quot;t&quot;:&quot;media/species/common_kukri_snake/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;common_bronzeback&quot;,&quot;h&quot;:&quot;ब्रॉन्ज़बैक साँप&quot;,&quot;e&quot;:&quot;Common Bronzeback Tree Snake&quot;,&quot;n&quot;:&quot;Dendrelaphis tristis&quot;,&quot;t&quot;:&quot;media/species/common_bronzeback/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;indian_roofed_turtle&quot;,&quot;h&quot;:&quot;पचेरा&quot;,&quot;e&quot;:&quot;Indian Roofed Turtle&quot;,&quot;n&quot;:&quot;Pangshura tecta&quot;,&quot;t&quot;:&quot;media/species/indian_roofed_turtle/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;mugger&quot;,&quot;h&quot;:&quot;मगर&quot;,&quot;e&quot;:&quot;Mugger&quot;,&quot;n&quot;:&quot;Crocodylus palustris&quot;,&quot;t&quot;:&quot;media/species/mugger/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;gharial&quot;,&quot;h&quot;:&quot;घड़ियाल&quot;,&quot;e&quot;:&quot;Gharial&quot;,&quot;n&quot;:&quot;Gavialis gangeticus&quot;,&quot;t&quot;:&quot;media/species/gharial/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;banded_krait&quot;,&quot;h&quot;:&quot;अहिराज&quot;,&quot;e&quot;:&quot;Banded Krait&quot;,&quot;n&quot;:&quot;Bungarus fasciatus&quot;,&quot;t&quot;:&quot;media/species/banded_krait/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;red_sand_boa&quot;,&quot;h&quot;:&quot;दोमुँहा&quot;,&quot;e&quot;:&quot;Red Sand Boa&quot;,&quot;n&quot;:&quot;Eryx johnii&quot;,&quot;t&quot;:&quot;media/species/red_sand_boa/wikimedia_01_t.jpg&quot;}]" data-slug="reptiles" data-root="../../">
+  <div class="modes"><button type="button" class="mode on" data-mode="cards">Cards <span class="hi">कार्ड</span></button><button type="button" class="mode" data-mode="quiz">Quiz <span class="hi">प्रश्नोत्तरी</span></button><span class="best" id="best"></span></div>
+  <div id="stage" class="stage"><noscript><p class="empty">The cards need scripting. <a href="../../group/reptiles/">See the species as a list instead.</a></p></noscript></div>
+</section>
+<section class="inguide"><h2>The species in this deck <span class="hi">इस डेक की प्रजातियाँ</span></h2><div class="grid"><a class="card" href="../../species/garden_lizard/">
+  <span class="ph"><img loading="lazy" src="../../media/species/garden_lizard/wikimedia_01_t.jpg" alt="Oriental Garden Lizard" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">गिरगिट</span>
+    <span class="n-en">Oriental Garden Lizard</span>
+    <span class="n-sci">Calotes versicolor</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/indian_rat_snake/">
+  <span class="ph"><img loading="lazy" src="../../media/species/indian_rat_snake/wikimedia_01_t.jpg" alt="Indian Rat Snake" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">धामन</span>
+    <span class="n-en">Indian Rat Snake</span>
+    <span class="n-sci">Ptyas mucosa</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/indian_chameleon/">
+  <span class="ph"><img loading="lazy" src="../../media/species/indian_chameleon/wikimedia_01_t.jpg" alt="Indian Chameleon" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">असली गिरगिट</span>
+    <span class="n-en">Indian Chameleon</span>
+    <span class="n-sci">Chamaeleo zeylanicus</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/indian_cobra/">
+  <span class="ph"><img loading="lazy" src="../../media/species/indian_cobra/wikimedia_01_t.jpg" alt="Indian Cobra" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">नाग</span>
+    <span class="n-en">Indian Cobra</span>
+    <span class="n-sci">Naja naja</span>
+    
+    <span class="cb"><b class="c-venomous">Venomous</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/common_krait/">
+  <span class="ph"><img loading="lazy" src="../../media/species/common_krait/wikimedia_01_t.jpg" alt="Common Krait" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">करैत</span>
+    <span class="n-en">Common Krait</span>
+    <span class="n-sci">Bungarus caeruleus</span>
+    
+    <span class="cb"><b class="c-venomous">Venomous</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/house_gecko/">
+  <span class="ph"><img loading="lazy" src="../../media/species/house_gecko/wikimedia_01_t.jpg" alt="Asian House Gecko" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">घर की छिपकली</span>
+    <span class="n-en">Asian House Gecko</span>
+    <span class="n-sci">Hemidactylus frenatus</span>
+    
+    <span class="cb"><b class="c-invasive">Invasive</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/indian_softshell_turtle/">
+  <span class="ph"><img loading="lazy" src="../../media/species/indian_softshell_turtle/wikimedia_01_t.jpg" alt="Indian Softshell Turtle" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">गंगा कछुआ</span>
+    <span class="n-en">Indian Softshell Turtle</span>
+    <span class="n-sci">Nilssonia gangetica</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/checkered_keelback/">
+  <span class="ph"><img loading="lazy" src="../../media/species/checkered_keelback/wikimedia_01_t.jpg" alt="Checkered Keelback" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">धारीदार पानी साँप</span>
+    <span class="n-en">Checkered Keelback</span>
+    <span class="n-sci">Xenochrophis piscator</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/russells_viper/">
+  <span class="ph"><img loading="lazy" src="../../media/species/russells_viper/wikimedia_01_t.jpg" alt="Russell&#39;s Viper" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कोरिआला</span>
+    <span class="n-en">Russell&#39;s Viper</span>
+    <span class="n-sci">Daboia russelii</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/saw_scaled_viper/">
+  <span class="ph"><img loading="lazy" src="../../media/species/saw_scaled_viper/wikimedia_01_t.jpg" alt="Saw-scaled Viper" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">फुरसा</span>
+    <span class="n-en">Saw-scaled Viper</span>
+    <span class="n-sci">Echis carinatus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/common_wolf_snake/">
+  <span class="ph"><img loading="lazy" src="../../media/species/common_wolf_snake/wikimedia_01_t.jpg" alt="Common Wolf Snake" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कौड़िया साँप</span>
+    <span class="n-en">Common Wolf Snake</span>
+    <span class="n-sci">Lycodon aulicus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/buff_striped_keelback/">
+  <span class="ph"><img loading="lazy" src="../../media/species/buff_striped_keelback/wikimedia_01_t.jpg" alt="Buff-striped Keelback" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">सीता की लट</span>
+    <span class="n-en">Buff-striped Keelback</span>
+    <span class="n-sci">Amphiesma stolatum</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/common_keeled_skink/">
+  <span class="ph"><img loading="lazy" src="../../media/species/common_keeled_skink/wikimedia_01_t.jpg" alt="Common Keeled Skink" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">बामनिहा</span>
+    <span class="n-en">Common Keeled Skink</span>
+    <span class="n-sci">Eutropis carinata</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/indian_flapshell_turtle/">
+  <span class="ph"><img loading="lazy" src="../../media/species/indian_flapshell_turtle/wikimedia_01_t.jpg" alt="Indian Flapshell Turtle" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">चित्तीदार कछुआ</span>
+    <span class="n-en">Indian Flapshell Turtle</span>
+    <span class="n-sci">Lissemys punctata</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/indian_python/">
+  <span class="ph"><img loading="lazy" src="../../media/species/indian_python/wikimedia_01_t.jpg" alt="Indian Python" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">अजगर</span>
+    <span class="n-en">Indian Python</span>
+    <span class="n-sci">Python molurus</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/common_sand_boa/">
+  <span class="ph"><img loading="lazy" src="../../media/species/common_sand_boa/wikimedia_01_t.jpg" alt="Common Sand Boa" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">डोमेन साँप</span>
+    <span class="n-en">Common Sand Boa</span>
+    <span class="n-sci">Eryx conicus</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/brahminy_blind_snake/">
+  <span class="ph"><img loading="lazy" src="../../media/species/brahminy_blind_snake/wikimedia_01_t.jpg" alt="Brahminy Blind Snake" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">अंधा साँप</span>
+    <span class="n-en">Brahminy Blind Snake</span>
+    <span class="n-sci">Indotyphlops braminus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/common_kukri_snake/">
+  <span class="ph"><img loading="lazy" src="../../media/species/common_kukri_snake/wikimedia_01_t.jpg" alt="Common Kukri Snake" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कुकरी साँप</span>
+    <span class="n-en">Common Kukri Snake</span>
+    <span class="n-sci">Oligodon arnensis</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/common_bronzeback/">
+  <span class="ph"><img loading="lazy" src="../../media/species/common_bronzeback/wikimedia_01_t.jpg" alt="Common Bronzeback Tree Snake" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">ब्रॉन्ज़बैक साँप</span>
+    <span class="n-en">Common Bronzeback Tree Snake</span>
+    <span class="n-sci">Dendrelaphis tristis</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/indian_roofed_turtle/">
+  <span class="ph"><img loading="lazy" src="../../media/species/indian_roofed_turtle/wikimedia_01_t.jpg" alt="Indian Roofed Turtle" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पचेरा</span>
+    <span class="n-en">Indian Roofed Turtle</span>
+    <span class="n-sci">Pangshura tecta</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/mugger/">
+  <span class="ph"><img loading="lazy" src="../../media/species/mugger/wikimedia_01_t.jpg" alt="Mugger" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">मगर</span>
+    <span class="n-en">Mugger</span>
+    <span class="n-sci">Crocodylus palustris</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/gharial/">
+  <span class="ph"><img loading="lazy" src="../../media/species/gharial/wikimedia_01_t.jpg" alt="Gharial" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">घड़ियाल</span>
+    <span class="n-en">Gharial</span>
+    <span class="n-sci">Gavialis gangeticus</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/banded_krait/">
+  <span class="ph"><img loading="lazy" src="../../media/species/banded_krait/wikimedia_01_t.jpg" alt="Banded Krait" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">अहिराज</span>
+    <span class="n-en">Banded Krait</span>
+    <span class="n-sci">Bungarus fasciatus</span>
+    
+    <span class="cb"><b class="c-venomous">Venomous</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/red_sand_boa/">
+  <span class="ph"><img loading="lazy" src="../../media/species/red_sand_boa/wikimedia_01_t.jpg" alt="Red Sand Boa" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">दोमुँहा</span>
+    <span class="n-en">Red Sand Boa</span>
+    <span class="n-sci">Eryx johnii</span>
+    
+    <span class="cb"><b class="c-protected">Protected by law</b></span>
+  </span>
+</a></div></section>
+</main>
+<footer class="foot">
+  <p><strong>Awadh Biodiversity Atlas</strong> — the flora and fauna of the Basti–Ayodhya countryside,
+     eastern Uttar Pradesh. 582 species profiled from published sources.</p>
+  <p>Text and data <a href="../../LICENSE.md">CC BY 4.0</a>. Photographs carry their own licence,
+     credited on each page. Built from the
+     <a href="https://github.com/sgmaurya/awadh-biodiversity-atlas" target="_blank" rel="noopener">atlas vault</a>.</p>
+  <p>Begun and maintained by <a href="https://satyaghoshmaurya.github.io/" rel="author">Satyaghosh Maurya</a>,
+     a chemical engineer and single-molecule biophysicist from Basti district.</p>
+</footer>
+<script src="../../assets/atlas.js"></script>
+<script data-goatcounter="https://awadh-atlas.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</html>

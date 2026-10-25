@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="author" content="Satyaghosh Maurya">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}</script>
+<title>Learn: Spiders — Awadh Biodiversity Atlas</title>
+<meta name="description" content="Flash cards and a quiz on the 19 spiders of the Basti–Ayodhya countryside, in Hindi and English.">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="Learn: Spiders — Awadh Biodiversity Atlas">
+<meta property="og:description" content="Flash cards and a quiz on the 19 spiders of the Basti–Ayodhya countryside, in Hindi and English.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Awadh Biodiversity Atlas">
+<meta property="og:image" content="https://sgmaurya.github.io/awadh-biodiversity-atlas-site/media/species/signature_spider/wikimedia_01_t.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/atlas.css">
+<body class="learn">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="../../">
+    <span class="bn-hi">अवध जैव विविधता एटलस</span>
+    <span class="bn-en">Awadh Biodiversity Atlas</span>
+  </a>
+  <nav>
+    <a href="../../">This month</a>
+    <a href="../../all/">Explore</a>
+    <a href="../../find/">Find</a>
+    <a href="../../learn/">Learn</a>
+    <a href="../../use/">Make &amp; use</a>
+    <a href="../../about/">About</a>
+    <button id="theme" type="button" aria-label="Switch between light and dark" title="Light / dark">
+      <span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span>
+    </button>
+  </nav>
+  <form class="search" role="search" onsubmit="return false">
+    <input id="q" type="search" placeholder="Name, हिंदी नाम, local name, or species" autocomplete="off"
+           aria-label="Search species" data-root="../../">
+    <div id="results" hidden></div>
+  </form>
+</header>
+<main id="main">
+<nav class="crumbs"><a href="../../">Home</a> › <a href="../../learn/">Learn</a></nav>
+<header class="ph1"><h1>Spiders <span class="hi">मकड़ियाँ</span></h1>
+<p class="lead">Every spiders in the atlas with a photograph. <b>19</b> species. Cards: tap the photograph to see the name. Quiz: ten photographs, four names each; your best score stays on this phone.</p>
+<p class="lead hi">कार्ड: तस्वीर पर टैप करें, नाम दिखेगा। प्रश्नोत्तरी: दस तस्वीरें, हर एक के चार नाम; आपका सबसे अच्छा स्कोर इसी फ़ोन पर रहता है।</p></header>
+<section class="deck" id="deck" data-deck="[{&quot;s&quot;:&quot;signature_spider&quot;,&quot;h&quot;:&quot;जोग मकड़ी&quot;,&quot;e&quot;:&quot;Signature Spider&quot;,&quot;n&quot;:&quot;Argiope anasuja&quot;,&quot;t&quot;:&quot;media/species/signature_spider/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;giant_wood_spider&quot;,&quot;h&quot;:&quot;सोन मकड़ी&quot;,&quot;e&quot;:&quot;Giant Wood Spider&quot;,&quot;n&quot;:&quot;Nephila pilipes&quot;,&quot;t&quot;:&quot;media/species/giant_wood_spider/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;pantropical_jumping_spider&quot;,&quot;h&quot;:&quot;कूदने वाली मकड़ी&quot;,&quot;e&quot;:&quot;Pantropical Jumping Spider&quot;,&quot;n&quot;:&quot;Plexippus paykulli&quot;,&quot;t&quot;:&quot;media/species/pantropical_jumping_spider/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;huntsman_spider&quot;,&quot;h&quot;:&quot;शिकारी मकड़ी&quot;,&quot;e&quot;:&quot;Huntsman Spider&quot;,&quot;n&quot;:&quot;Heteropoda venatoria&quot;,&quot;t&quot;:&quot;media/species/huntsman_spider/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;green_lynx_spider&quot;,&quot;h&quot;:&quot;हरी मकड़ी&quot;,&quot;e&quot;:&quot;Green Lynx Spider&quot;,&quot;n&quot;:&quot;Peucetia viridana&quot;,&quot;t&quot;:&quot;media/species/green_lynx_spider/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;adansons_jumping_spider&quot;,&quot;h&quot;:&quot;घरेलू मकड़ी&quot;,&quot;e&quot;:&quot;Adanson&#39;s Jumping Spider&quot;,&quot;n&quot;:&quot;Hasarius adansoni&quot;,&quot;t&quot;:&quot;media/species/adansons_jumping_spider/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;kidney_garden_spider&quot;,&quot;h&quot;:&quot;बागीचा मकड़ी&quot;,&quot;e&quot;:&quot;Kidney Garden Spider&quot;,&quot;n&quot;:&quot;Araneus mitificus&quot;,&quot;t&quot;:&quot;media/species/kidney_garden_spider/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;striped_lynx_spider&quot;,&quot;h&quot;:&quot;शिकारी मकड़ी&quot;,&quot;e&quot;:&quot;Striped Lynx Spider&quot;,&quot;n&quot;:&quot;Oxyopes salticus&quot;,&quot;t&quot;:&quot;media/species/striped_lynx_spider/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;tropical_tent_web_spider&quot;,&quot;h&quot;:&quot;तंबू मकड़ी&quot;,&quot;e&quot;:&quot;Tropical Tent-web Spider&quot;,&quot;n&quot;:&quot;Cyrtophora citricola&quot;,&quot;t&quot;:&quot;media/species/tropical_tent_web_spider/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;cellar_spider&quot;,&quot;h&quot;:&quot;पतली टांग वाली मकड़ी&quot;,&quot;e&quot;:&quot;Long-bodied Cellar Spider&quot;,&quot;n&quot;:&quot;Pholcus phalangioides&quot;,&quot;t&quot;:&quot;media/species/cellar_spider/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;long_jawed_spider&quot;,&quot;h&quot;:&quot;लंबे जबड़े की मकड़ी&quot;,&quot;e&quot;:&quot;Long-jawed Orb-weaver&quot;,&quot;n&quot;:&quot;Tetragnatha mandibulata&quot;,&quot;t&quot;:&quot;media/species/long_jawed_spider/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;social_velvet_spider&quot;,&quot;h&quot;:&quot;सामूहिक मकड़ी&quot;,&quot;e&quot;:&quot;Social Velvet Spider&quot;,&quot;n&quot;:&quot;Stegodyphus sarasinorum&quot;,&quot;t&quot;:&quot;media/species/social_velvet_spider/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;spiny_orb_weaver&quot;,&quot;h&quot;:&quot;कंटकदार मकड़ी&quot;,&quot;e&quot;:&quot;Spiny Orb-weaver&quot;,&quot;n&quot;:&quot;Gasteracantha kuhli&quot;,&quot;t&quot;:&quot;media/species/spiny_orb_weaver/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;indian_red_scorpion&quot;,&quot;h&quot;:&quot;लाल बिच्छू&quot;,&quot;e&quot;:&quot;Indian Red Scorpion&quot;,&quot;n&quot;:&quot;Hottentotta tamulus&quot;,&quot;t&quot;:&quot;media/species/indian_red_scorpion/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;red_velvet_mite&quot;,&quot;h&quot;:&quot;रानी कीड़ा&quot;,&quot;e&quot;:&quot;Red Velvet Mite&quot;,&quot;n&quot;:&quot;Trombidium grandissimum&quot;,&quot;t&quot;:&quot;media/species/red_velvet_mite/commons_01_t.jpg&quot;},{&quot;s&quot;:&quot;two_tailed_spider&quot;,&quot;h&quot;:&quot;दो-पूँछ वाली मकड़ी&quot;,&quot;e&quot;:&quot;Two-tailed Spider&quot;,&quot;n&quot;:&quot;Hersilia savignyi&quot;,&quot;t&quot;:&quot;media/species/two_tailed_spider/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;funnel_web_wolf_spider&quot;,&quot;h&quot;:&quot;घास की मकड़ी&quot;,&quot;e&quot;:&quot;Funnel-web Wolf Spider&quot;,&quot;n&quot;:&quot;Hippasa agelenoides&quot;,&quot;t&quot;:&quot;media/species/funnel_web_wolf_spider/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;cattle_tick&quot;,&quot;h&quot;:&quot;किलनी&quot;,&quot;e&quot;:&quot;Cattle Tick&quot;,&quot;n&quot;:&quot;Rhipicephalus microplus&quot;,&quot;t&quot;:&quot;media/species/cattle_tick/wikimedia_01_t.jpg&quot;},{&quot;s&quot;:&quot;flower_crab_spider&quot;,&quot;h&quot;:&quot;फूल मकड़ी&quot;,&quot;e&quot;:&quot;Flower Crab Spider&quot;,&quot;n&quot;:&quot;Thomisus&quot;,&quot;t&quot;:&quot;media/species/flower_crab_spider/wikimedia_01_t.jpg&quot;}]" data-slug="spiders" data-root="../../">
+  <div class="modes"><button type="button" class="mode on" data-mode="cards">Cards <span class="hi">कार्ड</span></button><button type="button" class="mode" data-mode="quiz">Quiz <span class="hi">प्रश्नोत्तरी</span></button><span class="best" id="best"></span></div>
+  <div id="stage" class="stage"><noscript><p class="empty">The cards need scripting. <a href="../../group/spiders/">See the species as a list instead.</a></p></noscript></div>
+</section>
+<section class="inguide"><h2>The species in this deck <span class="hi">इस डेक की प्रजातियाँ</span></h2><div class="grid"><a class="card" href="../../species/signature_spider/">
+  <span class="ph"><img loading="lazy" src="../../media/species/signature_spider/wikimedia_01_t.jpg" alt="Signature Spider" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">जोग मकड़ी</span>
+    <span class="n-en">Signature Spider</span>
+    <span class="n-sci">Argiope anasuja</span>
+    
+    <span class="cb"><b class="c-venomous">Venomous</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/giant_wood_spider/">
+  <span class="ph"><img loading="lazy" src="../../media/species/giant_wood_spider/wikimedia_01_t.jpg" alt="Giant Wood Spider" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">सोन मकड़ी</span>
+    <span class="n-en">Giant Wood Spider</span>
+    <span class="n-sci">Nephila pilipes</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/pantropical_jumping_spider/">
+  <span class="ph"><img loading="lazy" src="../../media/species/pantropical_jumping_spider/wikimedia_01_t.jpg" alt="Pantropical Jumping Spider" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कूदने वाली मकड़ी</span>
+    <span class="n-en">Pantropical Jumping Spider</span>
+    <span class="n-sci">Plexippus paykulli</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/huntsman_spider/">
+  <span class="ph"><img loading="lazy" src="../../media/species/huntsman_spider/wikimedia_01_t.jpg" alt="Huntsman Spider" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">शिकारी मकड़ी</span>
+    <span class="n-en">Huntsman Spider</span>
+    <span class="n-sci">Heteropoda venatoria</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/green_lynx_spider/">
+  <span class="ph"><img loading="lazy" src="../../media/species/green_lynx_spider/wikimedia_01_t.jpg" alt="Green Lynx Spider" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">हरी मकड़ी</span>
+    <span class="n-en">Green Lynx Spider</span>
+    <span class="n-sci">Peucetia viridana</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/adansons_jumping_spider/">
+  <span class="ph"><img loading="lazy" src="../../media/species/adansons_jumping_spider/wikimedia_01_t.jpg" alt="Adanson&#39;s Jumping Spider" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">घरेलू मकड़ी</span>
+    <span class="n-en">Adanson&#39;s Jumping Spider</span>
+    <span class="n-sci">Hasarius adansoni</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/kidney_garden_spider/">
+  <span class="ph"><img loading="lazy" src="../../media/species/kidney_garden_spider/wikimedia_01_t.jpg" alt="Kidney Garden Spider" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">बागीचा मकड़ी</span>
+    <span class="n-en">Kidney Garden Spider</span>
+    <span class="n-sci">Araneus mitificus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/striped_lynx_spider/">
+  <span class="ph"><img loading="lazy" src="../../media/species/striped_lynx_spider/wikimedia_01_t.jpg" alt="Striped Lynx Spider" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">शिकारी मकड़ी</span>
+    <span class="n-en">Striped Lynx Spider</span>
+    <span class="n-sci">Oxyopes salticus</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/tropical_tent_web_spider/">
+  <span class="ph"><img loading="lazy" src="../../media/species/tropical_tent_web_spider/wikimedia_01_t.jpg" alt="Tropical Tent-web Spider" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">तंबू मकड़ी</span>
+    <span class="n-en">Tropical Tent-web Spider</span>
+    <span class="n-sci">Cyrtophora citricola</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/cellar_spider/">
+  <span class="ph"><img loading="lazy" src="../../media/species/cellar_spider/wikimedia_01_t.jpg" alt="Long-bodied Cellar Spider" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">पतली टांग वाली मकड़ी</span>
+    <span class="n-en">Long-bodied Cellar Spider</span>
+    <span class="n-sci">Pholcus phalangioides</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/long_jawed_spider/">
+  <span class="ph"><img loading="lazy" src="../../media/species/long_jawed_spider/wikimedia_01_t.jpg" alt="Long-jawed Orb-weaver" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">लंबे जबड़े की मकड़ी</span>
+    <span class="n-en">Long-jawed Orb-weaver</span>
+    <span class="n-sci">Tetragnatha mandibulata</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/social_velvet_spider/">
+  <span class="ph"><img loading="lazy" src="../../media/species/social_velvet_spider/wikimedia_01_t.jpg" alt="Social Velvet Spider" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">सामूहिक मकड़ी</span>
+    <span class="n-en">Social Velvet Spider</span>
+    <span class="n-sci">Stegodyphus sarasinorum</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/spiny_orb_weaver/">
+  <span class="ph"><img loading="lazy" src="../../media/species/spiny_orb_weaver/wikimedia_01_t.jpg" alt="Spiny Orb-weaver" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">कंटकदार मकड़ी</span>
+    <span class="n-en">Spiny Orb-weaver</span>
+    <span class="n-sci">Gasteracantha kuhli</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/indian_red_scorpion/">
+  <span class="ph"><img loading="lazy" src="../../media/species/indian_red_scorpion/wikimedia_01_t.jpg" alt="Indian Red Scorpion" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">लाल बिच्छू</span>
+    <span class="n-en">Indian Red Scorpion</span>
+    <span class="n-sci">Hottentotta tamulus</span>
+    
+    <span class="cb"><b class="c-venomous">Venomous</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/red_velvet_mite/">
+  <span class="ph"><img loading="lazy" src="../../media/species/red_velvet_mite/commons_01_t.jpg" alt="Red Velvet Mite" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">रानी कीड़ा</span>
+    <span class="n-en">Red Velvet Mite</span>
+    <span class="n-sci">Trombidium grandissimum</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/two_tailed_spider/">
+  <span class="ph"><img loading="lazy" src="../../media/species/two_tailed_spider/wikimedia_01_t.jpg" alt="Two-tailed Spider" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">दो-पूँछ वाली मकड़ी</span>
+    <span class="n-en">Two-tailed Spider</span>
+    <span class="n-sci">Hersilia savignyi</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/funnel_web_wolf_spider/">
+  <span class="ph"><img loading="lazy" src="../../media/species/funnel_web_wolf_spider/wikimedia_01_t.jpg" alt="Funnel-web Wolf Spider" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">घास की मकड़ी</span>
+    <span class="n-en">Funnel-web Wolf Spider</span>
+    <span class="n-sci">Hippasa agelenoides</span>
+    
+    
+  </span>
+</a>
+<a class="card" href="../../species/cattle_tick/">
+  <span class="ph"><img loading="lazy" src="../../media/species/cattle_tick/wikimedia_01_t.jpg" alt="Cattle Tick" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">किलनी</span>
+    <span class="n-en">Cattle Tick</span>
+    <span class="n-sci">Rhipicephalus microplus</span>
+    
+    <span class="cb"><b class="c-disease-vector">Carries disease</b></span>
+  </span>
+</a>
+<a class="card" href="../../species/flower_crab_spider/">
+  <span class="ph"><img loading="lazy" src="../../media/species/flower_crab_spider/wikimedia_01_t.jpg" alt="Flower Crab Spider" width="380" height="260"></span>
+  <span class="meta">
+    <span class="n-hi">फूल मकड़ी</span>
+    <span class="n-en">Flower Crab Spider</span>
+    <span class="n-sci">Thomisus</span>
+    
+    
+  </span>
+</a></div></section>
+</main>
+<footer class="foot">
+  <p><strong>Awadh Biodiversity Atlas</strong> — the flora and fauna of the Basti–Ayodhya countryside,
+     eastern Uttar Pradesh. 582 species profiled from published sources.</p>
+  <p>Text and data <a href="../../LICENSE.md">CC BY 4.0</a>. Photographs carry their own licence,
+     credited on each page. Built from the
+     <a href="https://github.com/sgmaurya/awadh-biodiversity-atlas" target="_blank" rel="noopener">atlas vault</a>.</p>
+  <p>Begun and maintained by <a href="https://satyaghoshmaurya.github.io/" rel="author">Satyaghosh Maurya</a>,
+     a chemical engineer and single-molecule biophysicist from Basti district.</p>
+</footer>
+<script src="../../assets/atlas.js"></script>
+<script data-goatcounter="https://awadh-atlas.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</html>
