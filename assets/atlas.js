@@ -473,3 +473,40 @@
     .catch(function () { grid.innerHTML = '<p class="empty">Could not load the list. <a href="' + root + 'all/">Explore by group instead.</a></p>'; });
 })();
 
+
+/* Hindi interface: a toggle remembered on this phone; the stylesheet does the switching. */
+(function () {
+  var btn = document.getElementById('lang');
+  var q = document.getElementById('q');
+  function apply(hi) {
+    var root = document.documentElement;
+    if (hi) { root.setAttribute('data-lang', 'hi'); root.lang = 'hi'; } else { root.removeAttribute('data-lang'); root.lang = 'en'; }
+    if (q) q.placeholder = hi ? 'नाम, स्थानीय नाम या प्रजाति' : 'Name, हिंदी नाम, local name, or species';
+  }
+  apply(document.documentElement.getAttribute('data-lang') === 'hi');
+  if (!btn) return;
+  btn.addEventListener('click', function () {
+    var hi = document.documentElement.getAttribute('data-lang') !== 'hi';
+    apply(hi);
+    try { localStorage.setItem('lang', hi ? 'hi' : 'en'); } catch (e) {}
+  });
+})();
+
+/* Offline: register the service worker from the site root; list the saved pages when offline. */
+(function () {
+  var q = document.getElementById('q');
+  var root = q ? (q.getAttribute('data-root') || '') : '';
+  if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+    try { navigator.serviceWorker.register(root + 'sw.js'); } catch (e) {}
+  }
+  var list = document.getElementById('saved');
+  if (!list || !('caches' in window)) return;
+  caches.open('atlas-pages').then(function (c) { return c.keys(); }).then(function (reqs) {
+    var items = reqs.map(function (r) { return r.url; }).filter(function (u) { return //species/[^/]+/$/.test(u); }).sort();
+    list.innerHTML = items.length ? items.map(function (u) {
+      var slug = u.replace(//$/, '').split('/').pop().replace(/_/g, ' ');
+      return '<li><a href="' + u + '">' + slug + '</a></li>';
+    }).join('') : '<li>No species page saved yet. · अभी कोई पन्ना नहीं।</li>';
+  }).catch(function () {});
+})();
+
