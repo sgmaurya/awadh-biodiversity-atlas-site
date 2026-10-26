@@ -1,4 +1,4 @@
-var CORE = 'atlas-core-202610251954', PAGES = 'atlas-pages';
+var CORE = 'atlas-core-202610262141', PAGES = 'atlas-pages';
 var SHELL = ['./', 'all/', 'about/', 'find/', 'learn/', 'apart/', 'visitors/', 'use/', 'offline.html',
   'assets/atlas.css', 'assets/atlas.js', 'assets/search.json', 'assets/find.json', 'manifest.webmanifest', 'assets/icon-192.png'];
 self.addEventListener('install', function (e) {
@@ -14,8 +14,11 @@ self.addEventListener('fetch', function (e) {
   if (req.method !== 'GET') return;
   var url = new URL(req.url);
   if (url.origin !== location.origin) return;
-  var isAsset = /\.(jpe?g|png|css|js|json|webmanifest)$/i.test(url.pathname);
-  if (isAsset) {
+  // Pictures never change once published: cache-first. Scripts, styles, indexes and pages
+  // do change with every publish: network-first, so a fix reaches the phone the next time
+  // it has signal, with the cached copy as the offline fallback.
+  var isImage = /\.(jpe?g|png)$/i.test(url.pathname);
+  if (isImage) {
     e.respondWith(caches.match(req).then(function (hit) {
       return hit || fetch(req).then(function (res) {
         if (res.ok) { var copy = res.clone(); caches.open(PAGES).then(function (c) { c.put(req, copy); }); }

@@ -502,9 +502,9 @@
   var list = document.getElementById('saved');
   if (!list || !('caches' in window)) return;
   caches.open('atlas-pages').then(function (c) { return c.keys(); }).then(function (reqs) {
-    var items = reqs.map(function (r) { return r.url; }).filter(function (u) { return //species/[^/]+/$/.test(u); }).sort();
+    var items = reqs.map(function (r) { return r.url; }).filter(function (u) { return /\/species\/[^/]+\/$/.test(u); }).sort();
     list.innerHTML = items.length ? items.map(function (u) {
-      var slug = u.replace(//$/, '').split('/').pop().replace(/_/g, ' ');
+      var slug = u.replace(/\/$/, '').split('/').pop().replace(/_/g, ' ');
       return '<li><a href="' + u + '">' + slug + '</a></li>';
     }).join('') : '<li>No species page saved yet. · अभी कोई पन्ना नहीं।</li>';
   }).catch(function () {});
