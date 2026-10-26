@@ -283,19 +283,6 @@ th{background:var(--soft);font-weight:600}
   .card,.pair,.box{break-inside:avoid}
 }
 
-/* sprint 4: Hindi interface */
-.l-hi{display:none}
-html[data-lang="hi"] .l-hi{display:inline}
-html[data-lang="hi"] .l-en{display:none}
-#lang{border:1px solid var(--line);background:var(--bg);color:var(--ink-2);border-radius:999px;height:30px;min-width:38px;cursor:pointer;font-size:13px;font-weight:600;padding:0 9px}
-html[data-lang="hi"] .ph1 h1,html[data-lang="hi"] .hello h1,html[data-lang="hi"] main h2:not(.sect h2){display:flex;flex-direction:column-reverse;align-items:flex-start;gap:1px}
-html[data-lang="hi"] .ph1 h1,html[data-lang="hi"] .hello h1{font-size:15px;color:var(--ink-3);font-weight:500}
-html[data-lang="hi"] .ph1 h1 .hi,html[data-lang="hi"] .hello h1 .hi{font-size:30px;color:var(--ink);font-weight:700;line-height:1.2}
-html[data-lang="hi"] main h2:not(.sect h2){font-size:13px;color:var(--ink-3);font-weight:500}
-html[data-lang="hi"] main h2:not(.sect h2) .hi{font-size:19px;color:var(--ink);font-weight:700}
-html[data-lang="hi"] .lead:not(.hi):has(+ .lead.hi){display:none}
-html[data-lang="hi"] .lead.hi{color:var(--ink-2)}
-html[data-lang="hi"] .foot p:not(.hi):first-child{display:none}
 :root[data-theme="dark"] .c-toxic,:root[data-theme="dark"] .c-venomous{background:#3a1f1c!important;border-color:#6b3a33!important;color:#f0a79c!important}
 :root[data-theme="dark"] .c-protected{background:#1f2b22!important;border-color:#3a5a40!important;color:#8fc59a!important}
 :root[data-theme="dark"] .c-invasive{background:#332616!important;border-color:#6b4d26!important;color:#e0a460!important}

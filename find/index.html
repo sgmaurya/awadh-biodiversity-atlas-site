@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 <meta name="author" content="Satyaghosh Maurya">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark');if(localStorage.getItem('lang')==='hi'){document.documentElement.setAttribute('data-lang','hi');document.documentElement.lang='hi'}}catch(e){}</script>
+<script>try{if(localStorage.getItem('theme')==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}</script>
 <title>Find by look — Awadh Biodiversity Atlas</title>
 <meta name="description" content="Do not know the name? Pick what kind of thing it was, how big, what colour and where you saw it, and the atlas narrows the list.">
 <meta name="color-scheme" content="light dark">
@@ -18,20 +18,19 @@
 <meta name="theme-color" content="#2f6b3f">
 <link rel="apple-touch-icon" href="../assets/icon-192.png">
 <body class="find">
-<a class="skip" href="#main"><span class="l-en">Skip to content</span><span class="l-hi">सीधे सामग्री पर</span></a>
+<a class="skip" href="#main">Skip to content</a>
 <header class="top">
   <a class="brand" href="../">
     <span class="bn-hi">अवध जैव विविधता एटलस</span>
     <span class="bn-en">Awadh Biodiversity Atlas</span>
   </a>
   <nav>
-    <a href="../"><span class="l-en">This month</span><span class="l-hi">इस महीने</span></a>
-    <a href="../all/"><span class="l-en">Explore</span><span class="l-hi">खोजें</span></a>
-    <a href="../find/"><span class="l-en">Find</span><span class="l-hi">पहचानें</span></a>
-    <a href="../learn/"><span class="l-en">Learn</span><span class="l-hi">सीखें</span></a>
-    <a href="../use/"><span class="l-en">Make &amp; use</span><span class="l-hi">उपयोग</span></a>
-    <a href="../about/"><span class="l-en">About</span><span class="l-hi">परिचय</span></a>
-    <button id="lang" type="button" aria-label="Language / भाषा" title="हिंदी / English"><span class="l-en">हिं</span><span class="l-hi">EN</span></button>
+    <a href="../">This month</a>
+    <a href="../all/">Explore</a>
+    <a href="../find/">Find</a>
+    <a href="../learn/">Learn</a>
+    <a href="../use/">Make &amp; use</a>
+    <a href="../about/">About</a>
     <button id="theme" type="button" aria-label="Switch between light and dark" title="Light / dark">
       <span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span>
     </button>
@@ -53,14 +52,14 @@ The size, colour and place come from each profile's own identification table and
 <div class="facet" data-facet="z"><h3>How big <span class="hi">कितना बड़ा</span></h3><div class="fbtns"><button type="button" class="fbtn" data-v="tiny">Smaller than a fingernail <span class="hi">नाखून से छोटा</span></button><button type="button" class="fbtn" data-v="small">Fits in a hand <span class="hi">हाथ में आ जाए</span></button><button type="button" class="fbtn" data-v="medium">Up to an arm <span class="hi">बाँह भर</span></button><button type="button" class="fbtn" data-v="large">Up to a person <span class="hi">आदमी तक</span></button><button type="button" class="fbtn" data-v="huge">Taller than a person <span class="hi">आदमी से ऊँचा</span></button></div></div>
 <div class="facet" data-facet="c"><h3>Colour <span class="hi">रंग</span></h3><div class="fbtns"><button type="button" class="fbtn" data-v="green">Green <span class="hi">हरा</span></button><button type="button" class="fbtn" data-v="brown">Brown <span class="hi">भूरा</span></button><button type="button" class="fbtn" data-v="grey">Grey <span class="hi">धूसर</span></button><button type="button" class="fbtn" data-v="black">Black <span class="hi">काला</span></button><button type="button" class="fbtn" data-v="white">White <span class="hi">सफ़ेद</span></button><button type="button" class="fbtn" data-v="yellow">Yellow <span class="hi">पीला</span></button><button type="button" class="fbtn" data-v="red">Red or orange <span class="hi">लाल या नारंगी</span></button><button type="button" class="fbtn" data-v="blue">Blue or purple <span class="hi">नीला या बैंगनी</span></button><button type="button" class="fbtn" data-v="pink">Pink <span class="hi">गुलाबी</span></button></div></div>
 <div class="facet" data-facet="w"><h3>Where you saw it <span class="hi">कहाँ दिखा</span></h3><div class="fbtns"><button type="button" class="fbtn" data-v="water">Water <span class="hi">पानी</span></button><button type="button" class="fbtn" data-v="fields">Fields and crops <span class="hi">खेत</span></button><button type="button" class="fbtn" data-v="village">Village and house <span class="hi">गाँव और घर</span></button><button type="button" class="fbtn" data-v="trees">Trees and groves <span class="hi">पेड़ और बाग़</span></button><button type="button" class="fbtn" data-v="open">Grass, scrub and roadsides <span class="hi">घास, झाड़, सड़क</span></button><button type="button" class="fbtn" data-v="soil">Soil, litter and dung <span class="hi">मिट्टी और गोबर</span></button></div></div>
-<p class="fcount"><b id="fcount">682</b> <span id="fword">species match</span> · <button type="button" id="fclear" class="linkbtn">clear <span class="hi">साफ़ करें</span></button></p>
+<p class="fcount"><b id="fcount">700</b> <span id="fword">species match</span> · <button type="button" id="fclear" class="linkbtn">clear <span class="hi">साफ़ करें</span></button></p>
 <div class="grid" id="fgrid"><noscript><p class="empty">The finder needs scripting. <a href="../all/">Explore by group instead.</a></p></noscript></div>
 <p class="more" id="fmore" hidden><button type="button" class="linkbtn" id="fmorebtn">show more</button></p>
 </section>
 </main>
 <footer class="foot">
   <p><strong>Awadh Biodiversity Atlas</strong> — the flora and fauna of the Basti–Ayodhya countryside,
-     eastern Uttar Pradesh. 682 species profiled from published sources.</p>
+     eastern Uttar Pradesh. 700 species profiled from published sources.</p>
   <p>Text and data <a href="../LICENSE.md">CC BY 4.0</a>. Photographs carry their own licence,
      credited on each page. Built from the
      <a href="https://github.com/sgmaurya/awadh-biodiversity-atlas" target="_blank" rel="noopener">atlas vault</a>.</p>

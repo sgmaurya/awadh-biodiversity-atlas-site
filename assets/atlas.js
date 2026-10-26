@@ -474,23 +474,6 @@
 })();
 
 
-/* Hindi interface: a toggle remembered on this phone; the stylesheet does the switching. */
-(function () {
-  var btn = document.getElementById('lang');
-  var q = document.getElementById('q');
-  function apply(hi) {
-    var root = document.documentElement;
-    if (hi) { root.setAttribute('data-lang', 'hi'); root.lang = 'hi'; } else { root.removeAttribute('data-lang'); root.lang = 'en'; }
-    if (q) q.placeholder = hi ? 'नाम, स्थानीय नाम या प्रजाति' : 'Name, हिंदी नाम, local name, or species';
-  }
-  apply(document.documentElement.getAttribute('data-lang') === 'hi');
-  if (!btn) return;
-  btn.addEventListener('click', function () {
-    var hi = document.documentElement.getAttribute('data-lang') !== 'hi';
-    apply(hi);
-    try { localStorage.setItem('lang', hi ? 'hi' : 'en'); } catch (e) {}
-  });
-})();
 
 /* Offline: register the service worker from the site root; list the saved pages when offline. */
 (function () {

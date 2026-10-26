@@ -1,4 +1,4 @@
-var CORE = 'atlas-core-202610262141', PAGES = 'atlas-pages';
+var CORE = 'atlas-core-202610262242', PAGES = 'atlas-pages';
 var SHELL = ['./', 'all/', 'about/', 'find/', 'learn/', 'apart/', 'visitors/', 'use/', 'offline.html',
   'assets/atlas.css', 'assets/atlas.js', 'assets/search.json', 'assets/find.json', 'manifest.webmanifest', 'assets/icon-192.png'];
 self.addEventListener('install', function (e) {
