@@ -246,6 +246,7 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/barnyard_millet-vs-finger_millet/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/barnyard_millet-vs-paddy/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/baronet-vs-common_baron/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/baronet-vs-gaudy_baron/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/barred_buttonquail-vs-common_quail/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/barred_buttonquail-vs-jungle_bush_quail/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/barred_buttonquail-vs-rain_quail/</loc></url>
@@ -472,6 +473,7 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/blue_rock_thrush-vs-blue_whistling_thrush/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/blue_rock_thrush-vs-orange_headed_thrush/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/blue_rock_thrush-vs-tickells_thrush/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/blue_tiger-vs-common_mime/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/blue_tiger-vs-danaid_eggfly/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/blue_tiger-vs-striped_tiger_butterfly/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/blue_water_lily-vs-hairy_water_lily/</loc></url>
@@ -608,6 +610,7 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/cajeta_fruit_piercing_moth-vs-dot_underwing_fruit_piercing_moth/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/cajeta_fruit_piercing_moth-vs-tropical_tiger_moth/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/cancellate_tiger_beetle-vs-tiger_beetle/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/cancellate_tiger_beetle-vs-striate_fronted_tiger_beetle/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/cancellate_tiger_beetle-vs-vittate_tiger_beetle/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/candle_bush-vs-jatropha/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/cantors_black_headed_snake-vs-common_kukri_snake/</loc></url>
@@ -715,9 +718,11 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/commander-vs-common_lascar/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/commander-vs-common_nawab/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/commander-vs-common_sailer/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/commander-vs-common_sergeant/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_babbler-vs-jungle_babbler/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_babbler-vs-large_grey_babbler/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_babbler-vs-striated_babbler/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_baron-vs-gaudy_baron/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_bean-vs-cowpea/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_bean-vs-pigeon_pea/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_bronzeback-vs-common_krait/</loc></url>
@@ -792,11 +797,13 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_hoopoe-vs-common_myna/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_hoopoe-vs-indian_roller/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_hoopoe-vs-pied_cuckoo/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_indian_crow-vs-common_mime/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_indian_crow-vs-common_mormon/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_indian_crow-vs-great_eggfly/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_indian_crow-vs-plain_tiger/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_iora-vs-golden_fronted_leafbird/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_jay-vs-lime_butterfly/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_jay-vs-spot_swordtail/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_jay-vs-tailed_jay/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_jezebel-vs-great_orange_tip/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_jezebel-vs-tawny_coster/</loc></url>
@@ -823,6 +830,7 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_kukri_snake-vs-kheri_kukri_snake/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_lascar-vs-common_leopard/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_lascar-vs-common_sailer/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_lascar-vs-common_sergeant/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_leopard-vs-common_nawab/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_leopard-vs-eri_silkmoth/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_leopard-vs-grey_pansy/</loc></url>
@@ -869,6 +877,7 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_rosefinch-vs-house_sparrow/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_rosefinch-vs-red_avadavat/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_rosefinch-vs-red_headed_bunting/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_sailer-vs-common_sergeant/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_sand_boa-vs-indian_python/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_sand_boa-vs-red_sand_boa/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/common_sand_boa-vs-russells_viper/</loc></url>
@@ -1023,6 +1032,8 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/cypress_vine-vs-obscure_morning_glory/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/danaid_eggfly-vs-great_eggfly/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/danaid_eggfly-vs-plain_tiger/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/dark_blue_tiger_beetle-vs-eight_spotted_tiger_beetle/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/dark_blue_tiger_beetle-vs-two_coloured_tiger_beetle/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/dark_cerulean-vs-pea_blue/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/dark_grass_blue-vs-lesser_grass_blue/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/dark_grass_blue-vs-pale_grass_blue/</loc></url>
@@ -1091,6 +1102,7 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/eight_spotted_tiger_beetle-vs-six_spotted_ground_beetle/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/eight_spotted_tiger_beetle-vs-tiger_beetle/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/eight_spotted_tiger_beetle-vs-striolate_tiger_beetle/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/eight_spotted_tiger_beetle-vs-ten_spotted_tiger_beetle/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/eight_spotted_tiger_beetle-vs-two_coloured_tiger_beetle/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/eight_spotted_tiger_beetle-vs-yellow_spotted_tiger_beetle/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/elephant_apple-vs-jamun/</loc></url>
@@ -1358,6 +1370,9 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/green_shield_bug-vs-spotted_dirt_bug/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/green_billed_malkoha-vs-lesser_coucal/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/green_billed_malkoha-vs-sirkeer_malkoha/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/green_headed_tiger_beetle-vs-line_marked_tiger_beetle/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/green_headed_tiger_beetle-vs-ten_spotted_tiger_beetle/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/green_headed_tiger_beetle-vs-two_coloured_tiger_beetle/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/green_snouted_lanternfly-vs-rust_colored_flatid/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/greenish_warbler-vs-humes_leaf_warbler/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/greenish_warbler-vs-smoky_warbler/</loc></url>
@@ -1735,12 +1750,15 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/lesser_grass_blue-vs-pale_grass_blue/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/lesser_grass_blue-vs-quaker/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/lesser_grass_blue-vs-tiny_grass_blue/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/lesser_tiger_beetle-vs-line_marked_tiger_beetle/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/lesser_tiger_beetle-vs-striolate_tiger_beetle/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/lesser_tiger_beetle-vs-veined_tiger_beetle/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/lesser_whistling_duck-vs-northern_pintail/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/lily_moth-vs-marbled_owlet_moth/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/lime_butterfly-vs-striped_tiger_butterfly/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/lime_butterfly-vs-tailed_jay/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/line_marked_tiger_beetle-vs-ten_spotted_tiger_beetle/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/line_marked_tiger_beetle-vs-veined_tiger_beetle/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/linseed-vs-safflower/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/litchi-vs-reetha/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/little_blue_dartlet-vs-senegal_golden_dartlet/</loc></url>
@@ -2116,6 +2134,7 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/freshwater_crab-vs-freshwater_crab_paratelphusa/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/splitgill_mushroom-vs-turkey_tail/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/spot_blotch_of_wheat-vs-wheat_leaf_rust/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/spot_swordtail-vs-tailed_jay/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/spotted_coffee_grasshopper-vs-tobacco_grasshopper/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/spotted_deer-vs-swamp_deer/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/spotted_dirt_bug-vs-variegated_spittlebug/</loc></url>
@@ -2135,6 +2154,7 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/streak_throated_swallow-vs-wire_tailed_swallow/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/streak_throated_woodpecker-vs-yellow_crowned_woodpecker/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/stream_glory-vs-yellow_bush_dart/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/striate_fronted_tiger_beetle-vs-striolate_tiger_beetle/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/striated_grassbird-vs-yellow_eyed_babbler/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/striolate_tiger_beetle-vs-veined_tiger_beetle/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/apart/striolate_tiger_beetle-vs-vittate_tiger_beetle/</loc></url>
@@ -3536,6 +3556,16 @@
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/black_horned_cotton_stainer/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/dohertys_cicada/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/cancellate_tiger_beetle/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/line_marked_tiger_beetle/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/ten_spotted_tiger_beetle/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/green_headed_tiger_beetle/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/striate_fronted_tiger_beetle/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/dark_blue_tiger_beetle/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/spot_swordtail/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/common_mime/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/gaudy_baron/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/common_sergeant/</loc></url>
+  <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/common_banded_awl/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/indian_flying_fox/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/mongoose/</loc></url>
   <url><loc>https://sgmaurya.github.io/awadh-biodiversity-atlas-site/species/jungle_cat/</loc></url>
